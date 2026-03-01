@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:28:50.294618+00:00",
+    "mode": "training"
+  },
+  "stats": {
+    "user_action_stats": null
+  },
+  "errors": {
+    "get_user_action_stats": "TypeError(\"SpeedianceClient.get_user_action_stats() missing 1 required positional argument: 'group_id'\")"
+  }
+}

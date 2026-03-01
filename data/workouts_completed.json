@@ -1,0 +1,3371 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:28:26.976001+00:00"
+  },
+  "workouts": [
+    {
+      "id": 427858,
+      "name": "260213 Run strength B",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840934599.png",
+      "totalCapacity": 3612.0,
+      "code": "699171158f085a6a2e122513",
+      "version": 4,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 16,
+      "deviceType": 1,
+      "bgColor": 2,
+      "durationMinute": 44,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2026-02-15 07:09:09",
+      "updateTime": "2026-02-22 13:05:25",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426423672897537,
+            "groupId": 426421535899649,
+            "title": "The World's Greatest Stretch​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749634429945.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426053519278081,
+            "groupId": 3045,
+            "title": "In-place Inchworm",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749700107382.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629910687745,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427682813444097,
+            "groupId": 372764756803585,
+            "title": "Handle Lateral Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750235597518.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423283841433601,
+            "groupId": 416257329987585,
+            "title": "Standing Dual-Handle Reverse-Grip Lateral Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748143397125.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427682813444097,
+            "groupId": 372764756803585,
+            "title": "Handle Lateral Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750235597518.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423283841433601,
+            "groupId": 416257329987585,
+            "title": "Standing Dual-Handle Reverse-Grip Lateral Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748143397125.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427682813444097,
+            "groupId": 372764756803585,
+            "title": "Handle Lateral Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750235597518.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423283841433601,
+            "groupId": 416257329987585,
+            "title": "Standing Dual-Handle Reverse-Grip Lateral Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748143397125.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781484777473,
+            "groupId": 417127687913473,
+            "title": "V-ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754213115.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285577875457,
+            "groupId": 570,
+            "title": "Bent-Over Dual-Handle Reverse Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813782016.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781484777473,
+            "groupId": 417127687913473,
+            "title": "V-ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754213115.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285577875457,
+            "groupId": 570,
+            "title": "Bent-Over Dual-Handle Reverse Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813782016.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781484777473,
+            "groupId": 417127687913473,
+            "title": "V-ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754213115.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285577875457,
+            "groupId": 570,
+            "title": "Bent-Over Dual-Handle Reverse Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813782016.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424920345542657,
+            "groupId": 372779495587841,
+            "title": "Barbell Single-Leg Hip Thrust ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758903861.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 432020,
+      "name": "260213 Run strenght A",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840971684.png",
+      "totalCapacity": 2048.0,
+      "code": "69916ef28f086445aeaeac4b",
+      "version": 3,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 16,
+      "deviceType": 1,
+      "bgColor": 1,
+      "durationMinute": 48,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2026-02-15 07:00:02",
+      "updateTime": "2026-02-27 07:44:14",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 434340444831745,
+            "groupId": 434221249003521,
+            "title": "Dynamic Hamstring Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753410290669.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426063493332993,
+            "groupId": 2810,
+            "title": "Seated 90/90 Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749718186707.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428947533856769,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428395085299713,
+            "groupId": 421698142863361,
+            "title": "​Bodyweight Reverse Plank March",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750662116824.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428947533856769,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428395085299713,
+            "groupId": 421698142863361,
+            "title": "​Bodyweight Reverse Plank March",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750662116824.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428947533856769,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428395085299713,
+            "groupId": 421698142863361,
+            "title": "​Bodyweight Reverse Plank March",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750662116824.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424930857123841,
+            "groupId": 420214528147457,
+            "title": "Half Kneeling Single-Arm Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508096970.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428777995894785,
+            "groupId": 421657397690369,
+            "title": "Assisted Bent Knee Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750754232345.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424930857123841,
+            "groupId": 420214528147457,
+            "title": "Half Kneeling Single-Arm Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508096970.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428777995894785,
+            "groupId": 421657397690369,
+            "title": "Assisted Bent Knee Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750754232345.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424930857123841,
+            "groupId": 420214528147457,
+            "title": "Half Kneeling Single-Arm Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508096970.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428777995894785,
+            "groupId": 421657397690369,
+            "title": "Assisted Bent Knee Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750754232345.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 376581436473415,
+            "groupId": 372221634281473,
+            "title": "Leg Curl Cross-Flatbench",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1668393286318.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 426552,
+      "name": "260206 Strength C - Complimentary",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840971684.png",
+      "totalCapacity": 3180.0,
+      "code": "698992978f086445aeae271d",
+      "version": 6,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 12,
+      "deviceType": 1,
+      "bgColor": 0,
+      "durationMinute": 39,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2026-02-09 07:53:59",
+      "updateTime": "2026-02-21 08:48:58",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426190404583425,
+            "groupId": 2267,
+            "title": "Dynamic Shoulder Circles",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749524143265.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 430219293163521,
+            "groupId": 430219062476801,
+            "title": "Half-Kneeling Modified Rainbow",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751445223128.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424199107706881,
+            "groupId": 304,
+            "title": "Standing Dual-Handle Chest Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243980764.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423466356572161,
+            "groupId": 423465909878785,
+            "title": "Kneeling Bent-Over Overhead Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748315471790.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424961796407297,
+            "groupId": 424957897801729,
+            "title": "Seated Barbell Good Morning",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1766463078728.png"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423881227763713,
+            "groupId": 418251841011713,
+            "title": "Bent-Over Dual-Handle underhand Triceps kickback",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748423025855.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427488025772033,
+            "groupId": 427468675350529,
+            "title": "​Half-Kneeling Single-Arm Preacher Curl​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750405585340.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426197329379329,
+            "groupId": 421485183762433,
+            "title": "Diamond Push-Up",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800800379.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427488025772033,
+            "groupId": 427468675350529,
+            "title": "​Half-Kneeling Single-Arm Preacher Curl​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750405585340.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426197329379329,
+            "groupId": 421485183762433,
+            "title": "Diamond Push-Up",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800800379.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427488025772033,
+            "groupId": 427468675350529,
+            "title": "​Half-Kneeling Single-Arm Preacher Curl​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750405585340.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426197329379329,
+            "groupId": 421485183762433,
+            "title": "Diamond Push-Up",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800800379.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 410710,
+      "name": "Run strength B 251222",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840914265.png",
+      "totalCapacity": 1620.0,
+      "code": "6951f4aa8f080ceca1ca2649",
+      "version": 8,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 17,
+      "deviceType": 1,
+      "bgColor": 6,
+      "durationMinute": 38,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-12-29 03:25:30",
+      "updateTime": "2026-02-03 05:46:02",
+      "templateType": 0,
+      "trainingCounts": 5,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426189767049217,
+            "groupId": 325,
+            "title": "Hip-Opening Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754109124.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428583061422081,
+            "groupId": 2294,
+            "title": "Belt Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813795168.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778730942466,
+            "groupId": 445778730942465,
+            "title": "Dumbbell step-up",
+            "img": "https://eu-image.speediance.com/17588646630380.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423471521857537,
+            "groupId": 423470194360321,
+            "title": "Incline Dual-Handle Front Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748228199327.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778730942466,
+            "groupId": 445778730942465,
+            "title": "Dumbbell step-up",
+            "img": "https://eu-image.speediance.com/17588646630380.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423471521857537,
+            "groupId": 423470194360321,
+            "title": "Incline Dual-Handle Front Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748228199327.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778730942466,
+            "groupId": 445778730942465,
+            "title": "Dumbbell step-up",
+            "img": "https://eu-image.speediance.com/17588646630380.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423471521857537,
+            "groupId": 423470194360321,
+            "title": "Incline Dual-Handle Front Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748228199327.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424930068594689,
+            "groupId": 413,
+            "title": "Dual-Handle Bent-Over Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749002096263.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424921087934465,
+            "groupId": 418402533376001,
+            "title": "Dual-Handle Straight-Arm Glute Bridge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758953762.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778842365953,
+            "groupId": 422259045040129,
+            "title": "Alternating V-Ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750047764282.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424921087934465,
+            "groupId": 418402533376001,
+            "title": "Dual-Handle Straight-Arm Glute Bridge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758953762.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778842365953,
+            "groupId": 422259045040129,
+            "title": "Alternating V-Ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750047764282.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424921087934465,
+            "groupId": 418402533376001,
+            "title": "Dual-Handle Straight-Arm Glute Bridge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758953762.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778842365953,
+            "groupId": 422259045040129,
+            "title": "Alternating V-Ups",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750047764282.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 419676,
+      "name": "Run strenght A 251222",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840900785.png",
+      "totalCapacity": 3728.0,
+      "code": "694cc2c28f080ceca1c9e021",
+      "version": 7,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 19,
+      "deviceType": 1,
+      "bgColor": 5,
+      "durationMinute": 56,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-12-25 04:51:14",
+      "updateTime": "2026-02-13 07:29:52",
+      "templateType": 0,
+      "trainingCounts": 6,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426423672897537,
+            "groupId": 426421535899649,
+            "title": "The World's Greatest Stretch​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749634429945.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426053519278081,
+            "groupId": 3045,
+            "title": "In-place Inchworm",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749700107382.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426011579973633,
+            "groupId": 418605034373121,
+            "title": "Barbell Stiff-Leg Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749438759571.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629738721281,
+            "groupId": 3763,
+            "title": "Barbell Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750231106261.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428364695470081,
+            "groupId": 423864844812289,
+            "title": "Laying Straight Leg Figure Eight",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843172201.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629738721281,
+            "groupId": 3763,
+            "title": "Barbell Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750231106261.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428364695470081,
+            "groupId": 423864844812289,
+            "title": "Laying Straight Leg Figure Eight",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843172201.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629738721281,
+            "groupId": 3763,
+            "title": "Barbell Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750231106261.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428364695470081,
+            "groupId": 423864844812289,
+            "title": "Laying Straight Leg Figure Eight",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843172201.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629738721281,
+            "groupId": 3763,
+            "title": "Barbell Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750231106261.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428364695470081,
+            "groupId": 423864844812289,
+            "title": "Laying Straight Leg Figure Eight",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843172201.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426008279056385,
+            "groupId": 391084050546689,
+            "title": "Dual-Handle Single-Leg Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749437313064.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427871311757313,
+            "groupId": 427830826237953,
+            "title": "Seated Dual-Handle Low to High Chest Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750393032051.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 376581436473415,
+            "groupId": 372221634281473,
+            "title": "Leg Curl Cross-Flatbench",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1668393286318.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424207018164225,
+            "groupId": 418616843436033,
+            "title": "Standing Barbell Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243826637.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585074688001,
+            "groupId": 421331514753025,
+            "title": "Pogo Jumps",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671267153.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424207018164225,
+            "groupId": 418616843436033,
+            "title": "Standing Barbell Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243826637.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585074688001,
+            "groupId": 421331514753025,
+            "title": "Pogo Jumps",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671267153.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 367097,
+      "name": "Mobility set",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840934599.png",
+      "totalCapacity": 0,
+      "code": "693a65628f08a6d390b509d1",
+      "version": 1,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 5,
+      "deviceType": 1,
+      "bgColor": 4,
+      "durationMinute": 17,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-12-11 06:32:02",
+      "updateTime": "2025-12-11 06:32:02",
+      "templateType": 0,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 429278083547137,
+            "groupId": 428541154033665,
+            "title": "Open Book",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753425642957.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426423672897537,
+            "groupId": 426421535899649,
+            "title": "The World's Greatest Stretch​",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749634429945.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426403624124417,
+            "groupId": 423685756420097,
+            "title": "Side-Lying Clamshell",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749795896304.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426233985499137,
+            "groupId": 421349684674561,
+            "title": "Frog Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754145483.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 364004,
+      "name": "A3. Power & acceleration (lower focus)",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840934599.png",
+      "totalCapacity": 1428.0,
+      "code": "692957f48f08bba6bf097b10",
+      "version": 3,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 24,
+      "deviceType": 1,
+      "bgColor": 3,
+      "durationMinute": 56,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-11-28 08:06:12",
+      "updateTime": "2025-12-06 10:49:56",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427995712716801,
+            "groupId": 422234059571201,
+            "title": "Rolling Shrugs",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750400918423.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424060869738497,
+            "groupId": 372246883991553,
+            "title": "Shoulder Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242623428.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 430215432306689,
+            "groupId": 428544691929089,
+            "title": "Pulse Squat to Alternating Hip Abduction",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843079220.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427681628553217,
+            "groupId": 373151423397889,
+            "title": "Barbell Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751507891047.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 441409429766145,
+            "groupId": 437965264650241,
+            "title": "Seated High To Low Wood Chop",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1757663596146.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 457213799825410,
+            "groupId": 457213799825409,
+            "title": "Wall sit",
+            "img": "https://eu-image.speediance.com/17643173290030.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 457213799825410,
+            "groupId": 457213799825409,
+            "title": "Wall sit",
+            "img": "https://eu-image.speediance.com/17643173290030.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 457213799825410,
+            "groupId": 457213799825409,
+            "title": "Wall sit",
+            "img": "https://eu-image.speediance.com/17643173290030.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 365787,
+      "name": "B3",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840955814.png",
+      "totalCapacity": 0,
+      "code": "692931fb8f08bba6bf0978c8",
+      "version": 6,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 17,
+      "deviceType": 1,
+      "bgColor": 6,
+      "durationMinute": 45,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-11-28 05:24:11",
+      "updateTime": "2025-12-09 05:29:28",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428586949541889,
+            "groupId": 407,
+            "title": "Aerobic Skiing (Straight Arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673154153.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418331451393,
+            "groupId": 421509628166145,
+            "title": "Bodyweight Alternating Forward Lunges",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749786643980.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418954305537,
+            "groupId": 356,
+            "title": "Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800505169.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426190404583425,
+            "groupId": 2267,
+            "title": "Dynamic Shoulder Circles",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749524143265.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426062499282945,
+            "groupId": 2243,
+            "title": "Rotator Cuff Stimulation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749717920935.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 434340444831745,
+            "groupId": 434221249003521,
+            "title": "Dynamic Hamstring Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753410290669.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424925026385921,
+            "groupId": 424921874366465,
+            "title": "Kneeling Dual-Handle Chest Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754099107.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425111851827201,
+            "groupId": 425109138112513,
+            "title": "Incline Tripod Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749009867968.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424961660092417,
+            "groupId": 424956524167169,
+            "title": "Single Handle Duck Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1767772050100.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424961660092417,
+            "groupId": 424956524167169,
+            "title": "Single Handle Duck Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1767772050100.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424961660092417,
+            "groupId": 424956524167169,
+            "title": "Single Handle Duck Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1767772050100.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427691493556225,
+            "groupId": 372783897509889,
+            "title": "Dual-Handle Bulgarian Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508711447.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424207368388609,
+            "groupId": 418618785398785,
+            "title": "Standing Dual-Handle Toes-In Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243954381.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426041464848385,
+            "groupId": 468,
+            "title": "Bench Supine Cable Scissor Kick",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749453138983.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 352823,
+      "name": "A. Power & acceleration (lower focus)",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840955814.png",
+      "totalCapacity": 1400.0,
+      "code": "68fda20f8f086f7f6f6762f4",
+      "version": 6,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 24,
+      "deviceType": 1,
+      "bgColor": 3,
+      "durationMinute": 59,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-10-26 04:22:39",
+      "updateTime": "2025-11-18 06:05:25",
+      "templateType": 0,
+      "trainingCounts": 5,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427995712716801,
+            "groupId": 422234059571201,
+            "title": "Rolling Shrugs",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750400918423.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424060869738497,
+            "groupId": 372246883991553,
+            "title": "Shoulder Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242623428.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 430215432306689,
+            "groupId": 428544691929089,
+            "title": "Pulse Squat to Alternating Hip Abduction",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843079220.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451204989845506,
+            "groupId": 451204989845505,
+            "title": "Dumbbell jump squat",
+            "img": "https://eu-image.speediance.com/17614521015820.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451205514133506,
+            "groupId": 451205514133505,
+            "title": "Dumbbell lunges",
+            "img": "https://eu-image.speediance.com/17614523551630.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426040873451521,
+            "groupId": 372765293674497,
+            "title": "Forearm Plank Cable Pull",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758932817.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427689996189697,
+            "groupId": 271,
+            "title": "Dual-Handle Thruster",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750239302186.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426777563103233,
+            "groupId": 440,
+            "title": "Mountain Climbers",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750043534460.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427689996189697,
+            "groupId": 271,
+            "title": "Dual-Handle Thruster",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750239302186.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426777563103233,
+            "groupId": 440,
+            "title": "Mountain Climbers",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750043534460.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427689996189697,
+            "groupId": 271,
+            "title": "Dual-Handle Thruster",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750239302186.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426777563103233,
+            "groupId": 440,
+            "title": "Mountain Climbers",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750043534460.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 372340,
+      "name": "C. Unilat. power & hybrid stability",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840971684.png",
+      "totalCapacity": 6490.0,
+      "code": "68fd96308f086f7f6f6762ef",
+      "version": 8,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 18,
+      "deviceType": 1,
+      "bgColor": 0,
+      "durationMinute": 53,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-10-26 03:32:00",
+      "updateTime": "2025-12-19 03:06:41",
+      "templateType": 0,
+      "trainingCounts": 2,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 427994997587969,
+            "groupId": 422789473501185,
+            "title": "Straight-Arm Cross Swings",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750400164641.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428727951556609,
+            "groupId": 13,
+            "title": "Power Knees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737496900.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428365716783105,
+            "groupId": 422780850012161,
+            "title": "Lateral Bear Crawl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750574529799.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428580664377345,
+            "groupId": 422782460624897,
+            "title": "Running In Place",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750664083125.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428582350487553,
+            "groupId": 372730348830721,
+            "title": "Belt Bulgarian Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750669662327.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428587454955521,
+            "groupId": 428582340001793,
+            "title": "Single-Arm Push Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750669242302.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426044019179521,
+            "groupId": 426043314536449,
+            "title": "Standing Dual-Handle Marching",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749454077231.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428726269640705,
+            "groupId": 205,
+            "title": "Jump Lunge With Floor Touch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737413921.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 447940718231554,
+            "groupId": 447940718231553,
+            "title": "Dumbbell power clean",
+            "img": "https://eu-image.speediance.com/17598955784890.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428726269640705,
+            "groupId": 205,
+            "title": "Jump Lunge With Floor Touch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737413921.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 447940718231554,
+            "groupId": 447940718231553,
+            "title": "Dumbbell power clean",
+            "img": "https://eu-image.speediance.com/17598955784890.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428726269640705,
+            "groupId": 205,
+            "title": "Jump Lunge With Floor Touch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737413921.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 447940718231554,
+            "groupId": 447940718231553,
+            "title": "Dumbbell power clean",
+            "img": "https://eu-image.speediance.com/17598955784890.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428726269640705,
+            "groupId": 205,
+            "title": "Jump Lunge With Floor Touch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737413921.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 447940718231554,
+            "groupId": 447940718231553,
+            "title": "Dumbbell power clean",
+            "img": "https://eu-image.speediance.com/17598955784890.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 350209,
+      "name": "B. Upper power & post. chain",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840963800.png",
+      "totalCapacity": 2290.0,
+      "code": "68fd8ca58f089058e24c7e10",
+      "version": 8,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 23,
+      "deviceType": 1,
+      "bgColor": 6,
+      "durationMinute": 49,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-10-26 02:51:17",
+      "updateTime": "2025-11-14 06:29:24",
+      "templateType": 0,
+      "trainingCounts": 4,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428586949541889,
+            "groupId": 407,
+            "title": "Aerobic Skiing (Straight Arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673154153.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418331451393,
+            "groupId": 421509628166145,
+            "title": "Bodyweight Alternating Forward Lunges",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749786643980.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418954305537,
+            "groupId": 356,
+            "title": "Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800505169.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426190404583425,
+            "groupId": 2267,
+            "title": "Dynamic Shoulder Circles",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749524143265.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426062499282945,
+            "groupId": 2243,
+            "title": "Rotator Cuff Stimulation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749717920935.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 434340444831745,
+            "groupId": 434221249003521,
+            "title": "Dynamic Hamstring Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753410290669.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424958774411265,
+            "groupId": 235,
+            "title": "Incline Barbell Bench Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243014758.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424929027751937,
+            "groupId": 321,
+            "title": "Barbell Bent Over Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813769805.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428583417937921,
+            "groupId": 421324071960577,
+            "title": "Barbell Push Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750670513959.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451196393619458,
+            "groupId": 451196393619457,
+            "title": "Dumbbell snatch",
+            "img": "https://eu-image.speediance.com/17614480035790.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425472920453121,
+            "groupId": 420390535823361,
+            "title": "Standing Tricep Rope High-to-Low Woodchops",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751510050283.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195535753218,
+            "groupId": 451195535753217,
+            "title": "Dumbbell swings",
+            "img": "https://eu-image.speediance.com/17614475969120.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195734982658,
+            "groupId": 451195734982657,
+            "title": "DB Goblet squat",
+            "img": "https://eu-image.speediance.com/17614476914310.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586840489985,
+            "groupId": 183,
+            "title": "Aerobic Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673101084.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195535753218,
+            "groupId": 451195535753217,
+            "title": "Dumbbell swings",
+            "img": "https://eu-image.speediance.com/17614475969120.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195734982658,
+            "groupId": 451195734982657,
+            "title": "DB Goblet squat",
+            "img": "https://eu-image.speediance.com/17614476914310.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586840489985,
+            "groupId": 183,
+            "title": "Aerobic Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673101084.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195535753218,
+            "groupId": 451195535753217,
+            "title": "Dumbbell swings",
+            "img": "https://eu-image.speediance.com/17614475969120.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426778399866881,
+            "groupId": 87,
+            "title": "Burpees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867051875.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 451195734982658,
+            "groupId": 451195734982657,
+            "title": "DB Goblet squat",
+            "img": "https://eu-image.speediance.com/17614476914310.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586840489985,
+            "groupId": 183,
+            "title": "Aerobic Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673101084.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 340839,
+      "name": "Hyrox C",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840955814.png",
+      "totalCapacity": 6112.0,
+      "code": "68d624268f08f0f1d2c165fb",
+      "version": 13,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 28,
+      "deviceType": 1,
+      "bgColor": 5,
+      "durationMinute": 52,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-26 05:27:02",
+      "updateTime": "2025-10-29 14:47:13",
+      "templateType": 0,
+      "trainingCounts": 3,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 427994997587969,
+            "groupId": 422789473501185,
+            "title": "Straight-Arm Cross Swings",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750400164641.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428727951556609,
+            "groupId": 13,
+            "title": "Power Knees",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737496900.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428365716783105,
+            "groupId": 422780850012161,
+            "title": "Lateral Bear Crawl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750574529799.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428580664377345,
+            "groupId": 422782460624897,
+            "title": "Running In Place",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750664083125.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427694972731393,
+            "groupId": 427507407650817,
+            "title": "Single-Arm Curtsy Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750241601499.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 3361,
+            "groupId": 560,
+            "title": "Standing Dual-Handle Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748153362777.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778888425474,
+            "groupId": 445778888425473,
+            "title": "Dumbbell suitcase carry",
+            "img": "https://eu-image.speediance.com/17588647380400.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427694972731393,
+            "groupId": 427507407650817,
+            "title": "Single-Arm Curtsy Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750241601499.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 3361,
+            "groupId": 560,
+            "title": "Standing Dual-Handle Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748153362777.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778888425474,
+            "groupId": 445778888425473,
+            "title": "Dumbbell suitcase carry",
+            "img": "https://eu-image.speediance.com/17588647380400.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427694972731393,
+            "groupId": 427507407650817,
+            "title": "Single-Arm Curtsy Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750241601499.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 3361,
+            "groupId": 560,
+            "title": "Standing Dual-Handle Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748153362777.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778888425474,
+            "groupId": 445778888425473,
+            "title": "Dumbbell suitcase carry",
+            "img": "https://eu-image.speediance.com/17588647380400.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427679090999297,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427694972731393,
+            "groupId": 427507407650817,
+            "title": "Single-Arm Curtsy Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750241601499.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 3361,
+            "groupId": 560,
+            "title": "Standing Dual-Handle Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748153362777.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 445778888425474,
+            "groupId": 445778888425473,
+            "title": "Dumbbell suitcase carry",
+            "img": "https://eu-image.speediance.com/17588647380400.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 335915,
+      "name": "Hyrox B",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840945626.png",
+      "totalCapacity": 768.0,
+      "code": "68d6225b8f086702f9e7fa00",
+      "version": 12,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 24,
+      "deviceType": 1,
+      "bgColor": 4,
+      "durationMinute": 44,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-26 05:19:23",
+      "updateTime": "2025-10-19 14:25:30",
+      "templateType": 0,
+      "trainingCounts": 5,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428586949541889,
+            "groupId": 407,
+            "title": "Aerobic Skiing (Straight Arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750673154153.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418331451393,
+            "groupId": 421509628166145,
+            "title": "Bodyweight Alternating Forward Lunges",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749786643980.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426418954305537,
+            "groupId": 356,
+            "title": "Alternating Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749800505169.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426190404583425,
+            "groupId": 2267,
+            "title": "Dynamic Shoulder Circles",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749524143265.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426062499282945,
+            "groupId": 2243,
+            "title": "Rotator Cuff Stimulation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749717920935.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 434340444831745,
+            "groupId": 434221249003521,
+            "title": "Dynamic Hamstring Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753410290669.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285460434945,
+            "groupId": 110,
+            "title": "Bent-Over Barbell Wide Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748145481004.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285460434945,
+            "groupId": 110,
+            "title": "Bent-Over Barbell Wide Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748145481004.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285460434945,
+            "groupId": 110,
+            "title": "Bent-Over Barbell Wide Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748145481004.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285460434945,
+            "groupId": 110,
+            "title": "Bent-Over Barbell Wide Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748145481004.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423659741249537,
+            "groupId": 310,
+            "title": "Standing Barbell Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243780602.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423659741249537,
+            "groupId": 310,
+            "title": "Standing Barbell Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243780602.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423659741249537,
+            "groupId": 310,
+            "title": "Standing Barbell Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243780602.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630021836801,
+            "groupId": 273,
+            "title": "Barbell Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230482137.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423659741249537,
+            "groupId": 310,
+            "title": "Standing Barbell Shoulder Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243780602.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 447940718231554,
+            "groupId": 447940718231553,
+            "title": "Dumbbell power clean",
+            "img": "https://eu-image.speediance.com/17598955784890.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 4715,
+            "groupId": 3058,
+            "title": "Russian Twist",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753754013266.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 336746,
+      "name": "Hyrox A",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840945626.png",
+      "totalCapacity": 1608.0,
+      "code": "68d619888f08f0f1d2c1659e",
+      "version": 11,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 9,
+      "deviceType": 1,
+      "bgColor": 3,
+      "durationMinute": 44,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-26 04:41:44",
+      "updateTime": "2025-10-21 05:25:41",
+      "templateType": 0,
+      "trainingCounts": 4,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 428585334734849,
+            "groupId": 71,
+            "title": "Aerobic Skiing (bent arms)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750671820478.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427995712716801,
+            "groupId": 422234059571201,
+            "title": "Rolling Shrugs",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750400918423.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424060869738497,
+            "groupId": 372246883991553,
+            "title": "Shoulder Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242623428.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 430215432306689,
+            "groupId": 428544691929089,
+            "title": "Pulse Squat to Alternating Hip Abduction",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764843079220.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629910687745,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426012502720513,
+            "groupId": 385,
+            "title": "Barbell Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330656564.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 448316339126274,
+            "groupId": 448316339126273,
+            "title": "Push press",
+            "img": "https://eu-image.speediance.com/17600746879550.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424931731636225,
+            "groupId": 420082483068929,
+            "title": "Kneeling Alternating Lat Pulldown",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749004673673.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426041993330689,
+            "groupId": 420427057528833,
+            "title": "Dual-Handle Dead Bug",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749453378774.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 322019,
+      "name": "250902 3A Bilat + pull",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840971684.png",
+      "totalCapacity": 4810.0,
+      "code": "68b630498f0840293a446b9e",
+      "version": 5,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 7,
+      "deviceType": 1,
+      "bgColor": 6,
+      "durationMinute": 53,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-01 23:46:17",
+      "updateTime": "2025-09-22 02:29:28",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428582350487553,
+            "groupId": 372730348830721,
+            "title": "Belt Bulgarian Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750669662327.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428583172571137,
+            "groupId": 2241,
+            "title": "Belt Hip Thrust",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750670134364.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424929027751937,
+            "groupId": 321,
+            "title": "Barbell Bent Over Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813769805.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423464521564161,
+            "groupId": 294,
+            "title": "Standing Barbell Biceps Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1754290214407.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427677876748289,
+            "groupId": 455,
+            "title": "Barbell Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750233578967.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426041993330689,
+            "groupId": 420427057528833,
+            "title": "Dual-Handle Dead Bug",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749453378774.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 310507,
+      "name": "250901 3C Unilat + Pull",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840900785.png",
+      "totalCapacity": 4992.0,
+      "code": "68b531e58f0840293a445f8f",
+      "version": 9,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 6,
+      "deviceType": 1,
+      "bgColor": 1,
+      "durationMinute": 48,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-01 05:40:53",
+      "updateTime": "2025-09-07 07:46:21",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426184471740417,
+            "groupId": 426184169750529,
+            "title": "Kneeling Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242265200.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427864600870913,
+            "groupId": 427850059218945,
+            "title": "Cable Side Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751611252739.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424205845856257,
+            "groupId": 68,
+            "title": "Standing Dual-Handle Shrug",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242141012.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425472513605633,
+            "groupId": 372217871990785,
+            "title": "Pallof Press to Woodchops",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749433587729.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 4736,
+            "groupId": 3057,
+            "title": "Seated Dual-Handle Underhand Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749007445082.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428723413319681,
+            "groupId": 506,
+            "title": "Jumping Lunges To Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750737178723.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 311005,
+      "name": "250901 3B Posterior + Push",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840987636.png",
+      "totalCapacity": 6240.0,
+      "code": "68b52f9c8f0840293a445f7b",
+      "version": 8,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 7,
+      "deviceType": 1,
+      "bgColor": 0,
+      "durationMinute": 52,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-01 05:31:08",
+      "updateTime": "2025-09-08 04:40:48",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 4674,
+            "groupId": 2810,
+            "title": "Seated 90/90 Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749718186707.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427688421228545,
+            "groupId": 418432814153729,
+            "title": "Dual-Handle Overhead Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750238470670.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426006381133825,
+            "groupId": 372253567614977,
+            "title": "Single-Arm Romanian Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751507500749.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423883375247361,
+            "groupId": 420056618893313,
+            "title": "Dual-Handle Triceps Bench Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242205401.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427499486707713,
+            "groupId": 427495518896129,
+            "title": "Seated Single-Leg Abduction",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758986989.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428898422751233,
+            "groupId": 421484852412417,
+            "title": "Alternating Hand to Elbow Plank",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750756391132.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 307715,
+      "name": "250901 3A Bilat + pull",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840923424.png",
+      "totalCapacity": 3744.0,
+      "code": "68b52e108f084894ff66ec25",
+      "version": 4,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 7,
+      "deviceType": 1,
+      "bgColor": 6,
+      "durationMinute": 46,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-09-01 05:24:32",
+      "updateTime": "2025-09-01 14:30:35",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427629910687745,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424929027751937,
+            "groupId": 321,
+            "title": "Barbell Bent Over Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813769805.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424920473468929,
+            "groupId": 367,
+            "title": "Barbell Hip Thrust",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665184821.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423464521564161,
+            "groupId": 294,
+            "title": "Standing Barbell Biceps Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1754290214407.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427677876748289,
+            "groupId": 455,
+            "title": "Barbell Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750233578967.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425464317935617,
+            "groupId": 3460,
+            "title": "Straight Arm Barbell Crunch (Floor)",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1754275025643.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 306354,
+      "name": "250829 Running",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840963800.png",
+      "totalCapacity": 4992.0,
+      "code": "68b260718f084894ff66d7cf",
+      "version": 3,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 7,
+      "deviceType": 1,
+      "bgColor": 5,
+      "durationMinute": 65,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-30 02:22:41",
+      "updateTime": "2025-08-30 02:26:47",
+      "templateType": 0,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 379111156350977,
+            "groupId": 373151423397889,
+            "title": "Barbell Reverse Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751507891047.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426011579973633,
+            "groupId": 418605034373121,
+            "title": "Barbell Stiff-Leg Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749438759571.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424207018164225,
+            "groupId": 418616843436033,
+            "title": "Standing Barbell Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243826637.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424960741539841,
+            "groupId": 2237,
+            "title": "Incline Dual-Handle Chest Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753330644591.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428752477749249,
+            "groupId": 420418434236417,
+            "title": "Standing Single-Leg Pallof Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750745594342.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426403406020609,
+            "groupId": 423692146442241,
+            "title": "Side Plank Hip Abduction",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753753981366.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 305563,
+      "name": "Running Movements",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840987636.png",
+      "totalCapacity": 5616.0,
+      "code": "68b07f708f08e9fefaf666df",
+      "version": 1,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 5,
+      "deviceType": 1,
+      "bgColor": 4,
+      "durationMinute": 43,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-28 16:10:24",
+      "updateTime": "2025-08-28 16:10:24",
+      "templateType": 0,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426040873451521,
+            "groupId": 372765293674497,
+            "title": "Forearm Plank Cable Pull",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753758932817.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427630680342529,
+            "groupId": 2938,
+            "title": "Tricep Rope Goblet Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813849974.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 424222199447553,
+            "groupId": 471,
+            "title": "Dual-Handle Calf Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243967530.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423289749110785,
+            "groupId": 152,
+            "title": "Seated Dual-Handle Arnold Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1752834065987.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425464192106497,
+            "groupId": 403,
+            "title": "Seated Incline Cable Reverse Crunch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665243394.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 306351,
+      "name": "GM B",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840923424.png",
+      "totalCapacity": 4098.0,
+      "code": "68a5de988f08d6849e51d740",
+      "version": 9,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 22,
+      "deviceType": 1,
+      "bgColor": 3,
+      "durationMinute": 45,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-20 14:41:28",
+      "updateTime": "2025-08-30 02:04:05",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 391205785567233,
+            "groupId": 2810,
+            "title": "Seated 90/90 Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749718186707.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 366,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390524488450049,
+            "groupId": 486,
+            "title": "Standing Dual-Handle Chest Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813985128.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 366,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390524488450049,
+            "groupId": 486,
+            "title": "Standing Dual-Handle Chest Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813985128.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 366,
+            "groupId": 57,
+            "title": "Barbell Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750230428048.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390524488450049,
+            "groupId": 486,
+            "title": "Standing Dual-Handle Chest Fly",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764813985128.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 76,
+            "groupId": 423,
+            "title": "Standing Dual-Handle Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749009997582.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427495762165761,
+            "groupId": 427491232317441,
+            "title": "Standing Single-Leg Extension",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751509489622.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 76,
+            "groupId": 423,
+            "title": "Standing Dual-Handle Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749009997582.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427495762165761,
+            "groupId": 427491232317441,
+            "title": "Standing Single-Leg Extension",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751509489622.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 76,
+            "groupId": 423,
+            "title": "Standing Dual-Handle Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749009997582.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427495762165761,
+            "groupId": 427491232317441,
+            "title": "Standing Single-Leg Extension",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751509489622.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781587537921,
+            "groupId": 81,
+            "title": "Bench Lying Leg Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508807708.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975200104449,
+            "groupId": 199,
+            "title": "Standing Dual-Handle Biceps Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665290628.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423834555645953,
+            "groupId": 390684142534657,
+            "title": "Bent Over Tricep Rope Overhead Triceps Extension（L0）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748416924786.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781587537921,
+            "groupId": 81,
+            "title": "Bench Lying Leg Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508807708.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975200104449,
+            "groupId": 199,
+            "title": "Standing Dual-Handle Biceps Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665290628.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423834555645953,
+            "groupId": 390684142534657,
+            "title": "Bent Over Tricep Rope Overhead Triceps Extension（L0）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748416924786.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781587537921,
+            "groupId": 81,
+            "title": "Bench Lying Leg Raise",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508807708.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975200104449,
+            "groupId": 199,
+            "title": "Standing Dual-Handle Biceps Curl",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665290628.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423834555645953,
+            "groupId": 390684142534657,
+            "title": "Bent Over Tricep Rope Overhead Triceps Extension（L0）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748416924786.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 304785,
+      "name": "GM A",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840955814.png",
+      "totalCapacity": 3198.0,
+      "code": "68a54be68f08d0a6b6133295",
+      "version": 6,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 19,
+      "deviceType": 1,
+      "bgColor": 2,
+      "durationMinute": 53,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-20 04:15:34",
+      "updateTime": "2025-08-27 11:36:29",
+      "templateType": 0,
+      "trainingCounts": 1,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390862272528385,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389950116069377,
+            "groupId": 116,
+            "title": "Barbell Bench Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665258264.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390530305949697,
+            "groupId": 455,
+            "title": "Barbell Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750233578967.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426060999819265,
+            "groupId": 423833345589249,
+            "title": "Plank with Hip Drop",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867011508.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390848710246401,
+            "groupId": 372788699987969,
+            "title": "Pallof Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243766775.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 395977576415233,
+            "groupId": 395974724288513,
+            "title": "Standing Cable Hip Abduction（Main Frame）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749193617768.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390862272528385,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389950116069377,
+            "groupId": 116,
+            "title": "Barbell Bench Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665258264.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390530305949697,
+            "groupId": 455,
+            "title": "Barbell Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750233578967.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426060999819265,
+            "groupId": 423833345589249,
+            "title": "Plank with Hip Drop",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867011508.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390848710246401,
+            "groupId": 372788699987969,
+            "title": "Pallof Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243766775.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 395977576415233,
+            "groupId": 395974724288513,
+            "title": "Standing Cable Hip Abduction（Main Frame）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749193617768.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390862272528385,
+            "groupId": 372218310295553,
+            "title": "Barbell Bulgarian Split Squat ",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750838849552.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389950116069377,
+            "groupId": 116,
+            "title": "Barbell Bench Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1764665258264.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390530305949697,
+            "groupId": 455,
+            "title": "Barbell Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750233578967.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426060999819265,
+            "groupId": 423833345589249,
+            "title": "Plank with Hip Drop",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867011508.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390848710246401,
+            "groupId": 372788699987969,
+            "title": "Pallof Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753243766775.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 395977576415233,
+            "groupId": 395974724288513,
+            "title": "Standing Cable Hip Abduction（Main Frame）",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749193617768.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 298544,
+      "name": "Strong B 250815",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840923424.png",
+      "totalCapacity": 2048.0,
+      "code": "689f09118f08d0a6b6131272",
+      "version": 1,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 16,
+      "deviceType": 1,
+      "bgColor": 1,
+      "durationMinute": 20,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-15 10:16:49",
+      "updateTime": "2025-08-15 10:16:49",
+      "templateType": 0,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 391205785567233,
+            "groupId": 2810,
+            "title": "Seated 90/90 Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749718186707.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 391205785567233,
+            "groupId": 2810,
+            "title": "Seated 90/90 Stretch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1749718186707.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975453859841,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586158915585,
+            "groupId": 423527285129217,
+            "title": "Upper Body Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750672083246.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975453859841,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586158915585,
+            "groupId": 423527285129217,
+            "title": "Upper Body Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750672083246.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975453859841,
+            "groupId": 243,
+            "title": "Dual-Handle Deadlift",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750234131176.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428586158915585,
+            "groupId": 423527285129217,
+            "title": "Upper Body Rowing",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750672083246.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427864600870913,
+            "groupId": 427850059218945,
+            "title": "Cable Side Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751611252739.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285164736513,
+            "groupId": 416262023413761,
+            "title": "Seated Dual-Handle Z Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748144901816.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 427864600870913,
+            "groupId": 427850059218945,
+            "title": "Cable Side Lunge",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751611252739.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 423285164736513,
+            "groupId": 416262023413761,
+            "title": "Seated Dual-Handle Z Press",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748144901816.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 438204234924034,
+            "groupId": 438204234924033,
+            "title": "Copenhagen Plank",
+            "img": "https://eu-image.speediance.com/17552528612740.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781365239809,
+            "groupId": 182,
+            "title": "Flutter Kicks",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867164494.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 438204234924034,
+            "groupId": 438204234924033,
+            "title": "Copenhagen Plank",
+            "img": "https://eu-image.speediance.com/17552528612740.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 426781365239809,
+            "groupId": 182,
+            "title": "Flutter Kicks",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753867164494.jpg"
+          }
+        ]
+      ]
+    },
+    {
+      "id": 297160,
+      "name": "Strong A 250811",
+      "coverImg2": "https://d1rwzqjevxdih5.cloudfront.net/1661840900785.png",
+      "totalCapacity": 1322.0,
+      "code": "689a47038f081ccd41c1786e",
+      "version": 5,
+      "isDeprecated": 0,
+      "sort": 0,
+      "actionNum": 7,
+      "deviceType": 1,
+      "bgColor": 0,
+      "durationMinute": 18,
+      "templateSort": 0,
+      "pinned": 0,
+      "createTime": "2025-08-11 19:39:47",
+      "updateTime": "2025-08-12 14:17:34",
+      "templateType": 0,
+      "actionInfoList": [
+        [
+          {
+            "actionLibraryId": 426189418921985,
+            "groupId": 426189160972289,
+            "title": "Tabletop Thoracic Rotation",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1753242924713.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 389975852318721,
+            "groupId": 247,
+            "title": "Dual-Handle Front Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750231557299.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 437689681838082,
+            "groupId": 437689681838081,
+            "title": "Bear Plank Row",
+            "img": "https://eu-image.speediance.com/17550075034221.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 390881608269825,
+            "groupId": 372780986662913,
+            "title": "Dual-Handle Split Squat",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1751508746074.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 379111426883585,
+            "groupId": 372788295237633,
+            "title": "Standing Tricep Rope Upright Row",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1748143462228.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 428717136543745,
+            "groupId": 372778465886209,
+            "title": "Sprinter Start",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1750736594596.jpg"
+          }
+        ],
+        [
+          {
+            "actionLibraryId": 425471200788481,
+            "groupId": 425470525505537,
+            "title": "Supine Bench Tricep Rope Crunch",
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1752833197692.jpg"
+          }
+        ]
+      ]
+    }
+  ],
+  "errors": {}
+}

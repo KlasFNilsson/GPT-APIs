@@ -3,24 +3,35 @@ name: Speediance Sync (Training Frequent)
 on:
   workflow_dispatch:
   schedule:
-    - cron: "7 * * * *"    # varje timme
-    # - cron: "*/15 * * * *"  # var 15:e minut (om du vill)
+    - cron: "7 * * * *"  # hourly, UTC
+    # - cron: "*/15 * * * *"  # every 15 min (optional)
 
 permissions:
   contents: write
 
+concurrency:
+  group: speediance-sync
+  cancel-in-progress: false
+
 jobs:
-  sync:
+  sync_training:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install -r requirements.txt
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
       - name: Run training sync
         env:
           SYNC_MODE: training
+          TRAINING_DAYS: ${{ secrets.TRAINING_DAYS }}
+          MAX_TRAINING_DETAILS: ${{ secrets.MAX_TRAINING_DETAILS }}
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
           SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
@@ -29,11 +40,13 @@ jobs:
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
           SPEEDIANCE_EMAIL: ${{ secrets.SPEEDIANCE_EMAIL }}
           SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
-        run: python sync_speediance.py
-      - name: Commit changes
+        run: |
+          python sync_speediance.py
+
+      - name: Commit changes (training only)
         run: |
           git config user.name "speediance-mirror-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/*.json data/**/*.json
+          git add data/training_records.json data/training_stats.json data/training_details/index.json data/training_details/*.json
           git diff --cached --quiet || git commit -m "freq-sync: training"
           git push

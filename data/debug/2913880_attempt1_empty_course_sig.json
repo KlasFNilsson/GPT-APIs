@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-03-01T14:44:11.666500+00:00",
+  "generated_at": "2026-03-01T15:01:36.644195+00:00",
   "requested_id": "2913880",
-  "type_used": "course",
-  "detail_type": "list",
+  "method": "get_training_detail(course)",
+  "payload_type": "list",
   "len_list": 0
 }

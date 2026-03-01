@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-03-01 15:01:29",
+  "timestamp": "2026-03-01 15:01:50",
   "method": "GET",
-  "url": "https://euapi.speediance.com/api/app/trainingInfo/courseTrainingInfoDetail/2913925",
+  "url": "https://euapi.speediance.com/api/app/trainingInfo/courseTrainingInfo/2904289",
   "status": 200,
   "request_headers": {
     "User-Agent": "Dart/3.9 (dart:io)",
@@ -11,17 +11,16 @@
     "Host": "euapi.speediance.com",
     "App_user_id": "437440282165249",
     "Token": "15e985432a0478e2eb0a131eef762bdd",
-    "Timestamp": "1772377288573",
+    "Timestamp": "1772377310265",
     "Versioncode": "40304",
     "Mobiledevices": "{\"brand\":\"google\",\"device\":\"emulator64_x86_64_arm64\",\"deviceType\":\"sdk_gphone64_x86_64\",\"os\":\"\",\"os_version\":\"31\",\"manufacturer\":\"Google\"}",
     "Content-Type": "application/json"
   },
   "request_body": null,
   "response_body": {
-    "code": 0,
-    "message": "Success",
-    "data": [],
-    "timestamp": 1772377289,
-    "traceId": "b7eeb5c85a48dfc7"
+    "code": 20,
+    "message": "Data not found.",
+    "timestamp": 1772377310,
+    "traceId": "bbd4a0cdc20b7a80"
   }
 }

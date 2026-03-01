@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:27:23.119274+00:00",
+    "start_date": "2026-01-30",
+    "end_date": "2026-03-01",
+    "max_details": 3,
+    "detail_throttle_seconds": 2.0,
+    "detail_retries": 2,
+    "count_full_written": 3,
+    "count_skipped": 0
+  },
+  "items": [
+    {
+      "training_id": "843518",
+      "record_id": "2913925",
+      "title": "Core Basics",
+      "type": 2,
+      "paths": {
+        "full": "/data/training_full/843518.json",
+        "detail": "/data/training_details/843518.json",
+        "session": "/data/training_sessions/843518.json",
+        "workout": "/data/training_sessions/843518_workout.json"
+      }
+    },
+    {
+      "training_id": "435255",
+      "record_id": "2913880",
+      "title": "260213 Run strenght A",
+      "type": 5,
+      "paths": {
+        "full": "/data/training_full/435255.json",
+        "detail": "/data/training_details/435255.json",
+        "session": "/data/training_sessions/435255.json",
+        "workout": "/data/training_sessions/435255_workout.json"
+      }
+    },
+    {
+      "training_id": "840820",
+      "record_id": "2904289",
+      "title": "30 Minutes HIIT Rowing Workout",
+      "type": 2,
+      "paths": {
+        "full": "/data/training_full/840820.json",
+        "detail": "/data/training_details/840820.json",
+        "session": "/data/training_sessions/840820.json",
+        "workout": "/data/training_sessions/840820_workout.json"
+      }
+    }
+  ],
+  "errors": {}
+}

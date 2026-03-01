@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:27:24.440601+00:00",
+    "title": "Core Basics",
+    "type": 2,
+    "startTime": "2026-03-01 12:01:35",
+    "endTime": "2026-03-01 12:05:46",
+    "calorie": 18,
+    "trainingTime": 247,
+    "record_id": 2913925,
+    "training_id": 843518,
+    "session_id_guess": 843518,
+    "workout_id_guess": 2834
+  },
+  "normalized": {
+    "actions_or_exercises": null
+  },
+  "raw": {
+    "record": {
+      "id": 2913925,
+      "permission": 0,
+      "trainingId": 843518,
+      "type": 2,
+      "title": "Core Basics",
+      "trainingTime": 247,
+      "calorie": 18,
+      "totalCapacity": 0,
+      "startTime": "2026-03-01 12:01:35",
+      "endTime": "2026-03-01 12:05:46",
+      "startTimestamp": 1772362895,
+      "endTimestamp": 1772363146,
+      "createTime": "2026-03-01 11:05:46",
+      "watchType": 1,
+      "deviceType": 1,
+      "totalEnergy": 0.0,
+      "mileage": 0,
+      "bikeType": 0,
+      "courseId": 2834,
+      "courseCategoryId": 52,
+      "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1771055683107.png",
+      "isStageRiding": false,
+      "belongUserHealth": false,
+      "healthType": 0
+    },
+    "detail": [
+      {
+        "actionLibraryGroupId": 806861158023168,
+        "actionLibraryName": "Mat Lying Toe Taps",
+        "completionScore": 5,
+        "totalCapacity": 0,
+        "totalCapacityPr": 0,
+        "maxWeightPr": 0,
+        "trainingPartId2": 17,
+        "categoryId": 20,
+        "finishedReps": [
+          {
+            "id": 12852538,
+            "finishedCount": 0,
+            "targetCount": 20,
+            "capacity": 0,
+            "maxHeartRate": 124.0,
+            "distance": 0.0,
+            "pace": 0.0,
+            "spm": 0,
+            "time": 20,
+            "trainingInfoDetail": {
+              "id": 9458435,
+              "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+              "actionLibraryId": 809115659337728,
+              "groupTrainingInfoId": 12852538,
+              "courseTrainingInfoId": 843518,
+              "courseActionLibraryTrainingInfoId": 6283654
+            },
+            "leftCount": 0,
+            "rightCount": 0,
+            "selectCompletionMethod": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "isFirst": 1,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "oneRepMaxPr": 0,
+        "completionMethod": 0,
+        "isLeftRight": 0,
+        "plate": "0"
+      },
+      {
+        "actionLibraryGroupId": 806895596896256,
+        "actionLibraryName": "Mat Shoulder Bridg",
+        "completionScore": 5,
+        "totalCapacity": 0,
+        "totalCapacityPr": 0,
+        "maxWeightPr": 0,
+        "trainingPartId2": 14,
+        "categoryId": 20,
+        "finishedReps": [
+          {
+            "id": 12852539,
+            "finishedCount": 0,
+            "targetCount": 20,
+            "capacity": 0,
+            "maxHeartRate": 103.0,
+            "distance": 0.0,
+            "pace": 0.0,
+            "spm": 0,
+            "time": 20,
+            "trainingInfoDetail": {
+              "id": 9458436,
+              "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+              "actionLibraryId": 809121262927872,
+              "groupTrainingInfoId": 12852539,
+              "courseTrainingInfoId": 843518,
+              "courseActionLibraryTrainingInfoId": 6283655
+            },
+            "leftCount": 0,
+            "rightCount": 0,
+            "selectCompletionMethod": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "isFirst": 1,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "oneRepMaxPr": 0,
+        "completionMethod": 0,
+        "isLeftRight": 0,
+        "plate": "0"
+      },
+      {
+        "actionLibraryGroupId": 806897677828096,
+        "actionLibraryName": "Mat Knee Pressure",
+        "completionScore": 5,
+        "totalCapacity": 0,
+        "totalCapacityPr": 0,
+        "maxWeightPr": 0,
+        "trainingPartId2": 17,
+        "categoryId": 20,
+        "finishedReps": [
+          {
+            "id": 12852540,
+            "finishedCount": 0,
+            "targetCount": 20,
+            "capacity": 0,
+            "maxHeartRate": 92.0,
+            "distance": 0.0,
+            "pace": 0.0,
+            "spm": 0,
+            "time": 20,
+            "trainingInfoDetail": {
+              "id": 9458437,
+              "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+              "actionLibraryId": 809121375617024,
+              "groupTrainingInfoId": 12852540,
+              "courseTrainingInfoId": 843518,
+              "courseActionLibraryTrainingInfoId": 6283656
+            },
+            "leftCount": 0,
+            "rightCount": 0,
+            "selectCompletionMethod": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "isFirst": 1,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "oneRepMaxPr": 0,
+        "completionMethod": 0,
+        "isLeftRight": 0,
+        "plate": "0"
+      },
+      {
+        "actionLibraryGroupId": 807762455232512,
+        "actionLibraryName": "Supine Leg Scissors",
+        "trainingPartId2": 17,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 1,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 3,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 804279391944704,
+        "actionLibraryName": "High Adductor Stretch",
+        "trainingPartId2": 14,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 804280495046656,
+        "actionLibraryName": "Parallel Press",
+        "trainingPartId2": 15,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 1,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 804068371759104,
+        "actionLibraryName": "Lying Straight Down",
+        "trainingPartId2": 13,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 1,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 804068967907328,
+        "actionLibraryName": "Lying Side Arm",
+        "trainingPartId2": 13,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 1,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 804007865286656,
+        "actionLibraryName": "The Hundred Prep",
+        "trainingPartId2": 17,
+        "categoryId": 18,
+        "isBarbell": 0,
+        "finishedReps": [
+          {
+            "finishedCount": 0,
+            "targetCount": 0,
+            "capacity": 0,
+            "time": 0,
+            "selectCompletionMethod": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 1,
+        "isLeftRight": 0,
+        "plate": "5"
+      },
+      {
+        "actionLibraryGroupId": 808006903463936,
+        "actionLibraryName": "Abdominal Stretch",
+        "trainingPartId2": 17,
+        "categoryId": 20,
+        "finishedReps": [
+          {
+            "distance": 0,
+            "pace": 0,
+            "spm": 0,
+            "time": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 0,
+        "isLeftRight": 0,
+        "plate": "0"
+      },
+      {
+        "actionLibraryGroupId": 807989903949824,
+        "actionLibraryName": "Child Pose",
+        "trainingPartId2": 13,
+        "categoryId": 20,
+        "finishedReps": [
+          {
+            "distance": 0,
+            "pace": 0,
+            "spm": 0,
+            "time": 0,
+            "leftRight": 0
+          }
+        ],
+        "isShotEnd": 0,
+        "countType": 2,
+        "topComments": "",
+        "bottomComments": "",
+        "isCustom": 0,
+        "completionMethod": 0,
+        "isLeftRight": 0,
+        "plate": "0"
+      }
+    ],
+    "session": {
+      "id": 843518,
+      "type": 2,
+      "startTimestamp": 1772362895,
+      "endTimestamp": 1772363146,
+      "name": "Core Basics",
+      "courseId": 2834,
+      "permission": 0,
+      "completionRate": 100.0,
+      "trainingTime": 247,
+      "totalCapacity": 0,
+      "calorie": 18,
+      "totalEnergy": 0.0,
+      "trainingCount": 1,
+      "courseMode": 1,
+      "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+      "watchType": 1,
+      "showHeartGraph": 1,
+      "existBoatingSkiDataGraph": false,
+      "code": "69902a75e4b0895a1471483b",
+      "deviceType": 1,
+      "username": "Klas",
+      "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+      "weightConfig": 1,
+      "dataVersion": 3,
+      "trainingDataShareVO": {
+        "trainingPartInfoList": []
+      }
+    },
+    "workout": null
+  }
+}

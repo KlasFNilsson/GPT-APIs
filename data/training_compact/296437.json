@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:28.618268+00:00",
+    "generated_at": "2026-03-01T16:57:41.973477+00:00",
     "record_id": "2098838",
     "training_id": "296437",
-    "source": "ctt",
     "title": "250901 3C Unilat + Pull",
     "type": 5,
     "date": "2025-09-07 09:45:00",
@@ -12,8 +11,289 @@
     "trainingTime_sec": 2765,
     "calorie": 161,
     "totalCapacity": 5366.5,
-    "totalEnergy": 16634.11
+    "totalEnergy": 16634.11,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Kneeling Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Cable Side Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "volume": 144.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "volume": 96.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "volume": 96.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 12,
+          "weight": 8.5,
+          "volume": 102.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.5
+        },
+        {
+          "reps": 12,
+          "weight": 8.5,
+          "volume": 102.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.5
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 864.0,
+      "max_weight": 12.0
+    },
+    {
+      "name": "Standing Dual-Handle Shrug",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 17.0,
+          "volume": 204.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        },
+        {
+          "reps": 12,
+          "weight": 22.0,
+          "volume": 264.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        },
+        {
+          "reps": 12,
+          "weight": 26.0,
+          "volume": 312.0,
+          "left_weight_max": 26.0,
+          "right_weight_max": 26.0
+        },
+        {
+          "reps": 12,
+          "weight": 26.0,
+          "volume": 312.0,
+          "left_weight_max": 26.0,
+          "right_weight_max": 26.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1092.0,
+      "max_weight": 26.0
+    },
+    {
+      "name": "Pallof Press to Woodchops",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 984.0,
+      "max_weight": 11.0
+    },
+    {
+      "name": "Seated Dual-Handle Underhand Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "volume": 144.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "volume": 168.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 12,
+          "weight": 16.0,
+          "volume": 192.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
+        },
+        {
+          "reps": 12,
+          "weight": 17.0,
+          "volume": 204.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 708.0,
+      "max_weight": 17.0
+    },
+    {
+      "name": "Jumping Lunges To Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 6
 }

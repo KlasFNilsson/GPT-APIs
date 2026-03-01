@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:12.630871+00:00",
+    "generated_at": "2026-03-01T16:55:22.094409+00:00",
     "record_id": "2515398",
     "training_id": "731913",
-    "source": "course",
     "title": "Base & Engine #2（skiing ver.）",
     "type": 2,
     "date": "2025-12-16 16:23:55",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 1774,
     "calorie": 224,
     "totalCapacity": 0,
-    "totalEnergy": 107387.88
+    "totalEnergy": 107387.88,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -63,15 +65,11 @@
       ],
       "set_count": 6,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Dynamic Lateral Child's Pose",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -83,15 +81,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Dynamic Knee Tuck to Wide Alternating Leg Forward Fold",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -103,15 +97,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Supine Hamstring Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -130,15 +120,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Superman Cobra",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -150,15 +136,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Forward and Reverse Bear Crawl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -170,15 +152,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Plank",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -190,15 +168,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Prone Alternating Arm Raises",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -210,15 +184,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Side Hover Rotation",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -237,15 +207,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Supported Leg Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -264,15 +230,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Kneeling Back Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -284,15 +246,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Glutes Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -311,15 +269,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Kneeling Hip Flexor Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -338,12 +292,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 13

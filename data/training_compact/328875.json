@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:23.242176+00:00",
+    "generated_at": "2026-03-01T16:56:35.105161+00:00",
     "record_id": "2291055",
     "training_id": "328875",
-    "source": "ctt",
     "title": "Hyrox A",
     "type": 5,
     "date": "2025-10-21 07:23:56",
@@ -12,8 +11,267 @@
     "trainingTime_sec": 2840,
     "calorie": 192,
     "totalCapacity": 5300.0,
-    "totalEnergy": 44655.88
+    "totalEnergy": 44655.88,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rolling Shrugs",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Shoulder Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Pulse Squat to Alternating Hip Abduction",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 64.0,
+          "volume": 384.0,
+          "left_weight_max": 32.0,
+          "right_weight_max": 32.0
+        },
+        {
+          "reps": 6,
+          "weight": 68.0,
+          "volume": 408.0,
+          "left_weight_max": 34.0,
+          "right_weight_max": 34.0
+        },
+        {
+          "reps": 6,
+          "weight": 68.0,
+          "volume": 408.0,
+          "left_weight_max": 34.0,
+          "right_weight_max": 34.0
+        },
+        {
+          "reps": 6,
+          "weight": 70.0,
+          "volume": 420.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1620.0,
+      "max_weight": 70.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 2112.0,
+      "max_weight": 88.0
+    },
+    {
+      "name": "Push press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Kneeling Alternating Lat Pulldown",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "volume": 180.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 10,
+          "weight": 19.0,
+          "volume": 190.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 10,
+          "weight": 19.0,
+          "volume": 190.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 10,
+          "weight": 20.0,
+          "volume": 200.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 760.0,
+      "max_weight": 20.0
+    },
+    {
+      "name": "Dual-Handle Dead Bug",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 24.0,
+      "max_weight": 8.0
+    }
+  ],
+  "exercise_count": 9
 }

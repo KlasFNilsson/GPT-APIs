@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:23.911195+00:00",
+    "generated_at": "2026-03-01T16:55:33.597754+00:00",
     "record_id": "2445740",
     "training_id": "712777",
-    "source": "course",
     "title": "Defined Arms",
     "type": 2,
     "date": "2025-11-30 10:34:42",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 2232,
     "calorie": 261,
     "totalCapacity": 4314.0,
-    "totalEnergy": 22335.55
+    "totalEnergy": 22335.55,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -28,15 +30,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Standing Barbell Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -69,15 +67,11 @@
       ],
       "set_count": 4,
       "total_volume": 1176.0,
-      "max_weight": 26.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 26.0
     },
     {
       "name": "Barbell Narrow Grip Bench Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -110,15 +104,11 @@
       ],
       "set_count": 4,
       "total_volume": 1152.0,
-      "max_weight": 24.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 24.0
     },
     {
       "name": "Incline Supine Barbell Biceps Curl（Main Frame）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -151,15 +141,11 @@
       ],
       "set_count": 4,
       "total_volume": 768.0,
-      "max_weight": 19.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 19.0
     },
     {
       "name": "Standing Barbell Triceps Push Down",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -192,15 +178,11 @@
       ],
       "set_count": 4,
       "total_volume": 1297.0,
-      "max_weight": 31.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 31.0
     },
     {
       "name": "Biceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -219,15 +201,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Triceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -246,12 +224,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 7

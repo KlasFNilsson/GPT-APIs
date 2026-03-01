@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:28.798512+00:00",
+    "generated_at": "2026-03-01T16:56:40.771757+00:00",
     "record_id": "2285589",
     "training_id": "327922",
-    "source": "ctt",
     "title": "Hyrox B",
     "type": 5,
     "date": "2025-10-19 16:22:18",
@@ -12,8 +11,315 @@
     "trainingTime_sec": 2235,
     "calorie": 277,
     "totalCapacity": 4653.0,
-    "totalEnergy": 27822.24
+    "totalEnergy": 27822.24,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (Straight Arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Bodyweight Alternating Forward Lunges",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Alternating Reverse Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rotator Cuff Stimulation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Hamstring Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 94.0,
+          "volume": 564.0,
+          "left_weight_max": 47.0,
+          "right_weight_max": 47.0
+        },
+        {
+          "reps": 6,
+          "weight": 94.0,
+          "volume": 564.0,
+          "left_weight_max": 47.0,
+          "right_weight_max": 47.0
+        },
+        {
+          "reps": 6,
+          "weight": 92.0,
+          "volume": 552.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 6,
+          "weight": 90.0,
+          "volume": 540.0,
+          "left_weight_max": 45.0,
+          "right_weight_max": 45.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 2220.0,
+      "max_weight": 94.0
+    },
+    {
+      "name": "Bent-Over Barbell Wide Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 37.0,
+          "volume": 222.0,
+          "left_weight_max": 18.5,
+          "right_weight_max": 18.5
+        },
+        {
+          "reps": 6,
+          "weight": 36.0,
+          "volume": 216.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 6,
+          "weight": 37.0,
+          "volume": 222.0,
+          "left_weight_max": 18.5,
+          "right_weight_max": 18.5
+        },
+        {
+          "reps": 6,
+          "weight": 36.0,
+          "volume": 216.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 876.0,
+      "max_weight": 37.0
+    },
+    {
+      "name": "Barbell Front Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 43.0,
+          "volume": 258.0,
+          "left_weight_max": 21.5,
+          "right_weight_max": 21.5
+        },
+        {
+          "reps": 6,
+          "weight": 44.0,
+          "volume": 264.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        },
+        {
+          "reps": 6,
+          "weight": 45.0,
+          "volume": 270.0,
+          "left_weight_max": 22.5,
+          "right_weight_max": 22.5
+        },
+        {
+          "reps": 6,
+          "weight": 45.0,
+          "volume": 270.0,
+          "left_weight_max": 22.5,
+          "right_weight_max": 22.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1062.0,
+      "max_weight": 45.0
+    },
+    {
+      "name": "Standing Barbell Shoulder Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 20.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 6,
+          "weight": 20.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 6,
+          "weight": 20.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 7,
+          "weight": 21.0,
+          "volume": 147.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 507.0,
+      "max_weight": 21.0
+    },
+    {
+      "name": "Dumbbell power clean",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Russian Twist",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 12
 }

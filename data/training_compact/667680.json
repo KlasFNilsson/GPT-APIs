@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:34.151432+00:00",
+    "generated_at": "2026-03-01T16:56:46.308653+00:00",
     "record_id": "2280078",
     "training_id": "667680",
-    "source": "course",
     "title": "Sam's Quick Fit: Biceps-Triceps 30x3",
     "type": 2,
     "date": "2025-10-17 18:47:51",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 1598,
     "calorie": 189,
     "totalCapacity": 2941.0,
-    "totalEnergy": 16118.47
+    "totalEnergy": 16118.47,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Standing Dual-Handle Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -42,15 +44,11 @@
       ],
       "set_count": 3,
       "total_volume": 360.0,
-      "max_weight": 12.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 12.0
     },
     {
       "name": "Incline Bench Spider Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -76,15 +74,11 @@
       ],
       "set_count": 3,
       "total_volume": 195.0,
-      "max_weight": 9.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 9.0
     },
     {
       "name": "Seated Incline Dual-Handle Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -110,15 +104,11 @@
       ],
       "set_count": 3,
       "total_volume": 295.0,
-      "max_weight": 10.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 10.0
     },
     {
       "name": "Standing Tricep Rope Overhead Triceps Extension (Main Frame)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -144,15 +134,11 @@
       ],
       "set_count": 3,
       "total_volume": 410.0,
-      "max_weight": 15.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 15.0
     },
     {
       "name": "Standing Tricep Rope Triceps Pushdown",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -178,15 +164,11 @@
       ],
       "set_count": 3,
       "total_volume": 480.0,
-      "max_weight": 16.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 16.0
     },
     {
       "name": "Incline Tricep Rope Triceps Push Down",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -212,12 +194,7 @@
       ],
       "set_count": 3,
       "total_volume": 430.0,
-      "max_weight": 16.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 16.0
     }
   ],
   "exercise_count": 6

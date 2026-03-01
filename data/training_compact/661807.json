@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:42.531574+00:00",
+    "generated_at": "2026-03-01T16:56:54.980615+00:00",
     "record_id": "2258069",
     "training_id": "661807",
-    "source": "course",
     "title": "Arm Yourself",
     "type": 2,
     "date": "2025-10-11 09:29:12",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 2562,
     "calorie": 170,
     "totalCapacity": 2958.0,
-    "totalEnergy": 16480.46
+    "totalEnergy": 16480.46,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Punch With Speed",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -28,15 +30,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Sprinter Arm Swing",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -48,15 +46,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Standing Single-Arm Biceps Curl（Main Frame）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -117,15 +111,11 @@
       ],
       "set_count": 8,
       "total_volume": 888.0,
-      "max_weight": 10.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 10.0
     },
     {
       "name": "Standing Tricep Rope Triceps Pushdown",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -158,15 +148,11 @@
       ],
       "set_count": 4,
       "total_volume": 750.0,
-      "max_weight": 14.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 14.0
     },
     {
       "name": "Standing Tricep Rope Hammer Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -199,15 +185,11 @@
       ],
       "set_count": 4,
       "total_volume": 696.0,
-      "max_weight": 16.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 16.0
     },
     {
       "name": "Standing Tricep Rope Overhead Triceps Extension",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -240,15 +222,11 @@
       ],
       "set_count": 4,
       "total_volume": 630.0,
-      "max_weight": 11.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 11.0
     },
     {
       "name": "Biceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -267,15 +245,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Triceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -294,12 +268,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 8

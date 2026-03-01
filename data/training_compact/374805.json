@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:07.007576+00:00",
+    "generated_at": "2026-03-01T16:55:16.304064+00:00",
     "record_id": "2565579",
     "training_id": "374805",
-    "source": "ctt",
     "title": "Run strength B 251222",
     "type": 5,
     "date": "2025-12-29 07:53:58",
@@ -12,8 +11,274 @@
     "trainingTime_sec": 2249,
     "calorie": 292,
     "totalCapacity": 6317.5,
-    "totalEnergy": 63689.69
+    "totalEnergy": 63689.69,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Tabletop Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Hip-Opening Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Aerobic Rowing",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Belt Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 64.0,
+          "volume": 384.0,
+          "left_weight_max": 32.0,
+          "right_weight_max": 32.0
+        },
+        {
+          "reps": 6,
+          "weight": 39.0,
+          "volume": 234.0,
+          "left_weight_max": 19.5,
+          "right_weight_max": 19.5
+        },
+        {
+          "reps": 6,
+          "weight": 45.0,
+          "volume": 270.0,
+          "left_weight_max": 22.5,
+          "right_weight_max": 22.5
+        },
+        {
+          "reps": 6,
+          "weight": 50.0,
+          "volume": 300.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1188.0,
+      "max_weight": 64.0
+    },
+    {
+      "name": "Handle Lateral Split Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 34.0,
+          "volume": 204.0,
+          "left_weight_max": 34.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 6,
+          "weight": 34.0,
+          "volume": 204.0,
+          "left_weight_max": null,
+          "right_weight_max": 34.0
+        },
+        {
+          "reps": 6,
+          "weight": 40.0,
+          "volume": 240.0,
+          "left_weight_max": 40.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 7,
+          "weight": 41.0,
+          "volume": 287.0,
+          "left_weight_max": 41.0,
+          "right_weight_max": 41.0
+        },
+        {
+          "reps": 7,
+          "weight": 41.0,
+          "volume": 287.0,
+          "left_weight_max": 41.0,
+          "right_weight_max": 41.0
+        },
+        {
+          "reps": 7,
+          "weight": 41.0,
+          "volume": 287.0,
+          "left_weight_max": 41.0,
+          "right_weight_max": 41.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1509.0,
+      "max_weight": 41.0
+    },
+    {
+      "name": "Incline Dual-Handle Front Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 3.5,
+          "volume": 28.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5
+        },
+        {
+          "reps": 8,
+          "weight": 6.5,
+          "volume": 52.0,
+          "left_weight_max": 6.5,
+          "right_weight_max": 6.5
+        },
+        {
+          "reps": 8,
+          "weight": 5.5,
+          "volume": 44.0,
+          "left_weight_max": 5.5,
+          "right_weight_max": 5.5
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 124.0,
+      "max_weight": 6.5
+    },
+    {
+      "name": "Dual-Handle Bent-Over Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 22.0,
+          "volume": 132.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        },
+        {
+          "reps": 6,
+          "weight": 22.0,
+          "volume": 132.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        },
+        {
+          "reps": 6,
+          "weight": 22.0,
+          "volume": 132.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 396.0,
+      "max_weight": 22.0
+    },
+    {
+      "name": "Belt Hip Thrust",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 77.0,
+          "volume": 924.0,
+          "left_weight_max": 38.5,
+          "right_weight_max": 38.5
+        },
+        {
+          "reps": 12,
+          "weight": 77.0,
+          "volume": 924.0,
+          "left_weight_max": 38.5,
+          "right_weight_max": 38.5
+        },
+        {
+          "reps": 12,
+          "weight": 77.0,
+          "volume": 924.0,
+          "left_weight_max": 38.5,
+          "right_weight_max": 38.5
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 2772.0,
+      "max_weight": 77.0
+    },
+    {
+      "name": "Alternating V-Ups",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 9
 }

@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:18.279274+00:00",
+    "generated_at": "2026-03-01T16:55:27.778739+00:00",
     "record_id": "2483278",
     "training_id": "361347",
-    "source": "ctt",
     "title": "B3",
     "type": 5,
     "date": "2025-12-09 06:29:11",
@@ -12,8 +11,331 @@
     "trainingTime_sec": 2342,
     "calorie": 179,
     "totalCapacity": 9237.0,
-    "totalEnergy": 41180.87
+    "totalEnergy": 41180.87,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (Straight Arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Bodyweight Alternating Forward Lunges",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Alternating Reverse Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rotator Cuff Stimulation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Hamstring Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Kneeling Dual-Handle Chest Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 8,
+          "weight": 16.0,
+          "volume": 128.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
+        },
+        {
+          "reps": 8,
+          "weight": 17.0,
+          "volume": 136.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        },
+        {
+          "reps": 8,
+          "weight": 18.0,
+          "volume": 144.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 520.0,
+      "max_weight": 18.0
+    },
+    {
+      "name": "Incline Tripod Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "left_weight_max": null,
+          "right_weight_max": 20.0
+        },
+        {
+          "reps": 8,
+          "weight": 21.0,
+          "volume": 168.0,
+          "left_weight_max": 21.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 21.0,
+          "volume": 168.0,
+          "left_weight_max": null,
+          "right_weight_max": 21.0
+        },
+        {
+          "reps": 8,
+          "weight": 21.0,
+          "volume": 168.0,
+          "left_weight_max": 21.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 21.0,
+          "volume": 168.0,
+          "left_weight_max": null,
+          "right_weight_max": 21.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 992.0,
+      "max_weight": 21.0
+    },
+    {
+      "name": "Dual-Handle Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 44.0,
+          "volume": 352.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 8,
+          "weight": 44.0,
+          "volume": 352.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 8,
+          "weight": 45.0,
+          "volume": 360.0,
+          "left_weight_max": 45.0,
+          "right_weight_max": 45.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1064.0,
+      "max_weight": 45.0
+    },
+    {
+      "name": "Single Handle Duck Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 39.0,
+          "volume": 585.0,
+          "left_weight_max": null,
+          "right_weight_max": 39.0
+        },
+        {
+          "reps": 15,
+          "weight": 43.0,
+          "volume": 645.0,
+          "left_weight_max": 43.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 15,
+          "weight": 47.0,
+          "volume": 705.0,
+          "left_weight_max": null,
+          "right_weight_max": 47.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1935.0,
+      "max_weight": 47.0
+    },
+    {
+      "name": "Dual-Handle Bulgarian Split Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0
+        },
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 320.0,
+      "max_weight": 20.0
+    },
+    {
+      "name": "Standing Dual-Handle Toes-In Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 20.0,
+          "volume": 300.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0
+        },
+        {
+          "reps": 15,
+          "weight": 25.0,
+          "volume": 375.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0
+        },
+        {
+          "reps": 15,
+          "weight": 30.0,
+          "volume": 450.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1125.0,
+      "max_weight": 30.0
+    },
+    {
+      "name": "Bench Supine Cable Scissor Kick",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 13,
+          "weight": 4.0,
+          "volume": 52.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0
+        },
+        {
+          "reps": 13,
+          "weight": 6.0,
+          "volume": 78.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": 6.0
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 130.0,
+      "max_weight": 6.0
+    }
+  ],
+  "exercise_count": 13
 }

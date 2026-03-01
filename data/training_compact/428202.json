@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:00.973796+00:00",
+    "generated_at": "2026-03-01T16:54:07.111541+00:00",
     "record_id": "2875250",
     "training_id": "428202",
-    "source": "ctt",
     "title": "260213 Run strength B",
     "type": 5,
     "date": "2026-02-22 13:53:18",
@@ -12,8 +11,279 @@
     "trainingTime_sec": 1746,
     "calorie": 185,
     "totalCapacity": 5220.0,
-    "totalEnergy": 23084.09
+    "totalEnergy": 23084.09,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "The World's Greatest Stretch​",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "In-place Inchworm",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 2240.0,
+      "max_weight": 70.0
+    },
+    {
+      "name": "Handle Lateral Split Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 46.0,
+          "volume": 552.0,
+          "left_weight_max": null,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 50.0,
+          "volume": 600.0,
+          "left_weight_max": 50.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 50.0,
+          "volume": 600.0,
+          "left_weight_max": null,
+          "right_weight_max": 50.0
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1752.0,
+      "max_weight": 50.0
+    },
+    {
+      "name": "Standing Dual-Handle Reverse-Grip Lateral Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 4.5,
+          "volume": 36.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5
+        },
+        {
+          "reps": 8,
+          "weight": 5.5,
+          "volume": 44.0,
+          "left_weight_max": 5.5,
+          "right_weight_max": 5.5
+        },
+        {
+          "reps": 8,
+          "weight": 6.0,
+          "volume": 48.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": 6.0
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 128.0,
+      "max_weight": 6.0
+    },
+    {
+      "name": "V-ups",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Bent-Over Dual-Handle Reverse Fly",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 5.0,
+          "volume": 60.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0
+        },
+        {
+          "reps": 12,
+          "weight": 5.0,
+          "volume": 60.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0
+        },
+        {
+          "reps": 12,
+          "weight": 5.0,
+          "volume": 60.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 180.0,
+      "max_weight": 5.0
+    },
+    {
+      "name": "Barbell Single-Leg Hip Thrust ",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 51.0,
+          "volume": 612.0,
+          "left_weight_max": 25.5,
+          "right_weight_max": 25.5
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 612.0,
+      "max_weight": 51.0
+    }
+  ],
+  "exercise_count": 8
 }

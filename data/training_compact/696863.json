@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:37.783782+00:00",
+    "generated_at": "2026-03-01T16:55:47.915984+00:00",
     "record_id": "2387878",
     "training_id": "696863",
-    "source": "course",
     "title": "Upper Back: The Power Triangle",
     "type": 2,
     "date": "2025-11-16 10:25:49",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 3467,
     "calorie": 468,
     "totalCapacity": 10050.0,
-    "totalEnergy": 51514.49
+    "totalEnergy": 51514.49,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Single-Arm Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -35,15 +37,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Bent Over T-Raise",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -55,15 +53,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Standing Y Raise",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -75,15 +69,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Bodyweight Plank",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -95,15 +85,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Bent-Over Barbell Straight Arm Pulldown",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -129,15 +115,11 @@
       ],
       "set_count": 3,
       "total_volume": 828.0,
-      "max_weight": 22.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 22.0
     },
     {
       "name": "Seated Barbell Lat Pulldown",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -170,15 +152,11 @@
       ],
       "set_count": 4,
       "total_volume": 2127.0,
-      "max_weight": 44.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 44.0
     },
     {
       "name": "Barbell Bent Over Row",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -211,15 +189,11 @@
       ],
       "set_count": 4,
       "total_volume": 1824.0,
-      "max_weight": 42.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 42.0
     },
     {
       "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -252,15 +226,11 @@
       ],
       "set_count": 4,
       "total_volume": 3584.0,
-      "max_weight": 87.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 87.0
     },
     {
       "name": "Bent-Over Barbell Wide Row",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -286,15 +256,11 @@
       ],
       "set_count": 3,
       "total_volume": 1075.0,
-      "max_weight": 37.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 37.0
     },
     {
       "name": "Standing Tricep Rope Face Pull (Rear Delts)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -320,15 +286,11 @@
       ],
       "set_count": 3,
       "total_volume": 750.0,
-      "max_weight": 21.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 21.0
     },
     {
       "name": "Lat Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -347,15 +309,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Shoulder Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -374,12 +332,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 12

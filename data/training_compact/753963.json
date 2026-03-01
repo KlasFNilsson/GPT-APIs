@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:53.738819+00:00",
+    "generated_at": "2026-03-01T16:55:02.709371+00:00",
     "record_id": "2592198",
     "training_id": "753963",
-    "source": "course",
     "title": "Power Upper Chest Delts Triceps Advanced",
     "type": 2,
     "date": "2026-01-04 13:40:07",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 3285,
     "calorie": 228,
     "totalCapacity": 4208.5,
-    "totalEnergy": 22705.54
+    "totalEnergy": 22705.54,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Standing Cable External Rotation",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -35,15 +37,11 @@
       ],
       "set_count": 2,
       "total_volume": 105.0,
-      "max_weight": 3.5,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 3.5
     },
     {
       "name": "Single-Arm Rotator Cuff Internal Rotation",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -62,15 +60,11 @@
       ],
       "set_count": 2,
       "total_volume": 135.0,
-      "max_weight": 4.5,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 4.5
     },
     {
       "name": "Incline Barbell Bench Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -103,15 +97,11 @@
       ],
       "set_count": 4,
       "total_volume": 1390.0,
-      "max_weight": 31.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 31.0
     },
     {
       "name": "Seated Barbell Shoulder Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -137,15 +127,11 @@
       ],
       "set_count": 3,
       "total_volume": 615.0,
-      "max_weight": 16.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 16.0
     },
     {
       "name": "Supine Barbell Triceps Extension",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -171,15 +157,11 @@
       ],
       "set_count": 3,
       "total_volume": 495.0,
-      "max_weight": 12.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 12.0
     },
     {
       "name": "Dual Handle Alternating Bench Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 8,
@@ -205,15 +187,11 @@
       ],
       "set_count": 3,
       "total_volume": 344.0,
-      "max_weight": 15.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 15.0
     },
     {
       "name": "Seated Dual-Handle Front Raise",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -239,15 +217,11 @@
       ],
       "set_count": 3,
       "total_volume": 195.0,
-      "max_weight": 4.5,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 4.5
     },
     {
       "name": "Bent-Over Dual-Handle Triceps Extension（Floor）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -273,15 +247,11 @@
       ],
       "set_count": 3,
       "total_volume": 300.0,
-      "max_weight": 8.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 8.0
     },
     {
       "name": "Chest Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -300,15 +270,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Triceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -327,12 +293,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 10

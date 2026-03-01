@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:30.977690+00:00",
+    "generated_at": "2026-03-01T16:54:38.456219+00:00",
     "record_id": "2772205",
     "training_id": "805052",
-    "source": "course",
     "title": "Superset Arms Day",
     "type": 2,
     "date": "2026-02-04 12:30:37",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 2162,
     "calorie": 161,
     "totalCapacity": 3879.0,
-    "totalEnergy": 23024.48
+    "totalEnergy": 23024.48,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Single-Arm Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -35,15 +37,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Backward Facing Wrist Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -55,15 +53,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Standing Y Raise",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -75,15 +69,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Dual-Handle Alternating Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -109,15 +99,11 @@
       ],
       "set_count": 3,
       "total_volume": 406.0,
-      "max_weight": 15.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 15.0
     },
     {
       "name": "Standing Dual-Handle Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -143,15 +129,11 @@
       ],
       "set_count": 3,
       "total_volume": 356.0,
-      "max_weight": 13.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 13.0
     },
     {
       "name": "Supine Barbell Triceps Extension",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -177,15 +159,11 @@
       ],
       "set_count": 3,
       "total_volume": 424.0,
-      "max_weight": 16.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 16.0
     },
     {
       "name": "Barbell Narrow Grip Bench Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -211,15 +189,11 @@
       ],
       "set_count": 3,
       "total_volume": 850.0,
-      "max_weight": 32.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 32.0
     },
     {
       "name": "Standing Barbell Overhand Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -245,15 +219,11 @@
       ],
       "set_count": 3,
       "total_volume": 614.0,
-      "max_weight": 22.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 22.0
     },
     {
       "name": "Standing Tricep Rope Hammer Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -279,15 +249,11 @@
       ],
       "set_count": 3,
       "total_volume": 514.0,
-      "max_weight": 19.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 19.0
     },
     {
       "name": "Biceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -306,15 +272,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Half-Kneeling Overhead Triceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -333,12 +295,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 11

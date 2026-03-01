@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:49.387043+00:00",
+    "generated_at": "2026-03-01T16:58:03.291502+00:00",
     "record_id": "2081186",
     "training_id": "293360",
-    "source": "ctt",
     "title": "250901 3A Bilat + pull",
     "type": 5,
     "date": "2025-09-01 17:20:35",
@@ -12,8 +11,270 @@
     "trainingTime_sec": 2861,
     "calorie": 358,
     "totalCapacity": 10776.0,
-    "totalEnergy": 46329.06
+    "totalEnergy": 46329.06,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Tabletop Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 39.0,
+          "volume": 468.0,
+          "left_weight_max": 19.5,
+          "right_weight_max": 19.5
+        },
+        {
+          "reps": 12,
+          "weight": 39.0,
+          "volume": 468.0,
+          "left_weight_max": 19.5,
+          "right_weight_max": 19.5
+        },
+        {
+          "reps": 12,
+          "weight": 39.0,
+          "volume": 468.0,
+          "left_weight_max": 19.5,
+          "right_weight_max": 19.5
+        },
+        {
+          "reps": 12,
+          "weight": 39.0,
+          "volume": 468.0,
+          "left_weight_max": 19.5,
+          "right_weight_max": 19.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1872.0,
+      "max_weight": 39.0
+    },
+    {
+      "name": "Barbell Bent Over Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 26.0,
+          "volume": 312.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 12,
+          "weight": 33.0,
+          "volume": 396.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 15.5,
+          "right_weight_max": 15.5
+        },
+        {
+          "reps": 12,
+          "weight": 32.0,
+          "volume": 384.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1464.0,
+      "max_weight": 33.0
+    },
+    {
+      "name": "Barbell Hip Thrust",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 59.0,
+          "volume": 708.0,
+          "left_weight_max": 29.5,
+          "right_weight_max": 29.5
+        },
+        {
+          "reps": 12,
+          "weight": 59.0,
+          "volume": 708.0,
+          "left_weight_max": 29.5,
+          "right_weight_max": 29.5
+        },
+        {
+          "reps": 12,
+          "weight": 59.0,
+          "volume": 708.0,
+          "left_weight_max": 29.5,
+          "right_weight_max": 29.5
+        },
+        {
+          "reps": 12,
+          "weight": 59.0,
+          "volume": 708.0,
+          "left_weight_max": 29.5,
+          "right_weight_max": 29.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 2832.0,
+      "max_weight": 59.0
+    },
+    {
+      "name": "Standing Barbell Biceps Curl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 24.0,
+          "volume": 288.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 21.0,
+          "volume": 252.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        },
+        {
+          "reps": 12,
+          "weight": 20.0,
+          "volume": 240.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 12,
+          "weight": 18.0,
+          "volume": 216.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 996.0,
+      "max_weight": 24.0
+    },
+    {
+      "name": "Barbell Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 78.0,
+          "volume": 936.0,
+          "left_weight_max": 39.0,
+          "right_weight_max": 39.0
+        },
+        {
+          "reps": 12,
+          "weight": 65.0,
+          "volume": 780.0,
+          "left_weight_max": 32.5,
+          "right_weight_max": 32.5
+        },
+        {
+          "reps": 12,
+          "weight": 65.0,
+          "volume": 780.0,
+          "left_weight_max": 32.5,
+          "right_weight_max": 32.5
+        },
+        {
+          "reps": 12,
+          "weight": 65.0,
+          "volume": 780.0,
+          "left_weight_max": 32.5,
+          "right_weight_max": 32.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 3276.0,
+      "max_weight": 78.0
+    },
+    {
+      "name": "Straight Arm Barbell Crunch (Floor)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "volume": 84.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 408.0,
+      "max_weight": 9.0
+    }
+  ],
+  "exercise_count": 7
 }

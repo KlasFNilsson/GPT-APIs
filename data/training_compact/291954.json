@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:52.200428+00:00",
+    "generated_at": "2026-03-01T16:58:06.178239+00:00",
     "record_id": "2073410",
     "training_id": "291954",
-    "source": "ctt",
     "title": "GM B",
     "type": 5,
     "date": "2025-08-29 19:16:53",
@@ -12,8 +11,265 @@
     "trainingTime_sec": 2232,
     "calorie": 397,
     "totalCapacity": 4357.0,
-    "totalEnergy": 23585.74
+    "totalEnergy": 23585.74,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Seated 90/90 Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 55.0,
+          "volume": 440.0,
+          "left_weight_max": 27.5,
+          "right_weight_max": 27.5
+        },
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "volume": 368.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "volume": 368.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1176.0,
+      "max_weight": 55.0
+    },
+    {
+      "name": "Standing Dual-Handle Chest Fly",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 4.5,
+          "volume": 45.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5
+        },
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 245.0,
+      "max_weight": 12.0
+    },
+    {
+      "name": "Standing Dual-Handle Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 18.0,
+          "volume": 216.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 528.0,
+      "max_weight": 18.0
+    },
+    {
+      "name": "Standing Single-Leg Extension",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "volume": 90.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "volume": 90.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "volume": 90.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "volume": 90.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 520.0,
+      "max_weight": 9.0
+    },
+    {
+      "name": "Bench Lying Leg Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Standing Dual-Handle Biceps Curl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "volume": 144.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "volume": 144.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "volume": 144.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 432.0,
+      "max_weight": 12.0
+    },
+    {
+      "name": "Bent Over Tricep Rope Overhead Triceps Extension（L0）",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        },
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 420.0,
+      "max_weight": 13.0
+    }
+  ],
+  "exercise_count": 8
 }

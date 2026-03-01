@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:54.957703+00:00",
+    "generated_at": "2026-03-01T16:58:08.986191+00:00",
     "record_id": "2073241",
     "training_id": "610875",
-    "source": "course",
     "title": "Rowing Warm-Up",
     "type": 2,
     "date": "2025-08-29 18:34:52",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 676,
     "calorie": 91,
     "totalCapacity": 0,
-    "totalEnergy": 89752.41
+    "totalEnergy": 89752.41,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Aerobic Rowing",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -91,12 +93,7 @@
       ],
       "set_count": 10,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 1

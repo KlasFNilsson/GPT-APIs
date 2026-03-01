@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:12.536815+00:00",
+    "generated_at": "2026-03-01T16:57:25.547484+00:00",
     "record_id": "2208243",
     "training_id": "244583",
-    "source": "course",
     "title": "Base & Engine #1",
     "type": 6,
     "date": "2025-09-25 17:27:27",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 2212,
     "calorie": 219,
     "totalCapacity": 2093.0,
-    "totalEnergy": 61081.43
+    "totalEnergy": 61081.43,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Plank to Deep Lunge",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -28,15 +30,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Prone Lower Body Dynamic Warm-up",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -48,15 +46,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Cable Side Step Squat (Left Leg）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 9,
@@ -75,15 +69,11 @@
       ],
       "set_count": 2,
       "total_volume": 190.0,
-      "max_weight": 10.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 10.0
     },
     {
       "name": "Cable Side Step Squat (Right Leg）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -102,15 +92,11 @@
       ],
       "set_count": 2,
       "total_volume": 210.0,
-      "max_weight": 10.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 10.0
     },
     {
       "name": "Barbell Squat",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -143,15 +129,11 @@
       ],
       "set_count": 4,
       "total_volume": 2340.0,
-      "max_weight": 55.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 55.0
     },
     {
       "name": "Barbell Front Squat",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -177,15 +159,11 @@
       ],
       "set_count": 3,
       "total_volume": 580.0,
-      "max_weight": 25.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 1,
-        "levelPr": null
-      }
+      "max_weight": 25.0
     },
     {
       "name": "Alternating Reverse Lunge",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -211,15 +189,11 @@
       ],
       "set_count": 3,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 12,
@@ -245,15 +219,11 @@
       ],
       "set_count": 3,
       "total_volume": 1330.0,
-      "max_weight": 50.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 50.0
     },
     {
       "name": "Bodyweight Romanian Deadlift",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -279,15 +249,11 @@
       ],
       "set_count": 3,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Kneeling Hip Flexor Stretch (Left)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -299,15 +265,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Kneeling Hip Flexor Stretch (Right)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -319,15 +281,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Deep Side lunge (Left Leg)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -339,15 +297,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Deep Side lunge (Right Leg)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -359,15 +313,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Push-up Calf Stretch (Left)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -379,15 +329,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Push-up Calf Stretch (Right)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -399,12 +345,7 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 15

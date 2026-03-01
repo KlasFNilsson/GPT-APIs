@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:36.454225+00:00",
+    "generated_at": "2026-03-01T16:54:44.919727+00:00",
     "record_id": "2741576",
     "training_id": "405016",
-    "source": "ctt",
     "title": "Run strenght A 251222",
     "type": 5,
     "date": "2026-01-30 08:08:40",
@@ -12,8 +11,355 @@
     "trainingTime_sec": 3106,
     "calorie": 305,
     "totalCapacity": 8993.0,
-    "totalEnergy": 58322.51
+    "totalEnergy": 58322.51,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "The World's Greatest Stretch​",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "In-place Inchworm",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Stiff-Leg Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 86.0,
+          "volume": 688.0,
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0
+        },
+        {
+          "reps": 8,
+          "weight": 86.0,
+          "volume": 688.0,
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0
+        },
+        {
+          "reps": 8,
+          "weight": 86.0,
+          "volume": 688.0,
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0
+        },
+        {
+          "reps": 8,
+          "weight": 86.0,
+          "volume": 688.0,
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 2752.0,
+      "max_weight": 86.0
+    },
+    {
+      "name": "Barbell Alternating Reverse Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 16,
+          "weight": 20.0,
+          "volume": 320.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 16,
+          "weight": 30.0,
+          "volume": 480.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 16,
+          "weight": 36.0,
+          "volume": 576.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 16,
+          "weight": 38.0,
+          "volume": 608.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1984.0,
+      "max_weight": 38.0
+    },
+    {
+      "name": "Laying Straight Leg Figure Eight",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Single-Leg Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 23.0,
+          "volume": 184.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 8,
+          "weight": 23.0,
+          "volume": 184.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 8,
+          "weight": 24.0,
+          "volume": 192.0,
+          "left_weight_max": 24.0,
+          "right_weight_max": 24.0
+        },
+        {
+          "reps": 8,
+          "weight": 24.0,
+          "volume": 192.0,
+          "left_weight_max": 24.0,
+          "right_weight_max": 24.0
+        },
+        {
+          "reps": 8,
+          "weight": 24.0,
+          "volume": 192.0,
+          "left_weight_max": 24.0,
+          "right_weight_max": 24.0
+        },
+        {
+          "reps": 8,
+          "weight": 24.0,
+          "volume": 192.0,
+          "left_weight_max": 24.0,
+          "right_weight_max": 24.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1136.0,
+      "max_weight": 24.0
+    },
+    {
+      "name": "Seated Dual-Handle Low to High Chest Fly",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 7.5,
+          "volume": 75.0,
+          "left_weight_max": 7.5,
+          "right_weight_max": 7.5
+        },
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 235.0,
+      "max_weight": 8.0
+    },
+    {
+      "name": "Leg Curl Cross-Flatbench",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 8,
+          "weight": 8.0,
+          "volume": 64.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 384.0,
+      "max_weight": 8.0
+    },
+    {
+      "name": "Standing Barbell Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 57.0,
+          "volume": 570.0,
+          "left_weight_max": 28.5,
+          "right_weight_max": 28.5
+        },
+        {
+          "reps": 10,
+          "weight": 57.0,
+          "volume": 570.0,
+          "left_weight_max": 28.5,
+          "right_weight_max": 28.5
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 1140.0,
+      "max_weight": 57.0
+    },
+    {
+      "name": "Pogo Jumps",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 11
 }

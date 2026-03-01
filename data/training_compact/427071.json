@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:03.707071+00:00",
+    "generated_at": "2026-03-01T16:54:09.963275+00:00",
     "record_id": "2868455",
     "training_id": "427071",
-    "source": "ctt",
     "title": "260206 Strength C - Complimentary",
     "type": 5,
     "date": "2026-02-21 09:42:23",
@@ -12,8 +11,251 @@
     "trainingTime_sec": 2032,
     "calorie": 160,
     "totalCapacity": 3861.0,
-    "totalEnergy": 13638.04
+    "totalEnergy": 13638.04,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Half-Kneeling Modified Rainbow",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Standing Barbell Chest Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 28.0,
+          "volume": 336.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 12,
+          "weight": 30.0,
+          "volume": 360.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 15.5,
+          "right_weight_max": 15.5
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1068.0,
+      "max_weight": 31.0
+    },
+    {
+      "name": "Seated Barbell Good Morning",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 54.0,
+          "volume": 432.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0
+        },
+        {
+          "reps": 8,
+          "weight": 54.0,
+          "volume": 432.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0
+        },
+        {
+          "reps": 8,
+          "weight": 54.0,
+          "volume": 432.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1296.0,
+      "max_weight": 54.0
+    },
+    {
+      "name": "Kneeling Bent-Over Overhead Curl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "volume": 84.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0
+        },
+        {
+          "reps": 12,
+          "weight": 8.5,
+          "volume": 102.0,
+          "left_weight_max": 8.5,
+          "right_weight_max": 8.5
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 294.0,
+      "max_weight": 9.0
+    },
+    {
+      "name": "Bent-Over Dual-Handle underhand Triceps kickback",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "volume": 70.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0
+        },
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "volume": 70.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0
+        },
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "volume": 70.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 210.0,
+      "max_weight": 7.0
+    },
+    {
+      "name": "​Half-Kneeling Single-Arm Preacher Curl​",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "volume": 88.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        },
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "volume": 88.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 11.5,
+          "volume": 92.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.5
+        },
+        {
+          "reps": 8,
+          "weight": 11.5,
+          "volume": 92.0,
+          "left_weight_max": 11.5,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "volume": 88.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        },
+        {
+          "reps": 8,
+          "weight": 11.5,
+          "volume": 92.0,
+          "left_weight_max": 11.5,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 540.0,
+      "max_weight": 11.5
+    },
+    {
+      "name": "Diamond Push-Up",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 8
 }

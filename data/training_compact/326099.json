@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:36.897599+00:00",
+    "generated_at": "2026-03-01T16:56:49.156327+00:00",
     "record_id": "2274696",
     "training_id": "326099",
-    "source": "ctt",
     "title": "Hyrox C",
     "type": 5,
     "date": "2025-10-16 08:11:44",
@@ -12,8 +11,353 @@
     "trainingTime_sec": 2094,
     "calorie": 313,
     "totalCapacity": 10098.0,
-    "totalEnergy": 32098.31
+    "totalEnergy": 32098.31,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Straight-Arm Cross Swings",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Power Knees",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Lateral Bear Crawl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Running In Place",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 44.0,
+          "volume": 264.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 7,
+          "weight": 44.0,
+          "volume": 308.0,
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0
+        },
+        {
+          "reps": 6,
+          "weight": 46.0,
+          "volume": 276.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 6,
+          "weight": 46.0,
+          "volume": 276.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1124.0,
+      "max_weight": 46.0
+    },
+    {
+      "name": "Single-Arm Curtsy Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": null,
+          "right_weight_max": 25.0
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": null,
+          "right_weight_max": 25.0
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": null,
+          "right_weight_max": 25.0
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": null,
+          "right_weight_max": 25.0
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 2400.0,
+      "max_weight": 25.0
+    },
+    {
+      "name": "Standing Dual-Handle Shoulder Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 13.0,
+          "volume": 104.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 8,
+          "weight": 13.0,
+          "volume": 104.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 8,
+          "weight": 13.0,
+          "volume": 104.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 9,
+          "weight": 13.0,
+          "volume": 117.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 429.0,
+      "max_weight": 13.0
+    },
+    {
+      "name": "Dual-Handle Overhead Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 456.0,
+      "max_weight": 15.0
+    },
+    {
+      "name": "Dumbbell suitcase carry",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 20,
+          "weight": 23.0,
+          "volume": 460.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 20,
+          "weight": 23.0,
+          "volume": 460.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 20,
+          "weight": 23.0,
+          "volume": 460.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 20,
+          "weight": 23.0,
+          "volume": 460.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1840.0,
+      "max_weight": 23.0
+    }
+  ],
+  "exercise_count": 10
 }

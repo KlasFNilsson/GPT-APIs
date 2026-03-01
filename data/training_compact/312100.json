@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:15.353181+00:00",
+    "generated_at": "2026-03-01T16:57:28.408828+00:00",
     "record_id": "2197759",
     "training_id": "312100",
-    "source": "ctt",
     "title": "250902 3A Bilat + pull",
     "type": 5,
     "date": "2025-09-22 16:09:24",
@@ -12,8 +11,298 @@
     "trainingTime_sec": 2964,
     "calorie": 192,
     "totalCapacity": 12000.0,
-    "totalEnergy": 43519.84
+    "totalEnergy": 43519.84,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Tabletop Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Belt Bulgarian Split Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "volume": 300.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 2400.0,
+      "max_weight": 25.0
+    },
+    {
+      "name": "Belt Hip Thrust",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 70.0,
+          "volume": 840.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 12,
+          "weight": 74.0,
+          "volume": 888.0,
+          "left_weight_max": 37.0,
+          "right_weight_max": 37.0
+        },
+        {
+          "reps": 12,
+          "weight": 75.0,
+          "volume": 900.0,
+          "left_weight_max": 37.5,
+          "right_weight_max": 37.5
+        },
+        {
+          "reps": 12,
+          "weight": 77.0,
+          "volume": 924.0,
+          "left_weight_max": 38.5,
+          "right_weight_max": 38.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 3552.0,
+      "max_weight": 77.0
+    },
+    {
+      "name": "Barbell Bent Over Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 33.0,
+          "volume": 396.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        },
+        {
+          "reps": 12,
+          "weight": 33.0,
+          "volume": 396.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        },
+        {
+          "reps": 12,
+          "weight": 33.0,
+          "volume": 396.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        },
+        {
+          "reps": 12,
+          "weight": 33.0,
+          "volume": 396.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1584.0,
+      "max_weight": 33.0
+    },
+    {
+      "name": "Standing Barbell Biceps Curl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 24.0,
+          "volume": 288.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 12,
+          "weight": 21.0,
+          "volume": 252.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        },
+        {
+          "reps": 12,
+          "weight": 21.0,
+          "volume": 252.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        },
+        {
+          "reps": 12,
+          "weight": 21.0,
+          "volume": 252.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1044.0,
+      "max_weight": 24.0
+    },
+    {
+      "name": "Barbell Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 70.0,
+          "volume": 840.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 12,
+          "weight": 70.0,
+          "volume": 840.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 12,
+          "weight": 70.0,
+          "volume": 840.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 12,
+          "weight": 70.0,
+          "volume": 840.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 3360.0,
+      "max_weight": 70.0
+    },
+    {
+      "name": "Dual-Handle Dead Bug",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 3,
+          "weight": 10.0,
+          "volume": 30.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 30.0,
+      "max_weight": 10.0
+    }
+  ],
+  "exercise_count": 7
 }

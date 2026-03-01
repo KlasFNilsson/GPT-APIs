@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:34.868385+00:00",
+    "generated_at": "2026-03-01T16:55:44.944256+00:00",
     "record_id": "2396140",
     "training_id": "346976",
-    "source": "ctt",
     "title": "A. Power & acceleration (lower focus)",
     "type": 5,
     "date": "2025-11-18 07:03:55",
@@ -12,8 +11,364 @@
     "trainingTime_sec": 3209,
     "calorie": 323,
     "totalCapacity": 4208.0,
-    "totalEnergy": 35443.25
+    "totalEnergy": 35443.25,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rolling Shrugs",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Shoulder Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Pulse Squat to Alternating Hip Abduction",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Front Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 4,
+          "weight": 68.0,
+          "volume": 272.0,
+          "left_weight_max": 34.0,
+          "right_weight_max": 34.0
+        },
+        {
+          "reps": 4,
+          "weight": 60.0,
+          "volume": 240.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 4,
+          "weight": 60.0,
+          "volume": 240.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 4,
+          "weight": 60.0,
+          "volume": 240.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 992.0,
+      "max_weight": 68.0
+    },
+    {
+      "name": "Dumbbell jump squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 90.0,
+          "volume": 540.0,
+          "left_weight_max": 45.0,
+          "right_weight_max": 45.0
+        },
+        {
+          "reps": 6,
+          "weight": 91.0,
+          "volume": 546.0,
+          "left_weight_max": 45.5,
+          "right_weight_max": 45.5
+        },
+        {
+          "reps": 6,
+          "weight": 92.0,
+          "volume": 552.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1638.0,
+      "max_weight": 92.0
+    },
+    {
+      "name": "Dumbbell lunges",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Forearm Plank Cable Pull",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 18.0,
+          "volume": 144.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 18.0,
+          "volume": 144.0,
+          "left_weight_max": null,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 8,
+          "weight": 19.0,
+          "volume": 152.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 19.0,
+          "volume": 152.0,
+          "left_weight_max": null,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 8,
+          "weight": 19.0,
+          "volume": 152.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 19.0,
+          "volume": 152.0,
+          "left_weight_max": null,
+          "right_weight_max": 19.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 896.0,
+      "max_weight": 19.0
+    },
+    {
+      "name": "Burpees",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Thruster",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "volume": 100.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 11,
+          "weight": 11.0,
+          "volume": 121.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": 11.0
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 341.0,
+      "max_weight": 12.0
+    },
+    {
+      "name": "Mountain Climbers",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 12
 }

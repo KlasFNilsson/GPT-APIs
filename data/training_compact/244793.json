@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:09.732769+00:00",
+    "generated_at": "2026-03-01T16:57:22.670102+00:00",
     "record_id": "2211104",
     "training_id": "244793",
-    "source": "course",
     "title": "Power #1",
     "type": 6,
     "date": "2025-09-26 16:12:31",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 2044,
     "calorie": 234,
     "totalCapacity": 4432.0,
-    "totalEnergy": 21811.32
+    "totalEnergy": 21811.32,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Single-Arm Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -28,15 +30,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Dual Handle Alternating Bench Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -55,15 +53,11 @@
       ],
       "set_count": 2,
       "total_volume": 160.0,
-      "max_weight": 8.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 8.0
     },
     {
       "name": "Supine Dual-Handle Chest Fly",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -82,15 +76,11 @@
       ],
       "set_count": 2,
       "total_volume": 80.0,
-      "max_weight": 4.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 4.0
     },
     {
       "name": "Standing Dual-Handle Chest Press",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -109,15 +99,11 @@
       ],
       "set_count": 2,
       "total_volume": 100.0,
-      "max_weight": 5.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 5.0
     },
     {
       "name": "Standing Dual-Handle Chest Fly",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -136,15 +122,11 @@
       ],
       "set_count": 2,
       "total_volume": 70.0,
-      "max_weight": 3.5,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 3.5
     },
     {
       "name": "Left Chest Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -156,15 +138,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Right Chest Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -176,12 +154,7 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 7

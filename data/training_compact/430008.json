@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:41:58.215629+00:00",
+    "generated_at": "2026-03-01T16:54:04.297948+00:00",
     "record_id": "2885410",
     "training_id": "430008",
-    "source": "ctt",
     "title": "260213 Run strenght A",
     "type": 5,
     "date": "2026-02-24 06:29:10",
@@ -12,8 +11,293 @@
     "trainingTime_sec": 2341,
     "calorie": 224,
     "totalCapacity": 4976.0,
-    "totalEnergy": 21569.5
+    "totalEnergy": 21569.5,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Dynamic Hamstring Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Seated 90/90 Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 9,
+          "weight": 70.0,
+          "volume": 630.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        },
+        {
+          "reps": 8,
+          "weight": 70.0,
+          "volume": 560.0,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 2310.0,
+      "max_weight": 70.0
+    },
+    {
+      "name": "Barbell Bulgarian Split Squat ",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 6,
+          "weight": 21.0,
+          "volume": 126.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5
+        },
+        {
+          "reps": 8,
+          "weight": 23.0,
+          "volume": 184.0,
+          "left_weight_max": 11.5,
+          "right_weight_max": 11.5
+        },
+        {
+          "reps": 8,
+          "weight": 24.0,
+          "volume": 192.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 8,
+          "weight": 25.0,
+          "volume": 200.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 8,
+          "weight": 27.0,
+          "volume": 216.0,
+          "left_weight_max": 13.5,
+          "right_weight_max": 13.5
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1078.0,
+      "max_weight": 27.0
+    },
+    {
+      "name": "​Bodyweight Reverse Plank March",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Half Kneeling Single-Arm Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "volume": 168.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 12,
+          "weight": 17.0,
+          "volume": 204.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 19.0,
+          "volume": 228.0,
+          "left_weight_max": null,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 12,
+          "weight": 19.0,
+          "volume": 228.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 20.0,
+          "volume": 240.0,
+          "left_weight_max": null,
+          "right_weight_max": 20.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1188.0,
+      "max_weight": 20.0
+    },
+    {
+      "name": "Assisted Bent Knee Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Leg Curl Cross-Flatbench",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "volume": 100.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "volume": 100.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "volume": 100.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "volume": 100.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 400.0,
+      "max_weight": 10.0
+    }
+  ],
+  "exercise_count": 8
 }

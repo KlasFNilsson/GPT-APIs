@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:39.554333+00:00",
+    "generated_at": "2026-03-01T16:54:47.921053+00:00",
     "record_id": "2723790",
     "training_id": "791630",
-    "source": "course",
     "title": "Ambitious Arms 1",
     "type": 2,
     "date": "2026-01-27 06:47:06",
@@ -12,11 +11,14 @@
     "trainingTime_sec": 1824,
     "calorie": 185,
     "totalCapacity": 3214.0,
-    "totalEnergy": 18628.21
+    "totalEnergy": 18628.21,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
   },
   "exercises": [
     {
       "name": "Single-Arm Circles",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -35,15 +37,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Backward Facing Wrist Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -55,15 +53,11 @@
       ],
       "set_count": 1,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Standing Barbell Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -96,15 +90,11 @@
       ],
       "set_count": 4,
       "total_volume": 1035.0,
-      "max_weight": 24.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 24.0
     },
     {
       "name": "Standing Dual-Handle Biceps Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -130,15 +120,11 @@
       ],
       "set_count": 3,
       "total_volume": 402.0,
-      "max_weight": 12.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 12.0
     },
     {
       "name": "Bent-Over Dual-Handle Triceps Extension（Floor）",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -164,15 +150,11 @@
       ],
       "set_count": 3,
       "total_volume": 215.0,
-      "max_weight": 7.5,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 7.5
     },
     {
       "name": "Standing Tricep Rope Hammer Curl",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 15,
@@ -198,15 +180,11 @@
       ],
       "set_count": 3,
       "total_volume": 572.0,
-      "max_weight": 17.0,
-      "pr_flags": {
-        "maxWeightPr": 1,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 17.0
     },
     {
       "name": "Standing Tricep Rope Overhead Triceps Extension (Main Frame)",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 10,
@@ -232,15 +210,11 @@
       ],
       "set_count": 3,
       "total_volume": 390.0,
-      "max_weight": 14.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
+      "max_weight": 14.0
     },
     {
       "name": "Biceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -259,15 +233,11 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     },
     {
       "name": "Half-Kneeling Overhead Triceps Stretch",
+      "actionLibraryId": null,
       "sets": [
         {
           "reps": 0,
@@ -286,12 +256,7 @@
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
+      "max_weight": 0.0
     }
   ],
   "exercise_count": 9

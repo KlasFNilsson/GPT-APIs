@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:42:33.721883+00:00",
+    "generated_at": "2026-03-01T16:54:42.053214+00:00",
     "record_id": "2764626",
     "training_id": "408798",
-    "source": "ctt",
     "title": "Run strength B 251222",
     "type": 5,
     "date": "2026-02-03 06:45:23",
@@ -12,8 +11,253 @@
     "trainingTime_sec": 2126,
     "calorie": 153,
     "totalCapacity": 2865.0,
-    "totalEnergy": 28367.74
+    "totalEnergy": 28367.74,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Tabletop Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Hip-Opening Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Belt Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 60.0,
+          "volume": 360.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 6,
+          "weight": 60.0,
+          "volume": 360.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 6,
+          "weight": 60.0,
+          "volume": 360.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 6,
+          "weight": 60.0,
+          "volume": 360.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1440.0,
+      "max_weight": 60.0
+    },
+    {
+      "name": "Dumbbell step-up",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Incline Dual-Handle Front Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 6.5,
+          "volume": 52.0,
+          "left_weight_max": 6.5,
+          "right_weight_max": 6.5
+        },
+        {
+          "reps": 8,
+          "weight": 6.5,
+          "volume": 52.0,
+          "left_weight_max": 6.5,
+          "right_weight_max": 6.5
+        },
+        {
+          "reps": 8,
+          "weight": 6.5,
+          "volume": 52.0,
+          "left_weight_max": 6.5,
+          "right_weight_max": 6.5
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 156.0,
+      "max_weight": 6.5
+    },
+    {
+      "name": "Dual-Handle Bent-Over Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 23.0,
+          "volume": 138.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 6,
+          "weight": 23.0,
+          "volume": 138.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        },
+        {
+          "reps": 6,
+          "weight": 23.0,
+          "volume": 138.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 414.0,
+      "max_weight": 23.0
+    },
+    {
+      "name": "Dual-Handle Straight-Arm Glute Bridge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 5,
+          "weight": 6.0,
+          "volume": 30.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": 6.0
+        },
+        {
+          "reps": 5,
+          "weight": 7.0,
+          "volume": 35.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0
+        },
+        {
+          "reps": 10,
+          "weight": 8.0,
+          "volume": 80.0,
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 145.0,
+      "max_weight": 8.0
+    },
+    {
+      "name": "Alternating V-Ups",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 9
 }

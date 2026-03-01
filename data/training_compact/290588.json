@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:46:12.802701+00:00",
+    "generated_at": "2026-03-01T16:58:27.336813+00:00",
     "record_id": "2066270",
     "training_id": "290588",
-    "source": "ctt",
     "title": "GM A",
     "type": 5,
     "date": "2025-08-27 14:19:59",
@@ -12,8 +11,291 @@
     "trainingTime_sec": 2372,
     "calorie": 297,
     "totalCapacity": 6049.0,
-    "totalEnergy": 26466.17
+    "totalEnergy": 26466.17,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Tabletop Thoracic Rotation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Bulgarian Split Squat ",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 10,
+          "weight": 25.0,
+          "volume": 250.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1500.0,
+      "max_weight": 25.0
+    },
+    {
+      "name": "Barbell Bench Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 34.0,
+          "volume": 272.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        },
+        {
+          "reps": 8,
+          "weight": 33.0,
+          "volume": 264.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        },
+        {
+          "reps": 8,
+          "weight": 33.0,
+          "volume": 264.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 800.0,
+      "max_weight": 34.0
+    },
+    {
+      "name": "Barbell Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 80.0,
+          "volume": 800.0,
+          "left_weight_max": 40.0,
+          "right_weight_max": 40.0
+        },
+        {
+          "reps": 10,
+          "weight": 78.0,
+          "volume": 780.0,
+          "left_weight_max": 39.0,
+          "right_weight_max": 39.0
+        },
+        {
+          "reps": 10,
+          "weight": 78.0,
+          "volume": 780.0,
+          "left_weight_max": 39.0,
+          "right_weight_max": 39.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 2360.0,
+      "max_weight": 80.0
+    },
+    {
+      "name": "Plank with Hip Drop",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Pallof Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0
+        },
+        {
+          "reps": 10,
+          "weight": 13.0,
+          "volume": 130.0,
+          "left_weight_max": null,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 10,
+          "weight": 13.0,
+          "volume": 130.0,
+          "left_weight_max": null,
+          "right_weight_max": 13.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 740.0,
+      "max_weight": 13.0
+    },
+    {
+      "name": "Standing Cable Hip Abduction（Main Frame）",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 7.5,
+          "volume": 90.0,
+          "left_weight_max": null,
+          "right_weight_max": 7.5
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "volume": 96.0,
+          "left_weight_max": null,
+          "right_weight_max": 8.0
+        },
+        {
+          "reps": 12,
+          "weight": 9.5,
+          "volume": 114.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.5
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0
+        },
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        },
+        {
+          "reps": 12,
+          "weight": 11.0,
+          "volume": 132.0,
+          "left_weight_max": null,
+          "right_weight_max": 11.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 684.0,
+      "max_weight": 11.0
+    }
+  ],
+  "exercise_count": 7
 }

@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:43:48.615477+00:00",
+    "generated_at": "2026-03-01T16:55:59.112786+00:00",
     "record_id": "2360014",
     "training_id": "340895",
-    "source": "ctt",
     "title": "Hyrox2 C",
     "type": 5,
     "date": "2025-11-09 11:15:16",
@@ -12,8 +11,385 @@
     "trainingTime_sec": 3150,
     "calorie": 260,
     "totalCapacity": 9097.0,
-    "totalEnergy": 29439.64
+    "totalEnergy": 29439.64,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Straight-Arm Cross Swings",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Power Knees",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Lateral Bear Crawl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Running In Place",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "volume": 368.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "volume": 368.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "volume": 368.0,
+          "left_weight_max": 46.0,
+          "right_weight_max": 46.0
+        },
+        {
+          "reps": 8,
+          "weight": 47.0,
+          "volume": 376.0,
+          "left_weight_max": 47.0,
+          "right_weight_max": 47.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1480.0,
+      "max_weight": 47.0
+    },
+    {
+      "name": "Belt Bulgarian Split Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 29.0,
+          "volume": 232.0,
+          "left_weight_max": 14.5,
+          "right_weight_max": 14.5
+        },
+        {
+          "reps": 8,
+          "weight": 29.0,
+          "volume": 232.0,
+          "left_weight_max": 14.5,
+          "right_weight_max": 14.5
+        },
+        {
+          "reps": 8,
+          "weight": 30.0,
+          "volume": 240.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 30.0,
+          "volume": 240.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 30.0,
+          "volume": 240.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 30.0,
+          "volume": 240.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1424.0,
+      "max_weight": 30.0
+    },
+    {
+      "name": "Single-Arm Push Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 18.0,
+          "volume": 144.0,
+          "left_weight_max": null,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": null,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 744.0,
+      "max_weight": 18.0
+    },
+    {
+      "name": "Dual-Handle Overhead Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 8,
+          "weight": 17.0,
+          "volume": 136.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        },
+        {
+          "reps": 8,
+          "weight": 17.0,
+          "volume": 136.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": 17.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 392.0,
+      "max_weight": 17.0
+    },
+    {
+      "name": "Cable farmers carry",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 1,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 2,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 2,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 3,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 28.0,
+          "volume": 420.0,
+          "left_weight_max": 28.0,
+          "right_weight_max": 28.0
+        },
+        {
+          "reps": 15,
+          "weight": 30.0,
+          "volume": 450.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        },
+        {
+          "reps": 15,
+          "weight": 30.0,
+          "volume": 450.0,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1320.0,
+      "max_weight": 30.0
+    },
+    {
+      "name": "Jump Lunge With Floor Touch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dumbbell power clean",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 12
 }

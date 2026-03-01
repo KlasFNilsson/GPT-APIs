@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:45:46.637260+00:00",
+    "generated_at": "2026-03-01T16:58:00.444076+00:00",
     "record_id": "2088949",
     "training_id": "294781",
-    "source": "ctt",
     "title": "250901 3B Posterior + Push",
     "type": 5,
     "date": "2025-09-03 19:54:40",
@@ -12,8 +11,312 @@
     "trainingTime_sec": 3287,
     "calorie": 308,
     "totalCapacity": 8010.0,
-    "totalEnergy": 32388.01
+    "totalEnergy": 32388.01,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Seated 90/90 Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Overhead Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "volume": 156.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 624.0,
+      "max_weight": 13.0
+    },
+    {
+      "name": "Single-Arm Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": null,
+          "right_weight_max": 31.0
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 31.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": null,
+          "right_weight_max": 31.0
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 31.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": null,
+          "right_weight_max": 31.0
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 31.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": null,
+          "right_weight_max": 31.0
+        },
+        {
+          "reps": 12,
+          "weight": 31.0,
+          "volume": 372.0,
+          "left_weight_max": 31.0,
+          "right_weight_max": 31.0
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 2976.0,
+      "max_weight": 31.0
+    },
+    {
+      "name": "Dual-Handle Calf Raise",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 15.0,
+          "volume": 180.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 12,
+          "weight": 22.0,
+          "volume": 264.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        },
+        {
+          "reps": 12,
+          "weight": 19.0,
+          "volume": 228.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 12,
+          "weight": 22.0,
+          "volume": 264.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": 22.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 936.0,
+      "max_weight": 22.0
+    },
+    {
+      "name": "Dual-Handle Triceps Bench Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 15.0,
+          "volume": 180.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "volume": 168.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "volume": 168.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "volume": 168.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 684.0,
+      "max_weight": 15.0
+    },
+    {
+      "name": "Seated Single-Leg Abduction",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 6.0,
+          "volume": 72.0,
+          "left_weight_max": null,
+          "right_weight_max": 6.0
+        },
+        {
+          "reps": 12,
+          "weight": 6.0,
+          "volume": 72.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 6.5,
+          "volume": 78.0,
+          "left_weight_max": null,
+          "right_weight_max": 6.5
+        },
+        {
+          "reps": 12,
+          "weight": 6.5,
+          "volume": 78.0,
+          "left_weight_max": 6.5,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 7.5,
+          "volume": 90.0,
+          "left_weight_max": null,
+          "right_weight_max": 7.5
+        },
+        {
+          "reps": 12,
+          "weight": 8.5,
+          "volume": 102.0,
+          "left_weight_max": 8.5,
+          "right_weight_max": null
+        },
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "volume": 108.0,
+          "left_weight_max": null,
+          "right_weight_max": 9.0
+        },
+        {
+          "reps": 12,
+          "weight": 9.5,
+          "volume": 114.0,
+          "left_weight_max": 9.5,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 8,
+      "total_volume": 714.0,
+      "max_weight": 9.5
+    },
+    {
+      "name": "Alternating Hand to Elbow Plank",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 7
 }

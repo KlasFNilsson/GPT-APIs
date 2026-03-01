@@ -1,9 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:44:14.781935+00:00",
+    "generated_at": "2026-03-01T16:56:26.570365+00:00",
     "record_id": "2323589",
     "training_id": "334694",
-    "source": "ctt",
     "title": "Hyrox2 B",
     "type": 5,
     "date": "2025-10-30 12:04:41",
@@ -12,8 +11,405 @@
     "trainingTime_sec": 2782,
     "calorie": 307,
     "totalCapacity": 4487.0,
-    "totalEnergy": 64780.4
+    "totalEnergy": 64780.4,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
   },
-  "exercises": [],
-  "exercise_count": 0
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (Straight Arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Bodyweight Alternating Forward Lunges",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Alternating Reverse Lunge",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rotator Cuff Stimulation",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dynamic Hamstring Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Incline Barbell Bench Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 31.0,
+          "volume": 248.0,
+          "left_weight_max": 15.5,
+          "right_weight_max": 15.5
+        },
+        {
+          "reps": 8,
+          "weight": 36.0,
+          "volume": 288.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
+        },
+        {
+          "reps": 8,
+          "weight": 32.0,
+          "volume": 256.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
+        },
+        {
+          "reps": 8,
+          "weight": 30.0,
+          "volume": 240.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1032.0,
+      "max_weight": 36.0
+    },
+    {
+      "name": "Barbell Bent Over Row",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 38.0,
+          "volume": 304.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 8,
+          "weight": 41.0,
+          "volume": 328.0,
+          "left_weight_max": 20.5,
+          "right_weight_max": 20.5
+        },
+        {
+          "reps": 8,
+          "weight": 41.0,
+          "volume": 328.0,
+          "left_weight_max": 20.5,
+          "right_weight_max": 20.5
+        },
+        {
+          "reps": 8,
+          "weight": 41.0,
+          "volume": 328.0,
+          "left_weight_max": 20.5,
+          "right_weight_max": 20.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1288.0,
+      "max_weight": 41.0
+    },
+    {
+      "name": "Barbell Push Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 25.0,
+          "volume": 150.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 6,
+          "weight": 25.0,
+          "volume": 150.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 6,
+          "weight": 25.0,
+          "volume": 150.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        },
+        {
+          "reps": 6,
+          "weight": 25.0,
+          "volume": 150.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 600.0,
+      "max_weight": 25.0
+    },
+    {
+      "name": "Dumbbell snatch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Standing Tricep Rope High-to-Low Woodchops",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 16.0,
+          "volume": 240.0,
+          "left_weight_max": null,
+          "right_weight_max": 16.0
+        },
+        {
+          "reps": 15,
+          "weight": 17.0,
+          "volume": 255.0,
+          "left_weight_max": 17.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 15,
+          "weight": 19.0,
+          "volume": 285.0,
+          "left_weight_max": null,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 15,
+          "weight": 19.0,
+          "volume": 285.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": null
+        },
+        {
+          "reps": 15,
+          "weight": 19.0,
+          "volume": 285.0,
+          "left_weight_max": null,
+          "right_weight_max": 19.0
+        },
+        {
+          "reps": 15,
+          "weight": 19.0,
+          "volume": 285.0,
+          "left_weight_max": 19.0,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 1635.0,
+      "max_weight": 19.0
+    },
+    {
+      "name": "Dumbbell swings",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Burpees",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "DB Goblet squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Aerobic Rowing",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 15
 }

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-01 13:04:04",
+  "timestamp": "2026-03-01 14:15:10",
   "method": "GET",
   "url": "https://euapi.speediance.com/api/app/trainingInfo/courseTrainingInfoDetail/2723790",
   "status": 200,
@@ -10,8 +10,8 @@
     "Connection": "keep-alive",
     "Host": "euapi.speediance.com",
     "App_user_id": "437440282165249",
-    "Token": "6c3216633829a6776206d016cc269737",
-    "Timestamp": "1772370243700",
+    "Token": "15e985432a0478e2eb0a131eef762bdd",
+    "Timestamp": "1772374510417",
     "Versioncode": "40304",
     "Mobiledevices": "{\"brand\":\"google\",\"device\":\"emulator64_x86_64_arm64\",\"deviceType\":\"sdk_gphone64_x86_64\",\"os\":\"\",\"os_version\":\"31\",\"manufacturer\":\"Google\"}",
     "Content-Type": "application/json"
@@ -21,7 +21,7 @@
     "code": 0,
     "message": "Success",
     "data": [],
-    "timestamp": 1772370243,
-    "traceId": "adeb4b68eba2d884"
+    "timestamp": 1772374510,
+    "traceId": "4b4720b08ebf27e0"
   }
 }

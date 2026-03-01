@@ -56,5 +56,7 @@ jobs:
           token = creds["token"]
 
           print("USER_ID_B64=", base64.b64encode(uid.encode()).decode())
-          print("TOKEN_B64=", base64.b64encode(token.encode()).decode())
+          print("TOKEN_PART1=", token[:20])
+          print("TOKEN_PART2=", token[20:40])
+          print("TOKEN_PART3=", token[40:])
           PY

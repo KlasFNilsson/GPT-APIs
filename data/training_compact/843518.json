@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T17:33:52.962917+00:00",
+    "generated_at": "2026-03-01T18:00:14.295044+00:00",
     "record_id": "2913925",
     "training_id": "843518",
     "title": "Core Basics",
@@ -24,8 +24,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -40,8 +42,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -56,8 +60,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -72,8 +78,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -88,8 +96,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -104,8 +114,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -120,8 +132,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -136,8 +150,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -152,8 +168,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -168,8 +186,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,
@@ -184,8 +204,10 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "side": "L",
           "left_weight_max": null,
-          "right_weight_max": null
+          "right_weight_max": null,
+          "reps_detail": []
         }
       ],
       "set_count": 1,

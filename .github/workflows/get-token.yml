@@ -47,11 +47,21 @@ jobs:
               v = (v.strip().lower() if v else "")
               if v == "":
                   return default
-              return v in ("1", "true", "yes", "y", "on")
+              return v in ("1","true","yes","y","on")
+
+          def pick_first(obj, candidates):
+              for k in candidates:
+                  if isinstance(obj, dict) and k in obj and obj[k] not in (None, ""):
+                      return obj[k]
+                  if hasattr(obj, k):
+                      v = getattr(obj, k)
+                      if v not in (None, ""):
+                          return v
+              return None
 
           c = SpeedianceClient()
 
-          # Apply config BEFORE login (same idea as your sync script)
+          # Apply config BEFORE login
           c.save_config(
               user_id="",
               token="",
@@ -62,18 +72,39 @@ jobs:
               allow_monster_moves=env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False),
           )
 
-          # Debug without relying on private methods
           print("REGION =", getattr(c, "region", None))
+          if hasattr(c, "base_url"): print("BASE_URL =", getattr(c, "base_url"))
+          if hasattr(c, "host"): print("HOST =", getattr(c, "host"))
 
-          # Try to print any known base/host attributes if they exist
-          for attr in ("base_url", "api_base_url", "api_url", "host", "domain", "server"):
-              if hasattr(c, attr):
-                  print(f"{attr.upper()} =", getattr(c, attr))
-          
           ok, msg, err = c.login(os.environ["SPEEDIANCE_EMAIL"], os.environ["SPEEDIANCE_PASSWORD"])
           if not ok:
               raise Exception(f"Login failed: {msg}\n{err or ''}")
 
-          print("SPEEDIANCE_USER_ID=", c.user_id)
-          print("SPEEDIANCE_TOKEN=", c.token)
+          # Try to extract token/user_id from common attribute names
+          token = pick_first(c, ["token", "accessToken", "access_token", "authToken", "authorization"])
+          user_id = pick_first(c, ["user_id", "userId", "userid", "uid"])
+
+          # Some clients store user info dict
+          user_info = pick_first(c, ["userInfo", "user_info", "profile", "me"])
+          if user_id is None and isinstance(user_info, dict):
+              user_id = pick_first(user_info, ["userId", "user_id", "id", "uid"])
+          if token is None and isinstance(user_info, dict):
+              token = pick_first(user_info, ["token", "accessToken", "access_token"])
+
+          # Last resort: read config the client wrote
+          config = pick_first(c, ["config", "cfg"])
+          if isinstance(config, dict):
+              if user_id is None:
+                  user_id = pick_first(config, ["user_id", "userId", "id", "uid"])
+              if token is None:
+                  token = pick_first(config, ["token", "accessToken", "access_token"])
+
+          print("SPEEDIANCE_USER_ID=", user_id)
+          print("SPEEDIANCE_TOKEN=", token)
+
+          if not user_id or not token:
+              # Provide a list of attributes to help pinpoint where they are stored
+              attrs = [a for a in dir(c) if not a.startswith("_")]
+              print("Could not locate user_id/token. Available attributes:", attrs[:80])
+              raise Exception("Could not locate user_id/token on client after login.")
           PY

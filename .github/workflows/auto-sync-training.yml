@@ -36,10 +36,11 @@ jobs:
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
           SYNC_MODE: training
           # Optional robustness knobs (if your script supports them)
-          DETAIL_THROTTLE_SECONDS: "1.2"
-          DETAIL_RETRIES: "3"
-          MAX_TRAINING_DETAILS: "60"
-          TRAINING_DAYS: "365"
+          DETAIL_THROTTLE_SECONDS: "2"
+          DETAIL_RETRIES: "2"
+          MAX_TRAINING_DETAILS: "3"
+          TRAINING_DAYS: "30"
+          DEBUG_SIGNATURE: "1"
         run: |
           python sync_speediance.py
 

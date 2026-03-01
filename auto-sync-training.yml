@@ -4,7 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "7 * * * *"  # hourly, UTC
-    # - cron: "*/15 * * * *"  # every 15 min (optional)
 
 permissions:
   contents: write
@@ -43,10 +42,28 @@ jobs:
         run: |
           python sync_speediance.py
 
-      - name: Commit changes (training only)
+      - name: Debug output files (safe)
+        run: |
+          echo "=== TREE data/ ==="
+          ls -R data || true
+          echo "=== FILES data/ ==="
+          find data -maxdepth 4 -type f -print || true
+          echo "=== HEAD training_records.json ==="
+          test -f data/training_records.json && head -n 40 data/training_records.json || echo "missing training_records.json"
+          echo "=== HEAD training_details/index.json ==="
+          test -f data/training_details/index.json && head -n 80 data/training_details/index.json || echo "missing training_details/index.json"
+
+      - name: Commit changes (training only, robust)
         run: |
           git config user.name "speediance-mirror-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/training_records.json data/training_stats.json data/training_details/index.json data/training_details/*.json
+
+          # Always add these if present
+          test -f data/training_records.json && git add data/training_records.json || true
+          test -f data/training_stats.json && git add data/training_stats.json || true
+
+          # Add the whole directory if it exists (works even if only index exists)
+          test -d data/training_details && git add data/training_details || true
+
           git diff --cached --quiet || git commit -m "freq-sync: training"
           git push

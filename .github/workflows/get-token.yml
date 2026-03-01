@@ -1,0 +1,37 @@
+name: Get Speediance Token (one-off)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  login:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Login and print token + user_id
+        env:
+          SPEEDIANCE_EMAIL: ${{ secrets.SPEEDIANCE_EMAIL }}
+          SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
+        run: |
+          python - <<'PY'
+          from api_client import SpeedianceClient
+          import os
+
+          c = SpeedianceClient()
+          ok, msg, err = c.login(os.environ["SPEEDIANCE_EMAIL"], os.environ["SPEEDIANCE_PASSWORD"])
+          if not ok:
+              raise Exception(f"Login failed: {msg}\n{err or ''}")
+
+          # Print values so you can copy them into Secrets
+          print("SPEEDIANCE_USER_ID=", c.user_id)
+          print("SPEEDIANCE_TOKEN=", c.token)
+          PY

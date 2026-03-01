@@ -28,15 +28,13 @@ jobs:
 
       - name: Run reference sync
         env:
-          SYNC_MODE: reference
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
           SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
-          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }} 
           SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
-          SPEEDIANCE_EMAIL: ${{ secrets.SPEEDIANCE_EMAIL }}
-          SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
+          SYNC_MODE: training   # eller reference
         run: |
           python sync_speediance.py
 

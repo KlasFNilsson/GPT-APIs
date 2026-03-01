@@ -1,18 +1,33 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T15:16:16.425607+00:00",
+    "generated_at": "2026-03-01T15:20:27.349579+00:00",
     "start_date": "2026-01-30",
     "end_date": "2026-03-01",
     "max_details": 3,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
-    "count_written": 0,
-    "count_skipped_invalid": 3
+    "count_written": 3,
+    "count_skipped_invalid": 0
   },
-  "items": [],
-  "errors": {
-    "detail:2913925": "No detail content from any method (attempt 2)",
-    "detail:2913880": "No detail content from any method (attempt 2)",
-    "detail:2904289": "No detail content from any method (attempt 2)"
-  }
+  "items": [
+    {
+      "training_id": "843518",
+      "record_id": "2913925",
+      "source": "session_info",
+      "path": "/data/training_details/843518.json"
+    },
+    {
+      "training_id": "435255",
+      "record_id": "2913880",
+      "source": "session_info",
+      "path": "/data/training_details/435255.json"
+    },
+    {
+      "training_id": "840820",
+      "record_id": "2904289",
+      "source": "session_info",
+      "path": "/data/training_details/840820.json"
+    }
+  ],
+  "errors": {}
 }

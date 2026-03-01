@@ -17,7 +17,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Login and dump credentials
+      - name: Login and print base64 token + user_id
         env:
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
@@ -27,61 +27,34 @@ jobs:
           SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
         run: |
           python - <<'PY'
-          import os, json
+          import os, base64, json
           from api_client import SpeedianceClient
 
-          def env_str(name, default=""):
+          def env(name, default=""):
               v = os.getenv(name)
-              return (v.strip() if v else default)
-
-          def env_int(name, default):
-              v = os.getenv(name)
-              v = (v.strip() if v else "")
-              try: return int(v)
-              except: return default
-
-          def env_bool(name, default=False):
-              v = os.getenv(name)
-              v = (v.strip().lower() if v else "")
-              if v == "": return default
-              return v in ("1","true","yes","y","on")
+              return v.strip() if v else default
 
           c = SpeedianceClient()
 
           c.save_config(
               user_id="",
               token="",
-              region=env_str("SPEEDIANCE_REGION", "Global"),
-              unit=env_int("SPEEDIANCE_UNIT", 0),
+              region=env("SPEEDIANCE_REGION","Global"),
+              unit=int(env("SPEEDIANCE_UNIT","0")),
               custom_instruction="",
-              device_type=env_int("SPEEDIANCE_DEVICE_TYPE", 1),
-              allow_monster_moves=env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False),
+              device_type=int(env("SPEEDIANCE_DEVICE_TYPE","1")),
+              allow_monster_moves=env("SPEEDIANCE_ALLOW_MONSTER_MOVES","false").lower() in ("1","true")
           )
-
-          print("REGION =", getattr(c, "region", None))
-          if hasattr(c, "base_url"): print("BASE_URL =", getattr(c, "base_url"))
-          if hasattr(c, "host"): print("HOST =", getattr(c, "host"))
 
           ok, msg, err = c.login(os.environ["SPEEDIANCE_EMAIL"], os.environ["SPEEDIANCE_PASSWORD"])
           if not ok:
-              raise Exception(f"Login failed: {msg}\n{err or ''}")
+              raise Exception(msg)
 
-          # 1) Dump credentials structure
-          creds = getattr(c, "credentials", None)
-          print("CREDENTIALS_TYPE =", type(creds).__name__)
-          try:
-              print("CREDENTIALS_KEYS =", sorted(list(creds.keys())) if isinstance(creds, dict) else None)
-          except Exception:
-              pass
-          print("CREDENTIALS_JSON =", json.dumps(creds, ensure_ascii=False, indent=2) if isinstance(creds, dict) else str(creds))
+          creds = c.credentials
 
-          # 2) Dump last_debug_info if present (often contains login response payload)
-          dbg = getattr(c, "last_debug_info", None)
-          print("LAST_DEBUG_INFO_TYPE =", type(dbg).__name__)
-          if isinstance(dbg, dict):
-              # Don't spam everything if huge; print keys + a compact json
-              print("LAST_DEBUG_INFO_KEYS =", sorted(list(dbg.keys())))
-              print("LAST_DEBUG_INFO_JSON =", json.dumps(dbg, ensure_ascii=False, indent=2)[:4000])
-          else:
-              print("LAST_DEBUG_INFO =", str(dbg)[:4000])
+          uid = creds["user_id"]
+          token = creds["token"]
+
+          print("USER_ID_B64=", base64.b64encode(uid.encode()).decode())
+          print("TOKEN_B64=", base64.b64encode(token.encode()).decode())
           PY

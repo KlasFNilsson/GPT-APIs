@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:57:34.929079+00:00",
+    "id": "349532",
+    "type": null,
+    "date": "2025-11-21 17:29:40"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 92,
+      "actionLibraryName": "Chest Stretch",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 11,
+      "categoryId": 2,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5152055,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840199,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 154,
+            "groupTrainingInfoId": 5152055,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780282
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5152056,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840200,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 154,
+            "groupTrainingInfoId": 5152056,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780282
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 76,
+      "actionLibraryName": "Seated Upper Back Stretch",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 13,
+      "categoryId": 2,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5152057,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840201,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 143,
+            "groupTrainingInfoId": 5152057,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780283
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5152058,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840202,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 143,
+            "groupTrainingInfoId": 5152058,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780283
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 165,
+      "actionLibraryName": "Left Leg Standing Quad Stretch",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 2,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5152059,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840203,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 328,
+            "groupTrainingInfoId": 5152059,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780284
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5152060,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840204,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 328,
+            "groupTrainingInfoId": 5152060,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780284
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 389,
+      "actionLibraryName": "Right Leg Standing Quad Stretch",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 2,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5152061,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840205,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 329,
+            "groupTrainingInfoId": 5152061,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780285
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5152062,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840206,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 329,
+            "groupTrainingInfoId": 5152062,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780285
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 187,
+      "actionLibraryName": "Abdominal Muscles Stretch",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 17,
+      "categoryId": 2,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5152063,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1840207,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 150,
+            "groupTrainingInfoId": 5152063,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780286
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5152064,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 35,
+          "trainingInfoDetail": {
+            "id": 1840208,
+            "uuid": "3cec0600-5a71-11ef-8a2a-0f8b4cbf24d6",
+            "actionLibraryId": 150,
+            "groupTrainingInfoId": 5152064,
+            "courseTrainingInfoId": 349532,
+            "courseActionLibraryTrainingInfoId": 2780286
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    }
+  ]
+}

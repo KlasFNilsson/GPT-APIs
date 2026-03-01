@@ -1,0 +1,295 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:57:36.819062+00:00",
+    "id": "696028",
+    "type": null,
+    "date": "2025-11-15 12:55:34"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 2267,
+      "actionLibraryName": "Dynamic Shoulder Circles",
+      "maxWeight": 0.0,
+      "trainingPartId2": 12,
+      "categoryId": 3,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 10615396,
+          "finishedCount": 0,
+          "targetCount": 40,
+          "capacity": 0,
+          "maxHeartRate": 97.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 0,
+          "trainingInfoDetail": {
+            "id": 7230764,
+            "uuid": "b61c6310-c219-11f0-8c00-c7bf4d20f9cc",
+            "actionLibraryId": 3311,
+            "groupTrainingInfoId": 10615396,
+            "courseTrainingInfoId": 696028,
+            "courseActionLibraryTrainingInfoId": 5212091
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 294,
+      "actionLibraryName": "Standing Barbell Biceps Curl",
+      "trainingPartId2": 16,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 253,
+      "actionLibraryName": "Barbell Narrow Grip Bench Press",
+      "trainingPartId2": 16,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 2544,
+      "actionLibraryName": "Incline Supine Barbell Biceps Curl（Main Frame）",
+      "trainingPartId2": 16,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 337,
+      "actionLibraryName": "Standing Barbell Triceps Push Down",
+      "trainingPartId2": 16,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 372785443110913,
+      "actionLibraryName": "Biceps Stretch",
+      "trainingPartId2": 16,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 372244738605057,
+      "actionLibraryName": "Triceps Stretch",
+      "trainingPartId2": 16,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    }
+  ]
+}

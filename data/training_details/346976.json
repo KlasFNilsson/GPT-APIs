@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:57:35.449797+00:00",
+    "id": "346976",
+    "type": null,
+    "date": "2025-11-18 07:03:55"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 520,
+      "actionLibraryName": "High Knees",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 8,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5110569,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 1800646,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 151,
+            "groupTrainingInfoId": 5110569,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758145
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5110570,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1800647,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 151,
+            "groupTrainingInfoId": 5110570,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758145
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 204,
+      "actionLibraryName": "Skaters",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 8,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5110571,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 1800648,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 152,
+            "groupTrainingInfoId": 5110571,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758146
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5110572,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 25,
+          "trainingInfoDetail": {
+            "id": 1800649,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 152,
+            "groupTrainingInfoId": 5110572,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758146
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 72,
+      "actionLibraryName": "Star Jumps",
+      "score": 0,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 8,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 5110573,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 1800650,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 153,
+            "groupTrainingInfoId": 5110573,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758147
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 5110574,
+          "finishedCount": 0,
+          "targetCount": 25,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 27,
+          "trainingInfoDetail": {
+            "id": 1800651,
+            "uuid": "72224140-5909-11ef-b512-177af87e56de",
+            "actionLibraryId": 153,
+            "groupTrainingInfoId": 5110574,
+            "courseTrainingInfoId": 346976,
+            "courseActionLibraryTrainingInfoId": 2758147
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "actionRating": 1,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    }
+  ]
+}

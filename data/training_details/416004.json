@@ -1,0 +1,262 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T08:57:19.378591+00:00",
+    "id": "416004",
+    "type": null,
+    "date": "2026-02-10 07:57:23"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 525,
+      "actionLibraryName": "Single-Arm Circles",
+      "trainingPartId2": 12,
+      "categoryId": 3,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 384,
+      "actionLibraryName": "Bent Over T-Raise",
+      "trainingPartId2": 13,
+      "categoryId": 4,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 99,
+      "actionLibraryName": "Plank to Deep Lunge",
+      "trainingPartId2": 15,
+      "categoryId": 3,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 183,
+      "actionLibraryName": "Aerobic Rowing",
+      "completionScore": 1,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 5,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "id": 6257887,
+          "finishedCount": 0,
+          "targetCount": 180,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 100.32,
+          "pace": 171.0,
+          "spm": 20,
+          "time": 64,
+          "trainingInfoDetail": {
+            "id": 2914408,
+            "uuid": "0d84ae40-80e5-11ef-a3f5-956b81e5e2f3",
+            "actionLibraryId": 471,
+            "groupTrainingInfoId": 6257887,
+            "courseTrainingInfoId": 416004,
+            "courseActionLibraryTrainingInfoId": 3314484
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 2,
+      "isLeftRight": 0,
+      "plate": "2"
+    },
+    {
+      "actionLibraryGroupId": 372789987639297,
+      "actionLibraryName": "Hamstring Stretch",
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 372763297185793,
+      "actionLibraryName": "Lat Stretch",
+      "trainingPartId2": 13,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    }
+  ]
+}

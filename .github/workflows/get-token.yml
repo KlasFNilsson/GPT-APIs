@@ -37,7 +37,10 @@ jobs:
           def env_int(name, default):
               v = os.getenv(name)
               v = (v.strip() if v else "")
-              return int(v) if v.isdigit() else default
+              try:
+                  return int(v)
+              except Exception:
+                  return default
 
           def env_bool(name, default=False):
               v = os.getenv(name)
@@ -48,7 +51,7 @@ jobs:
 
           c = SpeedianceClient()
 
-          # IMPORTANT: set config/region BEFORE login (same as sync_speediance.py)
+          # Apply config BEFORE login (same idea as your sync script)
           c.save_config(
               user_id="",
               token="",
@@ -59,10 +62,14 @@ jobs:
               allow_monster_moves=env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False),
           )
 
-          print("REGION =", c.region)
-          # api_client.py has this helper; printing confirms EU vs Global base
-          print("API_BASE =", c._get_api_base_url())
+          # Debug without relying on private methods
+          print("REGION =", getattr(c, "region", None))
 
+          # Try to print any known base/host attributes if they exist
+          for attr in ("base_url", "api_base_url", "api_url", "host", "domain", "server"):
+              if hasattr(c, attr):
+                  print(f"{attr.upper()} =", getattr(c, attr))
+          
           ok, msg, err = c.login(os.environ["SPEEDIANCE_EMAIL"], os.environ["SPEEDIANCE_PASSWORD"])
           if not ok:
               raise Exception(f"Login failed: {msg}\n{err or ''}")

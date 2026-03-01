@@ -1,3 +1,5 @@
+print("SYNC_SPEEDIANCE_VERSION=2026-03-01A")
+
 import json
 import os
 import re

@@ -7,7 +7,7 @@ from typing import Any, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-01B")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-01C")
 
 DATA_DIR = "data"
 
@@ -23,7 +23,7 @@ REDACT_KEY_PATTERNS = [
 
 CONTENT_KEYS = (
     "actionInfoList", "actions", "actionList", "trainingActionList",
-    "sets", "setList", "exerciseList", "exercises",
+    "sets", "setList", "exerciseList", "exercises", "items"
 )
 
 def now_iso() -> str:
@@ -36,6 +36,10 @@ def write_json(path: str, payload: Any) -> None:
     ensure_dir(os.path.dirname(path))
     with open(path, "w", encoding="utf-8") as f:
         json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def read_json(path: str) -> Any:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
 
 def redact(obj: Any) -> Any:
     if isinstance(obj, dict):
@@ -126,15 +130,10 @@ def get_record_date(rec: dict) -> Optional[str]:
     return None
 
 def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
-    """
-    record_id = raw.id
-    training_id = raw.trainingId (preferred) else raw.trainingInfoId
-    """
     record_id = rec.get("id")
     training_id = rec.get("trainingId")
     if training_id is None or str(training_id).strip() == "":
         training_id = rec.get("trainingInfoId")
-
     rid = str(record_id).strip() if record_id is not None and str(record_id).strip() != "" else None
     tid = str(training_id).strip() if training_id is not None and str(training_id).strip() != "" else None
     return rid, tid
@@ -191,25 +190,90 @@ def save_sig(tag: str, requested_id: str, method: str, payload: Any) -> None:
             if isinstance(d, list):
                 sig["len_data"] = len(d)
             elif isinstance(d, dict):
-                sig["data_keys"] = sorted(list(d.keys()))[:50]
+                sig["data_keys"] = sorted(list(d.keys()))[:80]
+                for k in CONTENT_KEYS:
+                    v = d.get(k)
+                    if isinstance(v, list):
+                        sig[f"len_{k}"] = len(v)
     elif isinstance(payload, list):
         sig["len_list"] = len(payload)
     write_json(os.path.join(debug_dir(), f"{tag}_sig.json"), sig)
 
-def fetch_detail(c: SpeedianceClient, training_id: str, tag: str, debug_signature: bool) -> Tuple[Optional[Any], str]:
-    # session info (if exists)
-    if hasattr(c, "get_training_session_info"):
-        try:
-            p = c.get_training_session_info(training_id)
-            if debug_signature:
-                save_sig(f"{tag}_session_info", training_id, "get_training_session_info", p)
-            if has_content(p):
-                return p, "session_info"
-            save_sig(f"{tag}_empty_session_info", training_id, "get_training_session_info", p)
-            save_last_debug(c, f"{tag}_empty_session_info")
-        except Exception:
-            save_last_debug(c, f"{tag}_exception_session_info")
+def unwrap_data(payload: Any) -> Any:
+    # If wrapper dict with data, return data; else return payload
+    if isinstance(payload, dict) and "data" in payload:
+        return payload.get("data")
+    return payload
 
+def deep_find_first(obj: Any, keys: tuple[str, ...]) -> Optional[Any]:
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k in keys and v is not None:
+                return v
+            found = deep_find_first(v, keys)
+            if found is not None:
+                return found
+    elif isinstance(obj, list):
+        for it in obj:
+            found = deep_find_first(it, keys)
+            if found is not None:
+                return found
+    return None
+
+def normalize_full(record_raw: dict, detail_payload: Any, session_payload: Any, workout_payload: Any) -> dict:
+    """
+    Produce a single ChatGPT-friendly object.
+    We keep raw blobs too, but put normalized fields on top.
+    """
+    session_data = unwrap_data(session_payload)
+    workout_data = unwrap_data(workout_payload)
+    detail_data = unwrap_data(detail_payload)
+
+    # Try to locate an exercise/action list in session first, then workout, then detail
+    candidates = [session_data, workout_data, detail_data]
+
+    actions = None
+    for c in candidates:
+        if isinstance(c, dict):
+            for k in ("actionInfoList", "actions", "actionList", "trainingActionList", "exerciseList", "exercises", "setList"):
+                v = c.get(k)
+                if isinstance(v, list) and v:
+                    actions = v
+                    break
+        if actions:
+            break
+
+    # Find workoutId-ish for traceability
+    workout_id = deep_find_first(session_data, ("workoutId", "planId", "templateId", "courseId"))
+    # Session id-ish
+    session_id = deep_find_first(session_data, ("sessionId", "trainingSessionId", "id"))
+
+    return {
+        "meta": {
+            "generated_at": now_iso(),
+            "title": record_raw.get("title"),
+            "type": record_raw.get("type"),
+            "startTime": record_raw.get("startTime"),
+            "endTime": record_raw.get("endTime"),
+            "calorie": record_raw.get("calorie"),
+            "trainingTime": record_raw.get("trainingTime"),
+            "record_id": record_raw.get("id"),
+            "training_id": record_raw.get("trainingId"),
+            "session_id_guess": session_id,
+            "workout_id_guess": workout_id,
+        },
+        "normalized": {
+            "actions_or_exercises": actions,  # may still be None; then look at raw blobs
+        },
+        "raw": {
+            "record": redact(record_raw),
+            "detail": redact(detail_payload),
+            "session": redact(session_payload),
+            "workout": redact(workout_payload),
+        },
+    }
+
+def fetch_detail_course_ctt(c: SpeedianceClient, training_id: str, tag: str, debug_signature: bool) -> Tuple[Optional[Any], str]:
     # course
     try:
         p = c.get_training_detail(training_id, "course")
@@ -236,6 +300,35 @@ def fetch_detail(c: SpeedianceClient, training_id: str, tag: str, debug_signatur
 
     return None, "none"
 
+def fetch_session_info(c: SpeedianceClient, training_id: str, tag: str, debug_signature: bool) -> Optional[Any]:
+    if not hasattr(c, "get_training_session_info"):
+        return None
+    try:
+        p = c.get_training_session_info(training_id)
+        if debug_signature:
+            save_sig(f"{tag}_session_info", training_id, "get_training_session_info", p)
+        return p
+    except Exception:
+        save_last_debug(c, f"{tag}_exception_session_info")
+        return None
+
+def fetch_workout_detail_if_possible(c: SpeedianceClient, session_payload: Any, tag: str, debug_signature: bool) -> Optional[Any]:
+    if not hasattr(c, "get_workout_detail"):
+        return None
+    session_data = unwrap_data(session_payload)
+    workout_id = deep_find_first(session_data, ("workoutId", "planId", "templateId"))
+    if workout_id is None:
+        return None
+    try:
+        wid = str(workout_id)
+        p = c.get_workout_detail(wid)
+        if debug_signature:
+            save_sig(f"{tag}_workout_detail", wid, "get_workout_detail", p)
+        return p
+    except Exception:
+        save_last_debug(c, f"{tag}_exception_workout_detail")
+        return None
+
 def run_training_sync(c: SpeedianceClient) -> None:
     days = _env_int("TRAINING_DAYS", 365)
     max_details = _env_int("MAX_TRAINING_DETAILS", 10)
@@ -261,34 +354,15 @@ def run_training_sync(c: SpeedianceClient) -> None:
     normalized_sorted = sorted(normalized, key=lambda x: (x.get("date") or ""), reverse=True)
 
     ensure_dir(DATA_DIR)
-
-    # Write a small ID diagnostic for the top records
-    write_json(
-        os.path.join(DATA_DIR, "debug", "top_record_ids.json"),
-        {
-            "generated_at": now_iso(),
-            "top3": [
-                {
-                    "raw_id": x["raw"].get("id"),
-                    "raw_trainingId": x["raw"].get("trainingId"),
-                    "raw_trainingInfoId": x["raw"].get("trainingInfoId"),
-                    "chosen_record_id": x["record_id"],
-                    "chosen_training_id": x["training_id"],
-                    "title": x["raw"].get("title"),
-                    "type": x["raw"].get("type"),
-                }
-                for x in normalized_sorted[:3]
-            ],
-        },
-    )
+    ensure_dir(os.path.join(DATA_DIR, "training_details"))
+    ensure_dir(os.path.join(DATA_DIR, "training_sessions"))
+    ensure_dir(os.path.join(DATA_DIR, "training_full"))
+    ensure_dir(os.path.join(DATA_DIR, "debug"))
 
     write_json(
         os.path.join(DATA_DIR, "training_records.json"),
         {"meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date, "count": len(normalized_sorted)}, "records": redact(normalized_sorted)},
     )
-
-    details_dir = os.path.join(DATA_DIR, "training_details")
-    ensure_dir(details_dir)
 
     index = {
         "meta": {
@@ -298,8 +372,8 @@ def run_training_sync(c: SpeedianceClient) -> None:
             "max_details": max_details,
             "detail_throttle_seconds": throttle_s,
             "detail_retries": retries,
-            "count_written": 0,
-            "count_skipped_invalid": 0,
+            "count_full_written": 0,
+            "count_skipped": 0,
         },
         "items": [],
         "errors": {},
@@ -310,33 +384,65 @@ def run_training_sync(c: SpeedianceClient) -> None:
     for item in latest:
         rid = item["record_id"]
         tid = item["training_id"]
+        raw = item["raw"]
 
-        payload = None
-        source = "none"
-        last_err = None
+        detail_payload = None
+        detail_source = "none"
 
+        # Try detail course/ctt with retries
         for attempt in range(1, retries + 1):
             tag = f"{tid}_attempt{attempt}"
-            payload, source = fetch_detail(c, tid, tag, debug_signature=(debug_signature and attempt == 1))
-            if has_content(payload):
+            detail_payload, detail_source = fetch_detail_course_ctt(c, tid, tag, debug_signature=(debug_signature and attempt == 1))
+            if has_content(detail_payload):
                 break
-            last_err = f"No detail content for training_id={tid} (attempt {attempt})"
             time.sleep(throttle_s * attempt)
 
-        if not has_content(payload):
-            index["meta"]["count_skipped_invalid"] += 1
-            index["errors"][f"detail:{tid}"] = {"record_id": rid, "training_id": tid, "error": last_err}
-            continue
+        # Session info (often has the exercise list)
+        session_payload = fetch_session_info(c, tid, f"{tid}", debug_signature=debug_signature)
 
-        write_json(
-            os.path.join(details_dir, f"{tid}.json"),
-            {"meta": {"generated_at": now_iso(), "training_id": tid, "record_id": rid, "source": source, "date": item.get("date")}, "detail": redact(payload)},
+        # Workout detail if discoverable from session info
+        workout_payload = fetch_workout_detail_if_possible(c, session_payload, f"{tid}", debug_signature=debug_signature)
+
+        # Save raw-ish outputs (even if partial)
+        if detail_payload is not None:
+            write_json(
+                os.path.join(DATA_DIR, "training_details", f"{tid}.json"),
+                {"meta": {"generated_at": now_iso(), "training_id": tid, "record_id": rid, "source": detail_source}, "detail": redact(detail_payload)},
+            )
+
+        if session_payload is not None:
+            write_json(
+                os.path.join(DATA_DIR, "training_sessions", f"{tid}.json"),
+                {"meta": {"generated_at": now_iso(), "training_id": tid, "record_id": rid}, "session": redact(session_payload)},
+            )
+
+        if workout_payload is not None:
+            write_json(
+                os.path.join(DATA_DIR, "training_sessions", f"{tid}_workout.json"),
+                {"meta": {"generated_at": now_iso(), "training_id": tid, "record_id": rid}, "workout": redact(workout_payload)},
+            )
+
+        full = normalize_full(raw, detail_payload, session_payload, workout_payload)
+        write_json(os.path.join(DATA_DIR, "training_full", f"{tid}.json"), full)
+
+        index["items"].append(
+            {
+                "training_id": tid,
+                "record_id": rid,
+                "title": raw.get("title"),
+                "type": raw.get("type"),
+                "paths": {
+                    "full": f"/data/training_full/{tid}.json",
+                    "detail": f"/data/training_details/{tid}.json",
+                    "session": f"/data/training_sessions/{tid}.json",
+                    "workout": f"/data/training_sessions/{tid}_workout.json",
+                },
+            }
         )
-        index["items"].append({"training_id": tid, "record_id": rid, "source": source, "path": f"/data/training_details/{tid}.json"})
-        index["meta"]["count_written"] += 1
+        index["meta"]["count_full_written"] += 1
         time.sleep(throttle_s)
 
-    write_json(os.path.join(details_dir, "index.json"), index)
+    write_json(os.path.join(DATA_DIR, "training_full", "index.json"), index)
 
     creds = getattr(c, "credentials", None)
     write_json(
@@ -353,34 +459,16 @@ def run_training_sync(c: SpeedianceClient) -> None:
         },
     )
 
-def run_reference_sync(c: SpeedianceClient) -> None:
-    methods = sorted([name for name in dir(c) if name.startswith("get_") and callable(getattr(c, name))])
-    results = {}
-    errors = {}
-    for name in methods:
-        fn = getattr(c, name)
-        try:
-            results[name] = fn()
-        except TypeError:
-            continue
-        except Exception as e:
-            errors[name] = repr(e)
-    write_json(os.path.join(DATA_DIR, "reference.json"), {"meta": {"generated_at": now_iso(), "errors": errors}, "data": redact(results)})
-
 def main() -> None:
-    ensure_dir(DATA_DIR)
     mode = _env_str("SYNC_MODE", "training").lower()
 
     c = SpeedianceClient()
     configure_client(c)
     ensure_auth_token_only(c)
 
-    if mode == "training":
-        run_training_sync(c)
-    elif mode == "reference":
-        run_reference_sync(c)
-    else:
-        raise RuntimeError("Invalid SYNC_MODE. Use 'training' or 'reference'.")
+    if mode != "training":
+        raise RuntimeError("This script is currently focused on training sync. Use SYNC_MODE=training.")
+    run_training_sync(c)
 
 if __name__ == "__main__":
     main()

@@ -1,13 +1,39 @@
+# sync_speediance.py
+#
+# Normalizes Speediance training details into a single compact format:
+#   data/training_compact/index.json
+#   data/training_compact/<training_id>.json
+#
+# Rule:
+#   record.type == 5  -> custom (CTT) => try ctt first, then course fallback
+#   record.type != 5  -> official (course) => try course first, then ctt fallback
+#
+# Output contains NO raw blobs; only compact exercise + set data.
+#
+# Env (GitHub Actions secrets):
+#   SPEEDIANCE_REGION
+#   SPEEDIANCE_DEVICE_TYPE
+#   SPEEDIANCE_ALLOW_MONSTER_MOVES
+#   SPEEDIANCE_UNIT
+#   SPEEDIANCE_TOKEN
+#   SPEEDIANCE_USER_ID
+#
+# Optional env:
+#   TRAINING_DAYS (default 365)
+#   MAX_TRAINING_DETAILS (default 10)
+#   DETAIL_THROTTLE_SECONDS (default 2.0)
+#   DETAIL_RETRIES (default 2)
+
 import json
 import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
-from typing import Any, Optional, Tuple, List, Dict
+from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-01A_ONLY_CLEAN")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-01_NORMALIZE_TYPE5")
 
 DATA_DIR = "data"
 
@@ -21,7 +47,7 @@ REDACT_KEY_PATTERNS = [
     re.compile(r".*serial.*", re.IGNORECASE),
 ]
 
-# Reduce file size: drop huge telemetry arrays you said you don't need
+# Drop very large telemetry arrays to keep compact files small
 DROP_TELEMETRY_KEYS = {
     "leftWatts", "rightWatts",
     "leftAmplitudes", "rightAmplitudes",
@@ -124,6 +150,11 @@ def ensure_auth_token_only(c: SpeedianceClient) -> None:
     if not (tok and uid):
         raise RuntimeError("Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set.")
 
+def unwrap_data(payload: Any) -> Any:
+    if isinstance(payload, dict) and "data" in payload:
+        return payload.get("data")
+    return payload
+
 def extract_records_list(records_obj: Any) -> list[dict]:
     if isinstance(records_obj, list):
         return [r for r in records_obj if isinstance(r, dict)]
@@ -154,69 +185,105 @@ def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
     tid = str(training_id).strip() if training_id is not None and str(training_id).strip() != "" else None
     return rid, tid
 
-def unwrap_data(payload: Any) -> Any:
-    if isinstance(payload, dict) and "data" in payload:
-        return payload.get("data")
-    return payload
+def is_nonempty_payload(payload: Any) -> bool:
+    if payload is None:
+        return False
+    d = unwrap_data(payload)
+    if isinstance(d, list):
+        return len(d) > 0
+    if isinstance(d, dict):
+        return len(d.keys()) > 0
+    return True
 
-def _nums(xs: Any) -> List[float]:
-    if not isinstance(xs, list):
+def _to_float(x: Any) -> Optional[float]:
+    try:
+        if x is None:
+            return None
+        return float(x)
+    except Exception:
+        return None
+
+def _parse_csv_numbers(s: Any) -> List[float]:
+    if s is None:
         return []
+    if isinstance(s, list):
+        out = []
+        for v in s:
+            fv = _to_float(v)
+            if fv is not None:
+                out.append(fv)
+        return out
+    txt = str(s).strip()
+    if not txt:
+        return []
+    parts = re.split(r"[,\s]+", txt)
     out: List[float] = []
-    for x in xs:
+    for p in parts:
+        if not p:
+            continue
+        fv = _to_float(p)
+        if fv is not None:
+            out.append(fv)
+    return out
+
+def _parse_csv_ints(s: Any) -> List[int]:
+    if s is None:
+        return []
+    if isinstance(s, list):
+        out = []
+        for v in s:
+            try:
+                out.append(int(v))
+            except Exception:
+                pass
+        return out
+    txt = str(s).strip()
+    if not txt:
+        return []
+    parts = re.split(r"[,\s]+", txt)
+    out: List[int] = []
+    for p in parts:
+        if not p:
+            continue
         try:
-            out.append(float(x))
+            out.append(int(float(p)))
         except Exception:
             pass
     return out
 
-def extract_set_weight(info: dict) -> Dict[str, Any]:
-    """
-    Returns:
-      - weight (representative, usually max)
-      - weight_max
-      - left_weight_max/right_weight_max if present
-    """
-    weights = _nums(info.get("weights"))
-    left = _nums(info.get("leftWeights"))
-    right = _nums(info.get("rightWeights"))
+def _extract_set_weight_from_trainingInfoDetail(info: dict) -> Dict[str, Any]:
+    weights = _parse_csv_numbers(info.get("weights"))
+    left = _parse_csv_numbers(info.get("leftWeights"))
+    right = _parse_csv_numbers(info.get("rightWeights"))
 
     left_max = max(left) if left else None
     right_max = max(right) if right else None
 
     if weights:
-        wmax = max(weights)
-        rep = wmax
+        w = max(weights)
     elif left or right:
-        # If per-side exists, keep per-side maxima and also provide a combined estimate
-        rep = 0.0
-        if left_max is not None:
-            rep += left_max
-        if right_max is not None:
-            rep += right_max
-        wmax = rep
+        # best-effort combined load (many cable moves store per side)
+        w = float((left_max or 0.0) + (right_max or 0.0))
     else:
-        rep = 0.0
-        wmax = 0.0
+        w = 0.0
 
     return {
-        "weight": rep,
-        "weight_max": wmax,
+        "weight": float(w),
         "left_weight_max": left_max,
         "right_weight_max": right_max,
     }
 
-def normalize_course_detail(detail_list: Any) -> List[dict]:
+def normalize_course_detail(data_list: Any) -> List[dict]:
     """
-    Input is typically the unwrapped 'data' from courseTrainingInfoDetail, which is a list of exercises.
-    Output: list of exercises with sets.
+    courseTrainingInfoDetail returns a list of exercises.
+    Each exercise often has finishedReps[] with trainingInfoDetail containing weights[] etc.
     """
-    if not isinstance(detail_list, list):
+    if not isinstance(data_list, list):
         return []
 
     exercises: List[dict] = []
 
-    for ex in detail_list:
+    for ex in data_list:
         if not isinstance(ex, dict):
             continue
 
@@ -234,7 +301,7 @@ def normalize_course_detail(detail_list: Any) -> List[dict]:
                 continue
             reps = int(s.get("finishedCount") or 0)
             info = s.get("trainingInfoDetail") if isinstance(s.get("trainingInfoDetail"), dict) else {}
-            w = extract_set_weight(info)
+            w = _extract_set_weight_from_trainingInfoDetail(info)
 
             weight = float(w["weight"] or 0.0)
             volume = float(reps) * weight
@@ -242,53 +309,171 @@ def normalize_course_detail(detail_list: Any) -> List[dict]:
             sets.append({
                 "reps": reps,
                 "weight": weight,
+                "volume": round(volume, 3),
                 "left_weight_max": w["left_weight_max"],
                 "right_weight_max": w["right_weight_max"],
-                "volume": volume,
-                "capacity": s.get("capacity"),
-                "maxWeight": s.get("maxWeight"),
-                "oneRepMax": s.get("oneRepMax"),
             })
 
             total_volume += volume
-            if weight > max_weight_seen:
-                max_weight_seen = weight
+            max_weight_seen = max(max_weight_seen, weight)
 
         exercises.append({
-            "name": name,
+            "name": str(name),
             "sets": sets,
             "set_count": len(sets),
-            "total_volume": round(total_volume, 2),
-            "max_weight": round(max_weight_seen, 2),
+            "total_volume": round(total_volume, 3),
+            "max_weight": round(max_weight_seen, 3),
             "pr_flags": {
                 "maxWeightPr": ex.get("maxWeightPr"),
                 "totalCapacityPr": ex.get("totalCapacityPr"),
                 "levelPr": ex.get("levelPr"),
-            },
+            }
         })
 
     return exercises
 
-def get_training_detail_best(c: SpeedianceClient, training_id: str) -> Tuple[Optional[Any], str]:
-    # course first (your strength workouts look like course)
-    try:
-        p = c.get_training_detail(training_id, "course")
-        d = unwrap_data(p)
-        if isinstance(d, list) and len(d) > 0:
-            return p, "course"
-    except Exception:
-        pass
+def normalize_ctt_detail(data_obj: Any) -> List[dict]:
+    """
+    cttTrainingInfoDetail is typically a dict. Common pattern includes an action list:
+      actionLibraryList (or actionList) with per-exercise CSV fields:
+        setsAndReps / reps
+        weights / leftWeights / rightWeights
+    Because structures can vary, we:
+      - find a list among known keys
+      - for each entry, build sets by zipping reps + weights
+    """
+    if not isinstance(data_obj, dict):
+        return []
 
-    # then ctt
-    try:
-        p = c.get_training_detail(training_id, "ctt")
-        d = unwrap_data(p)
-        if isinstance(d, list) and len(d) > 0:
+    # try common keys for the exercise list
+    ex_list = None
+    for k in ("actionLibraryList", "actionList", "actions", "exerciseList", "exercises"):
+        v = data_obj.get(k)
+        if isinstance(v, list) and v:
+            ex_list = v
+            break
+    if ex_list is None:
+        return []
+
+    exercises: List[dict] = []
+
+    for ex in ex_list:
+        if not isinstance(ex, dict):
+            continue
+
+        name = ex.get("actionLibraryName") or ex.get("actionName") or ex.get("name") or ex.get("libraryName")
+        if not name:
+            continue
+
+        # reps sources (CTT often uses setsAndReps or reps list)
+        reps_list: List[int] = []
+        if "setsAndReps" in ex:
+            reps_list = _parse_csv_ints(ex.get("setsAndReps"))
+        elif "reps" in ex:
+            reps_list = _parse_csv_ints(ex.get("reps"))
+        elif "setAndRep" in ex:
+            reps_list = _parse_csv_ints(ex.get("setAndRep"))
+
+        # weights sources
+        weights = _parse_csv_numbers(ex.get("weights"))
+        left = _parse_csv_numbers(ex.get("leftWeights"))
+        right = _parse_csv_numbers(ex.get("rightWeights"))
+
+        # Build per-set weights:
+        # - if weights exists: use it
+        # - else if left/right exist: combine per index (or max) into total
+        set_weights: List[float] = []
+        if weights:
+            set_weights = weights
+        elif left or right:
+            n = max(len(left), len(right))
+            for i in range(n):
+                lw = left[i] if i < len(left) else (left[-1] if left else 0.0)
+                rw = right[i] if i < len(right) else (right[-1] if right else 0.0)
+                set_weights.append(float(lw + rw))
+
+        # Determine number of sets:
+        n_sets = max(len(reps_list), len(set_weights))
+        if n_sets == 0:
+            # no parsable set info; skip
+            continue
+
+        # pad reps/weights
+        if len(reps_list) < n_sets:
+            reps_list = reps_list + ([reps_list[-1]] * (n_sets - len(reps_list)) if reps_list else [0] * (n_sets - len(reps_list)))
+        if len(set_weights) < n_sets:
+            set_weights = set_weights + ([set_weights[-1]] * (n_sets - len(set_weights)) if set_weights else [0.0] * (n_sets - len(set_weights)))
+
+        sets: List[dict] = []
+        total_volume = 0.0
+        max_weight_seen = 0.0
+
+        for i in range(n_sets):
+            reps = int(reps_list[i] or 0)
+            w = float(set_weights[i] or 0.0)
+            vol = float(reps) * w
+            sets.append({
+                "reps": reps,
+                "weight": w,
+                "volume": round(vol, 3),
+                "left_weight_max": None,
+                "right_weight_max": None,
+            })
+            total_volume += vol
+            max_weight_seen = max(max_weight_seen, w)
+
+        exercises.append({
+            "name": str(name),
+            "sets": sets,
+            "set_count": len(sets),
+            "total_volume": round(total_volume, 3),
+            "max_weight": round(max_weight_seen, 3),
+            "pr_flags": {
+                "maxWeightPr": ex.get("maxWeightPr"),
+                "totalCapacityPr": ex.get("totalCapacityPr"),
+                "levelPr": ex.get("levelPr"),
+            }
+        })
+
+    return exercises
+
+def fetch_detail_with_type_rule(c: SpeedianceClient, training_id: str, record_type: Optional[int]) -> Tuple[Optional[Any], str]:
+    """
+    Returns (payload, source) where source is 'course' or 'ctt'.
+    Implements:
+      type==5 => try ctt then course
+      else    => try course then ctt
+    """
+    def try_course() -> Optional[Any]:
+        try:
+            p = c.get_training_detail(training_id, "course")
+            return p if is_nonempty_payload(p) else None
+        except Exception:
+            return None
+
+    def try_ctt() -> Optional[Any]:
+        try:
+            p = c.get_training_detail(training_id, "ctt")
+            return p if is_nonempty_payload(p) else None
+        except Exception:
+            return None
+
+    if record_type == 5:
+        p = try_ctt()
+        if p is not None:
             return p, "ctt"
-    except Exception:
-        pass
-
-    return None, "none"
+        p = try_course()
+        if p is not None:
+            return p, "course"
+        return None, "none"
+    else:
+        p = try_course()
+        if p is not None:
+            return p, "course"
+        p = try_ctt()
+        if p is not None:
+            return p, "ctt"
+        return None, "none"
 
 def run_training_sync(c: SpeedianceClient) -> None:
     days = _env_int("TRAINING_DAYS", 365)
@@ -304,7 +489,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
     records_obj = c.get_training_records(start_date, end_date)
     records_list = extract_records_list(records_obj)
 
-    normalized_records = []
+    normalized_records: List[dict] = []
     for rec in records_list:
         record_id, training_id = pick_ids(rec)
         if not record_id or not training_id:
@@ -315,7 +500,13 @@ def run_training_sync(c: SpeedianceClient) -> None:
             "date": get_record_date(rec),
             "title": rec.get("title"),
             "type": rec.get("type"),
-            "raw": rec,  # only kept inside training_records.json, not in per-pass files
+            # keep minimal record meta; no raw dumping into compact files
+            "startTime": rec.get("startTime"),
+            "endTime": rec.get("endTime"),
+            "trainingTime_sec": rec.get("trainingTime"),
+            "calorie": rec.get("calorie"),
+            "totalCapacity": rec.get("totalCapacity"),
+            "totalEnergy": rec.get("totalEnergy"),
         })
 
     normalized_sorted = sorted(normalized_records, key=lambda x: (x.get("date") or ""), reverse=True)
@@ -323,7 +514,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
     ensure_dir(DATA_DIR)
     ensure_dir(os.path.join(DATA_DIR, "training_compact"))
 
-    # Keep training_records.json as a lookup list (includes raw record fields)
+    # Write records list for reference (still redacted)
     write_json(
         os.path.join(DATA_DIR, "training_records.json"),
         {
@@ -332,7 +523,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
         },
     )
 
-    index = {
+    index: Dict[str, Any] = {
         "meta": {
             "generated_at": now_iso(),
             "start_date": start_date,
@@ -348,17 +539,21 @@ def run_training_sync(c: SpeedianceClient) -> None:
     }
 
     for item in normalized_sorted[:max_details]:
-        rid = item["record_id"]
         tid = item["training_id"]
-        rec = item["raw"]
+        rid = item["record_id"]
+        rtype = item.get("type")
+        try:
+            rtype_int = int(rtype) if rtype is not None else None
+        except Exception:
+            rtype_int = None
 
-        payload = None
+        payload: Optional[Any] = None
         source = "none"
-        last_err = None
+        last_err: Optional[str] = None
 
         for attempt in range(1, retries + 1):
             try:
-                payload, source = get_training_detail_best(c, tid)
+                payload, source = fetch_detail_with_type_rule(c, tid, rtype_int)
                 if payload is not None:
                     break
                 last_err = f"Empty detail for training_id={tid} (attempt {attempt})"
@@ -367,14 +562,24 @@ def run_training_sync(c: SpeedianceClient) -> None:
             time.sleep(throttle_s * attempt)
 
         if payload is None:
-            index["count_failed"] = index.get("count_failed", 0) + 1
-            index["errors"][tid] = {"record_id": rid, "error": last_err}
+            index["meta"]["count_failed"] += 1
+            index["errors"][tid] = {"record_id": rid, "type": rtype_int, "error": last_err}
             continue
 
-        data_unwrapped = unwrap_data(payload)
-        data_unwrapped = prune_telemetry(redact(data_unwrapped))
+        data_unwrapped = prune_telemetry(redact(unwrap_data(payload)))
 
-        exercises = normalize_course_detail(data_unwrapped)
+        # Normalize depending on which endpoint produced data (or by shape)
+        exercises: List[dict] = []
+        if source == "course":
+            exercises = normalize_course_detail(data_unwrapped)
+        elif source == "ctt":
+            exercises = normalize_ctt_detail(data_unwrapped)
+        else:
+            # shape-based fallback
+            if isinstance(data_unwrapped, list):
+                exercises = normalize_course_detail(data_unwrapped)
+            elif isinstance(data_unwrapped, dict):
+                exercises = normalize_ctt_detail(data_unwrapped)
 
         compact = {
             "meta": {
@@ -382,25 +587,29 @@ def run_training_sync(c: SpeedianceClient) -> None:
                 "record_id": rid,
                 "training_id": tid,
                 "source": source,
-                "title": rec.get("title"),
-                "type": rec.get("type"),
-                "startTime": rec.get("startTime"),
-                "endTime": rec.get("endTime"),
-                "trainingTime_sec": rec.get("trainingTime"),
-                "calorie": rec.get("calorie"),
-                "totalCapacity": rec.get("totalCapacity"),
-                "totalEnergy": rec.get("totalEnergy"),
+                "title": item.get("title"),
+                "type": rtype_int,
+                "date": item.get("date"),
+                "startTime": item.get("startTime"),
+                "endTime": item.get("endTime"),
+                "trainingTime_sec": item.get("trainingTime_sec"),
+                "calorie": item.get("calorie"),
+                "totalCapacity": item.get("totalCapacity"),
+                "totalEnergy": item.get("totalEnergy"),
             },
             "exercises": exercises,
             "exercise_count": len(exercises),
         }
 
         write_json(os.path.join(DATA_DIR, "training_compact", f"{tid}.json"), compact)
+
         index["items"].append({
             "training_id": tid,
             "record_id": rid,
-            "title": rec.get("title"),
+            "title": item.get("title"),
+            "type": rtype_int,
             "date": item.get("date"),
+            "source": source,
             "path": f"/data/training_compact/{tid}.json",
         })
         index["meta"]["count_written"] += 1
@@ -409,7 +618,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
 
     write_json(os.path.join(DATA_DIR, "training_compact", "index.json"), index)
 
-    # Sanity (no secrets)
+    # Sanity file (no secrets)
     creds = getattr(c, "credentials", None)
     write_json(
         os.path.join(DATA_DIR, "sync_env_sanity.json"),
@@ -428,7 +637,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
 def main() -> None:
     mode = _env_str("SYNC_MODE", "training").lower()
     if mode != "training":
-        raise RuntimeError("This script only supports SYNC_MODE=training.")
+        raise RuntimeError("This script supports SYNC_MODE=training only.")
 
     c = SpeedianceClient()
     configure_client(c)

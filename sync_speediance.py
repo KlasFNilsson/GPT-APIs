@@ -1,33 +1,3 @@
-#!/usr/bin/env python3
-"""
-sync_speediance.py
-
-Purpose:
-- Mirror Speediance training data into ./data/ for use via GitHub Pages/raw.
-- Token-only auth (SPEEDIANCE_USER_ID + SPEEDIANCE_TOKEN).
-- Robust detail fetching:
-  - Try course, and if response is "empty-but-success" (e.g. data: []), fall back to ctt.
-  - Retry/backoff + throttling.
-  - Do not overwrite a previously good detail file with junk.
-- Writes debug signatures into data/debug/ when detail payload is invalid.
-
-Environment variables (GitHub Actions env):
-- SPEEDIANCE_REGION (default: EU)
-- SPEEDIANCE_DEVICE_TYPE (default: 1)
-- SPEEDIANCE_ALLOW_MONSTER_MOVES (default: false)
-- SPEEDIANCE_UNIT (default: 0)
-- SPEEDIANCE_USER_ID (required)
-- SPEEDIANCE_TOKEN (required)
-- SYNC_MODE: training | reference (default: training)
-
-Training tuning:
-- TRAINING_DAYS (default: 365)
-- MAX_TRAINING_DETAILS (default: 60)
-- DETAIL_THROTTLE_SECONDS (default: 1.5)
-- DETAIL_RETRIES (default: 4)
-- DEBUG_SIGNATURE (default: 0) -> set to 1 to always write a signature for attempt 1
-"""
-
 import json
 import os
 import re
@@ -39,7 +9,7 @@ from api_client import SpeedianceClient
 
 DATA_DIR = "data"
 
-# ---- Redaction (avoid publishing secrets/private identity) ----
+# --- Redaction (avoid publishing secrets/private identity) ---
 REDACT_KEY_PATTERNS = [
     re.compile(r".*token.*", re.IGNORECASE),
     re.compile(r".*password.*", re.IGNORECASE),
@@ -47,9 +17,10 @@ REDACT_KEY_PATTERNS = [
     re.compile(r".*phone.*", re.IGNORECASE),
     re.compile(r".*apple.*userid.*", re.IGNORECASE),
     re.compile(r".*device.*id.*", re.IGNORECASE),
+    re.compile(r".*serial.*", re.IGNORECASE),
 ]
 
-# ---- Telemetry bloat to drop ----
+# --- Telemetry bloat to drop ---
 TELEMETRY_KEYS_TO_DROP = {
     "leftWatts", "rightWatts",
     "leftAmplitudes", "rightAmplitudes",
@@ -70,12 +41,9 @@ TELEMETRY_NAME_PATTERNS = [
     re.compile(r".*finishedtime.*", re.IGNORECASE),
 ]
 MAX_TELEMETRY_LIST_LEN = 12
-ALLOW_LIST_KEYS = {"weights"}  # keep weights arrays (useful)
+ALLOW_LIST_KEYS = {"weights"}  # keep weights arrays
 
 
-# -----------------------
-# Generic helpers
-# -----------------------
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
 
@@ -129,9 +97,7 @@ def prune_telemetry(obj: Any) -> Any:
     return obj
 
 
-# -----------------------
-# Env helpers (treat empty as missing)
-# -----------------------
+# --- env helpers (treat empty string as missing) ---
 def _env_str(name: str, default: str = "") -> str:
     v = os.getenv(name)
     if v is None:
@@ -163,9 +129,7 @@ def _env_bool(name: str, default: bool) -> bool:
     return v in ("1", "true", "yes", "y", "on")
 
 
-# -----------------------
-# Auth/config (token-only)
-# -----------------------
+# --- Auth/config ---
 def configure_client(c: SpeedianceClient) -> None:
     region = _env_str("SPEEDIANCE_REGION", "EU")
     device_type = _env_int("SPEEDIANCE_DEVICE_TYPE", 1)
@@ -175,7 +139,6 @@ def configure_client(c: SpeedianceClient) -> None:
     token = _env_str("SPEEDIANCE_TOKEN", "")
     user_id = _env_str("SPEEDIANCE_USER_ID", "")
 
-    # api_client uses credentials dict internally
     c.save_config(
         user_id=user_id,
         token=token,
@@ -197,9 +160,7 @@ def ensure_auth_token_only(c: SpeedianceClient) -> None:
         raise RuntimeError("Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set.")
 
 
-# -----------------------
-# Debug helpers
-# -----------------------
+# --- Debug helpers ---
 def debug_dir() -> str:
     d = os.path.join(DATA_DIR, "debug")
     ensure_dir(d)
@@ -212,35 +173,74 @@ def save_last_debug(c: SpeedianceClient, tag: str) -> None:
         write_json(os.path.join(debug_dir(), f"{tag}_last_debug.json"), dbg)
 
 
-def save_signature(tag: str, requested_id: str, type_used: Optional[str], detail: Any) -> None:
+def save_signature(tag: str, requested_id: str, method: str, payload: Any) -> None:
     sig: dict[str, Any] = {
         "generated_at": now_iso(),
         "requested_id": requested_id,
-        "type_used": type_used,
-        "detail_type": type(detail).__name__,
+        "method": method,
+        "payload_type": type(payload).__name__,
     }
-    if isinstance(detail, dict):
-        sig["keys"] = sorted(list(detail.keys()))[:80]
-        sig["code"] = detail.get("code")
-        sig["message"] = detail.get("message")
-        data = detail.get("data")
-        sig["data_type"] = type(data).__name__
-        if isinstance(data, dict):
-            sig["data_keys"] = sorted(list(data.keys()))[:120]
-            for k in ("actionInfoList", "actions", "actionList", "trainingActionList", "finishedReps", "finishedRepList"):
-                v = data.get(k)
-                if isinstance(v, list):
-                    sig[f"len_{k}"] = len(v)
-        elif isinstance(data, list):
-            sig["len_data"] = len(data)
-    elif isinstance(detail, list):
-        sig["len_list"] = len(detail)
+    if isinstance(payload, dict):
+        sig["keys"] = sorted(list(payload.keys()))[:120]
+        if "code" in payload:
+            sig["code"] = payload.get("code")
+        if "message" in payload:
+            sig["message"] = payload.get("message")
+        if "data" in payload:
+            d = payload.get("data")
+            sig["data_type"] = type(d).__name__
+            if isinstance(d, list):
+                sig["len_data"] = len(d)
+            elif isinstance(d, dict):
+                sig["data_keys"] = sorted(list(d.keys()))[:160]
+                # count common lists that indicate workout content
+                for k in ("actionInfoList", "actions", "actionList", "trainingActionList", "sets", "setList", "exerciseList"):
+                    v = d.get(k)
+                    if isinstance(v, list):
+                        sig[f"len_{k}"] = len(v)
+    elif isinstance(payload, list):
+        sig["len_list"] = len(payload)
     write_json(os.path.join(debug_dir(), f"{tag}_sig.json"), sig)
 
 
-# -----------------------
-# Records parsing (defensive)
-# -----------------------
+# --- Content detection ---
+CONTENT_KEYS = (
+    "actionInfoList", "actions", "actionList", "trainingActionList",
+    "sets", "setList", "exerciseList", "exercises",
+    "record", "records"
+)
+
+
+def has_content(payload: Any) -> bool:
+    if payload is None:
+        return False
+    if isinstance(payload, list):
+        return len(payload) > 0
+    if isinstance(payload, dict):
+        # wrapper dict
+        if "data" in payload:
+            data = payload.get("data")
+            if data is None:
+                return False
+            if isinstance(data, list):
+                return len(data) > 0
+            if isinstance(data, dict):
+                for k in CONTENT_KEYS:
+                    v = data.get(k)
+                    if isinstance(v, list) and len(v) > 0:
+                        return True
+                return len(data) > 0
+            return True
+        # non-wrapper dict
+        for k in CONTENT_KEYS:
+            v = payload.get(k)
+            if isinstance(v, list) and len(v) > 0:
+                return True
+        return len(payload) > 0
+    return True
+
+
+# --- Records extraction ---
 def extract_records_list(records_obj: Any) -> list[dict]:
     if isinstance(records_obj, list):
         return [r for r in records_obj if isinstance(r, dict)]
@@ -271,119 +271,60 @@ def get_record_date(rec: dict) -> Optional[str]:
     return None
 
 
-# -----------------------
-# Detail: content detection + robust fallback (course <-> ctt)
-# -----------------------
-CONTENT_LIST_KEYS = ("actionInfoList", "actions", "actionList", "trainingActionList", "finishedReps", "finishedRepList")
-
-
-def _has_content(detail: Any) -> bool:
-    """
-    Returns True if detail looks like it contains real workout content.
-    Handles:
-      - wrapper dict: {code,message,data:{...}} or {code,message,data:[...]}
-      - bare list payloads (some endpoints return list)
-      - bare dict with content (rare)
-    """
-    if detail is None:
-        return False
-
-    if isinstance(detail, list):
-        return len(detail) > 0
-
-    if not isinstance(detail, dict):
-        return True  # unknown type, assume content to avoid false negatives
-
-    # wrapper dict with data
-    if "data" in detail:
-        data = detail.get("data")
-        if data is None:
-            return False
-        if isinstance(data, list):
-            return len(data) > 0
-        if isinstance(data, dict):
-            # direct content lists
-            for k in CONTENT_LIST_KEYS:
-                v = data.get(k)
-                if isinstance(v, list) and len(v) > 0:
-                    return True
-            # sometimes nested
-            for vv in data.values():
-                if isinstance(vv, dict):
-                    for k in CONTENT_LIST_KEYS:
-                        w = vv.get(k)
-                        if isinstance(w, list) and len(w) > 0:
-                            return True
-            # non-empty dict might still be useful
-            return len(data) > 0
-        # any other data type
-        return True
-
-    # no data wrapper: look for content keys at top-level
-    for k in CONTENT_LIST_KEYS:
-        v = detail.get(k)
-        if isinstance(v, list) and len(v) > 0:
-            return True
-
-    # non-empty dict: ambiguous, but accept
-    return len(detail) > 0
-
-
-def fetch_training_detail_best_effort(
+# --- Detail resolver: try multiple API client methods ---
+def get_detail_resolved(
     c: SpeedianceClient,
     training_id: str,
-    type_hint: Optional[str],
-    debug_tag_prefix: str,
-    debug_signature: bool,
-) -> Tuple[Optional[Any], Optional[str]]:
+    throttle_tag: str,
+    debug_always_attempt1: bool,
+) -> Tuple[Optional[Any], str]:
     """
-    Returns (detail, type_used).
-
-    Strategy:
-    - If type_hint is course/ctt:
-        try hinted type; if empty => try the other.
-    - If no hint:
-        try course; if empty => try ctt.
-    - If both empty, return the last response (so we can signature it) but type_used indicates last attempt.
+    Try several methods/endpoints and return first payload that looks contentful.
+    Returns (payload, source_method).
     """
-    attempts = []
-    if type_hint in ("course", "ctt"):
-        attempts = [type_hint, "ctt" if type_hint == "course" else "course"]
-    else:
-        attempts = ["course", "ctt"]
-
-    last_detail = None
-    last_type = None
-
-    for idx, t in enumerate(attempts, start=1):
-        last_type = t
+    # 1) Training session info (if available)
+    if hasattr(c, "get_training_session_info"):
         try:
-            d = c.get_training_detail(training_id, t)
-            last_detail = d
-            if debug_signature and idx == 1:
-                save_signature(f"{debug_tag_prefix}_attempt1_{t}", training_id, t, d)
-
-            if _has_content(d):
-                return d, t
-
-            # "Success but empty" -> signature + last_debug
-            save_signature(f"{debug_tag_prefix}_empty_{t}", training_id, t, d)
-            save_last_debug(c, f"{debug_tag_prefix}_empty_{t}")
-
+            p = c.get_training_session_info(training_id)
+            if debug_always_attempt1:
+                save_signature(f"{throttle_tag}_session_info", training_id, "get_training_session_info", p)
+            if has_content(p):
+                return p, "get_training_session_info"
+            save_signature(f"{throttle_tag}_empty_session_info", training_id, "get_training_session_info", p)
+            save_last_debug(c, f"{throttle_tag}_empty_session_info")
         except Exception:
-            save_last_debug(c, f"{debug_tag_prefix}_exception_{t}")
-            # continue to next attempt
+            save_last_debug(c, f"{throttle_tag}_exception_session_info")
 
-    return last_detail, last_type
+    # 2) get_training_detail(course)
+    try:
+        p = c.get_training_detail(training_id, "course")
+        if debug_always_attempt1:
+            save_signature(f"{throttle_tag}_course", training_id, "get_training_detail(course)", p)
+        if has_content(p):
+            return p, "get_training_detail(course)"
+        save_signature(f"{throttle_tag}_empty_course", training_id, "get_training_detail(course)", p)
+        save_last_debug(c, f"{throttle_tag}_empty_course")
+    except Exception:
+        save_last_debug(c, f"{throttle_tag}_exception_course")
+
+    # 3) get_training_detail(ctt)
+    try:
+        p = c.get_training_detail(training_id, "ctt")
+        if debug_always_attempt1:
+            save_signature(f"{throttle_tag}_ctt", training_id, "get_training_detail(ctt)", p)
+        if has_content(p):
+            return p, "get_training_detail(ctt)"
+        save_signature(f"{throttle_tag}_empty_ctt", training_id, "get_training_detail(ctt)", p)
+        save_last_debug(c, f"{throttle_tag}_empty_ctt")
+    except Exception:
+        save_last_debug(c, f"{throttle_tag}_exception_ctt")
+
+    return None, "none"
 
 
-# -----------------------
-# Sync modes
-# -----------------------
 def run_training_sync(c: SpeedianceClient) -> None:
     days = _env_int("TRAINING_DAYS", 365)
     max_details = _env_int("MAX_TRAINING_DETAILS", 60)
-
     throttle_s = float(_env_str("DETAIL_THROTTLE_SECONDS", "1.5"))
     retries = _env_int("DETAIL_RETRIES", 4)
     debug_signature = _env_bool("DEBUG_SIGNATURE", False)
@@ -393,7 +334,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
     start_date = start.strftime("%Y-%m-%d")
     end_date = end.strftime("%Y-%m-%d")
 
-    # 1) Records
+    # Records list
     records_obj = c.get_training_records(start_date, end_date)
     records_list = extract_records_list(records_obj)
 
@@ -402,12 +343,11 @@ def run_training_sync(c: SpeedianceClient) -> None:
         tid = get_record_id(rec)
         if not tid:
             continue
-        normalized.append(
-            {"id": tid, "type": None, "date": get_record_date(rec), "raw": rec}
-        )
+        normalized.append({"id": tid, "date": get_record_date(rec), "raw": rec})
 
-    # Sort best-effort by date string
     normalized_sorted = sorted(normalized, key=lambda x: (x.get("date") or ""), reverse=True)
+
+    ensure_dir(DATA_DIR)
 
     write_json(
         os.path.join(DATA_DIR, "training_records.json"),
@@ -417,7 +357,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
         },
     )
 
-    # 2) Stats (optional)
+    # Stats optional
     stats_obj = None
     if hasattr(c, "get_training_stats"):
         try:
@@ -430,7 +370,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
         {"meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date}, "stats": redact(stats_obj)},
     )
 
-    # 3) Details
+    # Details folder + index
     details_dir = os.path.join(DATA_DIR, "training_details")
     ensure_dir(details_dir)
 
@@ -454,81 +394,61 @@ def run_training_sync(c: SpeedianceClient) -> None:
     for item in latest:
         tid = item["id"]
         date = item.get("date")
-        type_hint = item.get("type")  # often None; we handle fallback
-
         out_path = os.path.join(details_dir, f"{tid}.json")
 
-        # Detect if existing file looks contentful (so we avoid overwriting with empty)
+        # Keep existing good file if we can't fetch new content
         existing_ok = False
         if os.path.exists(out_path):
             try:
-                existing = read_json(out_path)
-                existing_detail = existing.get("detail")
-                if _has_content(existing_detail):
+                ex = read_json(out_path)
+                if has_content(ex.get("detail")):
                     existing_ok = True
             except Exception:
                 existing_ok = False
 
-        best_detail = None
-        best_type = None
+        payload = None
+        source = "none"
         last_err = None
 
         for attempt in range(1, retries + 1):
             tag = f"{tid}_attempt{attempt}"
             try:
-                detail, used_type = fetch_training_detail_best_effort(
+                payload, source = get_detail_resolved(
                     c=c,
                     training_id=tid,
-                    type_hint=type_hint,
-                    debug_tag_prefix=tag,
-                    debug_signature=debug_signature,
+                    throttle_tag=tag,
+                    debug_always_attempt1=debug_signature and attempt == 1,
                 )
-                best_detail, best_type = detail, used_type
-
-                if _has_content(best_detail):
+                if has_content(payload):
                     break
-
-                last_err = f"Empty/invalid content after trying course+ctt (attempt {attempt})"
+                last_err = f"No detail content from any method (attempt {attempt})"
             except Exception as e:
-                save_last_debug(c, f"{tag}_unexpected_exception")
+                save_last_debug(c, f"{tag}_resolver_exception")
                 last_err = repr(e)
 
-            # backoff
             time.sleep(throttle_s * attempt)
 
-        if not _has_content(best_detail):
+        if not has_content(payload):
             index["meta"]["count_skipped_invalid"] += 1
-            index["errors"][f"detail:{tid}"] = last_err or "Empty/invalid detail after retries"
+            index["errors"][f"detail:{tid}"] = last_err or "No detail content after retries"
             if existing_ok:
-                index["items"].append(
-                    {"id": tid, "type": best_type, "date": date, "path": f"/data/training_details/{tid}.json", "note": "kept_existing"}
-                )
-            else:
-                # leave no detail file (avoids creating junk)
-                pass
+                index["items"].append({"id": tid, "type": source, "date": date, "path": f"/data/training_details/{tid}.json", "note": "kept_existing"})
             time.sleep(throttle_s)
             continue
 
-        # Save cleaned detail
-        detail_clean = prune_telemetry(redact(best_detail))
+        cleaned = prune_telemetry(redact(payload))
         write_json(
             out_path,
-            {
-                "meta": {"generated_at": now_iso(), "id": tid, "type": best_type, "date": date},
-                "detail": detail_clean,
-            },
+            {"meta": {"generated_at": now_iso(), "id": tid, "source": source, "date": date}, "detail": cleaned},
         )
-
-        index["items"].append(
-            {"id": tid, "type": best_type, "date": date, "path": f"/data/training_details/{tid}.json"}
-        )
+        index["items"].append({"id": tid, "source": source, "date": date, "path": f"/data/training_details/{tid}.json"})
         index["meta"]["count_written"] += 1
 
         time.sleep(throttle_s)
 
     write_json(os.path.join(details_dir, "index.json"), index)
 
-    # Also write a quick sanity file every run
+    # Sanity
     creds = getattr(c, "credentials", None)
     write_json(
         os.path.join(DATA_DIR, "sync_env_sanity.json"),
@@ -549,22 +469,16 @@ def run_reference_sync(c: SpeedianceClient) -> None:
     methods = sorted([name for name in dir(c) if name.startswith("get_") and callable(getattr(c, name))])
     errors = {}
     results = {}
-
     for name in methods:
         fn = getattr(c, name)
         try:
-            # only no-arg methods
             results[name] = fn()
         except TypeError:
             continue
         except Exception as e:
             errors[name] = repr(e)
             save_last_debug(c, f"reference_{name}_failed")
-
-    write_json(
-        os.path.join(DATA_DIR, "reference.json"),
-        {"meta": {"generated_at": now_iso(), "mode": "reference", "errors": errors}, "data": redact(results)},
-    )
+    write_json(os.path.join(DATA_DIR, "reference.json"), {"meta": {"generated_at": now_iso(), "errors": errors}, "data": redact(results)})
 
 
 def main() -> None:

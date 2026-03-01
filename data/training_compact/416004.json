@@ -1,0 +1,297 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:36:34.426868+00:00",
+    "record_id": "2806419",
+    "training_id": "416004",
+    "source": "course",
+    "title": "260206 Strength C - Complimentary",
+    "type": 5,
+    "startTime": "2026-02-10 07:23:02",
+    "endTime": "2026-02-10 07:57:23",
+    "trainingTime_sec": 2015,
+    "calorie": 133,
+    "totalCapacity": 3557.0,
+    "totalEnergy": 13620.19
+  },
+  "exercises": [
+    {
+      "name": "Single-Arm Circles",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bent Over T-Raise",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Plank to Deep Lunge",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Aerobic Rowing",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 13,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Hamstring Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lat Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 6
+}

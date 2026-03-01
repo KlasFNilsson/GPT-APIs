@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:36:40.375074+00:00",
+    "record_id": "2783066",
+    "training_id": "412033",
+    "source": "course",
+    "title": "Run strenght A 251222",
+    "type": 5,
+    "startTime": "2026-02-06 07:18:07",
+    "endTime": "2026-02-06 08:09:13",
+    "trainingTime_sec": 2981,
+    "calorie": 296,
+    "totalCapacity": 9028.0,
+    "totalEnergy": 56809.05
+  },
+  "exercises": [
+    {
+      "name": "Star Jumps",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle Shoulder Press",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 81.6,
+          "capacity": 163.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.2,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 98.39999999999999,
+          "capacity": 196.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 109.19999999999999,
+          "capacity": 218.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.9,
+          "left_weight_max": 24.0,
+          "right_weight_max": 24.0,
+          "volume": 130.8,
+          "capacity": 261.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 420.0,
+      "max_weight": 10.9,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bent-Over Dual-Handle Wide Row",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 5.5,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 66.0,
+          "capacity": 130.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 6.4,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 76.80000000000001,
+          "capacity": 152.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 6.4,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 76.80000000000001,
+          "capacity": 152.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.2,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 98.39999999999999,
+          "capacity": 196.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 318.0,
+      "max_weight": 8.2,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle Lateral Raise",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 81.6,
+          "capacity": 113.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 5.5,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 66.0,
+          "capacity": 130.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 6.4,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 76.80000000000001,
+          "capacity": 152.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 81.6,
+          "capacity": 163.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 306.0,
+      "max_weight": 6.8,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle Arnold Press",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 136.5,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 136.5,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 136.5,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 9.5,
+          "left_weight_max": 21.0,
+          "right_weight_max": 21.0,
+          "volume": 142.5,
+          "capacity": 277.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 552.0,
+      "max_weight": 9.5,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Anterior Deltoid Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Posterior Deltoid Muscle Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 7
+}

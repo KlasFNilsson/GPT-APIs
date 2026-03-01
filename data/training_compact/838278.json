@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:36:06.057134+00:00",
+    "record_id": "2894216",
+    "training_id": "838278",
+    "source": "course",
+    "title": "Aaron’s Biceps Day Workout",
+    "type": 2,
+    "startTime": "2026-02-25 17:16:58",
+    "endTime": "2026-02-25 17:50:45",
+    "trainingTime_sec": 1934,
+    "calorie": 206,
+    "totalCapacity": 3106.0,
+    "totalEnergy": 18971.09
+  },
+  "exercises": [
+    {
+      "name": "Biceps Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Single-Arm Concentration Curl",
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": null,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 112.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 672.0,
+      "max_weight": 14.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Incline Dual-Handle Biceps Curl",
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": 11.0,
+          "volume": 88.0,
+          "capacity": 176.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 96.0,
+          "capacity": 192.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 96.0,
+          "capacity": 192.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 280.0,
+      "max_weight": 12.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dual-Handle Alternating Biceps Curl",
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 120.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 224.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 112.0,
+          "capacity": 224.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 344.0,
+      "max_weight": 15.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Hammer Curl",
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 26.0,
+          "left_weight_max": 26.0,
+          "right_weight_max": null,
+          "volume": 208.0,
+          "capacity": 208.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 22.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": null,
+          "volume": 176.0,
+          "capacity": 176.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 22.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": null,
+          "volume": 176.0,
+          "capacity": 176.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 560.0,
+      "max_weight": 26.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Barbell Biceps Curl",
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 28.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 224.0,
+          "capacity": 218.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 26.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0,
+          "volume": 208.0,
+          "capacity": 208.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 25.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5,
+          "volume": 200.0,
+          "capacity": 200.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 632.0,
+      "max_weight": 28.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 6
+}

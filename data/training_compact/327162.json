@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:38:51.261035+00:00",
+    "record_id": "2280944",
+    "training_id": "327162",
+    "source": "course",
+    "title": "Hyrox B",
+    "type": 5,
+    "startTime": "2025-10-18 06:43:04",
+    "endTime": "2025-10-18 06:45:13",
+    "trainingTime_sec": 126,
+    "calorie": 20,
+    "totalCapacity": 0,
+    "totalEnergy": 6127.48
+  },
+  "exercises": [
+    {
+      "name": "Single-Arm Circles",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Y Raise",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bent-Over Barbell Straight Arm Pulldown",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 12.7,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 190.5,
+          "capacity": 190.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 15.0,
+          "left_weight_max": 16.5,
+          "right_weight_max": 16.5,
+          "volume": 225.0,
+          "capacity": 225.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 17.3,
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0,
+          "volume": 259.5,
+          "capacity": 259.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 675.0,
+      "max_weight": 17.3,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Barbell Lat Pulldown",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 27.3,
+          "left_weight_max": 30.0,
+          "right_weight_max": 30.0,
+          "volume": 409.5,
+          "capacity": 409.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 31.8,
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0,
+          "volume": 381.6,
+          "capacity": 381.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 34.1,
+          "left_weight_max": 37.5,
+          "right_weight_max": 37.5,
+          "volume": 409.20000000000005,
+          "capacity": 409.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 34.1,
+          "left_weight_max": 37.5,
+          "right_weight_max": 37.5,
+          "volume": 341.0,
+          "capacity": 340.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1541.3,
+      "max_weight": 34.1,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Kneeling Dual-Handle Underhand Lat Pulldown",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 10.5,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0,
+          "volume": 157.5,
+          "capacity": 313.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 11.4,
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "volume": 136.8,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 12.7,
+          "left_weight_max": 28.0,
+          "right_weight_max": 28.0,
+          "volume": 152.39999999999998,
+          "capacity": 305.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.7,
+          "left_weight_max": 28.0,
+          "right_weight_max": 28.0,
+          "volume": 127.0,
+          "capacity": 254.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 573.7,
+      "max_weight": 12.7,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dual-Handle Bent-Over Row",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 136.5,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.5,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0,
+          "volume": 126.0,
+          "capacity": 250.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 11.4,
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "volume": 136.8,
+          "capacity": 272.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.3,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 123.0,
+          "capacity": 245.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 522.3,
+      "max_weight": 12.3,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Single Handle Low Pull 45 degrees Left",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 8.2,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 98.39999999999999,
+          "capacity": 98.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 11.4,
+          "left_weight_max": 25.0,
+          "right_weight_max": null,
+          "volume": 114.0,
+          "capacity": 113.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.7,
+          "left_weight_max": 28.0,
+          "right_weight_max": null,
+          "volume": 127.0,
+          "capacity": 127.3,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 339.4,
+      "max_weight": 12.7,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Single Handle Low Pull 45 degrees Right",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 8.2,
+          "left_weight_max": null,
+          "right_weight_max": 18.0,
+          "volume": 98.39999999999999,
+          "capacity": 98.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 11.4,
+          "left_weight_max": null,
+          "right_weight_max": 25.0,
+          "volume": 114.0,
+          "capacity": 113.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.7,
+          "left_weight_max": null,
+          "right_weight_max": 28.0,
+          "volume": 127.0,
+          "capacity": 127.3,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 339.4,
+      "max_weight": 12.7,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lat Stretch (Left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lat Stretch (Right)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 10
+}

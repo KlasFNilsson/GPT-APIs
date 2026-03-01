@@ -1,0 +1,518 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:39:37.340369+00:00",
+    "record_id": "2197759",
+    "training_id": "312100",
+    "source": "course",
+    "title": "250902 3A Bilat + pull",
+    "type": 5,
+    "startTime": "2025-09-22 15:18:38",
+    "endTime": "2025-09-22 16:09:24",
+    "trainingTime_sec": 2964,
+    "calorie": 192,
+    "totalCapacity": 12000.0,
+    "totalEnergy": 43519.84
+  },
+  "exercises": [
+    {
+      "name": "Bent Over T-Raise",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Cable External Rotation (left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Cable External Rotation (right)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 54.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 648.0,
+          "capacity": 648.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 270.0,
+          "capacity": 270.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 270.0,
+          "capacity": 270.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 270.0,
+          "capacity": 270.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 54.0,
+          "left_weight_max": 27.0,
+          "right_weight_max": 27.0,
+          "volume": 810.0,
+          "capacity": 810.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 2268.0,
+      "max_weight": 54.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Barbell Shoulder Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 900.0,
+      "max_weight": 30.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Narrow Grip Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 49.0,
+          "left_weight_max": 24.5,
+          "right_weight_max": 24.5,
+          "volume": 490.0,
+          "capacity": 490.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 49.0,
+          "left_weight_max": 24.5,
+          "right_weight_max": 24.5,
+          "volume": 490.0,
+          "capacity": 490.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 49.0,
+          "left_weight_max": 24.5,
+          "right_weight_max": 24.5,
+          "volume": 490.0,
+          "capacity": 490.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1470.0,
+      "max_weight": 49.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Dual-Handle Lateral Raise",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle Chest Fly",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Triceps Pushdown",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Left Chest Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Right Chest Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lunge Overhead Triceps Stretch（Left）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lunge Overhead Triceps Stretch（Right）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 13
+}

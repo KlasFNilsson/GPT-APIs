@@ -1,0 +1,267 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:36:11.834701+00:00",
+    "record_id": "2875250",
+    "training_id": "428202",
+    "source": "course",
+    "title": "260213 Run strength B",
+    "type": 5,
+    "startTime": "2026-02-22 13:22:54",
+    "endTime": "2026-02-22 13:53:18",
+    "trainingTime_sec": 1746,
+    "calorie": 185,
+    "totalCapacity": 5220.0,
+    "totalEnergy": 23084.09
+  },
+  "exercises": [
+    {
+      "name": "Single-Arm Circles",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bench Push-Up",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Incline Barbell Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0,
+          "volume": 180.0,
+          "capacity": 180.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 22.0,
+          "left_weight_max": 11.0,
+          "right_weight_max": 11.0,
+          "volume": 220.0,
+          "capacity": 220.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 27.0,
+          "left_weight_max": 13.5,
+          "right_weight_max": 13.5,
+          "volume": 270.0,
+          "capacity": 270.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 27.0,
+          "left_weight_max": 13.5,
+          "right_weight_max": 13.5,
+          "volume": 270.0,
+          "capacity": 270.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 28.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 280.0,
+          "capacity": 280.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 5,
+      "total_volume": 1220.0,
+      "max_weight": 28.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 300.0,
+          "capacity": 300.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1200.0,
+      "max_weight": 30.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Supine Dual-Handle Chest Fly",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 7.5,
+          "left_weight_max": 7.5,
+          "right_weight_max": 7.5,
+          "volume": 112.5,
+          "capacity": 225.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 8.5,
+          "left_weight_max": 8.5,
+          "right_weight_max": 8.5,
+          "volume": 127.5,
+          "capacity": 255.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 9.5,
+          "left_weight_max": 9.5,
+          "right_weight_max": 9.5,
+          "volume": 142.5,
+          "capacity": 285.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 9.5,
+          "left_weight_max": 9.5,
+          "right_weight_max": 9.5,
+          "volume": 142.5,
+          "capacity": 285.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 525.0,
+      "max_weight": 9.5,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Chest Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 6
+}

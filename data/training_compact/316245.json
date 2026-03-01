@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:39:28.670529+00:00",
+    "record_id": "2220367",
+    "training_id": "316245",
+    "source": "course",
+    "title": "Hyrox A",
+    "type": 5,
+    "startTime": "2025-09-29 17:57:40",
+    "endTime": "2025-09-29 18:41:32",
+    "trainingTime_sec": 2525,
+    "calorie": 216,
+    "totalCapacity": 5326.0,
+    "totalEnergy": 42041.28
+  },
+  "exercises": [
+    {
+      "name": "Pike Shin Taps",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Narrow Grip Bench Press",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 29.0,
+          "left_weight_max": 14.5,
+          "right_weight_max": 14.5,
+          "volume": 348.0,
+          "capacity": 348.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 29.0,
+          "left_weight_max": 14.5,
+          "right_weight_max": 14.5,
+          "volume": 348.0,
+          "capacity": 348.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 27.0,
+          "left_weight_max": 13.5,
+          "right_weight_max": 13.5,
+          "volume": 405.0,
+          "capacity": 388.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 25.0,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5,
+          "volume": 300.0,
+          "capacity": 268.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1401.0,
+      "max_weight": 29.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Barbell Biceps Curl",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 23.0,
+          "left_weight_max": 11.5,
+          "right_weight_max": 11.5,
+          "volume": 276.0,
+          "capacity": 276.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 19.0,
+          "left_weight_max": 9.5,
+          "right_weight_max": 9.5,
+          "volume": 228.0,
+          "capacity": 228.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 15,
+          "weight": 21.0,
+          "left_weight_max": 10.5,
+          "right_weight_max": 10.5,
+          "volume": 315.0,
+          "capacity": 292.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 24.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 288.0,
+          "capacity": 239.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1107.0,
+      "max_weight": 24.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Overhead Triceps Extension",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "left_weight_max": null,
+          "right_weight_max": 13.0,
+          "volume": 156.0,
+          "capacity": 156.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 9.5,
+          "left_weight_max": null,
+          "right_weight_max": 9.5,
+          "volume": 114.0,
+          "capacity": 114.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 9.5,
+          "left_weight_max": null,
+          "right_weight_max": 9.5,
+          "volume": 114.0,
+          "capacity": 114.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0,
+          "volume": 120.0,
+          "capacity": 120.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 504.0,
+      "max_weight": 13.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Hammer Curl",
+      "sets": [
+        {
+          "reps": 13,
+          "weight": 10.0,
+          "left_weight_max": null,
+          "right_weight_max": 10.0,
+          "volume": 130.0,
+          "capacity": 130.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 13,
+          "weight": 17.0,
+          "left_weight_max": null,
+          "right_weight_max": 17.0,
+          "volume": 221.0,
+          "capacity": 221.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 17.0,
+          "left_weight_max": null,
+          "right_weight_max": 17.0,
+          "volume": 204.0,
+          "capacity": 204.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 17.0,
+          "left_weight_max": null,
+          "right_weight_max": 17.0,
+          "volume": 204.0,
+          "capacity": 204.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 759.0,
+      "max_weight": 17.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Triceps Stretch (Left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Triceps Stretch (Right)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Biceps Stretch (Left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Biceps Stretch (Right)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 9
+}

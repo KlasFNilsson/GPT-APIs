@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:40:37.266311+00:00",
+    "record_id": "2066270",
+    "training_id": "290588",
+    "source": "course",
+    "title": "GM A",
+    "type": 5,
+    "startTime": "2025-08-27 13:39:29",
+    "endTime": "2025-08-27 14:19:59",
+    "trainingTime_sec": 2372,
+    "calorie": 297,
+    "totalCapacity": 6049.0,
+    "totalEnergy": 26466.17
+  },
+  "exercises": [
+    {
+      "name": "Hip-Opening Squat",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bench Push-Up",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 70.0,
+          "capacity": 70.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 358.0,
+      "max_weight": 8.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Bent Over Row",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 84.0,
+          "capacity": 84.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 8.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": 4.0,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 372.0,
+      "max_weight": 8.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Squat",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 84.0,
+          "capacity": 84.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 84.0,
+          "capacity": 84.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 84.0,
+          "capacity": 84.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 7.0,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 84.0,
+          "capacity": 84.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 336.0,
+      "max_weight": 7.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Chest Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Upper Back Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Left Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Right Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 9
+}

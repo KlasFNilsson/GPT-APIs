@@ -1,0 +1,383 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:37:33.384155+00:00",
+    "record_id": "2483278",
+    "training_id": "361347",
+    "source": "course",
+    "title": "B3",
+    "type": 5,
+    "startTime": "2025-12-09 05:48:53",
+    "endTime": "2025-12-09 06:29:11",
+    "trainingTime_sec": 2342,
+    "calorie": 179,
+    "totalCapacity": 9237.0,
+    "totalEnergy": 41180.87
+  },
+  "exercises": [
+    {
+      "name": "Standing Knee to Chest",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dynamic Standing Hip External Circles",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 46.8,
+          "left_weight_max": 51.5,
+          "right_weight_max": 51.5,
+          "volume": 561.5999999999999,
+          "capacity": 561.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 48.2,
+          "left_weight_max": 53.0,
+          "right_weight_max": 53.0,
+          "volume": 482.0,
+          "capacity": 481.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 59.5,
+          "left_weight_max": 65.5,
+          "right_weight_max": 65.5,
+          "volume": 297.5,
+          "capacity": 297.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 59.5,
+          "left_weight_max": 65.5,
+          "right_weight_max": 65.5,
+          "volume": 297.5,
+          "capacity": 297.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 61.4,
+          "left_weight_max": 67.5,
+          "right_weight_max": 67.5,
+          "volume": 307.0,
+          "capacity": 306.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 65.9,
+          "left_weight_max": 72.5,
+          "right_weight_max": 72.5,
+          "volume": 329.5,
+          "capacity": 329.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 7,
+      "total_volume": 2275.1,
+      "max_weight": 65.9,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Squat",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 52.7,
+          "left_weight_max": 58.0,
+          "right_weight_max": 58.0,
+          "volume": 632.4000000000001,
+          "capacity": 632.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 54.5,
+          "left_weight_max": 60.0,
+          "right_weight_max": 60.0,
+          "volume": 545.0,
+          "capacity": 545.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.1,
+          "left_weight_max": 59.5,
+          "right_weight_max": 59.5,
+          "volume": 270.5,
+          "capacity": 270.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.1,
+          "left_weight_max": 59.5,
+          "right_weight_max": 59.5,
+          "volume": 270.5,
+          "capacity": 270.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 5,
+          "weight": 54.1,
+          "left_weight_max": 59.5,
+          "right_weight_max": 59.5,
+          "volume": 270.5,
+          "capacity": 270.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 7,
+      "total_volume": 1988.9,
+      "max_weight": 54.5,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Bent Over Row",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 7,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Left Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Right Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Upper Back Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 8
+}

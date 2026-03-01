@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:37:45.793652+00:00",
+    "record_id": "2425292",
+    "training_id": "351785",
+    "source": "course",
+    "title": "A. Power & acceleration (lower focus)",
+    "type": 5,
+    "startTime": "2025-11-25 06:33:08",
+    "endTime": "2025-11-25 07:01:21",
+    "trainingTime_sec": 1657,
+    "calorie": 161,
+    "totalCapacity": 3568.0,
+    "totalEnergy": 32296.74
+  },
+  "exercises": [
+    {
+      "name": "Push-Up Rotations",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Triceps Pushdown",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 180.0,
+          "capacity": 161.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 120.0,
+          "capacity": 120.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 9,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 108.0,
+          "capacity": 108.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 96.0,
+          "capacity": 96.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 504.0,
+      "max_weight": 12.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Narrow Grip Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 15.0,
+          "left_weight_max": 7.5,
+          "right_weight_max": 7.5,
+          "volume": 150.0,
+          "capacity": 115.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 15.0,
+          "left_weight_max": 7.5,
+          "right_weight_max": 7.5,
+          "volume": 150.0,
+          "capacity": 150.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 17.0,
+          "left_weight_max": 8.5,
+          "right_weight_max": 8.5,
+          "volume": 136.0,
+          "capacity": 136.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 436.0,
+      "max_weight": 17.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Supine Barbell Triceps Extension",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 9.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5,
+          "volume": 108.0,
+          "capacity": 88.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "left_weight_max": 4.5,
+          "right_weight_max": 4.5,
+          "volume": 90.0,
+          "capacity": 90.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 10.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0,
+          "volume": 80.0,
+          "capacity": 80.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 278.0,
+      "max_weight": 10.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Overhead Triceps Extension (Main Frame)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 6.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": null,
+          "volume": 60.0,
+          "capacity": 57.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": null,
+          "volume": 60.0,
+          "capacity": 60.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.0,
+          "left_weight_max": 6.0,
+          "right_weight_max": null,
+          "volume": 60.0,
+          "capacity": 60.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 180.0,
+      "max_weight": 6.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Single Arm Cross Body Tricep Extension（left）",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 4.0,
+          "left_weight_max": 4.0,
+          "right_weight_max": null,
+          "volume": 40.0,
+          "capacity": 40.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 9,
+          "weight": 5.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0,
+          "volume": 45.0,
+          "capacity": 45.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 5.5,
+          "left_weight_max": 5.5,
+          "right_weight_max": null,
+          "volume": 44.0,
+          "capacity": 44.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 129.0,
+      "max_weight": 5.5,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Single Arm Cross Body Tricep Extension（right）",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 5.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0,
+          "volume": 50.0,
+          "capacity": 50.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 9,
+          "weight": 5.5,
+          "left_weight_max": null,
+          "right_weight_max": 5.5,
+          "volume": 49.5,
+          "capacity": 49.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 5.5,
+          "left_weight_max": null,
+          "right_weight_max": 5.5,
+          "volume": 44.0,
+          "capacity": 44.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 143.5,
+      "max_weight": 5.5,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bent-Over Dual-Handle Triceps Extension（Floor）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lunge Overhead Triceps Stretch（Left）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lunge Overhead Triceps Stretch（Right）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 10
+}

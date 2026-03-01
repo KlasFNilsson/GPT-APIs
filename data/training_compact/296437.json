@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:39:51.040708+00:00",
+    "record_id": "2098838",
+    "training_id": "296437",
+    "source": "course",
+    "title": "250901 3C Unilat + Pull",
+    "type": 5,
+    "startTime": "2025-09-07 08:56:56",
+    "endTime": "2025-09-07 09:45:00",
+    "trainingTime_sec": 2765,
+    "calorie": 161,
+    "totalCapacity": 5366.5,
+    "totalEnergy": 16634.11
+  },
+  "exercises": [
+    {
+      "name": "Barbell Bench Press",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 360.0,
+          "capacity": 360.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 32.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0,
+          "volume": 384.0,
+          "capacity": 384.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 32.0,
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0,
+          "volume": 384.0,
+          "capacity": 384.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1128.0,
+      "max_weight": 32.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dual-Handle Bench Press",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 180.0,
+          "capacity": 360.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 180.0,
+          "capacity": 360.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "volume": 180.0,
+          "capacity": 359.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 540.0,
+      "max_weight": 18.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle High-to-Low Chest Fly",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 144.0,
+          "capacity": 288.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 14.0,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 168.0,
+          "capacity": 336.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 15.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 180.0,
+          "capacity": 360.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 492.0,
+      "max_weight": 15.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Dual-Handle Low-to-High Chest Fly",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 5.0,
+          "left_weight_max": 5.0,
+          "right_weight_max": 5.0,
+          "volume": 50.0,
+          "capacity": 100.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0,
+          "volume": 70.0,
+          "capacity": 140.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0,
+          "volume": 70.0,
+          "capacity": 140.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 190.0,
+      "max_weight": 7.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 4
+}

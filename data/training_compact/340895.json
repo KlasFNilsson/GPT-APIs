@@ -1,0 +1,280 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:38:06.052852+00:00",
+    "record_id": "2360014",
+    "training_id": "340895",
+    "source": "course",
+    "title": "Hyrox2 C",
+    "type": 5,
+    "startTime": "2025-11-09 10:20:55",
+    "endTime": "2025-11-09 11:15:16",
+    "trainingTime_sec": 3150,
+    "calorie": 260,
+    "totalCapacity": 9097.0,
+    "totalEnergy": 29439.64
+  },
+  "exercises": [
+    {
+      "name": "Star Jumps",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Hammer Curl",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 10.0,
+          "left_weight_max": 22.0,
+          "right_weight_max": null,
+          "volume": 150.0,
+          "capacity": 150.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 10.9,
+          "left_weight_max": 24.0,
+          "right_weight_max": null,
+          "volume": 130.8,
+          "capacity": 130.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 11.4,
+          "left_weight_max": 25.0,
+          "right_weight_max": null,
+          "volume": 114.0,
+          "capacity": 113.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 394.8,
+      "max_weight": 11.4,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Y-Front Raise",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 3.6,
+          "left_weight_max": 8.0,
+          "right_weight_max": null,
+          "volume": 54.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 4.5,
+          "left_weight_max": 10.0,
+          "right_weight_max": null,
+          "volume": 54.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.5,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 55.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 163.0,
+      "max_weight": 5.5,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Face Pull (Rear Delts)",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 3.6,
+          "left_weight_max": null,
+          "right_weight_max": 8.0,
+          "volume": 54.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 4.5,
+          "left_weight_max": null,
+          "right_weight_max": 10.0,
+          "volume": 54.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.5,
+          "left_weight_max": null,
+          "right_weight_max": 12.0,
+          "volume": 55.0,
+          "capacity": 54.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 163.0,
+      "max_weight": 5.5,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Triceps Pushdown",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 11.4,
+          "left_weight_max": null,
+          "right_weight_max": 25.0,
+          "volume": 171.0,
+          "capacity": 170.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 12.7,
+          "left_weight_max": null,
+          "right_weight_max": 28.0,
+          "volume": 152.39999999999998,
+          "capacity": 152.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 13.6,
+          "left_weight_max": null,
+          "right_weight_max": 30.0,
+          "volume": 136.0,
+          "capacity": 136.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 459.4,
+      "max_weight": 13.6,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Tricep Rope Crunch",
+      "sets": [
+        {
+          "reps": 20,
+          "weight": 13.6,
+          "left_weight_max": null,
+          "right_weight_max": 30.0,
+          "volume": 272.0,
+          "capacity": 268.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 18,
+          "weight": 13.6,
+          "left_weight_max": null,
+          "right_weight_max": 30.0,
+          "volume": 244.79999999999998,
+          "capacity": 245.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 16,
+          "weight": 15.9,
+          "left_weight_max": null,
+          "right_weight_max": 35.0,
+          "volume": 254.4,
+          "capacity": 254.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 771.2,
+      "max_weight": 15.9,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Abdominal Muscles Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 7
+}

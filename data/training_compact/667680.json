@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:38:54.253988+00:00",
+    "record_id": "2280078",
+    "training_id": "667680",
+    "source": "course",
+    "title": "Sam's Quick Fit: Biceps-Triceps 30x3",
+    "type": 2,
+    "startTime": "2025-10-17 18:18:55",
+    "endTime": "2025-10-17 18:47:51",
+    "trainingTime_sec": 1598,
+    "calorie": 189,
+    "totalCapacity": 2941.0,
+    "totalEnergy": 16118.47
+  },
+  "exercises": [
+    {
+      "name": "Standing Dual-Handle Biceps Curl",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 120.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 120.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 120.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 360.0,
+      "max_weight": 12.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Incline Bench Spider Curl",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 3.5,
+          "left_weight_max": 3.5,
+          "right_weight_max": 3.5,
+          "volume": 35.0,
+          "capacity": 70.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 7.0,
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0,
+          "volume": 70.0,
+          "capacity": 98.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 9.0,
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0,
+          "volume": 90.0,
+          "capacity": 180.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 195.0,
+      "max_weight": 9.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Incline Dual-Handle Biceps Curl",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 9.5,
+          "left_weight_max": 9.5,
+          "right_weight_max": 9.5,
+          "volume": 95.0,
+          "capacity": 190.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 100.0,
+          "capacity": 200.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 10.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 100.0,
+          "capacity": 200.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 295.0,
+      "max_weight": 10.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Overhead Triceps Extension (Main Frame)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 13.0,
+          "left_weight_max": null,
+          "right_weight_max": 13.0,
+          "volume": 130.0,
+          "capacity": 130.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 13.0,
+          "left_weight_max": null,
+          "right_weight_max": 13.0,
+          "volume": 130.0,
+          "capacity": 130.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 15.0,
+          "left_weight_max": null,
+          "right_weight_max": 15.0,
+          "volume": 150.0,
+          "capacity": 123.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 410.0,
+      "max_weight": 15.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Tricep Rope Triceps Pushdown",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 16.0,
+          "left_weight_max": null,
+          "right_weight_max": 16.0,
+          "volume": 160.0,
+          "capacity": 160.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 16.0,
+          "left_weight_max": null,
+          "right_weight_max": 16.0,
+          "volume": 160.0,
+          "capacity": 160.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 16.0,
+          "left_weight_max": null,
+          "right_weight_max": 16.0,
+          "volume": 160.0,
+          "capacity": 160.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 480.0,
+      "max_weight": 16.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Incline Tricep Rope Triceps Push Down",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0,
+          "volume": 120.0,
+          "capacity": 110.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 15.0,
+          "left_weight_max": null,
+          "right_weight_max": 15.0,
+          "volume": 150.0,
+          "capacity": 150.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 16.0,
+          "left_weight_max": null,
+          "right_weight_max": 16.0,
+          "volume": 160.0,
+          "capacity": 160.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 430.0,
+      "max_weight": 16.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 6
+}

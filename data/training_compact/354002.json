@@ -1,0 +1,418 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:37:42.776022+00:00",
+    "record_id": "2437983",
+    "training_id": "354002",
+    "source": "course",
+    "title": "B3",
+    "type": 5,
+    "startTime": "2025-11-28 06:44:12",
+    "endTime": "2025-11-28 07:26:11",
+    "trainingTime_sec": 2367,
+    "calorie": 186,
+    "totalCapacity": 8156.0,
+    "totalEnergy": 34468.02
+  },
+  "exercises": [
+    {
+      "name": "Single-Arm Circles",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bodyweight Sumo Squat",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Bent-Over Barbell Straight Arm Pulldown",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 20.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 240.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 20.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 200.0,
+          "capacity": 200.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 23.0,
+          "left_weight_max": 11.5,
+          "right_weight_max": 11.5,
+          "volume": 184.0,
+          "capacity": 184.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 624.0,
+      "max_weight": 23.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Seated Barbell Lat Pulldown",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 30.0,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 360.0,
+          "capacity": 360.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 40.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 400.0,
+          "capacity": 400.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 50.0,
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "volume": 400.0,
+          "capacity": 400.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1160.0,
+      "max_weight": 50.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Hip Thrust",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 40.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 480.0,
+          "capacity": 480.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 41.0,
+          "left_weight_max": 20.5,
+          "right_weight_max": 20.5,
+          "volume": 410.0,
+          "capacity": 410.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 46.0,
+          "left_weight_max": 23.0,
+          "right_weight_max": 23.0,
+          "volume": 368.0,
+          "capacity": 368.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1258.0,
+      "max_weight": 46.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Squat",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 40.0,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 480.0,
+          "capacity": 480.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 45.0,
+          "left_weight_max": 22.5,
+          "right_weight_max": 22.5,
+          "volume": 450.0,
+          "capacity": 450.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 930.0,
+      "max_weight": 45.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Barbell Shoulder Press",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 20.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 240.0,
+          "capacity": 240.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 20.0,
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "volume": 200.0,
+          "capacity": 200.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 440.0,
+      "max_weight": 20.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Low-High Woodchop Left",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 12.0,
+          "left_weight_max": 12.0,
+          "right_weight_max": null,
+          "volume": 180.0,
+          "capacity": 175.5,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 13.0,
+          "left_weight_max": 13.0,
+          "right_weight_max": null,
+          "volume": 156.0,
+          "capacity": 156.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 336.0,
+      "max_weight": 13.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Low-High Woodchop Right",
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 12.0,
+          "left_weight_max": null,
+          "right_weight_max": 12.0,
+          "volume": 180.0,
+          "capacity": 180.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 12,
+          "weight": 15.0,
+          "left_weight_max": null,
+          "right_weight_max": 15.0,
+          "volume": 180.0,
+          "capacity": 180.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 360.0,
+      "max_weight": 15.0,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lat Stretch (Left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Lat Stretch (Right)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Left Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Right Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": null,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": null,
+        "totalCapacityPr": null,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 13
+}

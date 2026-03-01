@@ -1,0 +1,475 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T15:39:22.781263+00:00",
+    "record_id": "2235012",
+    "training_id": "318881",
+    "source": "course",
+    "title": "Hyrox C",
+    "type": 5,
+    "startTime": "2025-10-04 08:42:32",
+    "endTime": "2025-10-04 09:17:03",
+    "trainingTime_sec": 1799,
+    "calorie": 170,
+    "totalCapacity": 4374.0,
+    "totalEnergy": 12992.99
+  },
+  "exercises": [
+    {
+      "name": "Dynamic Frog Squat",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dynamic Standing lateral Leg Swings",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Squat",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 11.4,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5,
+          "volume": 136.8,
+          "capacity": 95.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 13.6,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 136.0,
+          "capacity": 100.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 12.7,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 127.0,
+          "capacity": 127.3,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 12.7,
+          "left_weight_max": 14.0,
+          "right_weight_max": 14.0,
+          "volume": 101.6,
+          "capacity": 101.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 501.4,
+      "max_weight": 13.6,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 13.6,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 163.2,
+          "capacity": 163.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 11.8,
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0,
+          "volume": 118.0,
+          "capacity": 114.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 11.4,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5,
+          "volume": 91.2,
+          "capacity": 90.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 8,
+          "weight": 11.4,
+          "left_weight_max": 12.5,
+          "right_weight_max": 12.5,
+          "volume": 91.2,
+          "capacity": 90.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 463.6,
+      "max_weight": 13.6,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dual-Handle Cable Lunge (Left)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 91.0,
+          "capacity": 181.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 9.1,
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "volume": 91.0,
+          "capacity": 181.8,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.5,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 55.0,
+          "capacity": 109.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.5,
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "volume": 55.0,
+          "capacity": 109.1,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 292.0,
+      "max_weight": 9.1,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Dual-Handle Cable Lunge (Right)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 68.0,
+          "capacity": 136.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 68.0,
+          "capacity": 136.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 68.0,
+          "capacity": 136.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.8,
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0,
+          "volume": 68.0,
+          "capacity": 136.4,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 272.0,
+      "max_weight": 6.8,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Cable Kickback (Right Leg)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 5.5,
+          "left_weight_max": null,
+          "right_weight_max": 12.0,
+          "volume": 55.0,
+          "capacity": 47.0,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.1,
+          "left_weight_max": null,
+          "right_weight_max": 13.5,
+          "volume": 61.0,
+          "capacity": 55.9,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 7.7,
+          "left_weight_max": null,
+          "right_weight_max": 17.0,
+          "volume": 77.0,
+          "capacity": 57.3,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.6,
+          "left_weight_max": null,
+          "right_weight_max": 14.5,
+          "volume": 66.0,
+          "capacity": 55.7,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 259.0,
+      "max_weight": 7.7,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Standing Cable Kickback (Left Leg)",
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 5.7,
+          "left_weight_max": 12.5,
+          "right_weight_max": null,
+          "volume": 57.0,
+          "capacity": 50.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.7,
+          "left_weight_max": 12.5,
+          "right_weight_max": null,
+          "volume": 57.0,
+          "capacity": 48.6,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 5.9,
+          "left_weight_max": 13.0,
+          "right_weight_max": null,
+          "volume": 59.0,
+          "capacity": 47.3,
+          "maxWeight": null,
+          "oneRepMax": null
+        },
+        {
+          "reps": 10,
+          "weight": 6.4,
+          "left_weight_max": 14.0,
+          "right_weight_max": null,
+          "volume": 64.0,
+          "capacity": 58.2,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 237.0,
+      "max_weight": 6.4,
+      "pr_flags": {
+        "maxWeightPr": 1,
+        "totalCapacityPr": 1,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Hip Stretch(Left)",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Hip Stretch（Right）",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Left Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    },
+    {
+      "name": "Right Leg Standing Quad Stretch",
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "volume": 0.0,
+          "capacity": 0,
+          "maxWeight": null,
+          "oneRepMax": null
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pr_flags": {
+        "maxWeightPr": 0,
+        "totalCapacityPr": 0,
+        "levelPr": null
+      }
+    }
+  ],
+  "exercise_count": 12
+}

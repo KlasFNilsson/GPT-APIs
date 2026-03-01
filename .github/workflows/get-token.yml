@@ -19,19 +19,54 @@ jobs:
 
       - name: Login and print token + user_id
         env:
+          SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
+          SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
+          SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
           SPEEDIANCE_EMAIL: ${{ secrets.SPEEDIANCE_EMAIL }}
           SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
         run: |
           python - <<'PY'
-          from api_client import SpeedianceClient
           import os
+          from api_client import SpeedianceClient
+
+          def env_str(name, default=""):
+              v = os.getenv(name)
+              return (v.strip() if v else default)
+
+          def env_int(name, default):
+              v = os.getenv(name)
+              v = (v.strip() if v else "")
+              return int(v) if v.isdigit() else default
+
+          def env_bool(name, default=False):
+              v = os.getenv(name)
+              v = (v.strip().lower() if v else "")
+              if v == "":
+                  return default
+              return v in ("1", "true", "yes", "y", "on")
 
           c = SpeedianceClient()
+
+          # IMPORTANT: set config/region BEFORE login (same as sync_speediance.py)
+          c.save_config(
+              user_id="",
+              token="",
+              region=env_str("SPEEDIANCE_REGION", "Global"),
+              unit=env_int("SPEEDIANCE_UNIT", 0),
+              custom_instruction="",
+              device_type=env_int("SPEEDIANCE_DEVICE_TYPE", 1),
+              allow_monster_moves=env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False),
+          )
+
+          print("REGION =", c.region)
+          # api_client.py has this helper; printing confirms EU vs Global base
+          print("API_BASE =", c._get_api_base_url())
+
           ok, msg, err = c.login(os.environ["SPEEDIANCE_EMAIL"], os.environ["SPEEDIANCE_PASSWORD"])
           if not ok:
               raise Exception(f"Login failed: {msg}\n{err or ''}")
 
-          # Print values so you can copy them into Secrets
           print("SPEEDIANCE_USER_ID=", c.user_id)
           print("SPEEDIANCE_TOKEN=", c.token)
           PY

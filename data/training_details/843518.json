@@ -1,0 +1,341 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T12:27:32.492132+00:00",
+    "id": "843518",
+    "type": null,
+    "date": "2026-03-01 12:05:46"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 806861158023168,
+      "actionLibraryName": "Mat Lying Toe Taps",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 17,
+      "categoryId": 20,
+      "finishedReps": [
+        {
+          "id": 12852538,
+          "finishedCount": 0,
+          "targetCount": 20,
+          "capacity": 0,
+          "maxHeartRate": 124.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 20,
+          "trainingInfoDetail": {
+            "id": 9458435,
+            "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+            "actionLibraryId": 809115659337728,
+            "groupTrainingInfoId": 12852538,
+            "courseTrainingInfoId": 843518,
+            "courseActionLibraryTrainingInfoId": 6283654
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 806895596896256,
+      "actionLibraryName": "Mat Shoulder Bridg",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 14,
+      "categoryId": 20,
+      "finishedReps": [
+        {
+          "id": 12852539,
+          "finishedCount": 0,
+          "targetCount": 20,
+          "capacity": 0,
+          "maxHeartRate": 103.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 20,
+          "trainingInfoDetail": {
+            "id": 9458436,
+            "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+            "actionLibraryId": 809121262927872,
+            "groupTrainingInfoId": 12852539,
+            "courseTrainingInfoId": 843518,
+            "courseActionLibraryTrainingInfoId": 6283655
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 806897677828096,
+      "actionLibraryName": "Mat Knee Pressure",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 17,
+      "categoryId": 20,
+      "finishedReps": [
+        {
+          "id": 12852540,
+          "finishedCount": 0,
+          "targetCount": 20,
+          "capacity": 0,
+          "maxHeartRate": 92.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 20,
+          "trainingInfoDetail": {
+            "id": 9458437,
+            "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+            "actionLibraryId": 809121375617024,
+            "groupTrainingInfoId": 12852540,
+            "courseTrainingInfoId": 843518,
+            "courseActionLibraryTrainingInfoId": 6283656
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 807762455232512,
+      "actionLibraryName": "Supine Leg Scissors",
+      "trainingPartId2": 17,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 3,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 804279391944704,
+      "actionLibraryName": "High Adductor Stretch",
+      "trainingPartId2": 14,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 804280495046656,
+      "actionLibraryName": "Parallel Press",
+      "trainingPartId2": 15,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 804068371759104,
+      "actionLibraryName": "Lying Straight Down",
+      "trainingPartId2": 13,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 804068967907328,
+      "actionLibraryName": "Lying Side Arm",
+      "trainingPartId2": 13,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 804007865286656,
+      "actionLibraryName": "The Hundred Prep",
+      "trainingPartId2": 17,
+      "categoryId": 18,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "5"
+    },
+    {
+      "actionLibraryGroupId": 808006903463936,
+      "actionLibraryName": "Abdominal Stretch",
+      "trainingPartId2": 17,
+      "categoryId": 20,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 807989903949824,
+      "actionLibraryName": "Child Pose",
+      "trainingPartId2": 13,
+      "categoryId": 20,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    }
+  ]
+}

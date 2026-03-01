@@ -1,11 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T15:36:28.731378+00:00",
+    "generated_at": "2026-03-01T16:30:01.954818+00:00",
     "record_id": "2836785",
     "training_id": "822606",
     "source": "course",
     "title": "Epic Chest 2",
     "type": 2,
+    "date": "2026-02-15 15:28:36",
     "startTime": "2026-02-15 14:56:28",
     "endTime": "2026-02-15 15:28:36",
     "trainingTime_sec": 1877,
@@ -20,12 +21,9 @@
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         }
       ],
       "set_count": 1,
@@ -43,22 +41,16 @@
         {
           "reps": 20,
           "weight": 3.5,
-          "left_weight_max": null,
-          "right_weight_max": 3.5,
           "volume": 70.0,
-          "capacity": 70.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": 3.5
         },
         {
           "reps": 20,
           "weight": 3.5,
-          "left_weight_max": 3.5,
-          "right_weight_max": null,
           "volume": 70.0,
-          "capacity": 70.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 3.5,
+          "right_weight_max": null
         }
       ],
       "set_count": 2,
@@ -76,42 +68,30 @@
         {
           "reps": 15,
           "weight": 26.0,
-          "left_weight_max": 13.0,
-          "right_weight_max": 13.0,
           "volume": 390.0,
-          "capacity": 390.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 13.0,
+          "right_weight_max": 13.0
         },
         {
           "reps": 12,
           "weight": 30.0,
-          "left_weight_max": 15.0,
-          "right_weight_max": 15.0,
           "volume": 360.0,
-          "capacity": 360.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 15.0,
+          "right_weight_max": 15.0
         },
         {
           "reps": 10,
           "weight": 31.0,
-          "left_weight_max": 15.5,
-          "right_weight_max": 15.5,
           "volume": 310.0,
-          "capacity": 310.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 15.5,
+          "right_weight_max": 15.5
         },
         {
           "reps": 8,
           "weight": 32.0,
-          "left_weight_max": 16.0,
-          "right_weight_max": 16.0,
           "volume": 256.0,
-          "capacity": 256.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
         }
       ],
       "set_count": 4,
@@ -129,32 +109,23 @@
         {
           "reps": 12,
           "weight": 11.0,
-          "left_weight_max": 11.0,
-          "right_weight_max": 11.0,
           "volume": 132.0,
-          "capacity": 264.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 11.0,
+          "right_weight_max": 11.0
         },
         {
           "reps": 10,
           "weight": 16.0,
-          "left_weight_max": 16.0,
-          "right_weight_max": 16.0,
           "volume": 160.0,
-          "capacity": 320.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0
         },
         {
           "reps": 8,
           "weight": 18.0,
-          "left_weight_max": 18.0,
-          "right_weight_max": 18.0,
           "volume": 144.0,
-          "capacity": 235.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0
         }
       ],
       "set_count": 3,
@@ -172,32 +143,23 @@
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         }
       ],
       "set_count": 3,
@@ -215,32 +177,23 @@
         {
           "reps": 15,
           "weight": 7.5,
-          "left_weight_max": 7.5,
-          "right_weight_max": 7.5,
           "volume": 112.5,
-          "capacity": 225.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 7.5,
+          "right_weight_max": 7.5
         },
         {
           "reps": 12,
           "weight": 8.5,
-          "left_weight_max": 8.5,
-          "right_weight_max": 8.5,
           "volume": 102.0,
-          "capacity": 204.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 8.5,
+          "right_weight_max": 8.5
         },
         {
           "reps": 10,
           "weight": 9.0,
-          "left_weight_max": 9.0,
-          "right_weight_max": 9.0,
           "volume": 90.0,
-          "capacity": 180.0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": 9.0,
+          "right_weight_max": 9.0
         }
       ],
       "set_count": 3,
@@ -258,32 +211,23 @@
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         }
       ],
       "set_count": 3,
@@ -301,42 +245,30 @@
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         }
       ],
       "set_count": 4,

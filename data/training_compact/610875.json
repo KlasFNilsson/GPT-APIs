@@ -1,11 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T15:40:18.657433+00:00",
+    "generated_at": "2026-03-01T16:33:46.544115+00:00",
     "record_id": "2073241",
     "training_id": "610875",
     "source": "course",
     "title": "Rowing Warm-Up",
     "type": 2,
+    "date": "2025-08-29 18:34:52",
     "startTime": "2025-08-29 18:23:17",
     "endTime": "2025-08-29 18:34:52",
     "trainingTime_sec": 676,
@@ -20,102 +21,72 @@
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         },
         {
           "reps": 0,
           "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
           "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
+          "left_weight_max": null,
+          "right_weight_max": null
         }
       ],
       "set_count": 10,

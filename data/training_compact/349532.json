@@ -1,11 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T15:37:48.458471+00:00",
+    "generated_at": "2026-03-01T16:31:19.425272+00:00",
     "record_id": "2411098",
     "training_id": "349532",
-    "source": "course",
+    "source": "ctt",
     "title": "B. Upper power & post. chain",
     "type": 5,
+    "date": "2025-11-21 17:29:40",
     "startTime": "2025-11-21 16:34:26",
     "endTime": "2025-11-21 17:29:40",
     "trainingTime_sec": 3181,
@@ -13,172 +14,6 @@
     "totalCapacity": 5611.0,
     "totalEnergy": 76366.92
   },
-  "exercises": [
-    {
-      "name": "Chest Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 2,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Seated Upper Back Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 2,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Left Leg Standing Quad Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 2,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Right Leg Standing Quad Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 2,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Abdominal Muscles Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 2,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    }
-  ],
-  "exercise_count": 5
+  "exercises": [],
+  "exercise_count": 0
 }

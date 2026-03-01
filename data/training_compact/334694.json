@@ -1,11 +1,12 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T15:38:33.059283+00:00",
+    "generated_at": "2026-03-01T16:32:03.720950+00:00",
     "record_id": "2323589",
     "training_id": "334694",
-    "source": "course",
+    "source": "ctt",
     "title": "Hyrox2 B",
     "type": 5,
+    "date": "2025-10-30 12:04:41",
     "startTime": "2025-10-30 11:11:12",
     "endTime": "2025-10-30 12:04:41",
     "trainingTime_sec": 2782,
@@ -13,182 +14,6 @@
     "totalCapacity": 4487.0,
     "totalEnergy": 64780.4
   },
-  "exercises": [
-    {
-      "name": "Bent Over T-Raise",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 1,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Bent-Over Barbell Straight Arm Pulldown",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 3,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Kneeling Dual-Handle Underhand Lat Pulldown",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 3,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Seated Dual-Handle Neutral Grip Row",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        },
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 3,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": null,
-        "totalCapacityPr": null,
-        "levelPr": null
-      }
-    },
-    {
-      "name": "Seated Upper Back Stretch",
-      "sets": [
-        {
-          "reps": 0,
-          "weight": 0.0,
-          "left_weight_max": null,
-          "right_weight_max": null,
-          "volume": 0.0,
-          "capacity": 0,
-          "maxWeight": null,
-          "oneRepMax": null
-        }
-      ],
-      "set_count": 1,
-      "total_volume": 0.0,
-      "max_weight": 0.0,
-      "pr_flags": {
-        "maxWeightPr": 0,
-        "totalCapacityPr": 0,
-        "levelPr": null
-      }
-    }
-  ],
-  "exercise_count": 5
+  "exercises": [],
+  "exercise_count": 0
 }

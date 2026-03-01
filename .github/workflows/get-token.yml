@@ -17,7 +17,7 @@ jobs:
         run: |
           pip install -r requirements.txt
 
-      - name: Login and print token + user_id
+      - name: Login and dump credentials
         env:
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
@@ -27,7 +27,7 @@ jobs:
           SPEEDIANCE_PASSWORD: ${{ secrets.SPEEDIANCE_PASSWORD }}
         run: |
           python - <<'PY'
-          import os
+          import os, json
           from api_client import SpeedianceClient
 
           def env_str(name, default=""):
@@ -37,31 +37,17 @@ jobs:
           def env_int(name, default):
               v = os.getenv(name)
               v = (v.strip() if v else "")
-              try:
-                  return int(v)
-              except Exception:
-                  return default
+              try: return int(v)
+              except: return default
 
           def env_bool(name, default=False):
               v = os.getenv(name)
               v = (v.strip().lower() if v else "")
-              if v == "":
-                  return default
+              if v == "": return default
               return v in ("1","true","yes","y","on")
-
-          def pick_first(obj, candidates):
-              for k in candidates:
-                  if isinstance(obj, dict) and k in obj and obj[k] not in (None, ""):
-                      return obj[k]
-                  if hasattr(obj, k):
-                      v = getattr(obj, k)
-                      if v not in (None, ""):
-                          return v
-              return None
 
           c = SpeedianceClient()
 
-          # Apply config BEFORE login
           c.save_config(
               user_id="",
               token="",
@@ -80,31 +66,22 @@ jobs:
           if not ok:
               raise Exception(f"Login failed: {msg}\n{err or ''}")
 
-          # Try to extract token/user_id from common attribute names
-          token = pick_first(c, ["token", "accessToken", "access_token", "authToken", "authorization"])
-          user_id = pick_first(c, ["user_id", "userId", "userid", "uid"])
+          # 1) Dump credentials structure
+          creds = getattr(c, "credentials", None)
+          print("CREDENTIALS_TYPE =", type(creds).__name__)
+          try:
+              print("CREDENTIALS_KEYS =", sorted(list(creds.keys())) if isinstance(creds, dict) else None)
+          except Exception:
+              pass
+          print("CREDENTIALS_JSON =", json.dumps(creds, ensure_ascii=False, indent=2) if isinstance(creds, dict) else str(creds))
 
-          # Some clients store user info dict
-          user_info = pick_first(c, ["userInfo", "user_info", "profile", "me"])
-          if user_id is None and isinstance(user_info, dict):
-              user_id = pick_first(user_info, ["userId", "user_id", "id", "uid"])
-          if token is None and isinstance(user_info, dict):
-              token = pick_first(user_info, ["token", "accessToken", "access_token"])
-
-          # Last resort: read config the client wrote
-          config = pick_first(c, ["config", "cfg"])
-          if isinstance(config, dict):
-              if user_id is None:
-                  user_id = pick_first(config, ["user_id", "userId", "id", "uid"])
-              if token is None:
-                  token = pick_first(config, ["token", "accessToken", "access_token"])
-
-          print("SPEEDIANCE_USER_ID=", user_id)
-          print("SPEEDIANCE_TOKEN=", token)
-
-          if not user_id or not token:
-              # Provide a list of attributes to help pinpoint where they are stored
-              attrs = [a for a in dir(c) if not a.startswith("_")]
-              print("Could not locate user_id/token. Available attributes:", attrs[:80])
-              raise Exception("Could not locate user_id/token on client after login.")
+          # 2) Dump last_debug_info if present (often contains login response payload)
+          dbg = getattr(c, "last_debug_info", None)
+          print("LAST_DEBUG_INFO_TYPE =", type(dbg).__name__)
+          if isinstance(dbg, dict):
+              # Don't spam everything if huge; print keys + a compact json
+              print("LAST_DEBUG_INFO_KEYS =", sorted(list(dbg.keys())))
+              print("LAST_DEBUG_INFO_JSON =", json.dumps(dbg, ensure_ascii=False, indent=2)[:4000])
+          else:
+              print("LAST_DEBUG_INFO =", str(dbg)[:4000])
           PY

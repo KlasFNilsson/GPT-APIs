@@ -1,11 +1,71 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T10:44:01.277267+00:00",
+    "generated_at": "2026-03-01T11:55:12.328121+00:00",
     "start_date": "2025-11-01",
     "end_date": "2026-03-01",
-    "count": 43
+    "count": 45
   },
   "records": [
+    {
+      "id": "843518",
+      "type": null,
+      "date": "2026-03-01 12:05:46",
+      "raw": {
+        "id": 2913925,
+        "permission": 0,
+        "trainingId": 843518,
+        "type": 2,
+        "title": "Core Basics",
+        "trainingTime": 247,
+        "calorie": 18,
+        "totalCapacity": 0,
+        "startTime": "2026-03-01 12:01:35",
+        "endTime": "2026-03-01 12:05:46",
+        "startTimestamp": 1772362895,
+        "endTimestamp": 1772363146,
+        "createTime": "2026-03-01 11:05:46",
+        "watchType": 1,
+        "deviceType": 1,
+        "totalEnergy": 0.0,
+        "mileage": 0,
+        "bikeType": 0,
+        "courseId": 2834,
+        "courseCategoryId": 52,
+        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1771055683107.png",
+        "isStageRiding": false,
+        "belongUserHealth": false,
+        "healthType": 0
+      }
+    },
+    {
+      "id": "435255",
+      "type": null,
+      "date": "2026-03-01 12:00:50",
+      "raw": {
+        "id": 2913880,
+        "trainingId": 435255,
+        "type": 5,
+        "title": "260213 Run strenght A",
+        "trainingTime": 2523,
+        "calorie": 303,
+        "totalCapacity": 6064.0,
+        "startTime": "2026-03-01 11:17:57",
+        "endTime": "2026-03-01 12:00:50",
+        "startTimestamp": 1772360277,
+        "endTimestamp": 1772362850,
+        "createTime": "2026-03-01 11:00:51",
+        "watchType": 1,
+        "deviceType": 1,
+        "totalEnergy": 25479.0,
+        "mileage": 0,
+        "bikeType": 0,
+        "templateId": 432020,
+        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
+        "isStageRiding": false,
+        "belongUserHealth": false,
+        "healthType": 0
+      }
+    },
     {
       "id": "840820",
       "type": null,

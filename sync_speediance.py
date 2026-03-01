@@ -41,9 +41,9 @@ def main():
 
     # Konfig från Secrets/Env
     region = os.getenv("SPEEDIANCE_REGION", "Global")
-    device_type = int(os.getenv("SPEEDIANCE_DEVICE_TYPE", "1"))
+    device_type = int((os.getenv("SPEEDIANCE_DEVICE_TYPE") or "1").strip())
+    unit = int((os.getenv("SPEEDIANCE_UNIT") or "0").strip())
     allow_monster_moves = os.getenv("SPEEDIANCE_ALLOW_MONSTER_MOVES", "false").lower() in ("1","true","yes")
-    unit = int(os.getenv("SPEEDIANCE_UNIT", "0"))
 
     # Auth: antingen TOKEN/USER_ID eller EMAIL/PASSWORD
     token = os.getenv("SPEEDIANCE_TOKEN", "").strip()

@@ -1,0 +1,701 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T12:45:40.454478+00:00",
+    "id": "731913",
+    "type": null,
+    "date": "2025-12-16 16:23:55"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 71,
+      "actionLibraryName": "Aerobic Skiing (bent arms)",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 6,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 11155176,
+          "finishedCount": 0,
+          "targetCount": 120,
+          "capacity": 0,
+          "maxHeartRate": 104.0,
+          "distance": 457.32,
+          "pace": 131.0,
+          "spm": 32,
+          "time": 120,
+          "trainingInfoDetail": {
+            "id": 7767808,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428585334734849,
+            "groupTrainingInfoId": 11155176,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472574
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 11155182,
+          "finishedCount": 0,
+          "targetCount": 300,
+          "capacity": 0,
+          "maxHeartRate": 146.0,
+          "distance": 906.87,
+          "pace": 165.0,
+          "spm": 34,
+          "time": 300,
+          "trainingInfoDetail": {
+            "id": 7767814,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428585334734849,
+            "groupTrainingInfoId": 11155182,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472579
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 11155184,
+          "finishedCount": 0,
+          "targetCount": 300,
+          "capacity": 0,
+          "maxHeartRate": 137.0,
+          "distance": 1384.45,
+          "pace": 108.0,
+          "spm": 30,
+          "time": 300,
+          "trainingInfoDetail": {
+            "id": 7767816,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428585334734849,
+            "groupTrainingInfoId": 11155184,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472581
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 11155186,
+          "finishedCount": 0,
+          "targetCount": 300,
+          "capacity": 0,
+          "maxHeartRate": 139.0,
+          "distance": 1114.89,
+          "pace": 134.0,
+          "spm": 31,
+          "time": 300,
+          "trainingInfoDetail": {
+            "id": 7767818,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428585334734849,
+            "groupTrainingInfoId": 11155186,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472583
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 3,
+      "isLeftRight": 0,
+      "plate": "3"
+    },
+    {
+      "actionLibraryGroupId": 422788435410945,
+      "actionLibraryName": "Dynamic Lateral Child's Pose",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 13,
+      "categoryId": 3,
+      "finishedReps": [
+        {
+          "id": 11155177,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 113.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767809,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 427993730908161,
+            "groupTrainingInfoId": 11155177,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472575
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 427827915390977,
+      "actionLibraryName": "Dynamic Knee Tuck to Wide Alternating Leg Forward Fold",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 3,
+      "finishedReps": [
+        {
+          "id": 11155178,
+          "finishedCount": 0,
+          "targetCount": 40,
+          "capacity": 0,
+          "maxHeartRate": 108.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 40,
+          "trainingInfoDetail": {
+            "id": 7767810,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 427992288067585,
+            "groupTrainingInfoId": 11155178,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472576
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 421341168140289,
+      "actionLibraryName": "Supine Hamstring Stretch",
+      "maxWeight": 0,
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "finishedReps": [
+        {
+          "id": 11155179,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 111.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767811,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424230833422337,
+            "groupTrainingInfoId": 11155179,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472577
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 1
+        },
+        {
+          "id": 11155180,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 91.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767812,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424230833422337,
+            "groupTrainingInfoId": 11155180,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472577
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 428538129940481,
+      "actionLibraryName": "Superman Cobra",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 13,
+      "categoryId": 4,
+      "finishedReps": [
+        {
+          "id": 11155181,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 107.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767813,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 430219737759745,
+            "groupTrainingInfoId": 11155181,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472578
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 549,
+      "actionLibraryName": "Forward and Reverse Bear Crawl",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 4,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 11155183,
+          "finishedCount": 0,
+          "targetCount": 40,
+          "capacity": 0,
+          "maxHeartRate": 152.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 40,
+          "trainingInfoDetail": {
+            "id": 7767815,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 426781017112577,
+            "groupTrainingInfoId": 11155183,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472580
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 428574469390337,
+      "actionLibraryName": "Plank",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 17,
+      "categoryId": 4,
+      "finishedReps": [
+        {
+          "id": 11155185,
+          "finishedCount": 0,
+          "targetCount": 40,
+          "capacity": 0,
+          "maxHeartRate": 133.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 40,
+          "trainingInfoDetail": {
+            "id": 7767817,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428575822053377,
+            "groupTrainingInfoId": 11155185,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472582
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 421474834317313,
+      "actionLibraryName": "Prone Alternating Arm Raises",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 17,
+      "categoryId": 4,
+      "finishedReps": [
+        {
+          "id": 11155187,
+          "finishedCount": 0,
+          "targetCount": 40,
+          "capacity": 0,
+          "maxHeartRate": 126.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 40,
+          "trainingInfoDetail": {
+            "id": 7767819,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 428897770536961,
+            "groupTrainingInfoId": 11155187,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472584
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 428542462656513,
+      "actionLibraryName": "Side Hover Rotation",
+      "trainingPartId2": 17,
+      "categoryId": 4,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 427848572338177,
+      "actionLibraryName": "Supported Leg Circles",
+      "trainingPartId2": 17,
+      "categoryId": 4,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 421351624540161,
+      "actionLibraryName": "Kneeling Back Stretch",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 13,
+      "categoryId": 5,
+      "finishedReps": [
+        {
+          "id": 11155188,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 120.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767820,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 425113646989313,
+            "groupTrainingInfoId": 11155188,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472585
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "topComments": "",
+      "bottomComments": "",
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 372779229249537,
+      "actionLibraryName": "Glutes Stretch",
+      "maxWeight": 0,
+      "trainingPartId2": 14,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 11155189,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 105.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767821,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424059028439041,
+            "groupTrainingInfoId": 11155189,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472586
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 1
+        },
+        {
+          "id": 11155190,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 106.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767822,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424059028439041,
+            "groupTrainingInfoId": 11155190,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472586
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 372766482759681,
+      "actionLibraryName": "Kneeling Hip Flexor Stretch",
+      "maxWeight": 0,
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 11155191,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 113.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767823,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424059542241281,
+            "groupTrainingInfoId": 11155191,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472587
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 1
+        },
+        {
+          "id": 11155192,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 109.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 7767824,
+            "uuid": "f83a58f0-da8e-11f0-b30f-01e11f4c4954",
+            "actionLibraryId": 424059542241281,
+            "groupTrainingInfoId": 11155192,
+            "courseTrainingInfoId": 731913,
+            "courseActionLibraryTrainingInfoId": 5472587
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    }
+  ]
+}

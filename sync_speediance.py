@@ -4,11 +4,15 @@
 #   data/training_compact/index.json
 #   data/training_compact/<training_id>.json
 #
+# Enhancements:
+# - Rep-by-rep visibility: each set includes reps_detail[] when per-rep data is available
+# - Side tagging (L/R) when available (e.g., leftRight / selectCompletionMethod hints)
+#
 # Endpoint selection rule:
 #   record.type == 5  -> try ctt first, then course
 #   record.type != 5  -> try course first, then ctt
 # PLUS: shape-based normalization (list => course, dict => ctt) regardless of source
-# PLUS: name resolution by actionLibraryId via cached library lookup to avoid "shifted names"
+# PLUS: name resolution by actionLibraryId via cached library lookup (ID->name)
 #
 # Required env (GitHub Actions secrets):
 #   SPEEDIANCE_REGION
@@ -23,7 +27,7 @@
 #   MAX_TRAINING_DETAILS (default 30)
 #   DETAIL_THROTTLE_SECONDS (default 1.2)
 #   DETAIL_RETRIES (default 3)
-#   LIBRARY_REFRESH_HOURS (default 24)  # rebuild action library name cache at most once/day
+#   LIBRARY_REFRESH_HOURS (default 24)
 
 import json
 import os
@@ -34,7 +38,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-01_TYPE5_SHAPE_IDLOOKUP")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-01_REPS_SIDE_V1")
 
 DATA_DIR = "data"
 COMPACT_DIR = os.path.join(DATA_DIR, "training_compact")
@@ -50,7 +54,7 @@ REDACT_KEY_PATTERNS = [
     re.compile(r".*serial.*", re.IGNORECASE),
 ]
 
-# Keep compact files small by dropping huge telemetry arrays if present
+# Drop huge telemetry arrays if present
 DROP_TELEMETRY_KEYS = {
     "leftWatts", "rightWatts",
     "leftAmplitudes", "rightAmplitudes",
@@ -228,12 +232,7 @@ def _file_age_hours(path: str) -> Optional[float]:
         return None
 
 def build_library_lookup(c: SpeedianceClient) -> Dict[str, str]:
-    """
-    Uses SpeedianceClient.get_library() cache logic (device_type + allow_monster_moves)
-    and builds a flat map: actionLibraryId(str) -> name(str)
-    """
     lookup: Dict[str, str] = {}
-
     if not hasattr(c, "get_library"):
         return lookup
 
@@ -241,8 +240,6 @@ def build_library_lookup(c: SpeedianceClient) -> Dict[str, str]:
     lib = unwrap_data(lib)
     lib = prune_telemetry(redact(lib))
 
-    # Library shapes vary. Try multiple likely shapes.
-    # We only need (id, name) pairs.
     def ingest_item(it: Any) -> None:
         if not isinstance(it, dict):
             return
@@ -280,12 +277,8 @@ def load_or_refresh_library_lookup(c: SpeedianceClient) -> Dict[str, str]:
         except Exception:
             pass
 
-    # rebuild
     lookup = build_library_lookup(c)
-    write_json(
-        LIBRARY_CACHE_PATH,
-        {"meta": {"generated_at": now_iso(), "count": len(lookup)}, "lookup": lookup},
-    )
+    write_json(LIBRARY_CACHE_PATH, {"meta": {"generated_at": now_iso(), "count": len(lookup)}, "lookup": lookup})
     return lookup
 
 # -------------------------
@@ -308,7 +301,6 @@ def _split_csv_like(s: Any) -> List[str]:
     txt = str(s).strip()
     if not txt:
         return []
-    # allow comma or whitespace separated
     parts = re.split(r"[,\s]+", txt)
     return [p for p in parts if p != ""]
 
@@ -338,26 +330,90 @@ def _safe_int(x: Any, default: int = 0) -> int:
         except Exception:
             return default
 
-def _extract_weights_from_trainingInfoDetail(info: dict) -> Dict[str, Any]:
-    weights = _parse_csv_numbers(info.get("weights"))
-    left = _parse_csv_numbers(info.get("leftWeights"))
-    right = _parse_csv_numbers(info.get("rightWeights"))
+def _side_from_any(obj: Any) -> Optional[str]:
+    """
+    Try to normalize any known 'side' indicators to 'L'/'R'.
+    Returns None if unavailable.
+    """
+    if not isinstance(obj, dict):
+        return None
+    for k in ("leftRight", "side", "lr", "left_right", "selectCompletionMethod"):
+        v = obj.get(k)
+        if v is None:
+            continue
+        s = str(v).strip().lower()
+        # common patterns
+        if s in ("l", "left", "0", "1-left", "leftside"):
+            return "L"
+        if s in ("r", "right", "1", "2-right", "rightside"):
+            return "R"
+    return None
 
-    left_max = max(left) if left else None
-    right_max = max(right) if right else None
+def _extract_rep_weights(info: dict, reps: int) -> List[dict]:
+    """
+    Build rep-by-rep records when per-rep arrays exist.
+    Returns list of {rep_index, weight, left_weight, right_weight}.
+    If only a single weight is available, repeats it reps times.
+    """
+    weights = info.get("weights")
+    left = info.get("leftWeights")
+    right = info.get("rightWeights")
 
-    if weights:
-        w = max(weights)
-    elif left or right:
+    w_list = _parse_csv_numbers(weights)
+    l_list = _parse_csv_numbers(left)
+    r_list = _parse_csv_numbers(right)
+
+    out: List[dict] = []
+
+    # Decide per-rep total weight:
+    if w_list:
+        # If list shorter than reps, pad with last
+        if len(w_list) < reps and len(w_list) > 0:
+            w_list = w_list + [w_list[-1]] * (reps - len(w_list))
+        for i in range(reps):
+            w = w_list[i] if i < len(w_list) else (w_list[-1] if w_list else 0.0)
+            out.append({"rep_index": i + 1, "weight": float(w), "left_weight": None, "right_weight": None})
+        return out
+
+    # Else build from left/right if present
+    if l_list or r_list:
+        n = max(len(l_list), len(r_list))
+        if n < reps:
+            n = reps
+        # pad with last if needed
+        if len(l_list) < n and len(l_list) > 0:
+            l_list = l_list + [l_list[-1]] * (n - len(l_list))
+        if len(r_list) < n and len(r_list) > 0:
+            r_list = r_list + [r_list[-1]] * (n - len(r_list))
+
+        for i in range(reps):
+            lw = l_list[i] if i < len(l_list) else (l_list[-1] if l_list else 0.0)
+            rw = r_list[i] if i < len(r_list) else (r_list[-1] if r_list else 0.0)
+            out.append({"rep_index": i + 1, "weight": float(lw + rw), "left_weight": float(lw), "right_weight": float(rw)})
+        return out
+
+    # No per-rep data
+    return []
+
+def _extract_set_weight_summary(info: dict) -> Dict[str, Any]:
+    """
+    Compute a reasonable set-level summary weight for volume calculation.
+    """
+    w_list = _parse_csv_numbers(info.get("weights"))
+    l_list = _parse_csv_numbers(info.get("leftWeights"))
+    r_list = _parse_csv_numbers(info.get("rightWeights"))
+
+    left_max = max(l_list) if l_list else None
+    right_max = max(r_list) if r_list else None
+
+    if w_list:
+        w = max(w_list)
+    elif l_list or r_list:
         w = float((left_max or 0.0) + (right_max or 0.0))
     else:
         w = 0.0
 
-    return {
-        "weight": float(w),
-        "left_weight_max": left_max,
-        "right_weight_max": right_max,
-    }
+    return {"weight": float(w), "left_weight_max": left_max, "right_weight_max": right_max}
 
 # -------------------------
 # Normalizers
@@ -365,8 +421,11 @@ def _extract_weights_from_trainingInfoDetail(info: dict) -> Dict[str, Any]:
 
 def normalize_as_course(data_list: Any, name_lookup: Dict[str, str]) -> List[dict]:
     """
-    courseTrainingInfoDetail usually unwraps to a list of exercises.
-    Each exercise has actionLibraryId and finishedReps[] with trainingInfoDetail.weights etc.
+    courseTrainingInfoDetail typically unwraps to a list of exercises.
+    Each exercise has actionLibraryId and finishedReps[] with trainingInfoDetail.
+    We add:
+      - set.side (if present)
+      - set.reps_detail[] (rep-by-rep weights if present)
     """
     if not isinstance(data_list, list):
         return []
@@ -378,6 +437,7 @@ def normalize_as_course(data_list: Any, name_lookup: Dict[str, str]) -> List[dic
 
         action_id = ex.get("actionLibraryId") or ex.get("id") or ex.get("actionId")
         action_id_s = str(action_id).strip() if action_id is not None else ""
+
         name = ex.get("actionLibraryName") or ex.get("actionName") or ex.get("name")
         if (not name) and action_id_s and action_id_s in name_lookup:
             name = name_lookup[action_id_s]
@@ -393,20 +453,36 @@ def normalize_as_course(data_list: Any, name_lookup: Dict[str, str]) -> List[dic
         for s in finished:
             if not isinstance(s, dict):
                 continue
+
             reps = _safe_int(s.get("finishedCount"), 0)
             info = s.get("trainingInfoDetail") if isinstance(s.get("trainingInfoDetail"), dict) else {}
-            w = _extract_weights_from_trainingInfoDetail(info)
-            weight = float(w["weight"] or 0.0)
+
+            # Side can be on set or in trainingInfoDetail (varies)
+            side = _side_from_any(s) or _side_from_any(info) or _side_from_any(ex)
+
+            wsum = _extract_set_weight_summary(info)
+            weight = float(wsum["weight"] or 0.0)
+
+            reps_detail = _extract_rep_weights(info, reps)
+            # If no rep weights, still show rep indices (optional). Keep minimal:
+            # - if you want always rep entries, uncomment below.
+            # if reps_detail == [] and reps > 0:
+            #     reps_detail = [{"rep_index": i+1, "weight": weight, "left_weight": None, "right_weight": None} for i in range(reps)]
+
             volume = float(reps) * weight
+
             sets.append(
                 {
                     "reps": reps,
                     "weight": round(weight, 3),
                     "volume": round(volume, 3),
-                    "left_weight_max": w["left_weight_max"],
-                    "right_weight_max": w["right_weight_max"],
+                    "side": side,  # 'L'/'R'/None
+                    "left_weight_max": wsum["left_weight_max"],
+                    "right_weight_max": wsum["right_weight_max"],
+                    "reps_detail": reps_detail,  # rep-by-rep
                 }
             )
+
             total_volume += volume
             max_weight_seen = max(max_weight_seen, weight)
 
@@ -424,9 +500,6 @@ def normalize_as_course(data_list: Any, name_lookup: Dict[str, str]) -> List[dic
     return exercises
 
 def _find_exercise_list_in_ctt_dict(d: dict) -> Optional[list]:
-    """
-    CTT payload shapes vary. Try multiple plausible keys.
-    """
     for k in (
         "actionLibraryList",
         "actionList",
@@ -446,9 +519,10 @@ def _find_exercise_list_in_ctt_dict(d: dict) -> Optional[list]:
 def normalize_as_ctt(data_obj: Any, name_lookup: Dict[str, str]) -> List[dict]:
     """
     cttTrainingInfoDetail often unwraps to a dict with a list of exercises under some key.
-    For each exercise entry, we try to build sets from:
-      - finishedReps[] (if present)  -> same as course style
-      - OR CSV fields: setsAndReps/reps and weights/leftWeights/rightWeights
+    Supports:
+      A) finishedReps[] -> course-like parsing (rep-by-rep via trainingInfoDetail)
+      B) CSV fields: setsAndReps/reps and weights/leftWeights/rightWeights
+         -> creates reps_detail by repeating per-set weight (since per-rep weights usually absent in CSV form)
     """
     if not isinstance(data_obj, dict):
         return []
@@ -463,27 +537,20 @@ def normalize_as_ctt(data_obj: Any, name_lookup: Dict[str, str]) -> List[dict]:
         if not isinstance(ex, dict):
             continue
 
-        action_id = (
-            ex.get("actionLibraryId")
-            or ex.get("actionId")
-            or ex.get("libraryId")
-            or ex.get("id")
-        )
+        action_id = ex.get("actionLibraryId") or ex.get("actionId") or ex.get("libraryId") or ex.get("id")
         action_id_s = str(action_id).strip() if action_id is not None else ""
 
         name = ex.get("actionLibraryName") or ex.get("actionName") or ex.get("name") or ex.get("libraryName")
         if (not name) and action_id_s and action_id_s in name_lookup:
             name = name_lookup[action_id_s]
 
-        # 1) If it actually contains finishedReps, treat like course
+        # If it contains finishedReps, treat like course
         finished = ex.get("finishedReps") if isinstance(ex.get("finishedReps"), list) else None
         if finished:
-            # reuse course-style extraction on this single entry
-            tmp = normalize_as_course([ex], name_lookup)
-            exercises.extend(tmp)
+            exercises.extend(normalize_as_course([ex], name_lookup))
             continue
 
-        # 2) CSV-based
+        # CSV-based fallback
         reps_list: List[int] = []
         for rk in ("setsAndReps", "setAndRep", "reps", "repList", "finishedCounts"):
             if rk in ex:
@@ -494,6 +561,9 @@ def normalize_as_ctt(data_obj: Any, name_lookup: Dict[str, str]) -> List[dict]:
         weights = _parse_csv_numbers(ex.get("weights"))
         left = _parse_csv_numbers(ex.get("leftWeights"))
         right = _parse_csv_numbers(ex.get("rightWeights"))
+
+        # Side sometimes appears directly on the exercise in CTT
+        base_side = _side_from_any(ex)
 
         set_weights: List[float] = []
         left_maxes: List[Optional[float]] = []
@@ -534,13 +604,19 @@ def normalize_as_ctt(data_obj: Any, name_lookup: Dict[str, str]) -> List[dict]:
             reps = int(reps_list[i] or 0)
             w = float(set_weights[i] or 0.0)
             vol = float(reps) * w
+
+            # If CSV-based, we usually don't have true per-rep weights; repeat the set weight per rep.
+            reps_detail = [{"rep_index": j + 1, "weight": round(w, 3), "left_weight": None, "right_weight": None} for j in range(reps)]
+
             sets.append(
                 {
                     "reps": reps,
                     "weight": round(w, 3),
                     "volume": round(vol, 3),
+                    "side": base_side,  # may be None
                     "left_weight_max": left_maxes[i],
                     "right_weight_max": right_maxes[i],
+                    "reps_detail": reps_detail,
                 }
             )
             total_volume += vol
@@ -578,9 +654,6 @@ def fetch_detail_ctt(c: SpeedianceClient, training_id: str) -> Optional[Any]:
         return None
 
 def fetch_detail_with_type_rule(c: SpeedianceClient, training_id: str, record_type: Optional[int]) -> Tuple[Optional[Any], str]:
-    """
-    Returns (payload, source_hint)
-    """
     if record_type == 5:
         p = fetch_detail_ctt(c, training_id)
         if p is not None:
@@ -598,28 +671,21 @@ def fetch_detail_with_type_rule(c: SpeedianceClient, training_id: str, record_ty
             return p, "ctt"
         return None, "none"
 
-def normalize_best(payload: Any, source_hint: str, name_lookup: Dict[str, str]) -> Tuple[List[dict], str]:
-    """
-    Shape-based normalization:
-      - list => course normalizer
-      - dict => ctt normalizer
-    If that yields empty, attempt the other normalizer as fallback.
-    Returns (exercises, normalized_as)
-    """
+def normalize_best(payload: Any, name_lookup: Dict[str, str]) -> Tuple[List[dict], str]:
     d = prune_telemetry(redact(unwrap_data(payload)))
 
     if isinstance(d, list):
         exs = normalize_as_course(d, name_lookup)
         if exs:
             return exs, "course(list)"
-        # fallback: sometimes list contains dicts not matching; try ctt in a wrapped dict
+        # fallback
         exs2 = normalize_as_ctt({"detail": d}, name_lookup)
         return exs2, "ctt(fallback-from-list)" if exs2 else "none"
     elif isinstance(d, dict):
         exs = normalize_as_ctt(d, name_lookup)
         if exs:
             return exs, "ctt(dict)"
-        # fallback: sometimes dict contains list under a key that looks like course payload
+        # fallback to course list if present
         for k in ("data", "detail", "details", "list", "records", "items"):
             v = d.get(k)
             if isinstance(v, list) and v:
@@ -648,7 +714,6 @@ def run_training_sync(c: SpeedianceClient) -> None:
     ensure_dir(DATA_DIR)
     ensure_dir(COMPACT_DIR)
 
-    # Build or load name lookup (once/day)
     name_lookup = load_or_refresh_library_lookup(c)
 
     records_obj = c.get_training_records(start_date, end_date)
@@ -683,13 +748,10 @@ def run_training_sync(c: SpeedianceClient) -> None:
 
     normalized_sorted = sorted(normalized_records, key=lambda x: (x.get("date") or ""), reverse=True)
 
-    # Save records list (redacted, but already minimal)
     write_json(
         os.path.join(DATA_DIR, "training_records.json"),
-        {
-            "meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date, "count": len(normalized_sorted)},
-            "records": redact(normalized_sorted),
-        },
+        {"meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date, "count": len(normalized_sorted)},
+         "records": redact(normalized_sorted)},
     )
 
     index: Dict[str, Any] = {
@@ -733,13 +795,13 @@ def run_training_sync(c: SpeedianceClient) -> None:
             index["errors"][tid] = {"record_id": rid, "type": rtype, "error": last_err}
             continue
 
-        exercises, normalized_as = normalize_best(payload, source_hint, name_lookup)
+        exercises, normalized_as = normalize_best(payload, name_lookup)
 
-        # If still empty, do an aggressive second fetch from the other endpoint (regardless of type)
+        # Aggressive endpoint fallback if empty
         if not exercises:
             other_payload = fetch_detail_course(c, tid) if source_hint == "ctt" else fetch_detail_ctt(c, tid)
             if other_payload is not None:
-                ex2, norm2 = normalize_best(other_payload, "fallback", name_lookup)
+                ex2, norm2 = normalize_best(other_payload, name_lookup)
                 if ex2:
                     payload = other_payload
                     exercises = ex2
@@ -785,12 +847,10 @@ def run_training_sync(c: SpeedianceClient) -> None:
             }
         )
         index["meta"]["count_written"] += 1
-
         time.sleep(throttle_s)
 
     write_json(os.path.join(COMPACT_DIR, "index.json"), index)
 
-    # Sanity (no secrets)
     creds = getattr(c, "credentials", None)
     write_json(
         os.path.join(DATA_DIR, "sync_env_sanity.json"),

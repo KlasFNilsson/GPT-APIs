@@ -1,66 +1,43 @@
 import json
 import os
 import re
+import time
 from datetime import datetime, timedelta, timezone
 
 from api_client import SpeedianceClient
 
 DATA_DIR = "data"
 
-# Remove keys matching these patterns from public JSON
+# --- Redaction (avoid publishing secrets/private identity) ---
 REDACT_KEY_PATTERNS = [
     re.compile(r".*token.*", re.IGNORECASE),
     re.compile(r".*password.*", re.IGNORECASE),
     re.compile(r".*email.*", re.IGNORECASE),
     re.compile(r".*phone.*", re.IGNORECASE),
+    re.compile(r".*apple.*userid.*", re.IGNORECASE),
     re.compile(r".*user.*id.*", re.IGNORECASE),
     re.compile(r".*device.*id.*", re.IGNORECASE),
     re.compile(r".*serial.*", re.IGNORECASE),
 ]
 
-# Candidate keys for IDs in training record objects
 TRAINING_ID_KEYS = [
-    "trainingId",
-    "training_id",
-    "trainingInfoId",
-    "trainingInfoID",
-    "id",
-    "recordId",
-    "recordID",
+    "trainingId", "training_id", "trainingInfoId", "trainingInfoID",
+    "id", "recordId", "recordID",
 ]
 
-# Candidate keys for "type" in training record objects
-TYPE_KEYS = [
-    "trainingType",
-    "type",
-    "sourceType",
-    "courseType",
-    "templateType",
-]
+TYPE_KEYS = ["trainingType", "type", "sourceType", "courseType", "templateType"]
 
-# Keys that explode file size (large telemetry arrays)
-# Keep weights, counts, HR, etc. Remove these arrays.
+# --- Telemetry bloat to drop ---
 TELEMETRY_KEYS_TO_DROP = {
-    "leftWatts",
-    "rightWatts",
-    "leftAmplitudes",
-    "rightAmplitudes",
-    "leftRopeSpeeds",
-    "rightRopeSpeeds",
-    "leftMinRopeLengths",
-    "rightMinRopeLengths",
-    "leftMaxRopeLengths",
-    "rightMaxRopeLengths",
-    "leftFinishedTimes",
-    "rightFinishedTimes",
-    "leftBreakTimes",
-    "rightBreakTimes",
-    "leftTimestamps",
-    "rightTimestamps",
+    "leftWatts", "rightWatts",
+    "leftAmplitudes", "rightAmplitudes",
+    "leftRopeSpeeds", "rightRopeSpeeds",
+    "leftMinRopeLengths", "rightMinRopeLengths",
+    "leftMaxRopeLengths", "rightMaxRopeLengths",
+    "leftFinishedTimes", "rightFinishedTimes",
+    "leftBreakTimes", "rightBreakTimes",
+    "leftTimestamps", "rightTimestamps",
 }
-
-# If you later find other huge arrays, add their keys here.
-# We also drop "telemetry-like" lists by name heuristics (below) when very long.
 TELEMETRY_NAME_PATTERNS = [
     re.compile(r".*watts.*", re.IGNORECASE),
     re.compile(r".*amplitude.*", re.IGNORECASE),
@@ -70,12 +47,8 @@ TELEMETRY_NAME_PATTERNS = [
     re.compile(r".*breaktime.*", re.IGNORECASE),
     re.compile(r".*finishedtime.*", re.IGNORECASE),
 ]
-
-# Only apply heuristic list-dropping when list is "really long"
 MAX_TELEMETRY_LIST_LEN = 12
-
-# NEVER drop these keys even if they are lists (important for strength analysis)
-ALLOW_LIST_KEYS = {"weights"}
+ALLOW_LIST_KEYS = {"weights"}  # keep weights arrays
 
 
 def now_iso() -> str:
@@ -92,6 +65,11 @@ def write_json(path: str, payload) -> None:
         json.dump(payload, f, ensure_ascii=False, indent=2)
 
 
+def read_json(path: str):
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
 def redact(obj):
     if isinstance(obj, dict):
         out = {}
@@ -106,22 +84,13 @@ def redact(obj):
 
 
 def prune_telemetry(obj):
-    """
-    Remove the worst telemetry arrays to keep files small and GPT-friendly,
-    while keeping key training info (reps/weights/counts/HR/pace/etc.).
-    """
     if isinstance(obj, dict):
         out = {}
         for k, v in obj.items():
-            # Hard drop: known huge telemetry arrays
             if k in TELEMETRY_KEYS_TO_DROP:
                 continue
-
-            # Recurse
             vv = prune_telemetry(v)
 
-            # Heuristic: drop very long lists that look like telemetry by key name,
-            # BUT never drop important lists like 'weights'
             if (
                 k not in ALLOW_LIST_KEYS
                 and isinstance(vv, list)
@@ -132,13 +101,12 @@ def prune_telemetry(obj):
 
             out[k] = vv
         return out
-
     if isinstance(obj, list):
         return [prune_telemetry(x) for x in obj]
-
     return obj
 
 
+# --- env helpers (treat empty string as missing) ---
 def _env_str(name: str, default: str = "") -> str:
     v = os.getenv(name)
     if v is None:
@@ -168,7 +136,9 @@ def _env_bool(name: str, default: bool) -> bool:
     if v == "":
         return default
     return v in ("1", "true", "yes", "y", "on")
-    
+
+
+# --- Auth/config ---
 def configure_client(c: SpeedianceClient) -> None:
     region = _env_str("SPEEDIANCE_REGION", "EU")
     device_type = _env_int("SPEEDIANCE_DEVICE_TYPE", 1)
@@ -178,7 +148,7 @@ def configure_client(c: SpeedianceClient) -> None:
     token = _env_str("SPEEDIANCE_TOKEN", "")
     user_id = _env_str("SPEEDIANCE_USER_ID", "")
 
-    # Save config in the way this client expects (credentials dict)
+    # This client stores auth in credentials dict via save_config
     c.save_config(
         user_id=user_id,
         token=token,
@@ -189,63 +159,42 @@ def configure_client(c: SpeedianceClient) -> None:
         allow_monster_moves=allow_monster_moves,
     )
 
-def ensure_auth(c: SpeedianceClient) -> None:
-    # Token-only mode: require credentials to exist
+
+def ensure_auth_token_only(c: SpeedianceClient) -> None:
     creds = getattr(c, "credentials", None)
+    tok = ""
+    uid = ""
     if isinstance(creds, dict):
         tok = str(creds.get("token") or "").strip()
         uid = str(creds.get("user_id") or "").strip()
-        if tok and uid:
-            return
 
-    # If we reach here: token-only auth is missing/empty
+    if tok and uid:
+        return
+
     raise RuntimeError(
-        "Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set as GitHub Secrets "
-        "and passed via workflow env."
+        "Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set and passed via workflow env."
     )
 
 
-def list_get_methods(c: SpeedianceClient):
-    return sorted(
-        [name for name in dir(c) if name.startswith("get_") and callable(getattr(c, name))]
-    )
+# --- Debug dump ---
+def save_debug(c: SpeedianceClient, tag: str) -> None:
+    dbg = getattr(c, "last_debug_info", None)
+    if not dbg:
+        return
+    ddir = os.path.join(DATA_DIR, "debug")
+    ensure_dir(ddir)
+    write_json(os.path.join(ddir, f"{tag}.json"), dbg)
 
 
-def is_reference_method(name: str) -> bool:
-    n = name.lower()
-    markers = (
-        "library",
-        "exercise",
-        "movement",
-        "category",
-        "muscle",
-        "equipment",
-        "tag",
-        "body",
-        "template",
-        "plan",
-    )
-    return any(m in n for m in markers)
-
-
-def safe_call(fn, name: str, errors: dict):
-    try:
-        return fn()
-    except Exception as e:
-        errors[name] = repr(e)
-        return None
-
-
+# --- Record parsing helpers ---
 def extract_records_list(records_obj):
     if isinstance(records_obj, list):
         return [r for r in records_obj if isinstance(r, dict)]
-
     if isinstance(records_obj, dict):
         for k in ("list", "records", "items", "data", "rows"):
             v = records_obj.get(k)
             if isinstance(v, list):
                 return [r for r in v if isinstance(r, dict)]
-
     return []
 
 
@@ -282,87 +231,74 @@ def guess_record_type(rec: dict) -> str | None:
     for k in ("templateCode", "customTrainingTemplateCode", "customTrainingTemplateId"):
         if rec.get(k) is not None:
             return "ctt"
-
     return None
 
 
-def fetch_training_records(c: SpeedianceClient, start_date: str, end_date: str, errors: dict):
+# --- API wrappers ---
+def fetch_training_records(c: SpeedianceClient, start_date: str, end_date: str):
     if hasattr(c, "get_training_records"):
         return c.get_training_records(start_date, end_date)
-    errors["get_training_records"] = "Method not found on client."
-    return None
+    raise RuntimeError("Client missing get_training_records")
 
 
-def fetch_training_stats(c: SpeedianceClient, start_date: str, end_date: str, errors: dict):
+def fetch_training_stats(c: SpeedianceClient, start_date: str, end_date: str):
     if hasattr(c, "get_training_stats"):
         return c.get_training_stats(start_date, end_date)
     return None
 
 
-def fetch_training_detail(c: SpeedianceClient, training_id: str, training_type: str | None, errors: dict):
-    if hasattr(c, "get_training_detail"):
-        if training_type in ("course", "ctt"):
-            return c.get_training_detail(training_id, training_type)
+def fetch_training_detail(c: SpeedianceClient, training_id: str, training_type: str | None):
+    if not hasattr(c, "get_training_detail"):
+        raise RuntimeError("Client missing get_training_detail")
 
-        try:
-            return c.get_training_detail(training_id, "course")
-        except Exception:
-            try:
-                return c.get_training_detail(training_id, "ctt")
-            except Exception as e:
-                errors[f"get_training_detail:{training_id}"] = repr(e)
-                return None
+    # If we know the type, use it.
+    if training_type in ("course", "ctt"):
+        return c.get_training_detail(training_id, training_type)
 
-    errors["get_training_detail"] = "Method not found on client."
-    return None
+    # Otherwise try both.
+    try:
+        return c.get_training_detail(training_id, "course")
+    except Exception:
+        return c.get_training_detail(training_id, "ctt")
 
 
-def run_reference_sync(c: SpeedianceClient) -> None:
-    errors = {}
-    results = {}
-    methods = list_get_methods(c)
+def is_detail_valid(detail) -> bool:
+    """
+    Reject empty dict / None.
+    Additionally try to confirm there is at least some payload under common keys.
+    """
+    if detail is None:
+        return False
+    if isinstance(detail, dict) and len(detail) == 0:
+        return False
 
-    for name in methods:
-        if not is_reference_method(name):
-            continue
-        fn = getattr(c, name)
-        try:
-            results[name] = fn()
-        except TypeError:
-            continue
-        except Exception as e:
-            errors[name] = repr(e)
+    # Often: { code, message, data: {...} } or { meta, detail: {...} }
+    if isinstance(detail, dict):
+        for k in ("data", "detail", "actions", "actionList", "actionInfoList", "trainingActionList"):
+            if k in detail and detail[k]:
+                return True
+        # If it has non-empty keys but not recognized, accept (avoid false negatives)
+        return len(detail.keys()) > 0
 
-    payload = {
-        "meta": {
-            "generated_at": now_iso(),
-            "mode": "reference",
-            "methods_detected": methods,
-            "errors": errors,
-        },
-        "data": redact(results),
-    }
-    write_json(os.path.join(DATA_DIR, "reference.json"), payload)
+    return True
 
 
 def run_training_sync(c: SpeedianceClient) -> None:
-    errors = {}
-
+    # window + caps
     days = _env_int("TRAINING_DAYS", 120)
     max_details = _env_int("MAX_TRAINING_DETAILS", 30)
+
+    # throttling/retries
+    throttle_s = float(_env_str("DETAIL_THROTTLE_SECONDS", "1.2"))
+    retries = _env_int("DETAIL_RETRIES", 3)
 
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=days)
     start_date = start.strftime("%Y-%m-%d")
     end_date = end.strftime("%Y-%m-%d")
 
-    # 1) records
-    try:
-        records_obj = fetch_training_records(c, start_date, end_date, errors)
-    except Exception as e:
-        errors["get_training_records"] = repr(e)
-        records_obj = None
-
+    # 1) Records
+    records_obj = fetch_training_records(c, start_date, end_date)
     records_list = extract_records_list(records_obj)
 
     normalized = []
@@ -371,107 +307,134 @@ def run_training_sync(c: SpeedianceClient) -> None:
         if not tid:
             continue
         normalized.append(
-            {
-                "id": tid,
-                "type": guess_record_type(rec),
-                "date": get_record_date(rec),
-                "raw": rec,
-            }
+            {"id": tid, "type": guess_record_type(rec), "date": get_record_date(rec), "raw": rec}
         )
 
-    def sort_key(x):
-        return x.get("date") or ""
-
-    normalized_sorted = sorted(normalized, key=sort_key, reverse=True)
+    # Keep API order if date missing; otherwise sort by date string desc (best-effort)
+    normalized_sorted = sorted(normalized, key=lambda x: (x.get("date") or ""), reverse=True)
 
     write_json(
         os.path.join(DATA_DIR, "training_records.json"),
         {
-            "meta": {
-                "generated_at": now_iso(),
-                "start_date": start_date,
-                "end_date": end_date,
-                "count": len(normalized_sorted),
-            },
+            "meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date, "count": len(normalized_sorted)},
             "records": redact(normalized_sorted),
-            "errors": errors,
         },
     )
 
-    # 2) stats
-    try:
-        stats_obj = fetch_training_stats(c, start_date, end_date, errors)
-    except Exception as e:
-        errors["get_training_stats"] = repr(e)
-        stats_obj = None
-
+    # 2) Stats
+    stats_obj = fetch_training_stats(c, start_date, end_date)
     write_json(
         os.path.join(DATA_DIR, "training_stats.json"),
         {
-            "meta": {
-                "generated_at": now_iso(),
-                "start_date": start_date,
-                "end_date": end_date,
-            },
+            "meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date},
             "stats": redact(stats_obj),
-            "errors": errors,
         },
     )
 
-    # 3) details + index
+    # 3) Details + index (do not overwrite with junk)
     details_dir = os.path.join(DATA_DIR, "training_details")
     ensure_dir(details_dir)
-
-    latest = normalized_sorted[:max_details]
 
     index = {
         "meta": {
             "generated_at": now_iso(),
             "start_date": start_date,
             "end_date": end_date,
-            "count": 0,
             "max_details": max_details,
+            "detail_throttle_seconds": throttle_s,
+            "detail_retries": retries,
+            "count_written": 0,
+            "count_skipped_invalid": 0,
         },
         "items": [],
         "errors": {},
     }
 
+    latest = normalized_sorted[:max_details]
+
     for item in latest:
         tid = item["id"]
         ttype = item.get("type")
-        path = os.path.join(details_dir, f"{tid}.json")
+        out_path = os.path.join(details_dir, f"{tid}.json")
 
-        try:
-            detail = fetch_training_detail(c, tid, ttype, index["errors"])
-            # redact sensitive keys first, then prune telemetry arrays
-            detail_clean = prune_telemetry(redact(detail))
+        # If file already exists and looks non-empty, we keep it unless we get a valid new one.
+        existing_ok = False
+        if os.path.exists(out_path):
+            try:
+                existing = read_json(out_path)
+                existing_detail = existing.get("detail")
+                if is_detail_valid(existing_detail):
+                    existing_ok = True
+            except Exception:
+                existing_ok = False
 
-            write_json(
-                path,
-                {
-                    "meta": {
-                        "generated_at": now_iso(),
-                        "id": tid,
-                        "type": ttype,
-                        "date": item.get("date"),
-                    },
-                    "detail": detail_clean,
-                },
-            )
+        detail = None
+        last_err = None
 
-            index["items"].append(
-                {
-                    "id": tid,
-                    "type": ttype,
-                    "date": item.get("date"),
-                    "path": f"/data/training_details/{tid}.json",
-                }
-            )
-            index["meta"]["count"] += 1
-        except Exception as e:
-            index["errors"][f"detail:{tid}"] = repr(e)
+        for attempt in range(1, retries + 1):
+            try:
+                detail = fetch_training_detail(c, tid, ttype)
+                if is_detail_valid(detail):
+                    break
+                save_debug(c, f"detail_{tid}_invalid_attempt{attempt}")
+                last_err = f"Invalid/empty detail (attempt {attempt})"
+            except Exception as e:
+                save_debug(c, f"detail_{tid}_exception_attempt{attempt}")
+                last_err = repr(e)
+            time.sleep(throttle_s * attempt)
+
+        if not is_detail_valid(detail):
+            index["meta"]["count_skipped_invalid"] += 1
+            index["errors"][f"detail:{tid}"] = last_err or "Invalid/empty after retries"
+            # Do not overwrite a good file with invalid content
+            if existing_ok:
+                index["items"].append(
+                    {"id": tid, "type": ttype, "date": item.get("date"), "path": f"/data/training_details/{tid}.json", "note": "kept_existing"}
+                )
+            continue
+
+        # Clean + write
+        detail_clean = prune_telemetry(redact(detail))
+        write_json(
+            out_path,
+            {
+                "meta": {"generated_at": now_iso(), "id": tid, "type": ttype, "date": item.get("date")},
+                "detail": detail_clean,
+            },
+        )
+
+        index["items"].append(
+            {"id": tid, "type": ttype, "date": item.get("date"), "path": f"/data/training_details/{tid}.json"}
+        )
+        index["meta"]["count_written"] += 1
+
+        time.sleep(throttle_s)
 
     write_json(os.path.join(details_dir, "index.json"), index)
+
+
+def run_reference_sync(c: SpeedianceClient) -> None:
+    methods = sorted([name for name in dir(c) if name.startswith("get_") and callable(getattr(c, name))])
+    errors = {}
+    results = {}
+
+    # Conservative: only call no-arg get_* methods; skip those requiring params
+    for name in methods:
+        fn = getattr(c, name)
+        try:
+            results[name] = fn()
+        except TypeError:
+            continue
+        except Exception as e:
+            errors[name] = repr(e)
+
+    write_json(
+        os.path.join(DATA_DIR, "reference.json"),
+        {
+            "meta": {"generated_at": now_iso(), "mode": "reference", "errors": errors},
+            "data": redact(results),
+        },
+    )
 
 
 def main():
@@ -481,14 +444,34 @@ def main():
 
     c = SpeedianceClient()
     configure_client(c)
-    ensure_auth(c)
+    ensure_auth_token_only(c)
 
-    if mode == "reference":
-        run_reference_sync(c)
-    elif mode == "training":
-        run_training_sync(c)
-    else:
-        raise RuntimeError("Invalid SYNC_MODE. Use 'reference' or 'training'.")
+    # quick sanity check: dump config credentials presence (no values)
+    creds = getattr(c, "credentials", None)
+    write_json(
+        os.path.join(DATA_DIR, "sync_env_sanity.json"),
+        {
+            "meta": {"generated_at": now_iso()},
+            "region": getattr(c, "region", None),
+            "base_url": getattr(c, "base_url", None),
+            "host": getattr(c, "host", None),
+            "has_credentials_dict": isinstance(creds, dict),
+            "credentials_keys": sorted(list(creds.keys())) if isinstance(creds, dict) else None,
+            "has_user_id": bool(str(creds.get("user_id") or "").strip()) if isinstance(creds, dict) else False,
+            "has_token": bool(str(creds.get("token") or "").strip()) if isinstance(creds, dict) else False,
+        },
+    )
+
+    try:
+        if mode == "training":
+            run_training_sync(c)
+        elif mode == "reference":
+            run_reference_sync(c)
+        else:
+            raise RuntimeError("Invalid SYNC_MODE. Use 'training' or 'reference'.")
+    except Exception:
+        save_debug(c, f"run_failed_{mode}")
+        raise
 
 
 if __name__ == "__main__":

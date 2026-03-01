@@ -31,10 +31,15 @@ jobs:
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
           SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
-          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }} 
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
           SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
-          SYNC_MODE: training   # eller reference
+          SYNC_MODE: training
+          # Optional robustness knobs (if your script supports them)
+          DETAIL_THROTTLE_SECONDS: "1.2"
+          DETAIL_RETRIES: "3"
+          MAX_TRAINING_DETAILS: "60"
+          TRAINING_DAYS: "365"
         run: |
           python sync_speediance.py
 
@@ -43,23 +48,25 @@ jobs:
           echo "=== TREE data/ ==="
           ls -R data || true
           echo "=== FILES data/ ==="
-          find data -maxdepth 4 -type f -print || true
+          find data -maxdepth 6 -type f -print || true
           echo "=== HEAD training_records.json ==="
           test -f data/training_records.json && head -n 40 data/training_records.json || echo "missing training_records.json"
           echo "=== HEAD training_details/index.json ==="
-          test -f data/training_details/index.json && head -n 80 data/training_details/index.json || echo "missing training_details/index.json"
+          test -f data/training_details/index.json && head -n 120 data/training_details/index.json || echo "missing training_details/index.json"
+          echo "=== HEAD sync_env_sanity.json ==="
+          test -f data/sync_env_sanity.json && cat data/sync_env_sanity.json || echo "missing sync_env_sanity.json"
 
-      - name: Commit changes (training only, robust)
+      - name: Commit changes (data folder)
         run: |
           git config user.name "speediance-mirror-bot"
           git config user.email "actions@users.noreply.github.com"
 
-          # Always add these if present
-          test -f data/training_records.json && git add data/training_records.json || true
-          test -f data/training_stats.json && git add data/training_stats.json || true
+          # Commit everything under data/, including debug artifacts.
+          git add -A data
 
-          # Add the whole directory if it exists (works even if only index exists)
-          test -d data/training_details && git add data/training_details || true
-
-          git diff --cached --quiet || git commit -m "freq-sync: training"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "freq-sync: training"
+            git push
+          fi

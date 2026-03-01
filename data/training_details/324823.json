@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "generated_at": "2026-03-01T12:56:23.808581+00:00",
+    "id": "324823",
+    "type": null,
+    "date": "2025-10-14 06:37:50"
+  },
+  "detail": [
+    {
+      "actionLibraryGroupId": 285,
+      "actionLibraryName": "Seal Jacks",
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 0,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 4758523,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 1460240,
+            "uuid": "d5a022f0-4b85-11ef-81d6-bf80cd1cb44a",
+            "actionLibraryId": 4112,
+            "groupTrainingInfoId": 4758523,
+            "courseTrainingInfoId": 324823,
+            "courseActionLibraryTrainingInfoId": 2567740
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "isFirst": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 431,
+      "actionLibraryName": "Hopping and Clapping",
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 18,
+      "categoryId": 0,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 4758524,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 1460241,
+            "uuid": "d5a022f0-4b85-11ef-81d6-bf80cd1cb44a",
+            "actionLibraryId": 4113,
+            "groupTrainingInfoId": 4758524,
+            "courseTrainingInfoId": 324823,
+            "courseActionLibraryTrainingInfoId": 2567741
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 57,
+      "actionLibraryName": "Barbell Squat",
+      "maxWeight": 0.0,
+      "trainingPartId2": 15,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "id": 4758525,
+          "finishedCount": 0,
+          "targetCount": 15,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 1199,
+          "trainingInfoDetail": {
+            "id": 1460242,
+            "uuid": "d5a022f0-4b85-11ef-81d6-bf80cd1cb44a",
+            "actionLibraryId": 4114,
+            "groupTrainingInfoId": 4758525,
+            "courseTrainingInfoId": 324823,
+            "courseActionLibraryTrainingInfoId": 2567742
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "id": 4758526,
+          "finishedCount": 0,
+          "targetCount": 15,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 0,
+          "trainingInfoDetail": {
+            "id": 1460243,
+            "uuid": "d5a022f0-4b85-11ef-81d6-bf80cd1cb44a",
+            "actionLibraryId": 4114,
+            "groupTrainingInfoId": 4758526,
+            "courseTrainingInfoId": 324823,
+            "courseActionLibraryTrainingInfoId": 2567742
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "id": 4758527,
+          "finishedCount": 0,
+          "targetCount": 15,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 0,
+          "trainingInfoDetail": {
+            "id": 1460244,
+            "uuid": "d5a022f0-4b85-11ef-81d6-bf80cd1cb44a",
+            "actionLibraryId": 4114,
+            "groupTrainingInfoId": 4758527,
+            "courseTrainingInfoId": 324823,
+            "courseActionLibraryTrainingInfoId": 2567742
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 385,
+      "actionLibraryName": "Barbell Romanian Deadlift",
+      "trainingPartId2": 14,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 255,
+      "actionLibraryName": "Left Leg Barbell Lunge",
+      "trainingPartId2": 15,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 370,
+      "actionLibraryName": "Right Leg Barbell Lunge",
+      "trainingPartId2": 15,
+      "categoryId": 1,
+      "isBarbell": 1,
+      "finishedReps": [
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        },
+        {
+          "finishedCount": 0,
+          "targetCount": 0,
+          "capacity": 0,
+          "time": 0,
+          "selectCompletionMethod": 1,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 1,
+      "isLeftRight": 0,
+      "plate": "1"
+    },
+    {
+      "actionLibraryGroupId": 386,
+      "actionLibraryName": "Bench Knee to Chest Crunch",
+      "trainingPartId2": 17,
+      "categoryId": 4,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 165,
+      "actionLibraryName": "Left Leg Standing Quad Stretch",
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 389,
+      "actionLibraryName": "Right Leg Standing Quad Stretch",
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 535,
+      "actionLibraryName": "Deep Side lunge (Left Leg)",
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 450,
+      "actionLibraryName": "Deep Side lunge (Right Leg)",
+      "trainingPartId2": 15,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    }
+  ]
+}

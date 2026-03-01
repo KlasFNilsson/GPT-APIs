@@ -168,10 +168,9 @@ def _env_bool(name: str, default: bool) -> bool:
     if v == "":
         return default
     return v in ("1", "true", "yes", "y", "on")
-
-
+    
 def configure_client(c: SpeedianceClient) -> None:
-    region = _env_str("SPEEDIANCE_REGION", "Global")
+    region = _env_str("SPEEDIANCE_REGION", "EU")
     device_type = _env_int("SPEEDIANCE_DEVICE_TYPE", 1)
     allow_monster_moves = _env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False)
     unit = _env_int("SPEEDIANCE_UNIT", 0)
@@ -179,6 +178,7 @@ def configure_client(c: SpeedianceClient) -> None:
     token = _env_str("SPEEDIANCE_TOKEN", "")
     user_id = _env_str("SPEEDIANCE_USER_ID", "")
 
+    # Save config in the way this client expects (credentials dict)
     c.save_config(
         user_id=user_id,
         token=token,
@@ -189,23 +189,20 @@ def configure_client(c: SpeedianceClient) -> None:
         allow_monster_moves=allow_monster_moves,
     )
 
-
 def ensure_auth(c: SpeedianceClient) -> None:
-    token = (getattr(c, "token", None) or "").strip()
-    user_id = (getattr(c, "user_id", None) or "").strip()
-    if token and user_id:
-        return
+    # Token-only mode: require credentials to exist
+    creds = getattr(c, "credentials", None)
+    if isinstance(creds, dict):
+        tok = str(creds.get("token") or "").strip()
+        uid = str(creds.get("user_id") or "").strip()
+        if tok and uid:
+            return
 
-    email = _env_str("SPEEDIANCE_EMAIL", "")
-    password = _env_str("SPEEDIANCE_PASSWORD", "")
-    if not email or not password:
-        raise RuntimeError(
-            "Missing auth. Provide SPEEDIANCE_TOKEN+SPEEDIANCE_USER_ID or SPEEDIANCE_EMAIL+SPEEDIANCE_PASSWORD as repo secrets."
-        )
-
-    ok, msg, err = c.login(email, password)
-    if not ok:
-        raise RuntimeError(f"Login failed: {msg}\n{err or ''}")
+    # If we reach here: token-only auth is missing/empty
+    raise RuntimeError(
+        "Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set as GitHub Secrets "
+        "and passed via workflow env."
+    )
 
 
 def list_get_methods(c: SpeedianceClient):

@@ -1,525 +1,517 @@
-{
-  "meta": {
-    "generated_at": "2026-03-01T15:01:23.900210+00:00",
-    "start_date": "2026-01-30",
-    "end_date": "2026-03-01",
-    "count": 18
-  },
-  "records": [
-    {
-      "id": "2913925",
-      "date": "2026-03-01 12:05:46",
-      "raw": {
-        "id": 2913925,
-        "permission": 0,
-        "trainingId": 843518,
-        "type": 2,
-        "title": "Core Basics",
-        "trainingTime": 247,
-        "calorie": 18,
-        "totalCapacity": 0,
-        "startTime": "2026-03-01 12:01:35",
-        "endTime": "2026-03-01 12:05:46",
-        "startTimestamp": 1772362895,
-        "endTimestamp": 1772363146,
-        "createTime": "2026-03-01 11:05:46",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 0.0,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 2834,
-        "courseCategoryId": 52,
-        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1771055683107.png",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2913880",
-      "date": "2026-03-01 12:00:50",
-      "raw": {
-        "id": 2913880,
-        "trainingId": 435255,
-        "type": 5,
-        "title": "260213 Run strenght A",
-        "trainingTime": 2523,
-        "calorie": 303,
-        "totalCapacity": 6064.0,
-        "startTime": "2026-03-01 11:17:57",
-        "endTime": "2026-03-01 12:00:50",
-        "startTimestamp": 1772360277,
-        "endTimestamp": 1772362850,
-        "createTime": "2026-03-01 11:00:51",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 25479.0,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 432020,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2904289",
-      "date": "2026-02-27 13:14:09",
-      "raw": {
-        "id": 2904289,
-        "permission": 0,
-        "trainingId": 840820,
-        "type": 2,
-        "title": "30 Minutes HIIT Rowing Workout",
-        "trainingTime": 1799,
-        "calorie": 334,
-        "totalCapacity": 0,
-        "startTime": "2026-02-27 12:43:24",
-        "endTime": "2026-02-27 13:14:09",
-        "startTimestamp": 1772192604,
-        "endTimestamp": 1772194449,
-        "createTime": "2026-02-27 12:14:10",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 252232.1,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 1916,
-        "courseCategoryId": 31,
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2897061",
-      "date": "2026-02-26 06:37:58",
-      "raw": {
-        "id": 2897061,
-        "trainingId": 432183,
-        "type": 5,
-        "title": "260213 Run strength B",
-        "trainingTime": 2332,
-        "calorie": 254,
-        "totalCapacity": 7861.0,
-        "startTime": "2026-02-26 05:58:23",
-        "endTime": "2026-02-26 06:37:58",
-        "startTimestamp": 1772081903,
-        "endTimestamp": 1772084278,
-        "createTime": "2026-02-26 05:37:59",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 31443.56,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 427858,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2894216",
-      "date": "2026-02-25 17:50:45",
-      "raw": {
-        "id": 2894216,
-        "permission": 0,
-        "trainingId": 838278,
-        "type": 2,
-        "title": "Aaron’s Biceps Day Workout",
-        "trainingTime": 1934,
-        "calorie": 206,
-        "totalCapacity": 3106.0,
-        "startTime": "2026-02-25 17:16:58",
-        "endTime": "2026-02-25 17:50:45",
-        "startTimestamp": 1772036218,
-        "endTimestamp": 1772038245,
-        "createTime": "2026-02-25 16:50:45",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 18971.09,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 1905,
-        "courseCategoryId": 24,
-        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1729162618062.png",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2885410",
-      "date": "2026-02-24 06:29:10",
-      "raw": {
-        "id": 2885410,
-        "trainingId": 430008,
-        "type": 5,
-        "title": "260213 Run strenght A",
-        "trainingTime": 2341,
-        "calorie": 224,
-        "totalCapacity": 4976.0,
-        "startTime": "2026-02-24 05:49:05",
-        "endTime": "2026-02-24 06:29:10",
-        "startTimestamp": 1771908545,
-        "endTimestamp": 1771910950,
-        "createTime": "2026-02-24 05:29:10",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 21569.5,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 421154,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2875250",
-      "date": "2026-02-22 13:53:18",
-      "raw": {
-        "id": 2875250,
-        "trainingId": 428202,
-        "type": 5,
-        "title": "260213 Run strength B",
-        "trainingTime": 1746,
-        "calorie": 185,
-        "totalCapacity": 5220.0,
-        "startTime": "2026-02-22 13:22:54",
-        "endTime": "2026-02-22 13:53:18",
-        "startTimestamp": 1771762974,
-        "endTimestamp": 1771764798,
-        "createTime": "2026-02-22 12:53:19",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 23084.09,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 421170,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2868455",
-      "date": "2026-02-21 09:42:23",
-      "raw": {
-        "id": 2868455,
-        "trainingId": 427071,
-        "type": 5,
-        "title": "260206 Strength C - Complimentary",
-        "trainingTime": 2032,
-        "calorie": 160,
-        "totalCapacity": 3861.0,
-        "startTime": "2026-02-21 09:07:17",
-        "endTime": "2026-02-21 09:42:23",
-        "startTimestamp": 1771661237,
-        "endTimestamp": 1771663343,
-        "createTime": "2026-02-21 08:42:24",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 13638.04,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 417027,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2845990",
-      "date": "2026-02-17 07:27:31",
-      "raw": {
-        "id": 2845990,
-        "permission": 0,
-        "trainingId": 825093,
-        "type": 2,
-        "title": "Oksana & Carrot's Yoga Workout: Spinal Health",
-        "trainingTime": 1134,
-        "calorie": 82,
-        "totalCapacity": 0,
-        "startTime": "2026-02-17 07:08:36",
-        "endTime": "2026-02-17 07:27:31",
-        "startTimestamp": 1771308516,
-        "endTimestamp": 1771309651,
-        "createTime": "2026-02-17 06:27:31",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 0.0,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 1543,
-        "courseCategoryId": 48,
-        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1722831456808.png",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2845923",
-      "date": "2026-02-17 07:06:03",
-      "raw": {
-        "id": 2845923,
-        "trainingId": 423017,
-        "type": 5,
-        "title": "260213 Run strenght A",
-        "trainingTime": 635,
-        "calorie": 51,
-        "totalCapacity": 2912.0,
-        "startTime": "2026-02-17 06:55:15",
-        "endTime": "2026-02-17 07:06:03",
-        "startTimestamp": 1771307715,
-        "endTimestamp": 1771308363,
-        "createTime": "2026-02-17 06:06:04",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 13238.73,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 421154,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2836785",
-      "date": "2026-02-15 15:28:36",
-      "raw": {
-        "id": 2836785,
-        "permission": 0,
-        "trainingId": 822606,
-        "type": 2,
-        "title": "Epic Chest 2",
-        "trainingTime": 1877,
-        "calorie": 149,
-        "totalCapacity": 2884.0,
-        "startTime": "2026-02-15 14:56:28",
-        "endTime": "2026-02-15 15:28:36",
-        "startTimestamp": 1771163788,
-        "endTimestamp": 1771165716,
-        "createTime": "2026-02-15 14:28:36",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 14611.47,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 2691,
-        "courseCategoryId": 26,
-        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1703665305147.png",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2824052",
-      "date": "2026-02-13 08:28:07",
-      "raw": {
-        "id": 2824052,
-        "trainingId": 419235,
-        "type": 5,
-        "title": "Run strenght A 251222",
-        "trainingTime": 2942,
-        "calorie": 327,
-        "totalCapacity": 9126.0,
-        "startTime": "2026-02-13 07:37:35",
-        "endTime": "2026-02-13 08:28:07",
-        "startTimestamp": 1770964655,
-        "endTimestamp": 1770967687,
-        "createTime": "2026-02-13 07:28:08",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 55619.2,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 413180,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2806419",
-      "date": "2026-02-10 07:57:23",
-      "raw": {
-        "id": 2806419,
-        "trainingId": 416004,
-        "type": 5,
-        "title": "260206 Strength C - Complimentary",
-        "trainingTime": 2015,
-        "calorie": 133,
-        "totalCapacity": 3557.0,
-        "startTime": "2026-02-10 07:23:02",
-        "endTime": "2026-02-10 07:57:23",
-        "startTimestamp": 1770704582,
-        "endTimestamp": 1770706643,
-        "createTime": "2026-02-10 06:57:24",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 13620.19,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 417027,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2801093",
-      "date": "2026-02-09 12:30:23",
-      "raw": {
-        "id": 2801093,
-        "trainingId": 415038,
-        "type": 5,
-        "title": "Run strength B 251222",
-        "trainingTime": 1854,
-        "calorie": 141,
-        "totalCapacity": 3349.0,
-        "startTime": "2026-02-09 11:57:51",
-        "endTime": "2026-02-09 12:30:23",
-        "startTimestamp": 1770634671,
-        "endTimestamp": 1770636623,
-        "createTime": "2026-02-09 11:30:23",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 27969.89,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 410710,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2783066",
-      "date": "2026-02-06 08:09:13",
-      "raw": {
-        "id": 2783066,
-        "trainingId": 412033,
-        "type": 5,
-        "title": "Run strenght A 251222",
-        "trainingTime": 2981,
-        "calorie": 296,
-        "totalCapacity": 9028.0,
-        "startTime": "2026-02-06 07:18:07",
-        "endTime": "2026-02-06 08:09:13",
-        "startTimestamp": 1770358687,
-        "endTimestamp": 1770361753,
-        "createTime": "2026-02-06 07:09:13",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 56809.05,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 407107,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2772205",
-      "date": "2026-02-04 12:30:37",
-      "raw": {
-        "id": 2772205,
-        "permission": 0,
-        "trainingId": 805052,
-        "type": 2,
-        "title": "Superset Arms Day",
-        "trainingTime": 2162,
-        "calorie": 161,
-        "totalCapacity": 3879.0,
-        "startTime": "2026-02-04 11:53:32",
-        "endTime": "2026-02-04 12:30:37",
-        "startTimestamp": 1770202412,
-        "endTimestamp": 1770204637,
-        "createTime": "2026-02-04 11:30:38",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 23024.48,
-        "mileage": 0,
-        "bikeType": 0,
-        "courseId": 2682,
-        "courseCategoryId": 24,
-        "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1703664728156.png",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2764626",
-      "date": "2026-02-03 06:45:23",
-      "raw": {
-        "id": 2764626,
-        "trainingId": 408798,
-        "type": 5,
-        "title": "Run strength B 251222",
-        "trainingTime": 2126,
-        "calorie": 153,
-        "totalCapacity": 2865.0,
-        "startTime": "2026-02-03 06:09:04",
-        "endTime": "2026-02-03 06:45:23",
-        "startTimestamp": 1770095344,
-        "endTimestamp": 1770097523,
-        "createTime": "2026-02-03 05:45:24",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 28367.74,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 404494,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    },
-    {
-      "id": "2741576",
-      "date": "2026-01-30 08:08:40",
-      "raw": {
-        "id": 2741576,
-        "trainingId": 405016,
-        "type": 5,
-        "title": "Run strenght A 251222",
-        "trainingTime": 3106,
-        "calorie": 305,
-        "totalCapacity": 8993.0,
-        "startTime": "2026-01-30 07:15:02",
-        "endTime": "2026-01-30 08:08:40",
-        "startTimestamp": 1769753702,
-        "endTimestamp": 1769756920,
-        "createTime": "2026-01-30 07:08:41",
-        "watchType": 1,
-        "deviceType": 1,
-        "totalEnergy": 58322.51,
-        "mileage": 0,
-        "bikeType": 0,
-        "templateId": 404489,
-        "templateCoverImg3": "https://d1rwzqjevxdih5.cloudfront.net/1736854985271.jpg",
-        "isStageRiding": false,
-        "belongUserHealth": false,
-        "healthType": 0
-      }
-    }
-  ]
+import json
+import os
+import re
+import time
+from datetime import datetime, timedelta, timezone
+from typing import Any, Optional, Tuple
+
+from api_client import SpeedianceClient
+
+DATA_DIR = "data"
+
+# --- Redaction (avoid publishing secrets/private identity) ---
+REDACT_KEY_PATTERNS = [
+    re.compile(r".*token.*", re.IGNORECASE),
+    re.compile(r".*password.*", re.IGNORECASE),
+    re.compile(r".*email.*", re.IGNORECASE),
+    re.compile(r".*phone.*", re.IGNORECASE),
+    re.compile(r".*apple.*userid.*", re.IGNORECASE),
+    re.compile(r".*device.*id.*", re.IGNORECASE),
+    re.compile(r".*serial.*", re.IGNORECASE),
+]
+
+# --- Telemetry bloat to drop (keep useful summary, drop huge arrays) ---
+TELEMETRY_KEYS_TO_DROP = {
+    "leftWatts", "rightWatts",
+    "leftAmplitudes", "rightAmplitudes",
+    "leftRopeSpeeds", "rightRopeSpeeds",
+    "leftMinRopeLengths", "rightMinRopeLengths",
+    "leftMaxRopeLengths", "rightMaxRopeLengths",
+    "leftFinishedTimes", "rightFinishedTimes",
+    "leftBreakTimes", "rightBreakTimes",
+    "leftTimestamps", "rightTimestamps",
 }
+TELEMETRY_NAME_PATTERNS = [
+    re.compile(r".*watts.*", re.IGNORECASE),
+    re.compile(r".*amplitude.*", re.IGNORECASE),
+    re.compile(r".*ropespeed.*", re.IGNORECASE),
+    re.compile(r".*ropelength.*", re.IGNORECASE),
+    re.compile(r".*timestamp.*", re.IGNORECASE),
+]
+MAX_TELEMETRY_LIST_LEN = 12
+ALLOW_LIST_KEYS = {"weights"}  # keep weights arrays if present
+
+CONTENT_KEYS = (
+    "actionInfoList", "actions", "actionList", "trainingActionList",
+    "sets", "setList", "exerciseList", "exercises",
+)
+
+def now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+def ensure_dir(path: str) -> None:
+    os.makedirs(path, exist_ok=True)
+
+def write_json(path: str, payload: Any) -> None:
+    ensure_dir(os.path.dirname(path))
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+def read_json(path: str) -> Any:
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+def redact(obj: Any) -> Any:
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if any(p.match(str(k)) for p in REDACT_KEY_PATTERNS):
+                continue
+            out[k] = redact(v)
+        return out
+    if isinstance(obj, list):
+        return [redact(x) for x in obj]
+    return obj
+
+def prune_telemetry(obj: Any) -> Any:
+    if isinstance(obj, dict):
+        out = {}
+        for k, v in obj.items():
+            if k in TELEMETRY_KEYS_TO_DROP:
+                continue
+            vv = prune_telemetry(v)
+            if (
+                k not in ALLOW_LIST_KEYS
+                and isinstance(vv, list)
+                and len(vv) > MAX_TELEMETRY_LIST_LEN
+                and any(p.match(str(k)) for p in TELEMETRY_NAME_PATTERNS)
+            ):
+                continue
+            out[k] = vv
+        return out
+    if isinstance(obj, list):
+        return [prune_telemetry(x) for x in obj]
+    return obj
+
+# --- env helpers (treat empty as missing) ---
+def _env_str(name: str, default: str = "") -> str:
+    v = os.getenv(name)
+    if v is None:
+        return default
+    v = v.strip()
+    return v if v != "" else default
+
+def _env_int(name: str, default: int) -> int:
+    v = os.getenv(name)
+    if v is None:
+        return default
+    v = v.strip()
+    if v == "":
+        return default
+    try:
+        return int(v)
+    except ValueError:
+        return default
+
+def _env_bool(name: str, default: bool) -> bool:
+    v = os.getenv(name)
+    if v is None:
+        return default
+    v = v.strip().lower()
+    if v == "":
+        return default
+    return v in ("1", "true", "yes", "y", "on")
+
+# --- Auth/config ---
+def configure_client(c: SpeedianceClient) -> None:
+    region = _env_str("SPEEDIANCE_REGION", "EU")
+    device_type = _env_int("SPEEDIANCE_DEVICE_TYPE", 1)
+    allow_monster_moves = _env_bool("SPEEDIANCE_ALLOW_MONSTER_MOVES", False)
+    unit = _env_int("SPEEDIANCE_UNIT", 0)
+
+    token = _env_str("SPEEDIANCE_TOKEN", "")
+    user_id = _env_str("SPEEDIANCE_USER_ID", "")
+
+    c.save_config(
+        user_id=user_id,
+        token=token,
+        region=region,
+        unit=unit,
+        custom_instruction="",
+        device_type=device_type,
+        allow_monster_moves=allow_monster_moves,
+    )
+
+def ensure_auth_token_only(c: SpeedianceClient) -> None:
+    creds = getattr(c, "credentials", None)
+    if not isinstance(creds, dict):
+        raise RuntimeError("Client has no credentials dict; cannot use token-only auth.")
+    tok = str(creds.get("token") or "").strip()
+    uid = str(creds.get("user_id") or "").strip()
+    if not (tok and uid):
+        raise RuntimeError("Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set.")
+
+# --- Debug helpers ---
+def debug_dir() -> str:
+    d = os.path.join(DATA_DIR, "debug")
+    ensure_dir(d)
+    return d
+
+def save_last_debug(c: SpeedianceClient, tag: str) -> None:
+    dbg = getattr(c, "last_debug_info", None)
+    if dbg:
+        write_json(os.path.join(debug_dir(), f"{tag}_last_debug.json"), dbg)
+
+def save_signature(tag: str, requested_id: str, method: str, payload: Any) -> None:
+    sig: dict[str, Any] = {
+        "generated_at": now_iso(),
+        "requested_id": requested_id,
+        "method": method,
+        "payload_type": type(payload).__name__,
+    }
+    if isinstance(payload, dict):
+        sig["keys"] = sorted(list(payload.keys()))[:120]
+        sig["code"] = payload.get("code")
+        sig["message"] = payload.get("message")
+        if "data" in payload:
+            d = payload.get("data")
+            sig["data_type"] = type(d).__name__
+            if isinstance(d, list):
+                sig["len_data"] = len(d)
+            elif isinstance(d, dict):
+                sig["data_keys"] = sorted(list(d.keys()))[:160]
+                for k in CONTENT_KEYS:
+                    v = d.get(k)
+                    if isinstance(v, list):
+                        sig[f"len_{k}"] = len(v)
+    elif isinstance(payload, list):
+        sig["len_list"] = len(payload)
+
+    write_json(os.path.join(debug_dir(), f"{tag}_sig.json"), sig)
+
+def has_content(payload: Any) -> bool:
+    if payload is None:
+        return False
+    if isinstance(payload, list):
+        return len(payload) > 0
+    if isinstance(payload, dict):
+        if "data" in payload:
+            d = payload.get("data")
+            if d is None:
+                return False
+            if isinstance(d, list):
+                return len(d) > 0
+            if isinstance(d, dict):
+                for k in CONTENT_KEYS:
+                    v = d.get(k)
+                    if isinstance(v, list) and len(v) > 0:
+                        return True
+                return len(d) > 0
+            return True
+        for k in CONTENT_KEYS:
+            v = payload.get(k)
+            if isinstance(v, list) and len(v) > 0:
+                return True
+        return len(payload) > 0
+    return True
+
+# --- Records extraction ---
+def extract_records_list(records_obj: Any) -> list[dict]:
+    if isinstance(records_obj, list):
+        return [r for r in records_obj if isinstance(r, dict)]
+    if isinstance(records_obj, dict):
+        for k in ("list", "records", "items", "data", "rows"):
+            v = records_obj.get(k)
+            if isinstance(v, list):
+                return [r for r in v if isinstance(r, dict)]
+    return []
+
+def get_record_date(rec: dict) -> Optional[str]:
+    for k in ("endTime", "finishTime", "trainingTime", "createTime", "startTime", "date"):
+        v = rec.get(k)
+        if v is None:
+            continue
+        s = str(v).strip()
+        if s:
+            return s
+    return None
+
+def get_record_id(rec: dict) -> Optional[str]:
+    v = rec.get("id")
+    return str(v).strip() if v is not None and str(v).strip() != "" else None
+
+def get_training_id(rec: dict) -> Optional[str]:
+    # THIS is the key fix: prefer trainingId/trainingInfoId for details
+    for k in ("trainingInfoId", "trainingId"):
+        v = rec.get(k)
+        if v is not None and str(v).strip() != "":
+            return str(v).strip()
+    return None
+
+# --- Detail fetcher (course/ctt + optional session_info) ---
+def fetch_detail_resolved(
+    c: SpeedianceClient,
+    training_id: str,
+    tag: str,
+    debug_signature: bool,
+) -> Tuple[Optional[Any], str]:
+    # 1) try session info if exists
+    if hasattr(c, "get_training_session_info"):
+        try:
+            p = c.get_training_session_info(training_id)
+            if debug_signature:
+                save_signature(f"{tag}_session_info", training_id, "get_training_session_info", p)
+            if has_content(p):
+                return p, "session_info"
+            save_signature(f"{tag}_empty_session_info", training_id, "get_training_session_info", p)
+            save_last_debug(c, f"{tag}_empty_session_info")
+        except Exception:
+            save_last_debug(c, f"{tag}_exception_session_info")
+
+    # 2) course
+    try:
+        p = c.get_training_detail(training_id, "course")
+        if debug_signature:
+            save_signature(f"{tag}_course", training_id, "get_training_detail(course)", p)
+        if has_content(p):
+            return p, "course"
+        save_signature(f"{tag}_empty_course", training_id, "get_training_detail(course)", p)
+        save_last_debug(c, f"{tag}_empty_course")
+    except Exception:
+        save_last_debug(c, f"{tag}_exception_course")
+
+    # 3) ctt
+    try:
+        p = c.get_training_detail(training_id, "ctt")
+        if debug_signature:
+            save_signature(f"{tag}_ctt", training_id, "get_training_detail(ctt)", p)
+        if has_content(p):
+            return p, "ctt"
+        save_signature(f"{tag}_empty_ctt", training_id, "get_training_detail(ctt)", p)
+        save_last_debug(c, f"{tag}_empty_ctt")
+    except Exception:
+        save_last_debug(c, f"{tag}_exception_ctt")
+
+    return None, "none"
+
+def run_training_sync(c: SpeedianceClient) -> None:
+    days = _env_int("TRAINING_DAYS", 365)
+    max_details = _env_int("MAX_TRAINING_DETAILS", 60)
+    throttle_s = float(_env_str("DETAIL_THROTTLE_SECONDS", "1.5"))
+    retries = _env_int("DETAIL_RETRIES", 3)
+    debug_signature = _env_bool("DEBUG_SIGNATURE", False)
+
+    end = datetime.now(timezone.utc).date()
+    start = end - timedelta(days=days)
+    start_date = start.strftime("%Y-%m-%d")
+    end_date = end.strftime("%Y-%m-%d")
+
+    records_obj = c.get_training_records(start_date, end_date)
+    records_list = extract_records_list(records_obj)
+
+    normalized = []
+    for rec in records_list:
+        record_id = get_record_id(rec)
+        training_id = get_training_id(rec)
+        if not record_id or not training_id:
+            continue
+        normalized.append(
+            {
+                "record_id": str(record_id),
+                "training_id": str(training_id),
+                "date": get_record_date(rec),
+                "raw": rec,
+            }
+        )
+
+    normalized_sorted = sorted(normalized, key=lambda x: (x.get("date") or ""), reverse=True)
+
+    ensure_dir(DATA_DIR)
+    write_json(
+        os.path.join(DATA_DIR, "training_records.json"),
+        {
+            "meta": {
+                "generated_at": now_iso(),
+                "start_date": start_date,
+                "end_date": end_date,
+                "count": len(normalized_sorted),
+            },
+            "records": redact(normalized_sorted),
+        },
+    )
+
+    # Optional stats
+    stats_obj = None
+    if hasattr(c, "get_training_stats"):
+        try:
+            stats_obj = c.get_training_stats(start_date, end_date)
+        except Exception:
+            save_last_debug(c, "training_stats_failed")
+
+    write_json(
+        os.path.join(DATA_DIR, "training_stats.json"),
+        {
+            "meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date},
+            "stats": redact(stats_obj),
+        },
+    )
+
+    details_dir = os.path.join(DATA_DIR, "training_details")
+    ensure_dir(details_dir)
+
+    index = {
+        "meta": {
+            "generated_at": now_iso(),
+            "start_date": start_date,
+            "end_date": end_date,
+            "max_details": max_details,
+            "detail_throttle_seconds": throttle_s,
+            "detail_retries": retries,
+            "count_written": 0,
+            "count_skipped_invalid": 0,
+        },
+        "items": [],
+        "errors": {},
+    }
+
+    latest = normalized_sorted[:max_details]
+
+    for item in latest:
+        record_id = item["record_id"]
+        training_id = item["training_id"]
+        date = item.get("date")
+
+        # Use training_id as filename (stable for detail endpoints)
+        out_path = os.path.join(details_dir, f"{training_id}.json")
+
+        # Keep existing good file if we fail now
+        existing_ok = False
+        if os.path.exists(out_path):
+            try:
+                ex = read_json(out_path)
+                if has_content(ex.get("detail")):
+                    existing_ok = True
+            except Exception:
+                existing_ok = False
+
+        payload = None
+        source = "none"
+        last_err = None
+
+        for attempt in range(1, retries + 1):
+            tag = f"{training_id}_attempt{attempt}"
+            try:
+                payload, source = fetch_detail_resolved(
+                    c=c,
+                    training_id=training_id,
+                    tag=tag,
+                    debug_signature=(debug_signature and attempt == 1),
+                )
+                if has_content(payload):
+                    break
+                last_err = f"No detail content (attempt {attempt})"
+            except Exception as e:
+                save_last_debug(c, f"{tag}_resolver_exception")
+                last_err = repr(e)
+
+            time.sleep(throttle_s * attempt)
+
+        if not has_content(payload):
+            index["meta"]["count_skipped_invalid"] += 1
+            index["errors"][f"detail:{training_id}"] = last_err or "No detail content after retries"
+            if existing_ok:
+                index["items"].append(
+                    {
+                        "training_id": training_id,
+                        "record_id": record_id,
+                        "source": source,
+                        "date": date,
+                        "path": f"/data/training_details/{training_id}.json",
+                        "note": "kept_existing",
+                    }
+                )
+            time.sleep(throttle_s)
+            continue
+
+        cleaned = prune_telemetry(redact(payload))
+        write_json(
+            out_path,
+            {
+                "meta": {
+                    "generated_at": now_iso(),
+                    "training_id": training_id,
+                    "record_id": record_id,
+                    "source": source,
+                    "date": date,
+                },
+                "detail": cleaned,
+            },
+        )
+
+        index["items"].append(
+            {
+                "training_id": training_id,
+                "record_id": record_id,
+                "source": source,
+                "date": date,
+                "path": f"/data/training_details/{training_id}.json",
+            }
+        )
+        index["meta"]["count_written"] += 1
+
+        time.sleep(throttle_s)
+
+    write_json(os.path.join(details_dir, "index.json"), index)
+
+    # Sanity file each run
+    creds = getattr(c, "credentials", None)
+    write_json(
+        os.path.join(DATA_DIR, "sync_env_sanity.json"),
+        {
+            "meta": {"generated_at": now_iso()},
+            "region": getattr(c, "region", None),
+            "base_url": getattr(c, "base_url", None),
+            "host": getattr(c, "host", None),
+            "has_credentials_dict": isinstance(creds, dict),
+            "credentials_keys": sorted(list(creds.keys())) if isinstance(creds, dict) else None,
+            "has_user_id": bool(str(creds.get("user_id") or "").strip()) if isinstance(creds, dict) else False,
+            "has_token": bool(str(creds.get("token") or "").strip()) if isinstance(creds, dict) else False,
+        },
+    )
+
+def run_reference_sync(c: SpeedianceClient) -> None:
+    methods = sorted([name for name in dir(c) if name.startswith("get_") and callable(getattr(c, name))])
+    errors = {}
+    results = {}
+    for name in methods:
+        fn = getattr(c, name)
+        try:
+            results[name] = fn()
+        except TypeError:
+            continue
+        except Exception as e:
+            errors[name] = repr(e)
+            save_last_debug(c, f"reference_{name}_failed")
+
+    write_json(
+        os.path.join(DATA_DIR, "reference.json"),
+        {"meta": {"generated_at": now_iso(), "errors": errors}, "data": redact(results)},
+    )
+
+def main() -> None:
+    ensure_dir(DATA_DIR)
+    mode = _env_str("SYNC_MODE", "training").lower()
+
+    c = SpeedianceClient()
+    configure_client(c)
+    ensure_auth_token_only(c)
+
+    if mode == "training":
+        run_training_sync(c)
+    elif mode == "reference":
+        run_reference_sync(c)
+    else:
+        raise RuntimeError("Invalid SYNC_MODE. Use 'training' or 'reference'.")
+
+if __name__ == "__main__":
+    main()

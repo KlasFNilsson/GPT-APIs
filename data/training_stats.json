@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T10:38:35.472812+00:00",
-    "start_date": "2025-03-01",
+    "generated_at": "2026-03-01T10:44:01.805116+00:00",
+    "start_date": "2025-11-01",
     "end_date": "2026-03-01"
   },
   "stats": {
-    "trainingTime": 166083,
-    "calorie": 16647,
-    "totalCapacity": 365213.4,
-    "totalEnergy": 3229704.93
+    "trainingTime": 101579,
+    "calorie": 10069,
+    "totalCapacity": 212255.0,
+    "totalEnergy": 1926924.59
   },
   "errors": {}
 }

@@ -1,25 +1,35 @@
 # sync_speediance.py
 #
 # Outputs:
-#   data/traini [oai_citation:2‡435255.json 4.txt](sediment://file_000000000070724384d1d2eb7533a9ac)ta/training_compact/index.json
+#   data/training_records.json
+#   data/training_compact/index.json
 #   data/training_compact/<training_id>.json
+#   data/library_lookup.json
 #
-# Key feature:
-# - Uses SpeedianceClient.is_exercise_unilateral(group_id) to detect unilateral exercises
-# - If unilateral AND no explicit side in sets AND even number of sets:
-#     -> groups into sides: L and R (first half = L, second half = R)
-#        and reports set_count_per_side instead of "6 sets"
+# Key features:
+# - Builds a LARGE exercise lookup by extracting "actionLibraryList" from get_library()
+#   (fixes tiny lookup issue).
+# - Resolves missing actionLibraryId in training detail by name->id mapping.
+# - Uses SpeedianceClient.is_exercise_unilateral(int(group_id)) to detect unilateral exercises.
+# - If unilateral AND no explicit side markers AND even number of sets:
+#     -> groups into sides: L/R (first half = L, second half = R)
+#     -> exposes set_count as per-side count, and keeps original sets as sets_all.
+# - Rep-by-rep visibility when per-rep arrays exist (weights/leftWeights/rightWeights).
 #
-# Required env:
-#   SPEEDIANCE_REGION, SPEEDIANCE_DEVICE_TYPE, SPEEDIANCE_ALLOW_MONSTER_MOVES,
-#   SPEEDIANCE_UNIT, SPEEDIANCE_TOKEN, SPEEDIANCE_USER_ID
+# Required env (GitHub Actions secrets):
+#   SPEEDIANCE_REGION
+#   SPEEDIANCE_DEVICE_TYPE
+#   SPEEDIANCE_ALLOW_MONSTER_MOVES
+#   SPEEDIANCE_UNIT
+#   SPEEDIANCE_TOKEN
+#   SPEEDIANCE_USER_ID
 #
 # Optional env:
 #   TRAINING_DAYS (default 365)
 #   MAX_TRAINING_DETAILS (default 30)
 #   DETAIL_THROTTLE_SECONDS (default 1.2)
 #   DETAIL_RETRIES (default 3)
-#   LIBRARY_REFRESH_HOURS (default 24)
+#   LIBRARY_REFRESH_HOURS (default 24)  # set to 0 temporarily to force rebuild each run
 
 import json
 import os
@@ -30,7 +40,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-01_UNILATERAL_GROUP_V1")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-01_LIBRARY_ACTIONLIST_UNILATERAL_V1")
 
 DATA_DIR = "data"
 COMPACT_DIR = os.path.join(DATA_DIR, "training_compact")
@@ -115,6 +125,10 @@ def is_nonempty_payload(payload: Any) -> bool:
     if isinstance(d, dict):
         return len(d.keys()) > 0
     return True
+
+# -------------------------
+# Env helpers
+# -------------------------
 
 def _env_str(name: str, default: str = "") -> str:
     v = os.getenv(name)
@@ -268,9 +282,7 @@ def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
     return rid, tid
 
 # -------------------------
-# Library lookup for:
-#   id -> name
-#   name -> id   (for when actionLibraryId is missing in training detail payload)
+# Library lookup
 # -------------------------
 
 def _file_age_hours(path: str) -> Optional[float]:
@@ -281,16 +293,34 @@ def _file_age_hours(path: str) -> Optional[float]:
         return None
 
 def _norm_name(s: str) -> str:
-    # normalize whitespace and zero-width chars; lower for matching
     s = s.replace("\u200b", "").replace("\ufeff", "")
     s = re.sub(r"\s+", " ", s).strip().lower()
     return s
 
+def _extract_action_libraries(obj: Any) -> List[dict]:
+    """
+    Recursively find lists under key 'actionLibraryList' anywhere in the library payload.
+    """
+    results: List[dict] = []
+    if isinstance(obj, dict):
+        for k, v in obj.items():
+            if k == "actionLibraryList" and isinstance(v, list):
+                for it in v:
+                    if isinstance(it, dict):
+                        results.append(it)
+            else:
+                results.extend(_extract_action_libraries(v))
+    elif isinstance(obj, list):
+        for it in obj:
+            results.extend(_extract_action_libraries(it))
+    return results
+
 def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, str]]:
     """
-    Extract actual actionLibrary entries (exercises), not course categories.
+    Returns:
+      id_to_name: actionLibraryGroupId(str) -> name(str)
+      name_to_id: normalized_name -> actionLibraryGroupId(str)
     """
-
     id_to_name: Dict[str, str] = {}
     name_to_id: Dict[str, str] = {}
 
@@ -300,65 +330,24 @@ def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, s
     lib = unwrap_data(c.get_library())
     lib = prune_telemetry(redact(lib))
 
-    # Try to find actionLibraryList explicitly
-    def extract_action_libraries(obj: Any) -> List[dict]:
-        results = []
-
-        if isinstance(obj, dict):
-            for key, value in obj.items():
-                if key == "actionLibraryList" and isinstance(value, list):
-                    results.extend(value)
-                else:
-                    results.extend(extract_action_libraries(value))
-
-        elif isinstance(obj, list):
-            for item in obj:
-                results.extend(extract_action_libraries(item))
-
-        return results
-
-    action_libraries = extract_action_libraries(lib)
+    action_libraries = _extract_action_libraries(lib)
 
     for item in action_libraries:
-        if not isinstance(item, dict):
-            continue
-
-        gid = item.get("id") or item.get("actionLibraryId")
-        name = item.get("actionLibraryName") or item.get("name")
-
-        if gid and name:
-            gid_s = str(gid).strip()
-            name_s = str(name).strip()
-
-            id_to_name[gid_s] = name_s
-            name_to_id[_norm_name(name_s)] = gid_s
-
-    return id_to_name, name_to_id
-
-    def ingest_item(it: Any) -> None:
-        if not isinstance(it, dict):
-            return
-        gid = it.get("id") or it.get("actionLibraryId") or it.get("groupId")
-        name = it.get("actionLibraryName") or it.get("name") or it.get("actionName") or it.get("libraryName")
+        gid = item.get("id") or item.get("actionLibraryId") or item.get("groupId")
+        name = item.get("actionLibraryName") or item.get("name") or item.get("actionName")
         if gid is None or name is None:
-            return
+            continue
         gid_s = str(gid).strip()
         name_s = str(name).strip()
         if not gid_s or not name_s:
-            return
-        id_to_name.setdefault(gid_s, name_s)
-        name_to_id.setdefault(_norm_name(name_s), gid_s)
+            continue
+        # Keep first seen mapping
+        if gid_s not in id_to_name:
+            id_to_name[gid_s] = name_s
+        nn = _norm_name(name_s)
+        if nn and nn not in name_to_id:
+            name_to_id[nn] = gid_s
 
-    def walk(obj: Any) -> None:
-        if isinstance(obj, list):
-            for x in obj:
-                walk(x)
-        elif isinstance(obj, dict):
-            ingest_item(obj)
-            for v in obj.values():
-                walk(v)
-
-    walk(lib)
     return id_to_name, name_to_id
 
 def load_or_refresh_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, str]]:
@@ -385,7 +374,11 @@ def load_or_refresh_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], D
     write_json(
         LIBRARY_CACHE_PATH,
         {
-            "meta": {"generated_at": now_iso(), "id_to_name_count": len(id_to_name), "name_to_id_count": len(name_to_id)},
+            "meta": {
+                "generated_at": now_iso(),
+                "id_to_name_count": len(id_to_name),
+                "name_to_id_count": len(name_to_id),
+            },
             "id_to_name": id_to_name,
             "name_to_id": name_to_id,
         },
@@ -399,24 +392,18 @@ def resolve_group_id(action_library_id: Optional[str], exercise_name: str, name_
     return name_to_id.get(key)
 
 # -------------------------
-# Explicit side parsing (ONLY if explicitly present)
+# Side parsing (explicit only)
 # -------------------------
 
 def _side_explicit(obj: Any) -> Optional[str]:
-    """
-    Only trust explicit side indicators.
-    Common: leftRight (0/1 or 1/2), side ('L'/'R', 'left'/'right')
-    """
     if not isinstance(obj, dict):
         return None
     if "leftRight" in obj:
         try:
             v = int(obj["leftRight"])
-            # common conventions:
-            # 0=left,1=right or 1=left,2=right
-            if v == 0 or v == 1:
-                return "L" if v == 0 else "R"
-            if v == 2:
+            if v == 0:
+                return "L"
+            if v == 1 or v == 2:
                 return "R"
         except Exception:
             pass
@@ -479,16 +466,10 @@ def extract_rep_weights(info: dict, reps: int) -> List[dict]:
     return []
 
 # -------------------------
-# Unilateral grouping (based on is_exercise_unilateral)
+# Unilateral grouping
 # -------------------------
 
 def group_unilateral_sets_if_needed(ex_obj: dict, is_unilateral: bool) -> dict:
-    """
-    If unilateral AND no explicit side markers AND even number of sets:
-      - store original as sets_all
-      - replace sets with per-side structure
-      - set_count becomes per-side
-    """
     if not is_unilateral:
         return ex_obj
 
@@ -496,7 +477,6 @@ def group_unilateral_sets_if_needed(ex_obj: dict, is_unilateral: bool) -> dict:
     if not isinstance(sets, list) or len(sets) == 0:
         return ex_obj
 
-    # If we have explicit side markers on any set, do not group (already clear)
     if any(isinstance(s, dict) and s.get("side") in ("L", "R") for s in sets):
         return ex_obj
 
@@ -520,13 +500,12 @@ def group_unilateral_sets_if_needed(ex_obj: dict, is_unilateral: bool) -> dict:
 
     grouped = dict(ex_obj)
     grouped["unilateral"] = True
-    grouped["sets_all"] = sets  # keep original list for debugging / future improvements
+    grouped["sets_all"] = sets
     grouped["sides"] = {
         "L": {"sets": left_sets, "set_count": len(left_sets), "total_volume": _sum_volume(left_sets)},
         "R": {"sets": right_sets, "set_count": len(right_sets), "total_volume": _sum_volume(right_sets)},
     }
     grouped["set_count"] = half  # per side
-    # keep total volume as total (already set)
     return grouped
 
 # -------------------------
@@ -570,7 +549,6 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
             reps = _safe_int(s.get("finishedCount"), 0)
             info = s.get("trainingInfoDetail") if isinstance(s.get("trainingInfoDetail"), dict) else {}
 
-            # ONLY explicit side if present
             side = _side_explicit(s) or _side_explicit(info) or _side_explicit(ex)
 
             wsum = extract_set_weight_summary(info)
@@ -584,7 +562,7 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
                     "reps": reps,
                     "weight": round(weight, 3),
                     "volume": round(volume, 3),
-                    "side": side,  # L/R/None
+                    "side": side,
                     "left_weight_max": wsum["left_weight_max"],
                     "right_weight_max": wsum["right_weight_max"],
                     "reps_detail": reps_detail,
@@ -595,18 +573,17 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
 
         ex_obj = {
             "name": name,
-            "actionLibraryId": group_id,  # ensure ID is present when possible
+            "actionLibraryId": group_id,  # ensure ID present when possible
             "sets": sets,
             "set_count": len(sets),
             "total_volume": round(total_volume, 3),
             "max_weight": round(max_weight_seen, 3),
         }
 
-        # Unilateral detection (authoritative)
         is_unilateral = False
         if group_id and hasattr(c, "is_exercise_unilateral"):
             try:
-                is_unilateral = bool(c.is_exercise_unilateral(group_id))
+                is_unilateral = bool(c.is_exercise_unilateral(int(group_id)))
             except Exception:
                 is_unilateral = False
 
@@ -658,13 +635,11 @@ def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict
 
         group_id = resolve_group_id(action_id_s, name, name_to_id)
 
-        # If finishedReps exists, parse as course-style
         finished = ex.get("finishedReps") if isinstance(ex.get("finishedReps"), list) else None
         if finished:
             exercises.extend(normalize_as_course([ex], id_to_name, name_to_id, c))
             continue
 
-        # CSV fallback (often not true per-rep weights)
         reps_list: List[int] = []
         for rk in ("setsAndReps", "setAndRep", "reps", "repList", "finishedCounts"):
             if rk in ex:
@@ -715,6 +690,7 @@ def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict
             w = float(set_weights[i] or 0.0)
             vol = float(reps) * w
 
+            # CSV-based: no true rep-by-rep weights; repeat set weight.
             reps_detail = [{"rep_index": j + 1, "weight": round(w, 3), "left_weight": None, "right_weight": None} for j in range(reps)]
 
             sets.append(
@@ -722,7 +698,7 @@ def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict
                     "reps": reps,
                     "weight": round(w, 3),
                     "volume": round(vol, 3),
-                    "side": _side_explicit(ex),  # ONLY explicit
+                    "side": _side_explicit(ex),
                     "left_weight_max": left_maxes[i],
                     "right_weight_max": right_maxes[i],
                     "reps_detail": reps_detail,
@@ -743,7 +719,7 @@ def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict
         is_unilateral = False
         if group_id and hasattr(c, "is_exercise_unilateral"):
             try:
-                is_unilateral = bool(c.is_exercise_unilateral(group_id))
+                is_unilateral = bool(c.is_exercise_unilateral(int(group_id)))
             except Exception:
                 is_unilateral = False
 
@@ -813,7 +789,7 @@ def normalize_best(payload: Any, id_to_name: Dict[str, str], name_to_id: Dict[st
     return [], "none"
 
 # -------------------------
-# Main
+# Training sync
 # -------------------------
 
 def run_training_sync(c: SpeedianceClient) -> None:
@@ -916,7 +892,6 @@ def run_training_sync(c: SpeedianceClient) -> None:
 
         exercises, normalized_as = normalize_best(payload, id_to_name, name_to_id, c)
 
-        # Endpoint fallback if empty
         if not exercises:
             other_payload = fetch_detail_course(c, tid) if source_hint == "ctt" else fetch_detail_ctt(c, tid)
             if other_payload is not None:

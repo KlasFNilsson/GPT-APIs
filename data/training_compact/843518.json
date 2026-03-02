@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:40:45.612652+00:00",
+    "generated_at": "2026-03-02T06:59:03.858207+00:00",
     "record_id": "2913925",
     "training_id": "843518",
     "title": "Core Basics",
@@ -19,12 +19,13 @@
     {
       "name": "Mat Lying Toe Taps",
       "actionLibraryId": "806861158023168",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -37,12 +38,13 @@
     {
       "name": "Mat Shoulder Bridg",
       "actionLibraryId": "806895596896256",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -55,12 +57,13 @@
     {
       "name": "Mat Knee Pressure",
       "actionLibraryId": "806897677828096",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -73,12 +76,13 @@
     {
       "name": "Supine Leg Scissors",
       "actionLibraryId": "807762455232512",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -91,12 +95,13 @@
     {
       "name": "High Adductor Stretch",
       "actionLibraryId": "804279391944704",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -109,12 +114,13 @@
     {
       "name": "Parallel Press",
       "actionLibraryId": "804280495046656",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -127,12 +133,13 @@
     {
       "name": "Lying Straight Down",
       "actionLibraryId": "804068371759104",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -145,12 +152,13 @@
     {
       "name": "Lying Side Arm",
       "actionLibraryId": "804068967907328",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -163,12 +171,13 @@
     {
       "name": "The Hundred Prep",
       "actionLibraryId": "804007865286656",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -181,12 +190,13 @@
     {
       "name": "Abdominal Stretch",
       "actionLibraryId": "808006903463936",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -199,12 +209,13 @@
     {
       "name": "Child Pose",
       "actionLibraryId": "807989903949824",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

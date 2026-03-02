@@ -1,13 +1,11 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:40:39.417533+00:00",
+    "generated_at": "2026-03-02T06:58:58.150371+00:00",
     "start_date": "2026-01-31",
     "end_date": "2026-03-02",
     "max_details": 5,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
-    "id_to_name_count": 1069,
-    "name_to_id_count": 1068,
     "count_written": 4,
     "count_failed": 1,
     "count_empty_exercises": 0

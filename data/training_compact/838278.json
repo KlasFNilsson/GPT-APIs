@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:41:13.104707+00:00",
+    "generated_at": "2026-03-02T06:59:29.544225+00:00",
     "record_id": "2894216",
     "training_id": "838278",
     "title": "Aaron’s Biceps Day Workout",
@@ -19,12 +19,13 @@
     {
       "name": "Biceps Stretch",
       "actionLibraryId": "808007200702464",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -33,7 +34,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -42,7 +43,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -51,7 +52,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -64,12 +65,13 @@
     {
       "name": "Seated Single-Arm Concentration Curl",
       "actionLibraryId": "372767304843265",
+      "unilateral": true,
       "sets": [
         {
           "reps": 8,
           "weight": 14.0,
           "volume": 112.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": null,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -127,7 +129,7 @@
           "reps": 8,
           "weight": 14.0,
           "volume": 112.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": null,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -185,7 +187,7 @@
           "reps": 8,
           "weight": 14.0,
           "volume": 112.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": null,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -416,17 +418,19 @@
       ],
       "set_count": 6,
       "total_volume": 672.0,
-      "max_weight": 14.0
+      "max_weight": 14.0,
+      "set_count_per_side": 3
     },
     {
       "name": "Seated Incline Dual-Handle Biceps Curl",
       "actionLibraryId": "538",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 11.0,
           "volume": 88.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 11.0,
           "right_weight_max": 11.0,
           "reps_detail": [
@@ -484,7 +488,7 @@
           "reps": 8,
           "weight": 12.0,
           "volume": 96.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 12.0,
           "right_weight_max": 12.0,
           "reps_detail": [
@@ -542,7 +546,7 @@
           "reps": 8,
           "weight": 12.0,
           "volume": 96.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 12.0,
           "right_weight_max": 12.0,
           "reps_detail": [
@@ -604,12 +608,13 @@
     {
       "name": "Dual-Handle Alternating Biceps Curl",
       "actionLibraryId": "555",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 15.0,
           "volume": 120.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 15.0,
           "right_weight_max": 15.0,
           "reps_detail": [
@@ -667,7 +672,7 @@
           "reps": 8,
           "weight": 14.0,
           "volume": 112.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 14.0,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -725,7 +730,7 @@
           "reps": 8,
           "weight": 14.0,
           "volume": 112.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 14.0,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -787,12 +792,13 @@
     {
       "name": "Standing Tricep Rope Hammer Curl",
       "actionLibraryId": "335",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 26.0,
           "volume": 208.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 26.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -850,7 +856,7 @@
           "reps": 8,
           "weight": 22.0,
           "volume": 176.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 22.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -908,7 +914,7 @@
           "reps": 8,
           "weight": 22.0,
           "volume": 176.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 22.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -970,12 +976,13 @@
     {
       "name": "Standing Barbell Biceps Curl",
       "actionLibraryId": "294",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 28.0,
           "volume": 224.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 14.0,
           "right_weight_max": 14.0,
           "reps_detail": [
@@ -1033,7 +1040,7 @@
           "reps": 8,
           "weight": 26.0,
           "volume": 208.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 13.0,
           "right_weight_max": 13.0,
           "reps_detail": [
@@ -1091,7 +1098,7 @@
           "reps": 8,
           "weight": 25.0,
           "volume": 200.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 12.5,
           "right_weight_max": 12.5,
           "reps_detail": [

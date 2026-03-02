@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:40:52.412574+00:00",
+    "generated_at": "2026-03-02T06:59:10.336769+00:00",
     "record_id": "2913880",
     "training_id": "435255",
     "title": "260213 Run strenght A",
@@ -19,12 +19,13 @@
     {
       "name": "Dynamic Hamstring Stretch",
       "actionLibraryId": "434221249003521",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -37,12 +38,13 @@
     {
       "name": "Seated 90/90 Stretch",
       "actionLibraryId": "2810",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -55,12 +57,13 @@
     {
       "name": "Barbell Romanian Deadlift",
       "actionLibraryId": "385",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 71.0,
           "volume": 568.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 35.5,
           "right_weight_max": 35.5,
           "reps_detail": [
@@ -118,7 +121,7 @@
           "reps": 8,
           "weight": 80.0,
           "volume": 640.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 40.0,
           "right_weight_max": 40.0,
           "reps_detail": [
@@ -176,7 +179,7 @@
           "reps": 8,
           "weight": 87.0,
           "volume": 696.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 43.5,
           "right_weight_max": 43.5,
           "reps_detail": [
@@ -234,7 +237,7 @@
           "reps": 8,
           "weight": 90.0,
           "volume": 720.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": 45.0,
           "right_weight_max": 45.0,
           "reps_detail": [
@@ -296,12 +299,13 @@
     {
       "name": "Barbell Bulgarian Split Squat",
       "actionLibraryId": "372218310295553",
+      "unilateral": true,
       "sets": [
         {
           "reps": 8,
           "weight": 27.0,
           "volume": 216.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 13.5,
           "right_weight_max": 13.5,
           "reps_detail": [
@@ -359,7 +363,7 @@
           "reps": 8,
           "weight": 27.0,
           "volume": 216.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 13.5,
           "right_weight_max": 13.5,
           "reps_detail": [
@@ -417,7 +421,7 @@
           "reps": 8,
           "weight": 29.0,
           "volume": 232.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 14.5,
           "right_weight_max": 14.5,
           "reps_detail": [
@@ -648,17 +652,19 @@
       ],
       "set_count": 6,
       "total_volume": 1368.0,
-      "max_weight": 30.0
+      "max_weight": 30.0,
+      "set_count_per_side": 3
     },
     {
       "name": "​Bodyweight Reverse Plank March",
       "actionLibraryId": "421698142863361",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -667,7 +673,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -676,7 +682,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -689,12 +695,13 @@
     {
       "name": "Half Kneeling Single-Arm Row",
       "actionLibraryId": "420214528147457",
+      "unilateral": true,
       "sets": [
         {
           "reps": 12,
           "weight": 20.0,
           "volume": 240.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 20.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -776,7 +783,7 @@
           "reps": 12,
           "weight": 20.0,
           "volume": 240.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": null,
           "right_weight_max": 20.0,
           "reps_detail": [
@@ -858,7 +865,7 @@
           "reps": 12,
           "weight": 24.0,
           "volume": 288.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 24.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -1185,17 +1192,19 @@
       ],
       "set_count": 6,
       "total_volume": 1632.0,
-      "max_weight": 24.0
+      "max_weight": 24.0,
+      "set_count_per_side": 3
     },
     {
       "name": "Assisted Bent Knee Calf Raise",
       "actionLibraryId": "421657397690369",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1204,7 +1213,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1213,7 +1222,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": null,
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1226,12 +1235,13 @@
     {
       "name": "Leg Curl Cross-Flatbench",
       "actionLibraryId": "372221634281473",
+      "unilateral": true,
       "sets": [
         {
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": null,
           "right_weight_max": 11.0,
           "reps_detail": [
@@ -1301,7 +1311,7 @@
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
-          "side": "R",
+          "side": "L",
           "left_weight_max": 11.0,
           "right_weight_max": null,
           "reps_detail": [
@@ -1510,7 +1520,8 @@
       ],
       "set_count": 4,
       "total_volume": 440.0,
-      "max_weight": 11.0
+      "max_weight": 11.0,
+      "set_count_per_side": 2
     }
   ],
   "exercise_count": 8

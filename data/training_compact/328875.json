@@ -1,0 +1,887 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T06:05:05.194337+00:00",
+    "record_id": "2291055",
+    "training_id": "328875",
+    "title": "Hyrox A",
+    "type": 5,
+    "date": "2025-10-21 07:23:56",
+    "startTime": "2025-10-21 06:35:57",
+    "endTime": "2025-10-21 07:23:56",
+    "trainingTime_sec": 2840,
+    "calorie": 192,
+    "totalCapacity": 5300.0,
+    "totalEnergy": 44655.88,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rolling Shrugs",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Shoulder Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Pulse Squat to Alternating Hip Abduction",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 64.0,
+          "volume": 384.0,
+          "side": "L",
+          "left_weight_max": 32.0,
+          "right_weight_max": 32.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 64.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 68.0,
+          "volume": 408.0,
+          "side": "L",
+          "left_weight_max": 34.0,
+          "right_weight_max": 34.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 68.0,
+          "volume": 408.0,
+          "side": "L",
+          "left_weight_max": 34.0,
+          "right_weight_max": 34.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 68.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 70.0,
+          "volume": 420.0,
+          "side": "L",
+          "left_weight_max": 35.0,
+          "right_weight_max": 35.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 70.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1620.0,
+      "max_weight": 70.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "side": "L",
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "side": "L",
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 88.0,
+          "volume": 704.0,
+          "side": "L",
+          "left_weight_max": 44.0,
+          "right_weight_max": 44.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 88.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 2112.0,
+      "max_weight": 88.0
+    },
+    {
+      "name": "Push press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Kneeling Alternating Lat Pulldown",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 18.0,
+          "volume": 180.0,
+          "side": "L",
+          "left_weight_max": 18.0,
+          "right_weight_max": 18.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 18.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 19.0,
+          "volume": 190.0,
+          "side": "L",
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 19.0,
+          "volume": 190.0,
+          "side": "L",
+          "left_weight_max": 19.0,
+          "right_weight_max": 19.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 19.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 20.0,
+          "volume": 200.0,
+          "side": "L",
+          "left_weight_max": 20.0,
+          "right_weight_max": 20.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 20.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 760.0,
+      "max_weight": 20.0
+    },
+    {
+      "name": "Dual-Handle Dead Bug",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "side": "L",
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 8.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "side": "L",
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 8.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 1,
+          "weight": 8.0,
+          "volume": 8.0,
+          "side": "L",
+          "left_weight_max": 8.0,
+          "right_weight_max": 8.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 8.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 24.0,
+      "max_weight": 8.0
+    }
+  ],
+  "exercise_count": 9
+}

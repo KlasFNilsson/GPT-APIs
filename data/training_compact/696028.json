@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T06:04:20.392285+00:00",
+    "record_id": "2385045",
+    "training_id": "696028",
+    "title": "Defined Arms",
+    "type": 2,
+    "date": "2025-11-15 12:55:34",
+    "startTime": "2025-11-15 12:53:33",
+    "endTime": "2025-11-15 12:55:34",
+    "trainingTime_sec": 118,
+    "calorie": 10,
+    "totalCapacity": 0,
+    "totalEnergy": 0.0,
+    "source_hint": "course",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Standing Barbell Biceps Curl",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Narrow Grip Bench Press",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Incline Supine Barbell Biceps Curl（Main Frame）",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Standing Barbell Triceps Push Down",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Biceps Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Triceps Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 7
+}

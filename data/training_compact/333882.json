@@ -1,0 +1,1141 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T06:04:59.377016+00:00",
+    "record_id": "2319126",
+    "training_id": "333882",
+    "title": "Hyrox2 A",
+    "type": 5,
+    "date": "2025-10-29 06:25:42",
+    "startTime": "2025-10-29 05:36:09",
+    "endTime": "2025-10-29 06:25:42",
+    "trainingTime_sec": 2910,
+    "calorie": 301,
+    "totalCapacity": 3541.0,
+    "totalEnergy": 34868.16,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rolling Shrugs",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Shoulder Stretch",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Pulse Squat to Alternating Hip Abduction",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Front Squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 4,
+          "weight": 57.0,
+          "volume": 228.0,
+          "side": "L",
+          "left_weight_max": 28.5,
+          "right_weight_max": 28.5,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 57.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 4,
+          "weight": 50.0,
+          "volume": 200.0,
+          "side": "L",
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 4,
+          "weight": 50.0,
+          "volume": 200.0,
+          "side": "L",
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 4,
+          "weight": 50.0,
+          "volume": 200.0,
+          "side": "L",
+          "left_weight_max": 25.0,
+          "right_weight_max": 25.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 50.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 828.0,
+      "max_weight": 57.0
+    },
+    {
+      "name": "Dumbbell jump squat",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Deadlift",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 6,
+          "weight": 85.0,
+          "volume": 510.0,
+          "side": "L",
+          "left_weight_max": 42.5,
+          "right_weight_max": 42.5,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 85.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 86.0,
+          "volume": 516.0,
+          "side": "L",
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 86.0,
+          "volume": 516.0,
+          "side": "L",
+          "left_weight_max": 43.0,
+          "right_weight_max": 43.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 86.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1542.0,
+      "max_weight": 86.0
+    },
+    {
+      "name": "Dumbbell lunges",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Forearm Plank Cable Pull",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 7.0,
+          "volume": 56.0,
+          "side": "R",
+          "left_weight_max": 7.0,
+          "right_weight_max": 7.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 7.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 10.0,
+          "volume": 80.0,
+          "side": "R",
+          "left_weight_max": 10.0,
+          "right_weight_max": 10.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "volume": 88.0,
+          "side": "R",
+          "left_weight_max": 11.0,
+          "right_weight_max": null,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 11.0,
+          "volume": 88.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": 11.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 13.0,
+          "volume": 104.0,
+          "side": "R",
+          "left_weight_max": 13.0,
+          "right_weight_max": null,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 13.0,
+          "volume": 104.0,
+          "side": "R",
+          "left_weight_max": null,
+          "right_weight_max": 13.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 520.0,
+      "max_weight": 13.0
+    },
+    {
+      "name": "Burpees",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Dual-Handle Thruster",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 16.0,
+          "volume": 160.0,
+          "side": "L",
+          "left_weight_max": 16.0,
+          "right_weight_max": 16.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 16.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 10.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 12.0,
+          "volume": 120.0,
+          "side": "L",
+          "left_weight_max": 12.0,
+          "right_weight_max": 12.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 12.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 11.0,
+          "volume": 110.0,
+          "side": "L",
+          "left_weight_max": 11.0,
+          "right_weight_max": 11.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 2,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 3,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 4,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 5,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 6,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 7,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 8,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 9,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            },
+            {
+              "rep_index": 10,
+              "weight": 11.0,
+              "left_weight": null,
+              "right_weight": null
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 390.0,
+      "max_weight": 16.0
+    },
+    {
+      "name": "Mountain Climbers",
+      "actionLibraryId": null,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "side": "L",
+          "left_weight_max": null,
+          "right_weight_max": null,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 12
+}

@@ -38,10 +38,19 @@ jobs:
         run: |
           python sync_speediance.py
 
-      - name: Commit changes (reference only)
+      - name: Commit changes (daily, robust)
         run: |
           git config user.name "speediance-mirror-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/reference.json
-          git diff --cached --quiet || git commit -m "daily-sync: reference"
+
+          # Add only what exists
+          test -f data/training_records.json && git add data/training_records.json || true
+          test -f data/training_stats.json && git add data/training_stats.json || true
+          test -f data/library_lookup.json && git add data/library_lookup.json || true
+          test -f data/sync_env_sanity.json && git add data/sync_env_sanity.json || true
+
+          test -d data/training_compact && git add data/training_compact || true
+
+          # If nothing to commit, don't fail
+          git diff --cached --quiet || git commit -m "daily-sync: update"
           git push

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:13:17.176432+00:00",
+    "generated_at": "2026-03-02T06:40:52.412574+00:00",
     "record_id": "2913880",
     "training_id": "435255",
     "title": "260213 Run strenght A",
@@ -18,7 +18,7 @@
   "exercises": [
     {
       "name": "Dynamic Hamstring Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "434221249003521",
       "sets": [
         {
           "reps": 0,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Seated 90/90 Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "2810",
       "sets": [
         {
           "reps": 0,
@@ -54,7 +54,7 @@
     },
     {
       "name": "Barbell Romanian Deadlift",
-      "actionLibraryId": null,
+      "actionLibraryId": "385",
       "sets": [
         {
           "reps": 8,
@@ -295,7 +295,7 @@
     },
     {
       "name": "Barbell Bulgarian Split Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "372218310295553",
       "sets": [
         {
           "reps": 8,
@@ -652,7 +652,7 @@
     },
     {
       "name": "​Bodyweight Reverse Plank March",
-      "actionLibraryId": null,
+      "actionLibraryId": "421698142863361",
       "sets": [
         {
           "reps": 0,
@@ -688,7 +688,7 @@
     },
     {
       "name": "Half Kneeling Single-Arm Row",
-      "actionLibraryId": null,
+      "actionLibraryId": "420214528147457",
       "sets": [
         {
           "reps": 12,
@@ -1189,7 +1189,7 @@
     },
     {
       "name": "Assisted Bent Knee Calf Raise",
-      "actionLibraryId": null,
+      "actionLibraryId": "421657397690369",
       "sets": [
         {
           "reps": 0,
@@ -1225,7 +1225,7 @@
     },
     {
       "name": "Leg Curl Cross-Flatbench",
-      "actionLibraryId": null,
+      "actionLibraryId": "372221634281473",
       "sets": [
         {
           "reps": 10,

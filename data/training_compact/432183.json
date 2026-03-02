@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:13:27.198276+00:00",
+    "generated_at": "2026-03-02T06:41:06.874549+00:00",
     "record_id": "2897061",
     "training_id": "432183",
     "title": "260213 Run strength B",
@@ -18,7 +18,7 @@
   "exercises": [
     {
       "name": "The World's Greatest Stretch​",
-      "actionLibraryId": null,
+      "actionLibraryId": "426421535899649",
       "sets": [
         {
           "reps": 0,
@@ -45,7 +45,7 @@
     },
     {
       "name": "In-place Inchworm",
-      "actionLibraryId": null,
+      "actionLibraryId": "3045",
       "sets": [
         {
           "reps": 0,
@@ -63,7 +63,7 @@
     },
     {
       "name": "Barbell Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "57",
       "sets": [
         {
           "reps": 8,
@@ -304,7 +304,7 @@
     },
     {
       "name": "Handle Lateral Split Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "372764756803585",
       "sets": [
         {
           "reps": 12,
@@ -805,7 +805,7 @@
     },
     {
       "name": "Standing Dual-Handle Reverse-Grip Lateral Raise",
-      "actionLibraryId": null,
+      "actionLibraryId": "416257329987585",
       "sets": [
         {
           "reps": 8,
@@ -988,7 +988,7 @@
     },
     {
       "name": "V-ups",
-      "actionLibraryId": null,
+      "actionLibraryId": "417127687913473",
       "sets": [
         {
           "reps": 0,
@@ -1024,7 +1024,7 @@
     },
     {
       "name": "Bent-Over Dual-Handle Reverse Fly",
-      "actionLibraryId": null,
+      "actionLibraryId": "570",
       "sets": [
         {
           "reps": 12,
@@ -1279,7 +1279,7 @@
     },
     {
       "name": "Barbell Single-Leg Hip Thrust",
-      "actionLibraryId": null,
+      "actionLibraryId": "372779495587841",
       "sets": [
         {
           "reps": 15,

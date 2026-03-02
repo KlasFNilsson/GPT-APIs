@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:13:14.544925+00:00",
+    "generated_at": "2026-03-02T06:40:45.612652+00:00",
     "record_id": "2913925",
     "training_id": "843518",
     "title": "Core Basics",
@@ -18,7 +18,7 @@
   "exercises": [
     {
       "name": "Mat Lying Toe Taps",
-      "actionLibraryId": null,
+      "actionLibraryId": "806861158023168",
       "sets": [
         {
           "reps": 0,
@@ -36,7 +36,7 @@
     },
     {
       "name": "Mat Shoulder Bridg",
-      "actionLibraryId": null,
+      "actionLibraryId": "806895596896256",
       "sets": [
         {
           "reps": 0,
@@ -54,7 +54,7 @@
     },
     {
       "name": "Mat Knee Pressure",
-      "actionLibraryId": null,
+      "actionLibraryId": "806897677828096",
       "sets": [
         {
           "reps": 0,
@@ -72,7 +72,7 @@
     },
     {
       "name": "Supine Leg Scissors",
-      "actionLibraryId": null,
+      "actionLibraryId": "807762455232512",
       "sets": [
         {
           "reps": 0,
@@ -90,7 +90,7 @@
     },
     {
       "name": "High Adductor Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "804279391944704",
       "sets": [
         {
           "reps": 0,
@@ -108,7 +108,7 @@
     },
     {
       "name": "Parallel Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "804280495046656",
       "sets": [
         {
           "reps": 0,
@@ -126,7 +126,7 @@
     },
     {
       "name": "Lying Straight Down",
-      "actionLibraryId": null,
+      "actionLibraryId": "804068371759104",
       "sets": [
         {
           "reps": 0,
@@ -144,7 +144,7 @@
     },
     {
       "name": "Lying Side Arm",
-      "actionLibraryId": null,
+      "actionLibraryId": "804068967907328",
       "sets": [
         {
           "reps": 0,
@@ -162,7 +162,7 @@
     },
     {
       "name": "The Hundred Prep",
-      "actionLibraryId": null,
+      "actionLibraryId": "804007865286656",
       "sets": [
         {
           "reps": 0,
@@ -180,7 +180,7 @@
     },
     {
       "name": "Abdominal Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "808006903463936",
       "sets": [
         {
           "reps": 0,
@@ -198,7 +198,7 @@
     },
     {
       "name": "Child Pose",
-      "actionLibraryId": null,
+      "actionLibraryId": "807989903949824",
       "sets": [
         {
           "reps": 0,

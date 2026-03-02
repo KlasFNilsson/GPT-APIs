@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T06:40:38.889145+00:00"
+  },
+  "candidate_list_keys": [
+    "actionInfoList",
+    "actionLibraries",
+    "actionLibrary",
+    "actionLibraryInfos",
+    "actionLibraryList",
+    "actionList",
+    "action_library_list",
+    "actions",
+    "exerciseList",
+    "exercises",
+    "libraryActionList",
+    "libraryActions"
+  ],
+  "found_candidate_lists": [
+    {
+      "path": "[39].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 7
+    },
+    {
+      "path": "[15].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 6
+    },
+    {
+      "path": "[18].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 6
+    },
+    {
+      "path": "[25].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 6
+    },
+    {
+      "path": "[35].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 6
+    },
+    {
+      "path": "[38].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 6
+    },
+    {
+      "path": "[16].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[17].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[22].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[24].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[26].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[27].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[32].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 5
+    },
+    {
+      "path": "[14].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[19].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[20].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[21].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[23].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[28].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[29].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[30].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[31].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[33].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[34].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[36].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[37].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[40].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[41].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[42].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[43].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[44].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[45].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[46].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[47].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[48].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[49].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 3
+    },
+    {
+      "path": "[0].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[1].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[2].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[3].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[4].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[5].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[6].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[7].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[8].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[9].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[10].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[11].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[12].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    },
+    {
+      "path": "[13].actionLibraryList",
+      "key": "actionLibraryList",
+      "len": 1
+    }
+  ],
+  "key_tree_depth3": {
+    "__type__": "list",
+    "__len__": 1055,
+    "sample0": {
+      "__type__": "dict",
+      "__keys__": [
+        "id",
+        "recommendedWeight",
+        "accessories",
+        "isBarbell",
+        "trainingPartId2",
+        "difficultyId",
+        "enableVoice",
+        "countType",
+        "tabId",
+        "deviceType",
+        "isCustom",
+        "jointType",
+        "isUseDevice",
+        "completionMethod",
+        "plate",
+        "dataStatType",
+        "isLeftRight",
+        "isVbt",
+        "img",
+        "appUserId",
+        "metValue",
+        "foldingStoolAngle",
+        "title",
+        "isMyFavorites",
+        "tabName",
+        "auxiliaryMuscleGroupList",
+        "actionLibraryList",
+        "mainMuscleGroupList",
+        "mainMuscleGroupId",
+        "mainMuscleGroupName",
+        "mainMuscleGroupConfigId",
+        "isSingleJoint",
+        "category_id",
+        "category_name",
+        "device_type_list",
+        "device_type_tag"
+      ],
+      "children": {
+        "id": {
+          "__type__": "int",
+          "__value_sample__": "448316339126273"
+        },
+        "recommendedWeight": {
+          "__type__": "int",
+          "__value_sample__": "0"
+        },
+        "accessories": {
+          "__type__": "str",
+          "__value_sample__": ""
+        },
+        "isBarbell": {
+          "__type__": "int",
+          "__value_sample__": "0"
+        },
+        "trainingPartId2": {
+          "__type__": "int",
+          "__value_sample__": "12"
+        },
+        "difficultyId": {
+          "__type__": "int",
+          "__value_sample__": "2"
+        },
+        "enableVoice": {
+          "__type__": "int",
+          "__value_sample__": "0"
+        },
+        "countType": {
+          "__type__": "int",
+          "__value_sample__": "2"
+        },
+        "tabId": {
+          "__type__": "int",
+          "__value_sample__": "8"
+        },
+        "deviceType": {
+          "__type__": "int",
+          "__value_sample__": "1"
+        },
+        "isCustom": {
+          "__type__": "int",
+          "__value_sample__": "1"
+        },
+        "jointType": {
+          "__type__": "int",
+          "__value_sample__": "1"
+        }
+      }
+    }
+  }
+}

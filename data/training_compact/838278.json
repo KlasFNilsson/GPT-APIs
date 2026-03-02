@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:13:29.961574+00:00",
+    "generated_at": "2026-03-02T06:41:13.104707+00:00",
     "record_id": "2894216",
     "training_id": "838278",
     "title": "Aaron’s Biceps Day Workout",
@@ -18,7 +18,7 @@
   "exercises": [
     {
       "name": "Biceps Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "808007200702464",
       "sets": [
         {
           "reps": 0,
@@ -63,7 +63,7 @@
     },
     {
       "name": "Seated Single-Arm Concentration Curl",
-      "actionLibraryId": null,
+      "actionLibraryId": "372767304843265",
       "sets": [
         {
           "reps": 8,
@@ -420,7 +420,7 @@
     },
     {
       "name": "Seated Incline Dual-Handle Biceps Curl",
-      "actionLibraryId": null,
+      "actionLibraryId": "538",
       "sets": [
         {
           "reps": 8,
@@ -603,7 +603,7 @@
     },
     {
       "name": "Dual-Handle Alternating Biceps Curl",
-      "actionLibraryId": null,
+      "actionLibraryId": "555",
       "sets": [
         {
           "reps": 8,
@@ -786,7 +786,7 @@
     },
     {
       "name": "Standing Tricep Rope Hammer Curl",
-      "actionLibraryId": null,
+      "actionLibraryId": "335",
       "sets": [
         {
           "reps": 8,
@@ -969,7 +969,7 @@
     },
     {
       "name": "Standing Barbell Biceps Curl",
-      "actionLibraryId": null,
+      "actionLibraryId": "294",
       "sets": [
         {
           "reps": 8,

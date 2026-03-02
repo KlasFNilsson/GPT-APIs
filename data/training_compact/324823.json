@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:38:01.241572+00:00",
+    "generated_at": "2026-03-02T00:19:58.820213+00:00",
     "record_id": "2267489",
     "training_id": "324823",
     "title": "Hyrox A",
@@ -78,7 +78,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

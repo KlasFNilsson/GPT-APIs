@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:36:52.102383+00:00",
+    "generated_at": "2026-03-02T00:18:54.317735+00:00",
     "record_id": "2396140",
     "training_id": "346976",
     "title": "A. Power & acceleration (lower focus)",
@@ -69,7 +69,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

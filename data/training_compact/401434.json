@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:55.671834+00:00",
+    "generated_at": "2026-03-02T00:18:01.730391+00:00",
     "record_id": "2721228",
     "training_id": "401434",
     "title": "Run strength B 251222",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

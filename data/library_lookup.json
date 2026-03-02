@@ -1,9 +1,10 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T16:53:43.603718+00:00",
-    "count": 21
+    "generated_at": "2026-03-02T00:16:57.590940+00:00",
+    "id_to_name_count": 21,
+    "name_to_id_count": 26
   },
-  "lookup": {
+  "id_to_name": {
     "14": "Mike",
     "32": "Daniel",
     "31": "Liz",
@@ -25,5 +26,33 @@
     "18": "Aerobic",
     "19": "Anaerobic",
     "20": "Fat Loss"
+  },
+  "name_to_id": {
+    "mike": "14",
+    "daniel": "32",
+    "liz": "31",
+    "gain muscle": "1",
+    "stamina": "3",
+    "strength": "5",
+    "alex": "21",
+    "levi": "3",
+    "deni": "1",
+    "roni": "7",
+    "bozovic": "17",
+    "cintia": "4",
+    "emma": "2",
+    "koben": "15",
+    "helga": "6",
+    "lose weight": "11",
+    "endurance": "14",
+    "adrian": "35",
+    "warm up": "13",
+    "shawnee": "16",
+    "recovery": "16",
+    "mobility": "17",
+    "aerobic": "18",
+    "anaerobic": "19",
+    "fat loss": "20",
+    "aivars": "5"
   }
 }

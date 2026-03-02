@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:36:57.954206+00:00",
+    "generated_at": "2026-03-02T00:18:59.837212+00:00",
     "record_id": "2385045",
     "training_id": "696028",
     "title": "Defined Arms",
@@ -222,7 +222,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -249,7 +249,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:25.514166+00:00",
+    "generated_at": "2026-03-02T00:17:33.836728+00:00",
     "record_id": "2845923",
     "training_id": "423017",
     "title": "260213 Run strenght A",
@@ -312,7 +312,7 @@
       "max_weight": 91.0
     },
     {
-      "name": "Barbell Bulgarian Split Squat ",
+      "name": "Barbell Bulgarian Split Squat",
       "actionLibraryId": null,
       "sets": [
         {

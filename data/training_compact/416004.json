@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:34.601102+00:00",
+    "generated_at": "2026-03-02T00:17:42.216111+00:00",
     "record_id": "2806419",
     "training_id": "416004",
     "title": "260206 Strength C - Complimentary",
@@ -51,7 +51,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

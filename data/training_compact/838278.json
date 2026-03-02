@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:05.345513+00:00",
+    "generated_at": "2026-03-02T00:17:14.934840+00:00",
     "record_id": "2894216",
     "training_id": "838278",
     "title": "Aaron’s Biceps Day Workout",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -51,7 +51,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

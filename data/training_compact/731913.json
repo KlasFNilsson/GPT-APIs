@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:36:28.217727+00:00",
+    "generated_at": "2026-03-02T00:18:32.373471+00:00",
     "record_id": "2515398",
     "training_id": "731913",
     "title": "Base & Engine #2（skiing ver.）",
@@ -132,7 +132,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -231,7 +231,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -258,7 +258,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -303,7 +303,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -330,7 +330,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

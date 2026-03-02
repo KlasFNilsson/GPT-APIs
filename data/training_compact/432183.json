@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:02.242201+00:00",
+    "generated_at": "2026-03-02T00:17:12.054400+00:00",
     "record_id": "2897061",
     "training_id": "432183",
     "title": "260213 Run strength B",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1278,7 +1278,7 @@
       "max_weight": 5.0
     },
     {
-      "name": "Barbell Single-Leg Hip Thrust ",
+      "name": "Barbell Single-Leg Hip Thrust",
       "actionLibraryId": null,
       "sets": [
         {

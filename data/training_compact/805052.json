@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:43.637139+00:00",
+    "generated_at": "2026-03-02T00:17:50.616522+00:00",
     "record_id": "2772205",
     "training_id": "805052",
     "title": "Superset Arms Day",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1410,7 +1410,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1437,7 +1437,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

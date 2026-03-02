@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:39:40.544822+00:00",
+    "generated_at": "2026-03-02T00:21:31.312218+00:00",
     "record_id": "2066270",
     "training_id": "290588",
     "title": "GM A",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -51,7 +51,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -62,7 +62,7 @@
       "max_weight": 0.0
     },
     {
-      "name": "Barbell Bulgarian Split Squat ",
+      "name": "Barbell Bulgarian Split Squat",
       "actionLibraryId": null,
       "sets": [
         {

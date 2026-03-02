@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:28.656174+00:00",
+    "generated_at": "2026-03-02T00:17:36.705653+00:00",
     "record_id": "2836785",
     "training_id": "822606",
     "title": "Epic Chest 2",
@@ -1191,7 +1191,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []
@@ -1209,7 +1209,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

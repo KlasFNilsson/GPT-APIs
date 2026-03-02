@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-01T23:35:31.624634+00:00",
+    "generated_at": "2026-03-02T00:17:39.467017+00:00",
     "record_id": "2824052",
     "training_id": "419235",
     "title": "Run strenght A 251222",
@@ -33,7 +33,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": null,
+          "side": "R",
           "left_weight_max": null,
           "right_weight_max": null,
           "reps_detail": []

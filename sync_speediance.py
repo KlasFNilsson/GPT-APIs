@@ -1,13 +1,17 @@
 # sync_speediance.py
 #
-# Compact output per training:
+# Outputs:
+#   data/training_records.json
 #   data/training_compact/index.json
 #   data/training_compact/<training_id>.json
+#   data/library_lookup.json
 #
-# Key changes:
-# - Removes: side, left_weight_max/right_weight_max, left_weight/right_weight entirely.
-# - Keeps per-rep visibility: reps_detail as list of reps (weight per rep).
-# - For unilateral exercises: creates "paired_sets" = consecutive A/B pairs (no L/R guessing).
+# Key features:
+# - Token-only auth (SPEEDIANCE_TOKEN + SPEEDIANCE_USER_ID)
+# - Normalized compact training details with per-rep list (reps_detail)
+# - No side fields, no left/right weight fields
+# - Unilateral: produces paired_sets as consecutive A/B pairs (no L/R guessing)
+# - Incremental mode: ONLY_FETCH_MISSING=1 skips fetching if file already exists
 #
 # Required env (GitHub Actions secrets):
 #   SPEEDIANCE_REGION
@@ -23,6 +27,7 @@
 #   DETAIL_THROTTLE_SECONDS (default 1.2)
 #   DETAIL_RETRIES (default 3)
 #   LIBRARY_REFRESH_HOURS (default 24)
+#   ONLY_FETCH_MISSING (default false)  # set "1" to only fetch missing compact files
 
 import json
 import os
@@ -33,7 +38,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-02_NO_SIDE_PAIR_AB_V1")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-02_ONLY_MISSING_V1")
 
 DATA_DIR = "data"
 COMPACT_DIR = os.path.join(DATA_DIR, "training_compact")
@@ -61,6 +66,7 @@ DROP_TELEMETRY_KEYS = {
     "leftTimestamps", "rightTimestamps",
     "watts", "amplitudes", "ropeSpeeds", "timestamps",
 }
+
 
 # -------------------------
 # Basic utils
@@ -119,6 +125,7 @@ def is_nonempty_payload(payload: Any) -> bool:
     if isinstance(d, dict):
         return len(d.keys()) > 0
     return True
+
 
 # -------------------------
 # Env helpers
@@ -209,6 +216,7 @@ def _parse_csv_ints(s: Any) -> List[int]:
             pass
     return out
 
+
 # -------------------------
 # Client config
 # -------------------------
@@ -240,6 +248,7 @@ def ensure_auth_token_only(c: SpeedianceClient) -> None:
     uid = str(creds.get("user_id") or "").strip()
     if not (tok and uid):
         raise RuntimeError("Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set.")
+
 
 # -------------------------
 # Records parsing
@@ -275,8 +284,9 @@ def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
     tid = str(training_id).strip() if training_id is not None and str(training_id).strip() != "" else None
     return rid, tid
 
+
 # -------------------------
-# Library lookup (id->name, name->id)
+# Library lookup
 # -------------------------
 
 def _file_age_hours(path: str) -> Optional[float]:
@@ -412,42 +422,39 @@ def _is_unilateral(c: SpeedianceClient, group_id: Optional[str]) -> bool:
     except Exception:
         return False
 
+
 # -------------------------
-# Rep extraction (NO left/right)
+# Rep extraction (no left/right)
 # -------------------------
 
 def _extract_set_weight(info: dict) -> float:
-    # Prefer "weights" if present; otherwise try leftWeights/rightWeights but combine (still no per-side meaning).
     w_list = _parse_csv_numbers(info.get("weights"))
     if w_list:
         return float(max(w_list))
+
     l_list = _parse_csv_numbers(info.get("leftWeights"))
     r_list = _parse_csv_numbers(info.get("rightWeights"))
     if l_list or r_list:
         lw = max(l_list) if l_list else 0.0
         rw = max(r_list) if r_list else 0.0
         return float(lw + rw)
+
     return 0.0
 
 def _extract_rep_weights(info: dict, reps: int, set_weight: float) -> List[dict]:
-    # We only expose a rep list with weight values (no left/right).
     weights = _parse_csv_numbers(info.get("weights"))
     if weights:
         if len(weights) < reps and len(weights) > 0:
             weights = weights + [weights[-1]] * (reps - len(weights))
         return [{"rep_index": i + 1, "weight": float(weights[i]) if i < len(weights) else float(weights[-1])} for i in range(reps)]
-    # Fallback: repeat set_weight per rep
     return [{"rep_index": i + 1, "weight": float(set_weight)} for i in range(reps)] if reps > 0 else []
 
+
 # -------------------------
-# Unilateral pairing (NO L/R guessing)
+# Unilateral pairing (no L/R guessing)
 # -------------------------
 
 def pair_consecutive_sets(sets: List[dict]) -> Optional[List[dict]]:
-    """
-    Pair sets as (1,2), (3,4), ... without labeling left/right.
-    Returns None if not even.
-    """
     if not isinstance(sets, list) or len(sets) == 0:
         return []
     if len(sets) % 2 != 0:
@@ -456,6 +463,7 @@ def pair_consecutive_sets(sets: List[dict]) -> Optional[List[dict]]:
     for i in range(0, len(sets), 2):
         paired.append({"pair_index": (i // 2) + 1, "A": sets[i], "B": sets[i + 1]})
     return paired
+
 
 # -------------------------
 # Normalizers
@@ -566,6 +574,7 @@ def normalize_best(payload: Any, id_to_name: Dict[str, str], name_to_id: Dict[st
 
     return [], "none"
 
+
 # -------------------------
 # Fetch detail
 # -------------------------
@@ -602,6 +611,7 @@ def fetch_detail_with_type_rule(c: SpeedianceClient, training_id: str, record_ty
             return p, "ctt"
         return None, "none"
 
+
 # -------------------------
 # Training sync
 # -------------------------
@@ -611,6 +621,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
     max_details = _env_int("MAX_TRAINING_DETAILS", 30)
     throttle_s = _env_float("DETAIL_THROTTLE_SECONDS", 1.2)
     retries = _env_int("DETAIL_RETRIES", 3)
+    only_missing = _env_bool("ONLY_FETCH_MISSING", False)
 
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=days)
@@ -670,7 +681,9 @@ def run_training_sync(c: SpeedianceClient) -> None:
             "max_details": max_details,
             "detail_throttle_seconds": throttle_s,
             "detail_retries": retries,
+            "only_fetch_missing": only_missing,
             "count_written": 0,
+            "count_skipped_existing": 0,
             "count_failed": 0,
             "count_empty_exercises": 0,
         },
@@ -682,6 +695,24 @@ def run_training_sync(c: SpeedianceClient) -> None:
         tid = item["training_id"]
         rid = item["record_id"]
         rtype = item.get("type")
+
+        out_path = os.path.join(COMPACT_DIR, f"{tid}.json")
+        if only_missing and os.path.exists(out_path):
+            index["meta"]["count_skipped_existing"] += 1
+            index["items"].append(
+                {
+                    "training_id": tid,
+                    "record_id": rid,
+                    "title": item.get("title"),
+                    "type": rtype,
+                    "date": item.get("date"),
+                    "path": f"/data/training_compact/{tid}.json",
+                    "source_hint": "skipped_existing",
+                    "normalized_as": "skipped_existing",
+                    "exercise_count": None,
+                }
+            )
+            continue
 
         payload: Optional[Any] = None
         source_hint = "none"
@@ -727,7 +758,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
             "exercise_count": len(exercises),
         }
 
-        write_json(os.path.join(COMPACT_DIR, f"{tid}.json"), compact)
+        write_json(out_path, compact)
 
         index["items"].append(
             {
@@ -762,10 +793,12 @@ def run_training_sync(c: SpeedianceClient) -> None:
         },
     )
 
+
 def main() -> None:
     mode = _env_str("SYNC_MODE", "training").lower()
     if mode != "training":
         raise RuntimeError("This script supports SYNC_MODE=training only.")
+
     c = SpeedianceClient()
     configure_client(c)
     ensure_auth_token_only(c)

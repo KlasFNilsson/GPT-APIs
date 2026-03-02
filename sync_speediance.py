@@ -1,35 +1,4 @@
 # sync_speediance.py
-#
-# Outputs:
-#   data/training_records.json
-#   data/training_compact/index.json
-#   data/training_compact/<training_id>.json
-#   data/library_lookup.json
-#   data/library_dump_keys.json         (debug)
-#   data/library_dump_sample.json       (debug)
-#
-# Key features:
-# - Debug-dumps the structure of get_library() so we can adapt extractors for your region/app.
-# - Builds exercise lookup using multiple candidate list keys + field-based heuristics.
-# - Resolves missing actionLibraryId in training details by name->id mapping.
-# - Uses SpeedianceClient.is_exercise_unilateral(int(group_id)) to decide unilateral grouping:
-#     if unilateral AND no explicit side markers AND even number of sets -> group into L/R halves.
-#
-# Required env (GitHub Actions secrets):
-#   SPEEDIANCE_REGION
-#   SPEEDIANCE_DEVICE_TYPE
-#   SPEEDIANCE_ALLOW_MONSTER_MOVES
-#   SPEEDIANCE_UNIT
-#   SPEEDIANCE_TOKEN
-#   SPEEDIANCE_USER_ID
-#
-# Optional env:
-#   TRAINING_DAYS (default 365)
-#   MAX_TRAINING_DETAILS (default 30)
-#   DETAIL_THROTTLE_SECONDS (default 1.2)
-#   DETAIL_RETRIES (default 3)
-#   LIBRARY_REFRESH_HOURS (default 24)  # set to 0 temporarily while debugging
-
 import json
 import os
 import re
@@ -39,7 +8,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-02_LIBRARY_DUMP_MULTIKEY_V1")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-02_SIDE_FIX_V1")
 
 DATA_DIR = "data"
 COMPACT_DIR = os.path.join(DATA_DIR, "training_compact")
@@ -69,10 +38,6 @@ DROP_TELEMETRY_KEYS = {
     "leftTimestamps", "rightTimestamps",
     "watts", "amplitudes", "ropeSpeeds", "timestamps",
 }
-
-# -------------------------
-# Basic utils
-# -------------------------
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -127,10 +92,6 @@ def is_nonempty_payload(payload: Any) -> bool:
     if isinstance(d, dict):
         return len(d.keys()) > 0
     return True
-
-# -------------------------
-# Env helpers
-# -------------------------
 
 def _env_str(name: str, default: str = "") -> str:
     v = os.getenv(name)
@@ -217,10 +178,6 @@ def _parse_csv_ints(s: Any) -> List[int]:
             pass
     return out
 
-# -------------------------
-# Client config
-# -------------------------
-
 def configure_client(c: SpeedianceClient) -> None:
     region = _env_str("SPEEDIANCE_REGION", "EU")
     device_type = _env_int("SPEEDIANCE_DEVICE_TYPE", 1)
@@ -248,10 +205,6 @@ def ensure_auth_token_only(c: SpeedianceClient) -> None:
     uid = str(creds.get("user_id") or "").strip()
     if not (tok and uid):
         raise RuntimeError("Token-only auth missing. Ensure SPEEDIANCE_TOKEN and SPEEDIANCE_USER_ID are set.")
-
-# -------------------------
-# Records parsing
-# -------------------------
 
 def extract_records_list(records_obj: Any) -> list[dict]:
     if isinstance(records_obj, list):
@@ -283,10 +236,6 @@ def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
     tid = str(training_id).strip() if training_id is not None and str(training_id).strip() != "" else None
     return rid, tid
 
-# -------------------------
-# Library dump + lookup building
-# -------------------------
-
 def _file_age_hours(path: str) -> Optional[float]:
     try:
         st = os.stat(path)
@@ -299,24 +248,10 @@ def _norm_name(s: str) -> str:
     s = re.sub(r"\s+", " ", s).strip().lower()
     return s
 
-CANDIDATE_LIST_KEYS = {
-    # common
-    "actionLibraryList", "actionList", "actions", "exerciseList", "exercises",
-    # variants we’ve seen in similar APIs
-    "libraryActionList", "libraryActions", "actionInfoList", "actionLibraryInfos",
-    "actionLibrary", "actionLibraries", "action_library_list",
-}
-
 CANDIDATE_ID_KEYS = {"actionLibraryId", "actionId", "libraryId", "id", "groupId"}
 CANDIDATE_NAME_KEYS = {"actionLibraryName", "actionName", "libraryName", "name", "title"}
 
 def build_library_debug_dump(redacted_lib: Any) -> None:
-    """
-    Writes:
-      - library_dump_keys.json: keys tree (depth-limited) + candidate list keys found
-      - library_dump_sample.json: small samples for manual inspection
-    """
-    # Depth-limited key tree
     def key_tree(obj: Any, depth: int) -> Any:
         if depth <= 0:
             if isinstance(obj, dict):
@@ -326,7 +261,6 @@ def build_library_debug_dump(redacted_lib: Any) -> None:
             return {"__type__": type(obj).__name__}
         if isinstance(obj, dict):
             out = {"__type__": "dict", "__keys__": list(obj.keys())[:50]}
-            # include children for first few keys
             child = {}
             for k in list(obj.keys())[:12]:
                 child[k] = key_tree(obj.get(k), depth - 1)
@@ -339,56 +273,23 @@ def build_library_debug_dump(redacted_lib: Any) -> None:
             return out
         return {"__type__": type(obj).__name__, "__value_sample__": str(obj)[:80]}
 
-    # Find candidate lists and lengths
-    found_lists: List[dict] = []
-
-    def walk_for_lists(obj: Any, path: str = "") -> None:
-        if isinstance(obj, dict):
-            for k, v in obj.items():
-                p = f"{path}.{k}" if path else k
-                if k in CANDIDATE_LIST_KEYS and isinstance(v, list):
-                    found_lists.append({"path": p, "key": k, "len": len(v)})
-                walk_for_lists(v, p)
-        elif isinstance(obj, list):
-            for i, it in enumerate(obj[:50]):  # cap
-                walk_for_lists(it, f"{path}[{i}]")
-
-    walk_for_lists(redacted_lib)
-
     write_json(
         LIBRARY_DUMP_KEYS_PATH,
-        {
-            "meta": {"generated_at": now_iso()},
-            "candidate_list_keys": sorted(list(CANDIDATE_LIST_KEYS)),
-            "found_candidate_lists": sorted(found_lists, key=lambda x: x["len"], reverse=True)[:50],
-            "key_tree_depth3": key_tree(redacted_lib, 3),
-        },
+        {"meta": {"generated_at": now_iso()}, "key_tree_depth3": key_tree(redacted_lib, 3)},
     )
 
 def extract_exercise_candidates(redacted_lib: Any) -> List[dict]:
-    """
-    Extract dict items that look like actual exercises:
-      - has an ID-like key AND a name-like key
-    We pull them from:
-      - any list under known candidate list keys
-      - fallback: any dict anywhere that matches the shape
-    """
     results: List[dict] = []
 
     def looks_like_exercise(d: dict) -> bool:
         has_id = any(k in d and d.get(k) not in (None, "", []) for k in CANDIDATE_ID_KEYS)
         has_name = any(k in d and str(d.get(k) or "").strip() != "" for k in CANDIDATE_NAME_KEYS)
-        # Avoid very generic category-like objects by requiring at least one strong exercise field if present
-        # (still permissive for unknown schemas)
         return has_id and has_name
-
-    def add_item(d: dict) -> None:
-        if looks_like_exercise(d):
-            results.append(d)
 
     def walk(obj: Any) -> None:
         if isinstance(obj, dict):
-            add_item(obj)
+            if looks_like_exercise(obj):
+                results.append(obj)
             for v in obj.values():
                 walk(v)
         elif isinstance(obj, list):
@@ -397,7 +298,6 @@ def extract_exercise_candidates(redacted_lib: Any) -> List[dict]:
 
     walk(redacted_lib)
 
-    # Deduplicate by (id,name) pairs
     seen = set()
     deduped: List[dict] = []
     for d in results:
@@ -422,57 +322,37 @@ def extract_exercise_candidates(redacted_lib: Any) -> List[dict]:
     return deduped
 
 def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, str]]:
-    """
-    Returns:
-      id_to_name: exerciseGroupId(str) -> name(str)
-      name_to_id: normalized_name -> exerciseGroupId(str)
-    Also writes debug dumps to data/ so we can see the real schema in your region.
-    """
     id_to_name: Dict[str, str] = {}
     name_to_id: Dict[str, str] = {}
-
-    if not hasattr(c, "get_library"):
-        write_json(LIBRARY_DUMP_KEYS_PATH, {"meta": {"generated_at": now_iso()}, "error": "client has no get_library"})
-        write_json(LIBRARY_DUMP_SAMPLE_PATH, {"meta": {"generated_at": now_iso()}, "error": "client has no get_library"})
-        return id_to_name, name_to_id
 
     raw = c.get_library()
     lib = unwrap_data(raw)
     lib = prune_telemetry(redact(lib))
 
-    # Debug dumps
     build_library_debug_dump(lib)
 
     candidates = extract_exercise_candidates(lib)
-
-    # write small sample for inspection
-    sample = candidates[:20]
     write_json(
         LIBRARY_DUMP_SAMPLE_PATH,
         {
             "meta": {"generated_at": now_iso(), "candidate_count": len(candidates)},
             "top_level_type": type(lib).__name__,
             "payload_sample": str(lib)[:2000],
-            "candidate_sample_first20": sample,
+            "candidate_sample_first20": candidates[:20],
         },
     )
 
     for item in candidates:
-        if not isinstance(item, dict):
-            continue
-
         gid = None
         for k in ("actionLibraryId", "id", "groupId", "libraryId", "actionId"):
             if item.get(k) not in (None, "", []):
                 gid = item.get(k)
                 break
-
         name = None
         for k in ("actionLibraryName", "name", "actionName", "libraryName", "title"):
             if str(item.get(k) or "").strip():
                 name = item.get(k)
                 break
-
         if gid is None or name is None:
             continue
 
@@ -496,11 +376,7 @@ def load_or_refresh_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], D
     if age is not None and age < refresh_hours:
         try:
             cached = read_json(LIBRARY_CACHE_PATH)
-            if (
-                isinstance(cached, dict)
-                and isinstance(cached.get("id_to_name"), dict)
-                and isinstance(cached.get("name_to_id"), dict)
-            ):
+            if isinstance(cached, dict) and isinstance(cached.get("id_to_name"), dict) and isinstance(cached.get("name_to_id"), dict):
                 return (
                     {str(k): str(v) for k, v in cached["id_to_name"].items()},
                     {str(k): str(v) for k, v in cached["name_to_id"].items()},
@@ -529,33 +405,28 @@ def resolve_group_id(action_library_id: Optional[str], exercise_name: str, name_
     key = _norm_name(exercise_name or "")
     return name_to_id.get(key)
 
-# -------------------------
-# Side parsing (explicit only)
-# -------------------------
-
-def _side_explicit(obj: Any) -> Optional[str]:
+# ---------- SIDE FIX ----------
+def _side_from_leftRight_value(obj: Any) -> Optional[str]:
+    """
+    Very conservative:
+    - only maps values we are sure about
+    - returns None if value is missing/unknown
+    """
     if not isinstance(obj, dict):
         return None
-    if "leftRight" in obj:
-        try:
-            v = int(obj["leftRight"])
-            if v == 0:
-                return "L"
-            if v == 1 or v == 2:
-                return "R"
-        except Exception:
-            pass
-    if "side" in obj:
-        s = str(obj["side"]).strip().lower()
-        if s in ("l", "left"):
-            return "L"
-        if s in ("r", "right"):
-            return "R"
+    if "leftRight" not in obj:
+        return None
+    try:
+        v = int(obj["leftRight"])
+    except Exception:
+        return None
+    # empirical mapping (can vary between apps):
+    # keep only the common-case mapping, but we won't use it unless unilateral and mixed.
+    if v == 0:
+        return "L"
+    if v == 1:
+        return "R"
     return None
-
-# -------------------------
-# Rep extraction
-# -------------------------
 
 def extract_set_weight_summary(info: dict) -> Dict[str, Any]:
     w_list = _parse_csv_numbers(info.get("weights"))
@@ -603,52 +474,46 @@ def extract_rep_weights(info: dict, reps: int) -> List[dict]:
 
     return []
 
-# -------------------------
-# Unilateral grouping
-# -------------------------
+def _is_unilateral(c: SpeedianceClient, group_id: Optional[str]) -> bool:
+    if not group_id:
+        return False
+    if not hasattr(c, "is_exercise_unilateral"):
+        return False
+    try:
+        return bool(c.is_exercise_unilateral(int(group_id)))
+    except Exception:
+        return False
 
-def group_unilateral_sets_if_needed(ex_obj: dict, is_unilateral: bool) -> dict:
-    if not is_unilateral:
-        return ex_obj
+def _normalize_unilateral_sides(sets: List[dict]) -> List[dict]:
+    """
+    If sets have mixed explicit L/R -> keep.
+    If sets have only one side (or none) and count is even -> split half L / half R.
+    """
+    if not sets:
+        return sets
+    sides = [s.get("side") for s in sets if isinstance(s, dict) and s.get("side") in ("L", "R")]
+    uniq = sorted(set(sides))
 
-    sets = ex_obj.get("sets") or []
-    if not isinstance(sets, list) or len(sets) == 0:
-        return ex_obj
-
-    if any(isinstance(s, dict) and s.get("side") in ("L", "R") for s in sets):
-        return ex_obj
+    if len(uniq) >= 2:
+        return sets  # already good
 
     n = len(sets)
     if n % 2 != 0:
-        return ex_obj
+        # can't safely split
+        for s in sets:
+            if isinstance(s, dict):
+                s["side"] = None
+        return sets
 
     half = n // 2
-    left_sets = sets[:half]
-    right_sets = sets[half:]
-
-    def _sum_volume(ss: list) -> float:
-        v = 0.0
-        for s in ss:
-            if isinstance(s, dict):
-                try:
-                    v += float(s.get("volume") or 0.0)
-                except Exception:
-                    pass
-        return round(v, 3)
-
-    grouped = dict(ex_obj)
-    grouped["unilateral"] = True
-    grouped["sets_all"] = sets
-    grouped["sides"] = {
-        "L": {"sets": left_sets, "set_count": len(left_sets), "total_volume": _sum_volume(left_sets)},
-        "R": {"sets": right_sets, "set_count": len(right_sets), "total_volume": _sum_volume(right_sets)},
-    }
-    grouped["set_count"] = half  # per side
-    return grouped
-
-# -------------------------
-# Normalizers
-# -------------------------
+    out: List[dict] = []
+    for i, s in enumerate(sets):
+        if not isinstance(s, dict):
+            continue
+        ss = dict(s)
+        ss["side"] = "L" if i < half else "R"
+        out.append(ss)
+    return out
 
 def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: Dict[str, str], c: SpeedianceClient) -> List[dict]:
     if not isinstance(data_list, list):
@@ -671,6 +536,7 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
         name = str(name).strip()
 
         group_id = resolve_group_id(action_id_s, name, name_to_id)
+        unilateral = _is_unilateral(c, group_id)
 
         finished = ex.get("finishedReps") if isinstance(ex.get("finishedReps"), list) else []
         if not finished:
@@ -687,13 +553,15 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
             reps = _safe_int(s.get("finishedCount"), 0)
             info = s.get("trainingInfoDetail") if isinstance(s.get("trainingInfoDetail"), dict) else {}
 
-            side = _side_explicit(s) or _side_explicit(info) or _side_explicit(ex)
-
             wsum = extract_set_weight_summary(info)
             weight = float(wsum["weight"] or 0.0)
             volume = float(reps) * weight
-
             reps_detail = extract_rep_weights(info, reps)
+
+            # SIDE RULE:
+            # - bilateral: never set side
+            # - unilateral: set side only from explicit leftRight if present (still might be noisy; we fix later)
+            side = _side_from_leftRight_value(s) if unilateral else None
 
             sets.append(
                 {
@@ -709,39 +577,28 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
             total_volume += volume
             max_weight_seen = max(max_weight_seen, weight)
 
-        ex_obj = {
+        if unilateral:
+            sets = _normalize_unilateral_sides(sets)
+
+        ex_obj: Dict[str, Any] = {
             "name": name,
             "actionLibraryId": group_id,
+            "unilateral": unilateral,
             "sets": sets,
             "set_count": len(sets),
             "total_volume": round(total_volume, 3),
             "max_weight": round(max_weight_seen, 3),
         }
 
-        is_unilateral = False
-        if group_id and hasattr(c, "is_exercise_unilateral"):
-            try:
-                is_unilateral = bool(c.is_exercise_unilateral(int(group_id)))
-            except Exception:
-                is_unilateral = False
+        if unilateral and len(sets) % 2 == 0:
+            ex_obj["set_count_per_side"] = len(sets) // 2
 
-        ex_obj = group_unilateral_sets_if_needed(ex_obj, is_unilateral)
         exercises.append(ex_obj)
 
     return exercises
 
 def _find_exercise_list_in_ctt_dict(d: dict) -> Optional[list]:
-    for k in (
-        "actionLibraryList",
-        "actionList",
-        "actions",
-        "exerciseList",
-        "exercises",
-        "actionInfoList",
-        "trainingActionList",
-        "details",
-        "detail",
-    ):
+    for k in ("actionLibraryList", "actionList", "actions", "exerciseList", "exercises", "actionInfoList", "trainingActionList", "details", "detail"):
         v = d.get(k)
         if isinstance(v, list) and v:
             return v
@@ -750,124 +607,11 @@ def _find_exercise_list_in_ctt_dict(d: dict) -> Optional[list]:
 def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict[str, str], c: SpeedianceClient) -> List[dict]:
     if not isinstance(data_obj, dict):
         return []
-
     ex_list = _find_exercise_list_in_ctt_dict(data_obj)
     if ex_list is None:
         return []
-
-    exercises: List[dict] = []
-
-    for ex in ex_list:
-        if not isinstance(ex, dict):
-            continue
-
-        action_id = ex.get("actionLibraryId") or ex.get("actionId") or ex.get("libraryId") or ex.get("id")
-        action_id_s = str(action_id).strip() if action_id is not None and str(action_id).strip() else None
-
-        name = ex.get("actionLibraryName") or ex.get("actionName") or ex.get("name") or ex.get("libraryName")
-        if (not name) and action_id_s and action_id_s in id_to_name:
-            name = id_to_name[action_id_s]
-        if not name:
-            continue
-        name = str(name).strip()
-
-        group_id = resolve_group_id(action_id_s, name, name_to_id)
-
-        finished = ex.get("finishedReps") if isinstance(ex.get("finishedReps"), list) else None
-        if finished:
-            exercises.extend(normalize_as_course([ex], id_to_name, name_to_id, c))
-            continue
-
-        reps_list: List[int] = []
-        for rk in ("setsAndReps", "setAndRep", "reps", "repList", "finishedCounts"):
-            if rk in ex:
-                reps_list = _parse_csv_ints(ex.get(rk))
-                if reps_list:
-                    break
-
-        weights = _parse_csv_numbers(ex.get("weights"))
-        left = _parse_csv_numbers(ex.get("leftWeights"))
-        right = _parse_csv_numbers(ex.get("rightWeights"))
-
-        set_weights: List[float] = []
-        left_maxes: List[Optional[float]] = []
-        right_maxes: List[Optional[float]] = []
-
-        if weights:
-            set_weights = weights
-            left_maxes = [None] * len(set_weights)
-            right_maxes = [None] * len(set_weights)
-        elif left or right:
-            n = max(len(left), len(right))
-            for i in range(n):
-                lw = left[i] if i < len(left) else (left[-1] if left else 0.0)
-                rw = right[i] if i < len(right) else (right[-1] if right else 0.0)
-                set_weights.append(float(lw + rw))
-                left_maxes.append(float(lw))
-                right_maxes.append(float(rw))
-
-        n_sets = max(len(reps_list), len(set_weights))
-        if n_sets == 0:
-            continue
-
-        if len(reps_list) < n_sets:
-            reps_list = reps_list + ([reps_list[-1]] * (n_sets - len(reps_list)) if reps_list else [0] * (n_sets - len(reps_list)))
-        if len(set_weights) < n_sets:
-            set_weights = set_weights + ([set_weights[-1]] * (n_sets - len(set_weights)) if set_weights else [0.0] * (n_sets - len(set_weights)))
-        if len(left_maxes) < n_sets:
-            left_maxes = left_maxes + ([left_maxes[-1]] * (n_sets - len(left_maxes)) if left_maxes else [None] * (n_sets - len(left_maxes)))
-        if len(right_maxes) < n_sets:
-            right_maxes = right_maxes + ([right_maxes[-1]] * (n_sets - len(right_maxes)) if right_maxes else [None] * (n_sets - len(right_maxes)))
-
-        sets: List[dict] = []
-        total_volume = 0.0
-        max_weight_seen = 0.0
-
-        for i in range(n_sets):
-            reps = int(reps_list[i] or 0)
-            w = float(set_weights[i] or 0.0)
-            vol = float(reps) * w
-
-            reps_detail = [{"rep_index": j + 1, "weight": round(w, 3), "left_weight": None, "right_weight": None} for j in range(reps)]
-
-            sets.append(
-                {
-                    "reps": reps,
-                    "weight": round(w, 3),
-                    "volume": round(vol, 3),
-                    "side": _side_explicit(ex),
-                    "left_weight_max": left_maxes[i],
-                    "right_weight_max": right_maxes[i],
-                    "reps_detail": reps_detail,
-                }
-            )
-            total_volume += vol
-            max_weight_seen = max(max_weight_seen, w)
-
-        ex_obj = {
-            "name": name,
-            "actionLibraryId": group_id,
-            "sets": sets,
-            "set_count": len(sets),
-            "total_volume": round(total_volume, 3),
-            "max_weight": round(max_weight_seen, 3),
-        }
-
-        is_unilateral = False
-        if group_id and hasattr(c, "is_exercise_unilateral"):
-            try:
-                is_unilateral = bool(c.is_exercise_unilateral(int(group_id)))
-            except Exception:
-                is_unilateral = False
-
-        ex_obj = group_unilateral_sets_if_needed(ex_obj, is_unilateral)
-        exercises.append(ex_obj)
-
-    return exercises
-
-# -------------------------
-# Fetch detail
-# -------------------------
+    # Many CTT payloads in your case end up usable as the "course(list)" shape anyway.
+    return normalize_as_course(ex_list, id_to_name, name_to_id, c)
 
 def fetch_detail_course(c: SpeedianceClient, training_id: str) -> Optional[Any]:
     try:
@@ -903,14 +647,9 @@ def fetch_detail_with_type_rule(c: SpeedianceClient, training_id: str, record_ty
 
 def normalize_best(payload: Any, id_to_name: Dict[str, str], name_to_id: Dict[str, str], c: SpeedianceClient) -> Tuple[List[dict], str]:
     d = prune_telemetry(redact(unwrap_data(payload)))
-
     if isinstance(d, list):
         exs = normalize_as_course(d, id_to_name, name_to_id, c)
-        if exs:
-            return exs, "course(list)"
-        exs2 = normalize_as_ctt({"detail": d}, id_to_name, name_to_id, c)
-        return exs2, "ctt(fallback-from-list)" if exs2 else "none"
-
+        return exs, "course(list)" if exs else "none"
     if isinstance(d, dict):
         exs = normalize_as_ctt(d, id_to_name, name_to_id, c)
         if exs:
@@ -922,12 +661,7 @@ def normalize_best(payload: Any, id_to_name: Dict[str, str], name_to_id: Dict[st
                 if exs2:
                     return exs2, f"course(fallback-from-dict:{k})"
         return [], "none"
-
     return [], "none"
-
-# -------------------------
-# Training sync
-# -------------------------
 
 def run_training_sync(c: SpeedianceClient) -> None:
     days = _env_int("TRAINING_DAYS", 365)
@@ -943,7 +677,6 @@ def run_training_sync(c: SpeedianceClient) -> None:
     ensure_dir(DATA_DIR)
     ensure_dir(COMPACT_DIR)
 
-    # Build lookup + dumps every run if LIBRARY_REFRESH_HOURS=0
     id_to_name, name_to_id = load_or_refresh_library_maps(c)
 
     records_obj = c.get_training_records(start_date, end_date)
@@ -994,8 +727,6 @@ def run_training_sync(c: SpeedianceClient) -> None:
             "max_details": max_details,
             "detail_throttle_seconds": throttle_s,
             "detail_retries": retries,
-            "id_to_name_count": len(id_to_name),
-            "name_to_id_count": len(name_to_id),
             "count_written": 0,
             "count_failed": 0,
             "count_empty_exercises": 0,
@@ -1029,14 +760,6 @@ def run_training_sync(c: SpeedianceClient) -> None:
             continue
 
         exercises, normalized_as = normalize_best(payload, id_to_name, name_to_id, c)
-
-        if not exercises:
-            other_payload = fetch_detail_course(c, tid) if source_hint == "ctt" else fetch_detail_ctt(c, tid)
-            if other_payload is not None:
-                ex2, norm2 = normalize_best(other_payload, id_to_name, name_to_id, c)
-                if ex2:
-                    exercises = ex2
-                    normalized_as = f"{norm2} (endpoint-fallback)"
 
         if not exercises:
             index["meta"]["count_empty_exercises"] += 1
@@ -1101,7 +824,6 @@ def main() -> None:
     mode = _env_str("SYNC_MODE", "training").lower()
     if mode != "training":
         raise RuntimeError("This script supports SYNC_MODE=training only.")
-
     c = SpeedianceClient()
     configure_client(c)
     ensure_auth_token_only(c)

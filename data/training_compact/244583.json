@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:05:56.668746+00:00",
+    "generated_at": "2026-03-02T07:59:48.165282+00:00",
     "record_id": "2208243",
     "training_id": "244583",
     "title": "Base & Engine #1",
@@ -18,15 +18,13 @@
   "exercises": [
     {
       "name": "Plank to Deep Lunge",
-      "actionLibraryId": null,
+      "actionLibraryId": "99",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -36,15 +34,13 @@
     },
     {
       "name": "Prone Lower Body Dynamic Warm-up",
-      "actionLibraryId": null,
+      "actionLibraryId": "149",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -55,68 +51,48 @@
     {
       "name": "Cable Side Step Squat (Left Leg）",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 9,
           "weight": 10.0,
           "volume": 90.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         },
@@ -124,69 +100,46 @@
           "reps": 10,
           "weight": 10.0,
           "volume": 100.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         }
@@ -198,74 +151,52 @@
     {
       "name": "Cable Side Step Squat (Right Leg）",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 10,
           "weight": 10.0,
           "volume": 100.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         },
@@ -273,75 +204,50 @@
           "reps": 11,
           "weight": 10.0,
           "volume": 110.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 11,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         }
@@ -352,105 +258,73 @@
     },
     {
       "name": "Barbell Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "57",
+      "unilateral": false,
       "sets": [
         {
           "reps": 15,
           "weight": 40.0,
           "volume": 600.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 2,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 3,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 4,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 5,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 6,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 7,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 8,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 9,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 10,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 11,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 12,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 13,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 14,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 15,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             }
           ]
         },
@@ -458,99 +332,66 @@
           "reps": 15,
           "weight": 50.0,
           "volume": 750.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 2,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 3,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 4,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 5,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 6,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 7,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 8,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 9,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 10,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 11,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 12,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 13,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 14,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 15,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             }
           ]
         },
@@ -558,69 +399,46 @@
           "reps": 10,
           "weight": 55.0,
           "volume": 550.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 2,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 3,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 4,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 5,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 6,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 7,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 8,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 9,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 10,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             }
           ]
         },
@@ -628,57 +446,38 @@
           "reps": 8,
           "weight": 55.0,
           "volume": 440.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 2,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 3,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 4,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 5,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 6,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 7,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             },
             {
               "rep_index": 8,
-              "weight": 55.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 55.0
             }
           ]
         }
@@ -689,87 +488,61 @@
     },
     {
       "name": "Barbell Front Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "273",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 15.0,
           "volume": 180.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 2,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 3,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 4,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 5,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 6,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 7,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 8,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 9,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 10,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 11,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 12,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             }
           ]
         },
@@ -777,69 +550,46 @@
           "reps": 10,
           "weight": 20.0,
           "volume": 200.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 2,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 3,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 4,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 5,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 6,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 7,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 8,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 9,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             },
             {
               "rep_index": 10,
-              "weight": 20.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 20.0
             }
           ]
         },
@@ -847,57 +597,38 @@
           "reps": 8,
           "weight": 25.0,
           "volume": 200.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 2,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 3,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 4,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 5,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 6,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 7,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 8,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             }
           ]
         }
@@ -908,33 +639,25 @@
     },
     {
       "name": "Alternating Reverse Lunge",
-      "actionLibraryId": null,
+      "actionLibraryId": "356",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -944,87 +667,61 @@
     },
     {
       "name": "Barbell Romanian Deadlift",
-      "actionLibraryId": null,
+      "actionLibraryId": "385",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 40.0,
           "volume": 480.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 2,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 3,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 4,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 5,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 6,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 7,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 8,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 9,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 10,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 11,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             },
             {
               "rep_index": 12,
-              "weight": 40.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 40.0
             }
           ]
         },
@@ -1032,69 +729,46 @@
           "reps": 10,
           "weight": 45.0,
           "volume": 450.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 2,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 3,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 4,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 5,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 6,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 7,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 8,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 9,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             },
             {
               "rep_index": 10,
-              "weight": 45.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 45.0
             }
           ]
         },
@@ -1102,57 +776,38 @@
           "reps": 8,
           "weight": 50.0,
           "volume": 400.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 2,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 3,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 4,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 5,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 6,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 7,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             },
             {
               "rep_index": 8,
-              "weight": 50.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 50.0
             }
           ]
         }
@@ -1163,33 +818,25 @@
     },
     {
       "name": "Bodyweight Romanian Deadlift",
-      "actionLibraryId": null,
+      "actionLibraryId": "301",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1200,14 +847,12 @@
     {
       "name": "Kneeling Hip Flexor Stretch (Left)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1218,14 +863,12 @@
     {
       "name": "Kneeling Hip Flexor Stretch (Right)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1236,14 +879,12 @@
     {
       "name": "Deep Side lunge (Left Leg)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1254,14 +895,12 @@
     {
       "name": "Deep Side lunge (Right Leg)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1272,14 +911,12 @@
     {
       "name": "Push-up Calf Stretch (Left)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -1290,14 +927,12 @@
     {
       "name": "Push-up Calf Stretch (Right)",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],

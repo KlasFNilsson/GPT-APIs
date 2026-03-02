@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:03:51.228586+00:00",
+    "generated_at": "2026-03-02T07:55:03.268633+00:00",
     "record_id": "2515398",
     "training_id": "731913",
     "title": "Base & Engine #2（skiing ver.）",
@@ -18,60 +18,43 @@
   "exercises": [
     {
       "name": "Aerobic Skiing (bent arms)",
-      "actionLibraryId": null,
+      "actionLibraryId": "71",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -81,15 +64,13 @@
     },
     {
       "name": "Dynamic Lateral Child's Pose",
-      "actionLibraryId": null,
+      "actionLibraryId": "422788435410945",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -99,15 +80,13 @@
     },
     {
       "name": "Dynamic Knee Tuck to Wide Alternating Leg Forward Fold",
-      "actionLibraryId": null,
+      "actionLibraryId": "427827915390977",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -117,42 +96,57 @@
     },
     {
       "name": "Supine Hamstring Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "421341168140289",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Superman Cobra",
-      "actionLibraryId": null,
+      "actionLibraryId": "428538129940481",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -162,15 +156,13 @@
     },
     {
       "name": "Forward and Reverse Bear Crawl",
-      "actionLibraryId": null,
+      "actionLibraryId": "549",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -180,15 +172,13 @@
     },
     {
       "name": "Plank",
-      "actionLibraryId": null,
+      "actionLibraryId": "428574469390337",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -198,15 +188,13 @@
     },
     {
       "name": "Prone Alternating Arm Raises",
-      "actionLibraryId": null,
+      "actionLibraryId": "421474834317313",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -216,69 +204,101 @@
     },
     {
       "name": "Side Hover Rotation",
-      "actionLibraryId": null,
+      "actionLibraryId": "428542462656513",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Supported Leg Circles",
-      "actionLibraryId": null,
+      "actionLibraryId": "427848572338177",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Kneeling Back Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "421351624540161",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -288,57 +308,91 @@
     },
     {
       "name": "Glutes Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "808007473889280",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Kneeling Hip Flexor Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "372766482759681",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     }
   ],
   "exercise_count": 13

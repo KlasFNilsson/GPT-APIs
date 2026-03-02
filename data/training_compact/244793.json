@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:05:53.788640+00:00",
+    "generated_at": "2026-03-02T07:59:42.278934+00:00",
     "record_id": "2211104",
     "training_id": "244793",
     "title": "Power #1",
@@ -18,15 +18,13 @@
   "exercises": [
     {
       "name": "Single-Arm Circles",
-      "actionLibraryId": null,
+      "actionLibraryId": "390890936401921",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -36,75 +34,53 @@
     },
     {
       "name": "Dual Handle Alternating Bench Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "189",
+      "unilateral": false,
       "sets": [
         {
           "reps": 10,
           "weight": 8.0,
           "volume": 80.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 2,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 3,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 4,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 5,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 6,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 7,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 8,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 9,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 10,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             }
           ]
         },
@@ -112,69 +88,46 @@
           "reps": 10,
           "weight": 8.0,
           "volume": 80.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 2,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 3,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 4,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 5,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 6,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 7,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 8,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 9,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             },
             {
               "rep_index": 10,
-              "weight": 8.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 8.0
             }
           ]
         }
@@ -185,75 +138,53 @@
     },
     {
       "name": "Supine Dual-Handle Chest Fly",
-      "actionLibraryId": null,
+      "actionLibraryId": "6",
+      "unilateral": false,
       "sets": [
         {
           "reps": 10,
           "weight": 4.0,
           "volume": 40.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 2,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 3,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 4,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 5,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 6,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 7,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 8,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 9,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 10,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             }
           ]
         },
@@ -261,69 +192,46 @@
           "reps": 10,
           "weight": 4.0,
           "volume": 40.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 2,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 3,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 4,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 5,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 6,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 7,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 8,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 9,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 10,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             }
           ]
         }
@@ -334,75 +242,53 @@
     },
     {
       "name": "Standing Dual-Handle Chest Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "304",
+      "unilateral": false,
       "sets": [
         {
           "reps": 10,
           "weight": 5.0,
           "volume": 50.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 2,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 3,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 4,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 5,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 6,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 7,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 8,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 9,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 10,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             }
           ]
         },
@@ -410,69 +296,46 @@
           "reps": 10,
           "weight": 5.0,
           "volume": 50.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 2,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 3,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 4,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 5,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 6,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 7,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 8,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 9,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 10,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             }
           ]
         }
@@ -483,75 +346,53 @@
     },
     {
       "name": "Standing Dual-Handle Chest Fly",
-      "actionLibraryId": null,
+      "actionLibraryId": "486",
+      "unilateral": false,
       "sets": [
         {
           "reps": 10,
           "weight": 3.5,
           "volume": 35.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         },
@@ -559,69 +400,46 @@
           "reps": 10,
           "weight": 3.5,
           "volume": 35.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         }
@@ -633,14 +451,12 @@
     {
       "name": "Left Chest Stretch",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -651,14 +467,12 @@
     {
       "name": "Right Chest Stretch",
       "actionLibraryId": null,
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:03:25.634245+00:00",
+    "generated_at": "2026-03-02T07:54:12.851060+00:00",
     "record_id": "2627552",
     "training_id": "764222",
     "title": "Chest, Shoulders, Arms Push-Pull Training",
@@ -18,15 +18,13 @@
   "exercises": [
     {
       "name": "Bent Over T-Raise",
-      "actionLibraryId": null,
+      "actionLibraryId": "384",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -36,87 +34,61 @@
     },
     {
       "name": "Standing Cable External Rotation",
-      "actionLibraryId": null,
+      "actionLibraryId": "372786986614785",
+      "unilateral": true,
       "sets": [
         {
           "reps": 12,
           "weight": 3.5,
           "volume": 42.0,
-          "side": "R",
-          "left_weight_max": 3.5,
-          "right_weight_max": null,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 11,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 12,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         },
@@ -124,172 +96,239 @@
           "reps": 12,
           "weight": 5.0,
           "volume": 60.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": 5.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 2,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 3,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 4,
-              "weight": 5.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 5.0
             },
             {
               "rep_index": 5,
-              "weight": 4.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.5
             },
             {
               "rep_index": 6,
-              "weight": 4.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.5
             },
             {
               "rep_index": 7,
-              "weight": 4.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.5
             },
             {
               "rep_index": 8,
-              "weight": 4.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.5
             },
             {
               "rep_index": 9,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 10,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 11,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             },
             {
               "rep_index": 12,
-              "weight": 4.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 4.0
             }
           ]
         }
       ],
       "set_count": 2,
       "total_volume": 102.0,
-      "max_weight": 5.0
+      "max_weight": 5.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 12,
+            "weight": 3.5,
+            "volume": 42.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 3,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 4,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 5,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 7,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 9,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 10,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 11,
+                "weight": 3.5
+              },
+              {
+                "rep_index": 12,
+                "weight": 3.5
+              }
+            ]
+          },
+          "B": {
+            "reps": 12,
+            "weight": 5.0,
+            "volume": 60.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 5.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 5.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 5.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 5.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 4.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 4.5
+              },
+              {
+                "rep_index": 7,
+                "weight": 4.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 4.5
+              },
+              {
+                "rep_index": 9,
+                "weight": 4.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 4.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 4.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 4.0
+              }
+            ]
+          }
+        }
+      ]
     },
     {
       "name": "Barbell Bench Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "116",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 27.0,
           "volume": 324.0,
-          "side": "L",
-          "left_weight_max": 13.5,
-          "right_weight_max": 13.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 2,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 3,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 4,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 5,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 6,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 7,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 8,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 9,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 10,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 11,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 12,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             }
           ]
         },
@@ -297,81 +336,54 @@
           "reps": 12,
           "weight": 29.0,
           "volume": 348.0,
-          "side": "L",
-          "left_weight_max": 14.5,
-          "right_weight_max": 14.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 2,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 3,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 4,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 5,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 6,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 7,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 8,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 9,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 10,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 11,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 12,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             }
           ]
         },
@@ -379,81 +391,54 @@
           "reps": 12,
           "weight": 31.0,
           "volume": 372.0,
-          "side": "L",
-          "left_weight_max": 15.5,
-          "right_weight_max": 15.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 31.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 31.0
             },
             {
               "rep_index": 2,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 3,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 4,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 5,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 6,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 7,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 8,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 9,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 10,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             },
             {
               "rep_index": 11,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 12,
-              "weight": 29.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 29.0
             }
           ]
         },
@@ -461,69 +446,46 @@
           "reps": 10,
           "weight": 30.0,
           "volume": 300.0,
-          "side": "L",
-          "left_weight_max": 15.0,
-          "right_weight_max": 15.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 2,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 3,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 4,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 5,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 6,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 7,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 8,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 9,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 10,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             }
           ]
         },
@@ -531,81 +493,54 @@
           "reps": 12,
           "weight": 30.0,
           "volume": 360.0,
-          "side": "L",
-          "left_weight_max": 15.0,
-          "right_weight_max": 15.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 2,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 3,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 4,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 5,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 6,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 7,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 8,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 9,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 10,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 11,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             },
             {
               "rep_index": 12,
-              "weight": 30.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 30.0
             }
           ]
         }
@@ -616,87 +551,61 @@
     },
     {
       "name": "Seated Barbell Shoulder Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "536",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 14.0,
           "volume": 168.0,
-          "side": "L",
-          "left_weight_max": 7.0,
-          "right_weight_max": 7.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 2,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 3,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 4,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 5,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 6,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 7,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 8,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 9,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 10,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 11,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 12,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             }
           ]
         },
@@ -704,69 +613,46 @@
           "reps": 10,
           "weight": 16.0,
           "volume": 160.0,
-          "side": "L",
-          "left_weight_max": 8.0,
-          "right_weight_max": 8.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 2,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 3,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 4,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 5,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 6,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 7,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 8,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 9,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 10,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             }
           ]
         },
@@ -774,69 +660,46 @@
           "reps": 10,
           "weight": 17.0,
           "volume": 170.0,
-          "side": "L",
-          "left_weight_max": 8.5,
-          "right_weight_max": 8.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 2,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 3,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 4,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 5,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 6,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 7,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 8,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 9,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 10,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             }
           ]
         },
@@ -844,81 +707,54 @@
           "reps": 12,
           "weight": 17.0,
           "volume": 204.0,
-          "side": "L",
-          "left_weight_max": 8.5,
-          "right_weight_max": 8.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 2,
-              "weight": 17.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 17.0
             },
             {
               "rep_index": 3,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 4,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 5,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 6,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 7,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 8,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 9,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 10,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 11,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             },
             {
               "rep_index": 12,
-              "weight": 16.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 16.0
             }
           ]
         }
@@ -929,87 +765,61 @@
     },
     {
       "name": "Barbell Narrow Grip Bench Press",
-      "actionLibraryId": null,
+      "actionLibraryId": "253",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 22.0,
           "volume": 264.0,
-          "side": "L",
-          "left_weight_max": 11.0,
-          "right_weight_max": 11.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 2,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 3,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 4,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 5,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 6,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 7,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 8,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 9,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 10,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 11,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             },
             {
               "rep_index": 12,
-              "weight": 22.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 22.0
             }
           ]
         },
@@ -1017,81 +827,54 @@
           "reps": 12,
           "weight": 25.0,
           "volume": 300.0,
-          "side": "L",
-          "left_weight_max": 12.5,
-          "right_weight_max": 12.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 2,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 3,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 4,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 5,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 6,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 7,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 8,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 9,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 10,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 11,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 12,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             }
           ]
         },
@@ -1099,81 +882,54 @@
           "reps": 12,
           "weight": 28.0,
           "volume": 336.0,
-          "side": "L",
-          "left_weight_max": 14.0,
-          "right_weight_max": 14.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 2,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 3,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 4,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 5,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 6,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 7,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 8,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 9,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 10,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 11,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             },
             {
               "rep_index": 12,
-              "weight": 28.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 28.0
             }
           ]
         },
@@ -1181,81 +937,54 @@
           "reps": 12,
           "weight": 27.0,
           "volume": 324.0,
-          "side": "L",
-          "left_weight_max": 13.5,
-          "right_weight_max": 13.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 2,
-              "weight": 27.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 27.0
             },
             {
               "rep_index": 3,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 4,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 5,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 6,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 7,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 8,
-              "weight": 25.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 25.0
             },
             {
               "rep_index": 9,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 10,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 11,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             },
             {
               "rep_index": 12,
-              "weight": 24.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 24.0
             }
           ]
         }
@@ -1266,87 +995,61 @@
     },
     {
       "name": "Seated Dual-Handle Lateral Raise",
-      "actionLibraryId": null,
+      "actionLibraryId": "93",
+      "unilateral": false,
       "sets": [
         {
           "reps": 12,
           "weight": 3.5,
           "volume": 42.0,
-          "side": "L",
-          "left_weight_max": 3.5,
-          "right_weight_max": 3.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 11,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 12,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         },
@@ -1354,99 +1057,66 @@
           "reps": 15,
           "weight": 3.5,
           "volume": 52.5,
-          "side": "L",
-          "left_weight_max": 3.5,
-          "right_weight_max": 3.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 11,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 12,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 13,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 14,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 15,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         },
@@ -1454,99 +1124,66 @@
           "reps": 15,
           "weight": 3.5,
           "volume": 52.5,
-          "side": "L",
-          "left_weight_max": 3.5,
-          "right_weight_max": 3.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 11,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 12,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 13,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 14,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 15,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         },
@@ -1554,99 +1191,66 @@
           "reps": 15,
           "weight": 3.5,
           "volume": 52.5,
-          "side": "L",
-          "left_weight_max": 3.5,
-          "right_weight_max": 3.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 2,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 3,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 4,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 5,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 6,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 7,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 8,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 9,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 10,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 11,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 12,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 13,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 14,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             },
             {
               "rep_index": 15,
-              "weight": 3.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 3.5
             }
           ]
         }
@@ -1657,105 +1261,73 @@
     },
     {
       "name": "Standing Dual-Handle Chest Fly",
-      "actionLibraryId": null,
+      "actionLibraryId": "486",
+      "unilateral": false,
       "sets": [
         {
           "reps": 15,
           "weight": 10.0,
           "volume": 150.0,
-          "side": "L",
-          "left_weight_max": 10.0,
-          "right_weight_max": 10.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 11,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 12,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 13,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 14,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 15,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         },
@@ -1763,99 +1335,66 @@
           "reps": 15,
           "weight": 10.5,
           "volume": 157.5,
-          "side": "L",
-          "left_weight_max": 10.0,
-          "right_weight_max": 10.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 11,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 12,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 13,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 14,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 15,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         },
@@ -1863,99 +1402,66 @@
           "reps": 15,
           "weight": 10.5,
           "volume": 157.5,
-          "side": "L",
-          "left_weight_max": 10.5,
-          "right_weight_max": 10.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 2,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 3,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 4,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 5,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 6,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 7,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 8,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 9,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 10,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 11,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 12,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 13,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 14,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             },
             {
               "rep_index": 15,
-              "weight": 10.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.5
             }
           ]
         },
@@ -1963,105 +1469,70 @@
           "reps": 16,
           "weight": 10.0,
           "volume": 160.0,
-          "side": "L",
-          "left_weight_max": 10.0,
-          "right_weight_max": 10.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 2,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 3,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 4,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 5,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 6,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 7,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 8,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 9,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 10,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 11,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 12,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 13,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 14,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 15,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             },
             {
               "rep_index": 16,
-              "weight": 10.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 10.0
             }
           ]
         }
@@ -2072,105 +1543,73 @@
     },
     {
       "name": "Standing Tricep Rope Triceps Pushdown",
-      "actionLibraryId": null,
+      "actionLibraryId": "319",
+      "unilateral": false,
       "sets": [
         {
           "reps": 15,
           "weight": 14.0,
           "volume": 210.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": 14.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 2,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 3,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 4,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 5,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 6,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 7,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 8,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 9,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 10,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 11,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 12,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 13,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 14,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 15,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             }
           ]
         },
@@ -2178,99 +1617,66 @@
           "reps": 15,
           "weight": 15.0,
           "volume": 225.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": 15.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 15.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 15.0
             },
             {
               "rep_index": 2,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 3,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 4,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 5,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 6,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 7,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 8,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 9,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 10,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 11,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 12,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 13,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 14,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 15,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             }
           ]
         },
@@ -2278,99 +1684,66 @@
           "reps": 15,
           "weight": 14.5,
           "volume": 217.5,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": 14.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 2,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 3,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 4,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 5,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 6,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 7,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 8,
-              "weight": 14.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.5
             },
             {
               "rep_index": 9,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 10,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 11,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 12,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 13,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 14,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             },
             {
               "rep_index": 15,
-              "weight": 13.5,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.5
             }
           ]
         },
@@ -2378,99 +1751,66 @@
           "reps": 15,
           "weight": 14.0,
           "volume": 210.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": 14.0,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 2,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 3,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 4,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 5,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 6,
-              "weight": 14.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 14.0
             },
             {
               "rep_index": 7,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 8,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 9,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 10,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 11,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 12,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 13,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 14,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             },
             {
               "rep_index": 15,
-              "weight": 13.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 13.0
             }
           ]
         }
@@ -2481,84 +1821,135 @@
     },
     {
       "name": "Chest Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "808008295415808",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Lateral Deltoid Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "372776467300353",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Triceps Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "807990138273792",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 2,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     }
   ],
   "exercise_count": 11

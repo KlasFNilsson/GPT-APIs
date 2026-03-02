@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T06:02:49.854756+00:00",
+    "generated_at": "2026-03-02T07:52:46.353702+00:00",
     "record_id": "2845923",
     "training_id": "423017",
     "title": "260213 Run strenght A",
@@ -18,24 +18,19 @@
   "exercises": [
     {
       "name": "Dynamic Hamstring Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "434221249003521",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -45,24 +40,19 @@
     },
     {
       "name": "Seated 90/90 Stretch",
-      "actionLibraryId": null,
+      "actionLibraryId": "2810",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -72,63 +62,45 @@
     },
     {
       "name": "Barbell Romanian Deadlift",
-      "actionLibraryId": null,
+      "actionLibraryId": "385",
+      "unilateral": false,
       "sets": [
         {
           "reps": 8,
           "weight": 91.0,
           "volume": 728.0,
-          "side": "L",
-          "left_weight_max": 45.5,
-          "right_weight_max": 45.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 2,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 3,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 4,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 5,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 6,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 7,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 8,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             }
           ]
         },
@@ -136,57 +108,38 @@
           "reps": 8,
           "weight": 91.0,
           "volume": 728.0,
-          "side": "L",
-          "left_weight_max": 45.5,
-          "right_weight_max": 45.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 2,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 3,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 4,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 5,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 6,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 7,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 8,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             }
           ]
         },
@@ -194,57 +147,38 @@
           "reps": 8,
           "weight": 91.0,
           "volume": 728.0,
-          "side": "L",
-          "left_weight_max": 45.5,
-          "right_weight_max": 45.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 2,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 3,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 4,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 5,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 6,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 7,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 8,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             }
           ]
         },
@@ -252,57 +186,38 @@
           "reps": 8,
           "weight": 91.0,
           "volume": 728.0,
-          "side": "L",
-          "left_weight_max": 45.5,
-          "right_weight_max": 45.5,
           "reps_detail": [
             {
               "rep_index": 1,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 2,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 3,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 4,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 5,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 6,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 7,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             },
             {
               "rep_index": 8,
-              "weight": 91.0,
-              "left_weight": null,
-              "right_weight": null
+              "weight": 91.0
             }
           ]
         }
@@ -313,96 +228,123 @@
     },
     {
       "name": "Barbell Bulgarian Split Squat",
-      "actionLibraryId": null,
+      "actionLibraryId": "372218310295553",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 6,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 3
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        },
+        {
+          "pair_index": 2,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        },
+        {
+          "pair_index": 3,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "​Bodyweight Reverse Plank March",
-      "actionLibraryId": null,
+      "actionLibraryId": "421698142863361",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -412,96 +354,123 @@
     },
     {
       "name": "Half Kneeling Single-Arm Row",
-      "actionLibraryId": null,
+      "actionLibraryId": "420214528147457",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 6,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 3
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        },
+        {
+          "pair_index": 2,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        },
+        {
+          "pair_index": 3,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     },
     {
       "name": "Assisted Bent Knee Calf Raise",
-      "actionLibraryId": null,
+      "actionLibraryId": "421657397690369",
+      "unilateral": false,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "L",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
@@ -511,48 +480,74 @@
     },
     {
       "name": "Leg Curl Cross-Flatbench",
-      "actionLibraryId": null,
+      "actionLibraryId": "372221634281473",
+      "unilateral": true,
       "sets": [
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
-          "side": "R",
-          "left_weight_max": null,
-          "right_weight_max": null,
           "reps_detail": []
         }
       ],
       "set_count": 4,
       "total_volume": 0.0,
-      "max_weight": 0.0
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 2
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        },
+        {
+          "pair_index": 2,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
     }
   ],
   "exercise_count": 8

@@ -42,6 +42,7 @@ jobs:
           TRAINING_DAYS: "365"
           DEBUG_SIGNATURE: "1"
           LIBRARY_REFRESH_HOURS: "24"
+          ONLY_FETCH_MISSING: "1"
         run: |
           python sync_speediance.py
 

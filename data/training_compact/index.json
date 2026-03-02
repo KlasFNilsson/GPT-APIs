@@ -1,12 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T15:52:49.564203+00:00",
+    "generated_at": "2026-03-02T17:02:14.576289+00:00",
     "start_date": "2025-03-02",
     "end_date": "2026-03-02",
     "max_details": 200,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
-    "count_written": 69,
+    "only_fetch_missing": true,
+    "count_written": 0,
+    "count_skipped_existing": 69,
     "count_failed": 13,
     "count_empty_exercises": 0
   },
@@ -18,9 +20,9 @@
       "type": 2,
       "date": "2026-03-01 12:05:46",
       "path": "/data/training_compact/843518.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "435255",
@@ -29,9 +31,9 @@
       "type": 5,
       "date": "2026-03-01 12:00:50",
       "path": "/data/training_compact/435255.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "432183",
@@ -40,9 +42,9 @@
       "type": 5,
       "date": "2026-02-26 06:37:58",
       "path": "/data/training_compact/432183.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "838278",
@@ -51,9 +53,9 @@
       "type": 2,
       "date": "2026-02-25 17:50:45",
       "path": "/data/training_compact/838278.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 6
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "430008",
@@ -62,9 +64,9 @@
       "type": 5,
       "date": "2026-02-24 06:29:10",
       "path": "/data/training_compact/430008.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "428202",
@@ -73,9 +75,9 @@
       "type": 5,
       "date": "2026-02-22 13:53:18",
       "path": "/data/training_compact/428202.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "427071",
@@ -84,9 +86,9 @@
       "type": 5,
       "date": "2026-02-21 09:42:23",
       "path": "/data/training_compact/427071.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "423017",
@@ -95,9 +97,9 @@
       "type": 5,
       "date": "2026-02-17 07:06:03",
       "path": "/data/training_compact/423017.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "822606",
@@ -106,9 +108,9 @@
       "type": 2,
       "date": "2026-02-15 15:28:36",
       "path": "/data/training_compact/822606.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "419235",
@@ -117,9 +119,9 @@
       "type": 5,
       "date": "2026-02-13 08:28:07",
       "path": "/data/training_compact/419235.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "416004",
@@ -128,9 +130,9 @@
       "type": 5,
       "date": "2026-02-10 07:57:23",
       "path": "/data/training_compact/416004.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "415038",
@@ -139,9 +141,9 @@
       "type": 5,
       "date": "2026-02-09 12:30:23",
       "path": "/data/training_compact/415038.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "412033",
@@ -150,9 +152,9 @@
       "type": 5,
       "date": "2026-02-06 08:09:13",
       "path": "/data/training_compact/412033.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "805052",
@@ -161,9 +163,9 @@
       "type": 2,
       "date": "2026-02-04 12:30:37",
       "path": "/data/training_compact/805052.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "408798",
@@ -172,9 +174,9 @@
       "type": 5,
       "date": "2026-02-03 06:45:23",
       "path": "/data/training_compact/408798.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "405016",
@@ -183,9 +185,9 @@
       "type": 5,
       "date": "2026-01-30 08:08:40",
       "path": "/data/training_compact/405016.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "791630",
@@ -194,9 +196,9 @@
       "type": 2,
       "date": "2026-01-27 06:47:06",
       "path": "/data/training_compact/791630.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "401434",
@@ -205,9 +207,9 @@
       "type": 5,
       "date": "2026-01-26 18:51:35",
       "path": "/data/training_compact/401434.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "397307",
@@ -216,9 +218,9 @@
       "type": 5,
       "date": "2026-01-22 14:29:36",
       "path": "/data/training_compact/397307.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "764222",
@@ -227,9 +229,9 @@
       "type": 2,
       "date": "2026-01-11 11:42:57",
       "path": "/data/training_compact/764222.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "383699",
@@ -238,9 +240,9 @@
       "type": 5,
       "date": "2026-01-09 12:19:13",
       "path": "/data/training_compact/383699.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "753963",
@@ -249,9 +251,9 @@
       "type": 2,
       "date": "2026-01-04 13:40:07",
       "path": "/data/training_compact/753963.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "378515",
@@ -260,9 +262,9 @@
       "type": 5,
       "date": "2026-01-03 12:51:38",
       "path": "/data/training_compact/378515.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "374805",
@@ -271,9 +273,9 @@
       "type": 5,
       "date": "2025-12-29 07:53:58",
       "path": "/data/training_compact/374805.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "373773",
@@ -282,9 +284,9 @@
       "type": 5,
       "date": "2025-12-27 14:12:07",
       "path": "/data/training_compact/373773.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "731913",
@@ -293,9 +295,9 @@
       "type": 2,
       "date": "2025-12-16 16:23:55",
       "path": "/data/training_compact/731913.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 13
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "364350",
@@ -304,9 +306,9 @@
       "type": 5,
       "date": "2025-12-13 12:29:08",
       "path": "/data/training_compact/364350.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "361347",
@@ -315,9 +317,9 @@
       "type": 5,
       "date": "2025-12-09 06:29:11",
       "path": "/data/training_compact/361347.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 13
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "359598",
@@ -326,9 +328,9 @@
       "type": 5,
       "date": "2025-12-06 12:44:41",
       "path": "/data/training_compact/359598.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 11
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "712777",
@@ -337,9 +339,9 @@
       "type": 2,
       "date": "2025-11-30 10:34:42",
       "path": "/data/training_compact/712777.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "354002",
@@ -348,9 +350,9 @@
       "type": 5,
       "date": "2025-11-28 07:26:11",
       "path": "/data/training_compact/354002.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 13
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "351785",
@@ -359,9 +361,9 @@
       "type": 5,
       "date": "2025-11-25 07:01:21",
       "path": "/data/training_compact/351785.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "349532",
@@ -370,9 +372,9 @@
       "type": 5,
       "date": "2025-11-21 17:29:40",
       "path": "/data/training_compact/349532.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 15
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "346976",
@@ -381,9 +383,9 @@
       "type": 5,
       "date": "2025-11-18 07:03:55",
       "path": "/data/training_compact/346976.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "696863",
@@ -392,9 +394,9 @@
       "type": 2,
       "date": "2025-11-16 10:25:49",
       "path": "/data/training_compact/696863.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "696028",
@@ -403,9 +405,9 @@
       "type": 2,
       "date": "2025-11-15 12:55:34",
       "path": "/data/training_compact/696028.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "344278",
@@ -414,9 +416,9 @@
       "type": 5,
       "date": "2025-11-14 06:33:00",
       "path": "/data/training_compact/344278.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 15
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "341395",
@@ -425,9 +427,9 @@
       "type": 5,
       "date": "2025-11-10 07:30:28",
       "path": "/data/training_compact/341395.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "340895",
@@ -436,9 +438,9 @@
       "type": 5,
       "date": "2025-11-09 11:15:16",
       "path": "/data/training_compact/340895.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "339618",
@@ -447,9 +449,9 @@
       "type": 5,
       "date": "2025-11-07 08:11:18",
       "path": "/data/training_compact/339618.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 15
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "337579",
@@ -458,9 +460,9 @@
       "type": 5,
       "date": "2025-11-04 07:28:00",
       "path": "/data/training_compact/337579.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "335713",
@@ -469,9 +471,9 @@
       "type": 5,
       "date": "2025-11-01 09:25:14",
       "path": "/data/training_compact/335713.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "334694",
@@ -480,9 +482,9 @@
       "type": 5,
       "date": "2025-10-30 12:04:41",
       "path": "/data/training_compact/334694.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 15
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "333882",
@@ -491,9 +493,9 @@
       "type": 5,
       "date": "2025-10-29 06:25:42",
       "path": "/data/training_compact/333882.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "330847",
@@ -502,9 +504,9 @@
       "type": 5,
       "date": "2025-10-24 08:08:23",
       "path": "/data/training_compact/330847.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "328875",
@@ -513,9 +515,9 @@
       "type": 5,
       "date": "2025-10-21 07:23:56",
       "path": "/data/training_compact/328875.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "670328",
@@ -524,9 +526,9 @@
       "type": 2,
       "date": "2025-10-20 19:26:20",
       "path": "/data/training_compact/670328.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 6
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "327922",
@@ -535,9 +537,9 @@
       "type": 5,
       "date": "2025-10-19 16:22:18",
       "path": "/data/training_compact/327922.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "327162",
@@ -546,9 +548,9 @@
       "type": 5,
       "date": "2025-10-18 06:45:13",
       "path": "/data/training_compact/327162.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "667680",
@@ -557,9 +559,9 @@
       "type": 2,
       "date": "2025-10-17 18:47:51",
       "path": "/data/training_compact/667680.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 6
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "326099",
@@ -568,9 +570,9 @@
       "type": 5,
       "date": "2025-10-16 08:11:44",
       "path": "/data/training_compact/326099.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "324823",
@@ -579,9 +581,9 @@
       "type": 5,
       "date": "2025-10-14 06:37:50",
       "path": "/data/training_compact/324823.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "661807",
@@ -590,9 +592,9 @@
       "type": 2,
       "date": "2025-10-11 09:29:12",
       "path": "/data/training_compact/661807.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "323014",
@@ -601,9 +603,9 @@
       "type": 5,
       "date": "2025-10-10 19:05:00",
       "path": "/data/training_compact/323014.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "321288",
@@ -612,9 +614,9 @@
       "type": 5,
       "date": "2025-10-08 06:31:25",
       "path": "/data/training_compact/321288.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "319945",
@@ -623,9 +625,9 @@
       "type": 5,
       "date": "2025-10-06 08:23:55",
       "path": "/data/training_compact/319945.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "318881",
@@ -634,9 +636,9 @@
       "type": 5,
       "date": "2025-10-04 09:17:03",
       "path": "/data/training_compact/318881.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 10
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "318599",
@@ -645,9 +647,9 @@
       "type": 5,
       "date": "2025-10-03 16:23:26",
       "path": "/data/training_compact/318599.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 12
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "316245",
@@ -656,9 +658,9 @@
       "type": 5,
       "date": "2025-09-29 18:41:32",
       "path": "/data/training_compact/316245.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 9
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "244793",
@@ -667,9 +669,9 @@
       "type": 6,
       "date": "2025-09-26 16:12:31",
       "path": "/data/training_compact/244793.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "244583",
@@ -678,9 +680,9 @@
       "type": 6,
       "date": "2025-09-25 17:27:27",
       "path": "/data/training_compact/244583.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 15
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "312100",
@@ -689,9 +691,9 @@
       "type": 5,
       "date": "2025-09-22 16:09:24",
       "path": "/data/training_compact/312100.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "626394",
@@ -700,9 +702,9 @@
       "type": 2,
       "date": "2025-09-14 18:00:57",
       "path": "/data/training_compact/626394.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "296437",
@@ -711,9 +713,9 @@
       "type": 5,
       "date": "2025-09-07 09:45:00",
       "path": "/data/training_compact/296437.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 6
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "294781",
@@ -722,9 +724,9 @@
       "type": 5,
       "date": "2025-09-03 19:54:40",
       "path": "/data/training_compact/294781.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "293360",
@@ -733,9 +735,9 @@
       "type": 5,
       "date": "2025-09-01 17:20:35",
       "path": "/data/training_compact/293360.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "291954",
@@ -744,9 +746,9 @@
       "type": 5,
       "date": "2025-08-29 19:16:53",
       "path": "/data/training_compact/291954.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "610875",
@@ -755,9 +757,9 @@
       "type": 2,
       "date": "2025-08-29 18:34:52",
       "path": "/data/training_compact/610875.json",
-      "source_hint": "course",
-      "normalized_as": "course(list)",
-      "exercise_count": 1
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "290588",
@@ -766,9 +768,9 @@
       "type": 5,
       "date": "2025-08-27 14:19:59",
       "path": "/data/training_compact/290588.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 7
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     }
   ],
   "errors": {

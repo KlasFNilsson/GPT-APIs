@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T05:59:14.675711+00:00",
+    "start_date": "2025-03-02",
+    "end_date": "2026-03-02",
+    "max_details": 30,
+    "detail_throttle_seconds": 1.2,
+    "detail_retries": 3,
+    "id_to_name_count": 0,
+    "name_to_id_count": 0,
+    "count_written": 27,
+    "count_failed": 3,
+    "count_empty_exercises": 0
+  },
+  "items": [
+    {
+      "training_id": "843518",
+      "record_id": "2913925",
+      "title": "Core Basics",
+      "type": 2,
+      "date": "2026-03-01 12:05:46",
+      "path": "/data/training_compact/843518.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "435255",
+      "record_id": "2913880",
+      "title": "260213 Run strenght A",
+      "type": 5,
+      "date": "2026-03-01 12:00:50",
+      "path": "/data/training_compact/435255.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "432183",
+      "record_id": "2897061",
+      "title": "260213 Run strength B",
+      "type": 5,
+      "date": "2026-02-26 06:37:58",
+      "path": "/data/training_compact/432183.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "838278",
+      "record_id": "2894216",
+      "title": "Aaron’s Biceps Day Workout",
+      "type": 2,
+      "date": "2026-02-25 17:50:45",
+      "path": "/data/training_compact/838278.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 6
+    },
+    {
+      "training_id": "430008",
+      "record_id": "2885410",
+      "title": "260213 Run strenght A",
+      "type": 5,
+      "date": "2026-02-24 06:29:10",
+      "path": "/data/training_compact/430008.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "428202",
+      "record_id": "2875250",
+      "title": "260213 Run strength B",
+      "type": 5,
+      "date": "2026-02-22 13:53:18",
+      "path": "/data/training_compact/428202.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "427071",
+      "record_id": "2868455",
+      "title": "260206 Strength C - Complimentary",
+      "type": 5,
+      "date": "2026-02-21 09:42:23",
+      "path": "/data/training_compact/427071.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "423017",
+      "record_id": "2845923",
+      "title": "260213 Run strenght A",
+      "type": 5,
+      "date": "2026-02-17 07:06:03",
+      "path": "/data/training_compact/423017.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "822606",
+      "record_id": "2836785",
+      "title": "Epic Chest 2",
+      "type": 2,
+      "date": "2026-02-15 15:28:36",
+      "path": "/data/training_compact/822606.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "419235",
+      "record_id": "2824052",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2026-02-13 08:28:07",
+      "path": "/data/training_compact/419235.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "416004",
+      "record_id": "2806419",
+      "title": "260206 Strength C - Complimentary",
+      "type": 5,
+      "date": "2026-02-10 07:57:23",
+      "path": "/data/training_compact/416004.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 8
+    },
+    {
+      "training_id": "415038",
+      "record_id": "2801093",
+      "title": "Run strength B 251222",
+      "type": 5,
+      "date": "2026-02-09 12:30:23",
+      "path": "/data/training_compact/415038.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "412033",
+      "record_id": "2783066",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2026-02-06 08:09:13",
+      "path": "/data/training_compact/412033.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "805052",
+      "record_id": "2772205",
+      "title": "Superset Arms Day",
+      "type": 2,
+      "date": "2026-02-04 12:30:37",
+      "path": "/data/training_compact/805052.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "408798",
+      "record_id": "2764626",
+      "title": "Run strength B 251222",
+      "type": 5,
+      "date": "2026-02-03 06:45:23",
+      "path": "/data/training_compact/408798.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "405016",
+      "record_id": "2741576",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2026-01-30 08:08:40",
+      "path": "/data/training_compact/405016.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "791630",
+      "record_id": "2723790",
+      "title": "Ambitious Arms 1",
+      "type": 2,
+      "date": "2026-01-27 06:47:06",
+      "path": "/data/training_compact/791630.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "401434",
+      "record_id": "2721228",
+      "title": "Run strength B 251222",
+      "type": 5,
+      "date": "2026-01-26 18:51:35",
+      "path": "/data/training_compact/401434.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "397307",
+      "record_id": "2696091",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2026-01-22 14:29:36",
+      "path": "/data/training_compact/397307.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 10
+    },
+    {
+      "training_id": "764222",
+      "record_id": "2627552",
+      "title": "Chest, Shoulders, Arms Push-Pull Training",
+      "type": 2,
+      "date": "2026-01-11 11:42:57",
+      "path": "/data/training_compact/764222.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    },
+    {
+      "training_id": "383699",
+      "record_id": "2617752",
+      "title": "Run strength B 251222",
+      "type": 5,
+      "date": "2026-01-09 12:19:13",
+      "path": "/data/training_compact/383699.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "753963",
+      "record_id": "2592198",
+      "title": "Power Upper Chest Delts Triceps Advanced",
+      "type": 2,
+      "date": "2026-01-04 13:40:07",
+      "path": "/data/training_compact/753963.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 10
+    },
+    {
+      "training_id": "378515",
+      "record_id": "2587403",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2026-01-03 12:51:38",
+      "path": "/data/training_compact/378515.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 10
+    },
+    {
+      "training_id": "374805",
+      "record_id": "2565579",
+      "title": "Run strength B 251222",
+      "type": 5,
+      "date": "2025-12-29 07:53:58",
+      "path": "/data/training_compact/374805.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 9
+    },
+    {
+      "training_id": "373773",
+      "record_id": "2559348",
+      "title": "Run strenght A 251222",
+      "type": 5,
+      "date": "2025-12-27 14:12:07",
+      "path": "/data/training_compact/373773.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 7
+    },
+    {
+      "training_id": "731913",
+      "record_id": "2515398",
+      "title": "Base & Engine #2（skiing ver.）",
+      "type": 2,
+      "date": "2025-12-16 16:23:55",
+      "path": "/data/training_compact/731913.json",
+      "source_hint": "course",
+      "normalized_as": "course(list)",
+      "exercise_count": 13
+    },
+    {
+      "training_id": "364350",
+      "record_id": "2501725",
+      "title": "A3. Power & acceleration (lower focus)",
+      "type": 5,
+      "date": "2025-12-13 12:29:08",
+      "path": "/data/training_compact/364350.json",
+      "source_hint": "ctt",
+      "normalized_as": "course(list)",
+      "exercise_count": 11
+    }
+  ],
+  "errors": {
+    "840820": {
+      "record_id": "2904289",
+      "type": 2,
+      "error": "Empty detail for training_id=840820 (attempt 3)"
+    },
+    "825093": {
+      "record_id": "2845990",
+      "type": 2,
+      "error": "Empty detail for training_id=825093 (attempt 3)"
+    },
+    "753844": {
+      "record_id": "2591840",
+      "type": 2,
+      "error": "Empty detail for training_id=753844 (attempt 3)"
+    }
+  }
+}

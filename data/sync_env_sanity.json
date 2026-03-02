@@ -1,0 +1,20 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T06:00:38.194775+00:00"
+  },
+  "region": "EU",
+  "base_url": "https://euapi.speediance.com",
+  "host": "euapi.speediance.com",
+  "has_credentials_dict": true,
+  "credentials_keys": [
+    "allow_monster_moves",
+    "custom_instruction",
+    "device_type",
+    "region",
+    "token",
+    "unit",
+    "user_id"
+  ],
+  "has_user_id": true,
+  "has_token": true
+}

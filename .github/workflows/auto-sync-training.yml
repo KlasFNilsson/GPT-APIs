@@ -38,10 +38,10 @@ jobs:
           # Optional robustness knobs (if your script supports them)
           DETAIL_THROTTLE_SECONDS: "2"
           DETAIL_RETRIES: "2"
-          MAX_TRAINING_DETAILS: "5"
-          TRAINING_DAYS: "30"
+          MAX_TRAINING_DETAILS: "200"
+          TRAINING_DAYS: "365"
           DEBUG_SIGNATURE: "1"
-          LIBRARY_REFRESH_HOURS: "0"
+          LIBRARY_REFRESH_HOURS: "24"
         run: |
           python sync_speediance.py
 

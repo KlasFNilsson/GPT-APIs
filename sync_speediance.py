@@ -288,10 +288,9 @@ def _norm_name(s: str) -> str:
 
 def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, str]]:
     """
-    Returns:
-      id_to_name: group_id(str) -> name(str)
-      name_to_id: normalized_name -> group_id(str)
+    Extract actual actionLibrary entries (exercises), not course categories.
     """
+
     id_to_name: Dict[str, str] = {}
     name_to_id: Dict[str, str] = {}
 
@@ -300,6 +299,41 @@ def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, s
 
     lib = unwrap_data(c.get_library())
     lib = prune_telemetry(redact(lib))
+
+    # Try to find actionLibraryList explicitly
+    def extract_action_libraries(obj: Any) -> List[dict]:
+        results = []
+
+        if isinstance(obj, dict):
+            for key, value in obj.items():
+                if key == "actionLibraryList" and isinstance(value, list):
+                    results.extend(value)
+                else:
+                    results.extend(extract_action_libraries(value))
+
+        elif isinstance(obj, list):
+            for item in obj:
+                results.extend(extract_action_libraries(item))
+
+        return results
+
+    action_libraries = extract_action_libraries(lib)
+
+    for item in action_libraries:
+        if not isinstance(item, dict):
+            continue
+
+        gid = item.get("id") or item.get("actionLibraryId")
+        name = item.get("actionLibraryName") or item.get("name")
+
+        if gid and name:
+            gid_s = str(gid).strip()
+            name_s = str(name).strip()
+
+            id_to_name[gid_s] = name_s
+            name_to_id[_norm_name(name_s)] = gid_s
+
+    return id_to_name, name_to_id
 
     def ingest_item(it: Any) -> None:
         if not isinstance(it, dict):

@@ -5,16 +5,15 @@
 #   data/training_compact/index.json
 #   data/training_compact/<training_id>.json
 #   data/library_lookup.json
+#   data/library_dump_keys.json         (debug)
+#   data/library_dump_sample.json       (debug)
 #
 # Key features:
-# - Builds a LARGE exercise lookup by extracting "actionLibraryList" from get_library()
-#   (fixes tiny lookup issue).
-# - Resolves missing actionLibraryId in training detail by name->id mapping.
-# - Uses SpeedianceClient.is_exercise_unilateral(int(group_id)) to detect unilateral exercises.
-# - If unilateral AND no explicit side markers AND even number of sets:
-#     -> groups into sides: L/R (first half = L, second half = R)
-#     -> exposes set_count as per-side count, and keeps original sets as sets_all.
-# - Rep-by-rep visibility when per-rep arrays exist (weights/leftWeights/rightWeights).
+# - Debug-dumps the structure of get_library() so we can adapt extractors for your region/app.
+# - Builds exercise lookup using multiple candidate list keys + field-based heuristics.
+# - Resolves missing actionLibraryId in training details by name->id mapping.
+# - Uses SpeedianceClient.is_exercise_unilateral(int(group_id)) to decide unilateral grouping:
+#     if unilateral AND no explicit side markers AND even number of sets -> group into L/R halves.
 #
 # Required env (GitHub Actions secrets):
 #   SPEEDIANCE_REGION
@@ -29,7 +28,7 @@
 #   MAX_TRAINING_DETAILS (default 30)
 #   DETAIL_THROTTLE_SECONDS (default 1.2)
 #   DETAIL_RETRIES (default 3)
-#   LIBRARY_REFRESH_HOURS (default 24)  # set to 0 temporarily to force rebuild each run
+#   LIBRARY_REFRESH_HOURS (default 24)  # set to 0 temporarily while debugging
 
 import json
 import os
@@ -40,11 +39,13 @@ from typing import Any, Dict, List, Optional, Tuple
 
 from api_client import SpeedianceClient
 
-print("SYNC_SPEEDIANCE_VERSION=2026-03-01_LIBRARY_ACTIONLIST_UNILATERAL_V1")
+print("SYNC_SPEEDIANCE_VERSION=2026-03-02_LIBRARY_DUMP_MULTIKEY_V1")
 
 DATA_DIR = "data"
 COMPACT_DIR = os.path.join(DATA_DIR, "training_compact")
 LIBRARY_CACHE_PATH = os.path.join(DATA_DIR, "library_lookup.json")
+LIBRARY_DUMP_KEYS_PATH = os.path.join(DATA_DIR, "library_dump_keys.json")
+LIBRARY_DUMP_SAMPLE_PATH = os.path.join(DATA_DIR, "library_dump_sample.json")
 
 REDACT_KEY_PATTERNS = [
     re.compile(r".*token.*", re.IGNORECASE),
@@ -54,6 +55,7 @@ REDACT_KEY_PATTERNS = [
     re.compile(r".*apple.*userid.*", re.IGNORECASE),
     re.compile(r".*device.*id.*", re.IGNORECASE),
     re.compile(r".*serial.*", re.IGNORECASE),
+    re.compile(r".*ip.*", re.IGNORECASE),
 ]
 
 DROP_TELEMETRY_KEYS = {
@@ -282,7 +284,7 @@ def pick_ids(rec: dict) -> Tuple[Optional[str], Optional[str]]:
     return rid, tid
 
 # -------------------------
-# Library lookup
+# Library dump + lookup building
 # -------------------------
 
 def _file_age_hours(path: str) -> Optional[float]:
@@ -297,53 +299,189 @@ def _norm_name(s: str) -> str:
     s = re.sub(r"\s+", " ", s).strip().lower()
     return s
 
-def _extract_action_libraries(obj: Any) -> List[dict]:
+CANDIDATE_LIST_KEYS = {
+    # common
+    "actionLibraryList", "actionList", "actions", "exerciseList", "exercises",
+    # variants we’ve seen in similar APIs
+    "libraryActionList", "libraryActions", "actionInfoList", "actionLibraryInfos",
+    "actionLibrary", "actionLibraries", "action_library_list",
+}
+
+CANDIDATE_ID_KEYS = {"actionLibraryId", "actionId", "libraryId", "id", "groupId"}
+CANDIDATE_NAME_KEYS = {"actionLibraryName", "actionName", "libraryName", "name", "title"}
+
+def build_library_debug_dump(redacted_lib: Any) -> None:
     """
-    Recursively find lists under key 'actionLibraryList' anywhere in the library payload.
+    Writes:
+      - library_dump_keys.json: keys tree (depth-limited) + candidate list keys found
+      - library_dump_sample.json: small samples for manual inspection
+    """
+    # Depth-limited key tree
+    def key_tree(obj: Any, depth: int) -> Any:
+        if depth <= 0:
+            if isinstance(obj, dict):
+                return {"__type__": "dict", "__keys__": len(obj)}
+            if isinstance(obj, list):
+                return {"__type__": "list", "__len__": len(obj)}
+            return {"__type__": type(obj).__name__}
+        if isinstance(obj, dict):
+            out = {"__type__": "dict", "__keys__": list(obj.keys())[:50]}
+            # include children for first few keys
+            child = {}
+            for k in list(obj.keys())[:12]:
+                child[k] = key_tree(obj.get(k), depth - 1)
+            out["children"] = child
+            return out
+        if isinstance(obj, list):
+            out = {"__type__": "list", "__len__": len(obj)}
+            if obj:
+                out["sample0"] = key_tree(obj[0], depth - 1)
+            return out
+        return {"__type__": type(obj).__name__, "__value_sample__": str(obj)[:80]}
+
+    # Find candidate lists and lengths
+    found_lists: List[dict] = []
+
+    def walk_for_lists(obj: Any, path: str = "") -> None:
+        if isinstance(obj, dict):
+            for k, v in obj.items():
+                p = f"{path}.{k}" if path else k
+                if k in CANDIDATE_LIST_KEYS and isinstance(v, list):
+                    found_lists.append({"path": p, "key": k, "len": len(v)})
+                walk_for_lists(v, p)
+        elif isinstance(obj, list):
+            for i, it in enumerate(obj[:50]):  # cap
+                walk_for_lists(it, f"{path}[{i}]")
+
+    walk_for_lists(redacted_lib)
+
+    write_json(
+        LIBRARY_DUMP_KEYS_PATH,
+        {
+            "meta": {"generated_at": now_iso()},
+            "candidate_list_keys": sorted(list(CANDIDATE_LIST_KEYS)),
+            "found_candidate_lists": sorted(found_lists, key=lambda x: x["len"], reverse=True)[:50],
+            "key_tree_depth3": key_tree(redacted_lib, 3),
+        },
+    )
+
+def extract_exercise_candidates(redacted_lib: Any) -> List[dict]:
+    """
+    Extract dict items that look like actual exercises:
+      - has an ID-like key AND a name-like key
+    We pull them from:
+      - any list under known candidate list keys
+      - fallback: any dict anywhere that matches the shape
     """
     results: List[dict] = []
-    if isinstance(obj, dict):
-        for k, v in obj.items():
-            if k == "actionLibraryList" and isinstance(v, list):
-                for it in v:
-                    if isinstance(it, dict):
-                        results.append(it)
-            else:
-                results.extend(_extract_action_libraries(v))
-    elif isinstance(obj, list):
-        for it in obj:
-            results.extend(_extract_action_libraries(it))
-    return results
+
+    def looks_like_exercise(d: dict) -> bool:
+        has_id = any(k in d and d.get(k) not in (None, "", []) for k in CANDIDATE_ID_KEYS)
+        has_name = any(k in d and str(d.get(k) or "").strip() != "" for k in CANDIDATE_NAME_KEYS)
+        # Avoid very generic category-like objects by requiring at least one strong exercise field if present
+        # (still permissive for unknown schemas)
+        return has_id and has_name
+
+    def add_item(d: dict) -> None:
+        if looks_like_exercise(d):
+            results.append(d)
+
+    def walk(obj: Any) -> None:
+        if isinstance(obj, dict):
+            add_item(obj)
+            for v in obj.values():
+                walk(v)
+        elif isinstance(obj, list):
+            for it in obj:
+                walk(it)
+
+    walk(redacted_lib)
+
+    # Deduplicate by (id,name) pairs
+    seen = set()
+    deduped: List[dict] = []
+    for d in results:
+        _id = None
+        _name = None
+        for k in ("actionLibraryId", "id", "groupId", "libraryId", "actionId"):
+            if d.get(k) not in (None, "", []):
+                _id = str(d.get(k)).strip()
+                break
+        for k in ("actionLibraryName", "name", "actionName", "libraryName", "title"):
+            if str(d.get(k) or "").strip():
+                _name = str(d.get(k)).strip()
+                break
+        if not _id or not _name:
+            continue
+        key = (_id, _name.lower())
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(d)
+
+    return deduped
 
 def build_library_maps(c: SpeedianceClient) -> Tuple[Dict[str, str], Dict[str, str]]:
     """
     Returns:
-      id_to_name: actionLibraryGroupId(str) -> name(str)
-      name_to_id: normalized_name -> actionLibraryGroupId(str)
+      id_to_name: exerciseGroupId(str) -> name(str)
+      name_to_id: normalized_name -> exerciseGroupId(str)
+    Also writes debug dumps to data/ so we can see the real schema in your region.
     """
     id_to_name: Dict[str, str] = {}
     name_to_id: Dict[str, str] = {}
 
     if not hasattr(c, "get_library"):
+        write_json(LIBRARY_DUMP_KEYS_PATH, {"meta": {"generated_at": now_iso()}, "error": "client has no get_library"})
+        write_json(LIBRARY_DUMP_SAMPLE_PATH, {"meta": {"generated_at": now_iso()}, "error": "client has no get_library"})
         return id_to_name, name_to_id
 
-    lib = unwrap_data(c.get_library())
+    raw = c.get_library()
+    lib = unwrap_data(raw)
     lib = prune_telemetry(redact(lib))
 
-    action_libraries = _extract_action_libraries(lib)
+    # Debug dumps
+    build_library_debug_dump(lib)
 
-    for item in action_libraries:
-        gid = item.get("id") or item.get("actionLibraryId") or item.get("groupId")
-        name = item.get("actionLibraryName") or item.get("name") or item.get("actionName")
+    candidates = extract_exercise_candidates(lib)
+
+    # write small sample for inspection
+    sample = candidates[:20]
+    write_json(
+        LIBRARY_DUMP_SAMPLE_PATH,
+        {
+            "meta": {"generated_at": now_iso(), "candidate_count": len(candidates)},
+            "top_level_type": type(lib).__name__,
+            "payload_sample": str(lib)[:2000],
+            "candidate_sample_first20": sample,
+        },
+    )
+
+    for item in candidates:
+        if not isinstance(item, dict):
+            continue
+
+        gid = None
+        for k in ("actionLibraryId", "id", "groupId", "libraryId", "actionId"):
+            if item.get(k) not in (None, "", []):
+                gid = item.get(k)
+                break
+
+        name = None
+        for k in ("actionLibraryName", "name", "actionName", "libraryName", "title"):
+            if str(item.get(k) or "").strip():
+                name = item.get(k)
+                break
+
         if gid is None or name is None:
             continue
+
         gid_s = str(gid).strip()
         name_s = str(name).strip()
         if not gid_s or not name_s:
             continue
-        # Keep first seen mapping
-        if gid_s not in id_to_name:
-            id_to_name[gid_s] = name_s
+
+        id_to_name.setdefault(gid_s, name_s)
         nn = _norm_name(name_s)
         if nn and nn not in name_to_id:
             name_to_id[nn] = gid_s
@@ -573,7 +711,7 @@ def normalize_as_course(data_list: Any, id_to_name: Dict[str, str], name_to_id: 
 
         ex_obj = {
             "name": name,
-            "actionLibraryId": group_id,  # ensure ID present when possible
+            "actionLibraryId": group_id,
             "sets": sets,
             "set_count": len(sets),
             "total_volume": round(total_volume, 3),
@@ -690,7 +828,6 @@ def normalize_as_ctt(data_obj: Any, id_to_name: Dict[str, str], name_to_id: Dict
             w = float(set_weights[i] or 0.0)
             vol = float(reps) * w
 
-            # CSV-based: no true rep-by-rep weights; repeat set weight.
             reps_detail = [{"rep_index": j + 1, "weight": round(w, 3), "left_weight": None, "right_weight": None} for j in range(reps)]
 
             sets.append(
@@ -806,6 +943,7 @@ def run_training_sync(c: SpeedianceClient) -> None:
     ensure_dir(DATA_DIR)
     ensure_dir(COMPACT_DIR)
 
+    # Build lookup + dumps every run if LIBRARY_REFRESH_HOURS=0
     id_to_name, name_to_id = load_or_refresh_library_maps(c)
 
     records_obj = c.get_training_records(start_date, end_date)

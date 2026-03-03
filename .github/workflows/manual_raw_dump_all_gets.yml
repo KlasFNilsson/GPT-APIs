@@ -1,0 +1,84 @@
+name: Manual Speediance Raw Dump (All GETs)
+
+on:
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "How many days back for training_records/training_stats"
+        required: true
+        default: "365"
+      max_details:
+        description: "How many trainings to dump details for"
+        required: true
+        default: "200"
+      throttle:
+        description: "Seconds to sleep between API calls"
+        required: true
+        default: "1.2"
+      sample_exercises:
+        description: "How many exercise IDs to sample for exercise_detail/user_action_stats"
+        required: true
+        default: "200"
+      sample_courses:
+        description: "How many course IDs to sample for course_detail"
+        required: true
+        default: "200"
+      sample_programs:
+        description: "How many program IDs to sample for program_detail"
+        required: true
+        default: "200"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: speediance-raw-dump-all-gets
+  cancel-in-progress: false
+
+jobs:
+  raw_dump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run raw dump (ALL GETs)
+        env:
+          SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
+          SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
+          SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
+          SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
+          SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
+        run: |
+          python dump_speediance_raw_all_gets.py \
+            --out data/raw_dump_all \
+            --days "${{ inputs.days }}" \
+            --max-details "${{ inputs.max_details }}" \
+            --throttle "${{ inputs.throttle }}" \
+            --sample-exercises "${{ inputs.sample_exercises }}" \
+            --sample-courses "${{ inputs.sample_courses }}" \
+            --sample-programs "${{ inputs.sample_programs }}"
+
+      - name: Debug tree (safe)
+        run: |
+          echo "=== TREE data/raw_dump_all ==="
+          ls -R data/raw_dump_all || true
+          echo "=== HEAD index.json ==="
+          test -f data/raw_dump_all/index.json && head -n 80 data/raw_dump_all/index.json || echo "missing index.json"
+
+      - name: Commit raw files
+        run: |
+          git config user.name "speediance-raw-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw_dump_all || true
+          git diff --cached --quiet || git commit -m "manual raw dump: all GETs"
+          git push

@@ -2,8 +2,10 @@ name: Speediance Flat Export
 
 on:
   workflow_dispatch:
+  repository_dispatch:
+    types: [speediance_flat]
   schedule:
-    - cron: "15 2 * * *"   # varje dag 02:15 UTC (justera vid behov)
+    - cron: "15 2 * * *"
 
 permissions:
   contents: write
@@ -13,7 +15,6 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -36,7 +37,7 @@ jobs:
           SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
           SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
-          TRAINING_DAYS: 365
+          TRAINING_DAYS: ${{ github.event.client_payload.training_days || 365 }}
         run: |
           python sync_speediance_flat_only.py
 
@@ -44,17 +45,23 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/training_flat.json
-          git commit -m "Update training_flat.json" || echo "No changes"
+          git add data/training_flat.json data/training_flat.csv
+          git commit -m "Update training flat export" || echo "No changes"
           git push
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
-      - name: Upload artifact
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./data
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+    steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4

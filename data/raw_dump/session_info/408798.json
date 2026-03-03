@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:12.506008+00:00",
+    "training_id": "408798",
+    "record_id": "2764626",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 408798,
+    "type": 2,
+    "startTimestamp": 1727447265,
+    "endTimestamp": 1727447487,
+    "name": "Outdoor HIIT Rowing Workout",
+    "courseId": 894,
+    "permission": 0,
+    "completionRate": 13.0,
+    "trainingTime": 206,
+    "calorie": 32,
+    "totalEnergy": 6526.98,
+    "totalDistance": 214.64,
+    "trainingCount": 2,
+    "courseMode": 3,
+    "uuid": "a9c93580-7cdc-11ef-9119-c990ed9919a7",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": true,
+    "code": "65c08100e4b0ee2546cd9d1e",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 2,
+    "trainingDataShareVO": {}
+  }
+}

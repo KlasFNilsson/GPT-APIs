@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:04.324009+00:00",
+    "training_id": "430008",
+    "record_id": "2885410",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 430008,
+    "type": 2,
+    "startTimestamp": 1728751612,
+    "endTimestamp": 1728752025,
+    "name": "Superset Arms Day",
+    "courseId": 1765,
+    "permission": 0,
+    "completionRate": 15.38,
+    "trainingTime": 404,
+    "totalCapacity": 0,
+    "calorie": 47,
+    "totalEnergy": 0.0,
+    "trainingCount": 225,
+    "courseMode": 1,
+    "uuid": "952bfcf0-88b9-11ef-bf37-014286f0d172",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "63438107e4b026c9b1998113",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": []
+    }
+  }
+}

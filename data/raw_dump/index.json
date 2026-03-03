@@ -1,0 +1,380 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:19:29.671772+00:00",
+    "max_details": 100,
+    "throttle_seconds": 1.2,
+    "count_records_seen": 26,
+    "count_details_attempted": 26,
+    "count_details_written": 52,
+    "count_session_written": 26,
+    "count_skipped_existing": 0,
+    "count_empty_both": 3
+  },
+  "items": [
+    {
+      "training_id": "843518",
+      "record_id": "2913925",
+      "type": 2,
+      "paths": {
+        "course": "./details/843518.course.json",
+        "ctt": "./details/843518.ctt.json",
+        "session_info": "./session_info/843518.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "435255",
+      "record_id": "2913880",
+      "type": 5,
+      "paths": {
+        "course": "./details/435255.course.json",
+        "ctt": "./details/435255.ctt.json",
+        "session_info": "./session_info/435255.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "840820",
+      "record_id": "2904289",
+      "type": 2,
+      "paths": {
+        "course": "./details/840820.course.json",
+        "ctt": "./details/840820.ctt.json",
+        "session_info": "./session_info/840820.json"
+      },
+      "nonempty": {
+        "course": false,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "432183",
+      "record_id": "2897061",
+      "type": 5,
+      "paths": {
+        "course": "./details/432183.course.json",
+        "ctt": "./details/432183.ctt.json",
+        "session_info": "./session_info/432183.json"
+      },
+      "nonempty": {
+        "course": false,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "838278",
+      "record_id": "2894216",
+      "type": 2,
+      "paths": {
+        "course": "./details/838278.course.json",
+        "ctt": "./details/838278.ctt.json",
+        "session_info": "./session_info/838278.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "430008",
+      "record_id": "2885410",
+      "type": 5,
+      "paths": {
+        "course": "./details/430008.course.json",
+        "ctt": "./details/430008.ctt.json",
+        "session_info": "./session_info/430008.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "428202",
+      "record_id": "2875250",
+      "type": 5,
+      "paths": {
+        "course": "./details/428202.course.json",
+        "ctt": "./details/428202.ctt.json",
+        "session_info": "./session_info/428202.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "427071",
+      "record_id": "2868455",
+      "type": 5,
+      "paths": {
+        "course": "./details/427071.course.json",
+        "ctt": "./details/427071.ctt.json",
+        "session_info": "./session_info/427071.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "825093",
+      "record_id": "2845990",
+      "type": 2,
+      "paths": {
+        "course": "./details/825093.course.json",
+        "ctt": "./details/825093.ctt.json",
+        "session_info": "./session_info/825093.json"
+      },
+      "nonempty": {
+        "course": false,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "423017",
+      "record_id": "2845923",
+      "type": 5,
+      "paths": {
+        "course": "./details/423017.course.json",
+        "ctt": "./details/423017.ctt.json",
+        "session_info": "./session_info/423017.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "822606",
+      "record_id": "2836785",
+      "type": 2,
+      "paths": {
+        "course": "./details/822606.course.json",
+        "ctt": "./details/822606.ctt.json",
+        "session_info": "./session_info/822606.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "419235",
+      "record_id": "2824052",
+      "type": 5,
+      "paths": {
+        "course": "./details/419235.course.json",
+        "ctt": "./details/419235.ctt.json",
+        "session_info": "./session_info/419235.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "416004",
+      "record_id": "2806419",
+      "type": 5,
+      "paths": {
+        "course": "./details/416004.course.json",
+        "ctt": "./details/416004.ctt.json",
+        "session_info": "./session_info/416004.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "415038",
+      "record_id": "2801093",
+      "type": 5,
+      "paths": {
+        "course": "./details/415038.course.json",
+        "ctt": "./details/415038.ctt.json",
+        "session_info": "./session_info/415038.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "412033",
+      "record_id": "2783066",
+      "type": 5,
+      "paths": {
+        "course": "./details/412033.course.json",
+        "ctt": "./details/412033.ctt.json",
+        "session_info": "./session_info/412033.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "805052",
+      "record_id": "2772205",
+      "type": 2,
+      "paths": {
+        "course": "./details/805052.course.json",
+        "ctt": "./details/805052.ctt.json",
+        "session_info": "./session_info/805052.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "408798",
+      "record_id": "2764626",
+      "type": 5,
+      "paths": {
+        "course": "./details/408798.course.json",
+        "ctt": "./details/408798.ctt.json",
+        "session_info": "./session_info/408798.json"
+      },
+      "nonempty": {
+        "course": false,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "405016",
+      "record_id": "2741576",
+      "type": 5,
+      "paths": {
+        "course": "./details/405016.course.json",
+        "ctt": "./details/405016.ctt.json",
+        "session_info": "./session_info/405016.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "791630",
+      "record_id": "2723790",
+      "type": 2,
+      "paths": {
+        "course": "./details/791630.course.json",
+        "ctt": "./details/791630.ctt.json",
+        "session_info": "./session_info/791630.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "401434",
+      "record_id": "2721228",
+      "type": 5,
+      "paths": {
+        "course": "./details/401434.course.json",
+        "ctt": "./details/401434.ctt.json",
+        "session_info": "./session_info/401434.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "397307",
+      "record_id": "2696091",
+      "type": 5,
+      "paths": {
+        "course": "./details/397307.course.json",
+        "ctt": "./details/397307.ctt.json",
+        "session_info": "./session_info/397307.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "764222",
+      "record_id": "2627552",
+      "type": 2,
+      "paths": {
+        "course": "./details/764222.course.json",
+        "ctt": "./details/764222.ctt.json",
+        "session_info": "./session_info/764222.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "383699",
+      "record_id": "2617752",
+      "type": 5,
+      "paths": {
+        "course": "./details/383699.course.json",
+        "ctt": "./details/383699.ctt.json",
+        "session_info": "./session_info/383699.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    },
+    {
+      "training_id": "753963",
+      "record_id": "2592198",
+      "type": 2,
+      "paths": {
+        "course": "./details/753963.course.json",
+        "ctt": "./details/753963.ctt.json",
+        "session_info": "./session_info/753963.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "753844",
+      "record_id": "2591840",
+      "type": 2,
+      "paths": {
+        "course": "./details/753844.course.json",
+        "ctt": "./details/753844.ctt.json",
+        "session_info": "./session_info/753844.json"
+      },
+      "nonempty": {
+        "course": false,
+        "ctt": false
+      }
+    },
+    {
+      "training_id": "378515",
+      "record_id": "2587403",
+      "type": 5,
+      "paths": {
+        "course": "./details/378515.course.json",
+        "ctt": "./details/378515.ctt.json",
+        "session_info": "./session_info/378515.json"
+      },
+      "nonempty": {
+        "course": true,
+        "ctt": true
+      }
+    }
+  ],
+  "errors": {}
+}

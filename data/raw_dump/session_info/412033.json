@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:00.684038+00:00",
+    "training_id": "412033",
+    "record_id": "2783066",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 412033,
+    "type": 2,
+    "startTimestamp": 1727660804,
+    "endTimestamp": 1727663288,
+    "name": "Epic Shoulders",
+    "courseId": 1912,
+    "permission": 0,
+    "completionRate": 95.45,
+    "trainingTime": 2445,
+    "totalCapacity": 3128.9,
+    "calorie": 401,
+    "totalEnergy": 14764.88,
+    "trainingCount": 1,
+    "courseMode": 2,
+    "uuid": "d8bfd220-7ecd-11ef-9834-1909e2a797df",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "661742d5e4b056a606cdbe79",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 12,
+          "partCapacity": 3128.9
+        }
+      ]
+    }
+  }
+}

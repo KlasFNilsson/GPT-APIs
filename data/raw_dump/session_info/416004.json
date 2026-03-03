@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:47.653073+00:00",
+    "training_id": "416004",
+    "record_id": "2806419",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 416004,
+    "type": 2,
+    "startTimestamp": 1727890673,
+    "endTimestamp": 1727890773,
+    "name": "Interval Rowing Class",
+    "courseId": 1674,
+    "permission": 0,
+    "completionRate": 1.75,
+    "trainingTime": 93,
+    "calorie": 12,
+    "totalEnergy": 3387.02,
+    "totalDistance": 100.32,
+    "trainingCount": 3,
+    "courseMode": 1,
+    "uuid": "0d84ae40-80e5-11ef-a3f5-956b81e5e2f3",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": true,
+    "code": "64f54a6de4b0b982d129aa38",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 2,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": []
+    }
+  }
+}

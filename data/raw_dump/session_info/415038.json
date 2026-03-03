@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:54.058168+00:00",
+    "training_id": "415038",
+    "record_id": "2801093",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 415038,
+    "type": 2,
+    "startTimestamp": 1727828755,
+    "endTimestamp": 1727830337,
+    "name": "Raj's 84-Day Ultimate Transformation: Classic Chest & Triceps ",
+    "courseId": 1630,
+    "permission": 0,
+    "completionRate": 56.52,
+    "trainingTime": 1523,
+    "totalCapacity": 2669.5,
+    "calorie": 246,
+    "totalEnergy": 15246.29,
+    "trainingCount": 2,
+    "courseMode": 1,
+    "uuid": "e3809e00-8054-11ef-ae04-0b39c02c44fc",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "662b1fdae4b0722941ded721",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 16,
+          "partCapacity": 1168.6
+        },
+        {
+          "trainingPartId2": 11,
+          "partCapacity": 1500.9
+        }
+      ]
+    }
+  }
+}

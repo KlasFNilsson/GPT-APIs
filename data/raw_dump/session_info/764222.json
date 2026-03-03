@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:43.789331+00:00",
+    "training_id": "764222",
+    "record_id": "2627552",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 764222,
+    "type": 2,
+    "startTimestamp": 1768123114,
+    "endTimestamp": 1768128177,
+    "name": "Chest, Shoulders, Arms Push-Pull Training",
+    "courseId": 2586,
+    "permission": 0,
+    "completionRate": 98.82,
+    "trainingTime": 4972,
+    "totalCapacity": 6125.0,
+    "calorie": 353,
+    "totalEnergy": 32811.71,
+    "trainingCount": 1,
+    "courseMode": 2,
+    "uuid": "80d0da10-eece-11f0-b2a5-a543f9db7d28",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "64feb2d2e4b091a68c1043d5",
+    "deviceType": 1,
+    "relationUuid": "4b02a0b0-eeda-11f0-b2a5-a543f9db7d28",
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 3,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 16,
+          "partCapacity": 2019.5
+        },
+        {
+          "trainingPartId2": 11,
+          "partCapacity": 2919.5
+        },
+        {
+          "trainingPartId2": 12,
+          "partCapacity": 1186.0
+        }
+      ]
+    }
+  }
+}

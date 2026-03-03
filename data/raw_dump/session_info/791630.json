@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:25.139846+00:00",
+    "training_id": "791630",
+    "record_id": "2723790",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 791630,
+    "type": 2,
+    "startTimestamp": 1769490944,
+    "endTimestamp": 1769492826,
+    "name": "Ambitious Arms 1",
+    "courseId": 2696,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 1824,
+    "totalCapacity": 3214.0,
+    "calorie": 185,
+    "totalEnergy": 18628.21,
+    "trainingCount": 1,
+    "courseMode": 1,
+    "uuid": "3b6ebd70-fb3f-11f0-b2a5-a543f9db7d28",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "63b54929e4b0377052506aa3",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 3,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 16,
+          "partCapacity": 3214.0
+        }
+      ]
+    }
+  }
+}

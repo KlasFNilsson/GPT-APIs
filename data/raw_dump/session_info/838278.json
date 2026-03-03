@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:19:58.064068+00:00",
+    "training_id": "838278",
+    "record_id": "2894216",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 838278,
+    "type": 2,
+    "startTimestamp": 1772036218,
+    "endTimestamp": 1772038245,
+    "name": "Aaron’s Biceps Day Workout",
+    "courseId": 1905,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 1934,
+    "totalCapacity": 3106.0,
+    "calorie": 206,
+    "totalEnergy": 18971.09,
+    "trainingCount": 1,
+    "courseMode": 1,
+    "uuid": "688e0210-1265-11f1-a199-6719e98bad4d",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "66ea7ae9e4b08dd33a59938d",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "medalList": [
+      {
+        "id": 253,
+        "name": "February Challenge",
+        "img": "https://d1rwzqjevxdih5.cloudfront.net/1767865028830.png",
+        "grayImg": "https://d1rwzqjevxdih5.cloudfront.net/1767865032340.png",
+        "sort": 0,
+        "targetVal": 12.0,
+        "remark": "Complete 12 days of training in this month!",
+        "groupId": 6,
+        "groupType": 2,
+        "year": 2026,
+        "month": 2
+      }
+    ],
+    "rpe": 5,
+    "dataVersion": 3,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 16,
+          "partCapacity": 3106.0
+        }
+      ]
+    }
+  }
+}

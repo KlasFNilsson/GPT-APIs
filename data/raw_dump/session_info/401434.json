@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:31.349422+00:00",
+    "training_id": "401434",
+    "record_id": "2721228",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 401434,
+    "type": 2,
+    "startTimestamp": 1727009612,
+    "endTimestamp": 1727009830,
+    "name": "Mark and Eric's Leg Workout Day",
+    "courseId": 1636,
+    "permission": 0,
+    "trainingTime": 208,
+    "totalCapacity": 0,
+    "calorie": 28,
+    "totalEnergy": 0.0,
+    "trainingCount": 1,
+    "courseMode": 1,
+    "uuid": "abff1350-78e1-11ef-9318-41935f0d6cc5",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "668f9efce4b01dfecef4d4aa",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 1,
+    "trainingDataShareVO": {}
+  }
+}

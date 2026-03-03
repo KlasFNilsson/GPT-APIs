@@ -1,0 +1,290 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:17.039262+00:00",
+    "training_id": "427071",
+    "record_id": "2868455",
+    "record_type": 5,
+    "kind": "course"
+  },
+  "data": [
+    {
+      "actionLibraryGroupId": 525,
+      "actionLibraryName": "Single-Arm Circles",
+      "completionScore": 5,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 12,
+      "categoryId": 3,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 6438658,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 3090174,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 351,
+            "groupTrainingInfoId": 6438658,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386517
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 519,
+      "actionLibraryName": "Downward-Facing Dog Push-Up",
+      "completionScore": 2,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 11,
+      "categoryId": 3,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 6438659,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 3090175,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 311,
+            "groupTrainingInfoId": 6438659,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386518
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 134,
+      "actionLibraryName": "Punch With Speed",
+      "completionScore": 4,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 16,
+      "categoryId": 8,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 6438660,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 3090176,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 294,
+            "groupTrainingInfoId": 6438660,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386519
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 6438662,
+          "finishedCount": 0,
+          "targetCount": 20,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 20,
+          "trainingInfoDetail": {
+            "id": 3090178,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 294,
+            "groupTrainingInfoId": 6438662,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386521
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 143,
+      "actionLibraryName": "Continuous Half Squat with Leg Abductions",
+      "completionScore": 4,
+      "totalCapacity": 0,
+      "totalCapacityPr": 0,
+      "maxWeightPr": 0,
+      "trainingPartId2": 15,
+      "categoryId": 8,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "id": 6438661,
+          "finishedCount": 0,
+          "targetCount": 30,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 30,
+          "trainingInfoDetail": {
+            "id": 3090177,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 296,
+            "groupTrainingInfoId": 6438661,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386520
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "id": 6438663,
+          "finishedCount": 0,
+          "targetCount": 20,
+          "capacity": 0,
+          "maxHeartRate": 0.0,
+          "distance": 0.0,
+          "pace": 0.0,
+          "spm": 0,
+          "time": 20,
+          "trainingInfoDetail": {
+            "id": 3090179,
+            "uuid": "7b6fea20-86fb-11ef-b0db-376d554d6b2f",
+            "actionLibraryId": 296,
+            "groupTrainingInfoId": 6438663,
+            "courseTrainingInfoId": 427071,
+            "courseActionLibraryTrainingInfoId": 3386522
+          },
+          "leftCount": 0,
+          "rightCount": 0,
+          "selectCompletionMethod": 0,
+          "leftRight": 0
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 0
+        }
+      ],
+      "isShotEnd": 0,
+      "isFirst": 1,
+      "countType": 2,
+      "isCustom": 0,
+      "oneRepMaxPr": 0,
+      "completionMethod": 0,
+      "isLeftRight": 0,
+      "plate": "0"
+    },
+    {
+      "actionLibraryGroupId": 372246883991553,
+      "actionLibraryName": "Shoulder Stretch",
+      "trainingPartId2": 12,
+      "categoryId": 5,
+      "isBarbell": 0,
+      "finishedReps": [
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 1
+        },
+        {
+          "distance": 0,
+          "pace": 0,
+          "spm": 0,
+          "time": 0,
+          "leftRight": 2
+        }
+      ],
+      "isShotEnd": 0,
+      "countType": 2,
+      "isCustom": 0,
+      "completionMethod": 0,
+      "isLeftRight": 1,
+      "plate": "0"
+    }
+  ]
+}

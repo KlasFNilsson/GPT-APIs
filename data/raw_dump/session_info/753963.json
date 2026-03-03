@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:56.491279+00:00",
+    "training_id": "753963",
+    "record_id": "2592198",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 753963,
+    "type": 2,
+    "startTimestamp": 1767527074,
+    "endTimestamp": 1767530407,
+    "name": "Power Upper Chest Delts Triceps Advanced",
+    "courseId": 2149,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 3285,
+    "totalCapacity": 4208.5,
+    "calorie": 228,
+    "totalEnergy": 22705.54,
+    "trainingCount": 1,
+    "courseMode": 2,
+    "uuid": "bdb9e9b0-e962-11f0-b2a5-a543f9db7d28",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "6811f0f0e4b04a3828628edf",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "rpe": 5,
+    "dataVersion": 3,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 16,
+          "partCapacity": 1025.0
+        },
+        {
+          "trainingPartId2": 11,
+          "partCapacity": 1958.5
+        },
+        {
+          "trainingPartId2": 12,
+          "partCapacity": 1225.0
+        }
+      ]
+    }
+  }
+}

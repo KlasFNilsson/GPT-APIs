@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:22.676445+00:00",
+    "training_id": "825093",
+    "record_id": "2845990",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 825093,
+    "type": 2,
+    "startTimestamp": 1771308516,
+    "endTimestamp": 1771309651,
+    "name": "Oksana & Carrot's Yoga Workout: Spinal Health",
+    "courseId": 1543,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 1134,
+    "calorie": 82,
+    "trainingCount": 1,
+    "courseMode": 2,
+    "uuid": "187f4f30-0bc7-11f1-acac-99e8ca18d2ed",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "66b0527fe4b085b6aaba84f2",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "rpe": 1,
+    "dataVersion": 3,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": []
+    }
+  }
+}

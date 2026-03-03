@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:19:34.253500+00:00",
+    "training_id": "843518",
+    "record_id": "2913925",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 843518,
+    "type": 2,
+    "startTimestamp": 1772362895,
+    "endTimestamp": 1772363146,
+    "name": "Core Basics",
+    "courseId": 2834,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 247,
+    "totalCapacity": 0,
+    "calorie": 18,
+    "totalEnergy": 0.0,
+    "trainingCount": 1,
+    "courseMode": 1,
+    "uuid": "037e1620-155e-11f1-a3f5-bbed6637c2c7",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "69902a75e4b0895a1471483b",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 3,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": []
+    }
+  }
+}

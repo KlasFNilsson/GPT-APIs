@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:34.929991+00:00",
+    "training_id": "822606",
+    "record_id": "2836785",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 822606,
+    "type": 2,
+    "startTimestamp": 1771163788,
+    "endTimestamp": 1771165716,
+    "name": "Epic Chest 2",
+    "courseId": 2691,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 1877,
+    "totalCapacity": 2884.0,
+    "calorie": 149,
+    "totalEnergy": 14611.47,
+    "trainingCount": 1,
+    "courseMode": 1,
+    "uuid": "20031e50-0a76-11f1-bd0b-05329c46e031",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": false,
+    "code": "63aa6d71e4b0377050ab6d22",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "rpe": 8,
+    "dataVersion": 3,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 11,
+          "partCapacity": 2744.0
+        },
+        {
+          "trainingPartId2": 12,
+          "partCapacity": 140.0
+        }
+      ]
+    }
+  }
+}

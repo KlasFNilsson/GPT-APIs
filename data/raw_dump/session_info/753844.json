@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:22:01.883338+00:00",
+    "training_id": "753844",
+    "record_id": "2591840",
+    "record_type": 2,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 753844,
+    "type": 2,
+    "startTimestamp": 1767525246,
+    "endTimestamp": 1767527017,
+    "name": "The Burn Lane：V.R. Row",
+    "courseId": 2449,
+    "permission": 0,
+    "completionRate": 100.0,
+    "trainingTime": 1765,
+    "calorie": 227,
+    "totalEnergy": 204296.54,
+    "totalDistance": 3679.67,
+    "trainingCount": 2,
+    "courseMode": 3,
+    "uuid": "7beb6f30-e95e-11f0-b2a5-a543f9db7d28",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": true,
+    "code": "6802059be4b0cd8d3eb3517f",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "medalList": [
+      {
+        "id": 48,
+        "img": "https://d1rwzqjevxdih5.cloudfront.net/1721284190301.png",
+        "grayImg": "https://d1rwzqjevxdih5.cloudfront.net/1721284193637.png",
+        "sort": 0,
+        "targetVal": 10.0,
+        "groupId": 4,
+        "dataType": 5,
+        "groupType": 1
+      }
+    ],
+    "dataVersion": 3,
+    "goalType": 2,
+    "trainingDataShareVO": {}
+  }
+}

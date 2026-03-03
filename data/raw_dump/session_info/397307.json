@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:21:37.513512+00:00",
+    "training_id": "397307",
+    "record_id": "2696091",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 397307,
+    "type": 2,
+    "startTimestamp": 1726687791,
+    "endTimestamp": 1726688037,
+    "name": "Blast Fit: Upper Body",
+    "courseId": 1714,
+    "permission": 0,
+    "trainingTime": 246,
+    "totalCapacity": 0,
+    "calorie": 33,
+    "totalEnergy": 0.0,
+    "trainingCount": 5,
+    "courseMode": 1,
+    "uuid": "5de2f640-75f4-11ef-8bd5-a97ab0494328",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "63e99db7e4b0dd2e0c8a3847",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "trainingDataShareVO": {}
+  }
+}

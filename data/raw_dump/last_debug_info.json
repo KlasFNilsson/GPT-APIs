@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:22:09.609800+00:00"
+  },
+  "data": {
+    "timestamp": "2026-03-03 05:22:08",
+    "method": "GET",
+    "url": "https://euapi.speediance.com/api/app/trainingInfo/courseTrainingInfo/378515",
+    "status": 200,
+    "request_headers": {
+      "User-Agent": "Dart/3.9 (dart:io)",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Host": "euapi.speediance.com",
+      "App_user_id": "437440282165249",
+      "Token": "15e985432a0478e2eb0a131eef762bdd",
+      "Timestamp": "1772515327571",
+      "Versioncode": "40304",
+      "Mobiledevices": "{\"brand\":\"google\",\"device\":\"emulator64_x86_64_arm64\",\"deviceType\":\"sdk_gphone64_x86_64\",\"os\":\"\",\"os_version\":\"31\",\"manufacturer\":\"Google\"}",
+      "Content-Type": "application/json"
+    },
+    "request_body": null,
+    "response_body": {
+      "code": 0,
+      "message": "Success",
+      "data": {
+        "id": 378515,
+        "type": 2,
+        "startTimestamp": 1725497275,
+        "endTimestamp": 1725498606,
+        "name": "Epic Chest 1",
+        "courseId": 1324,
+        "permission": 0,
+        "completionRate": 77.65,
+        "trainingTime": 1267,
+        "totalCapacity": 1670.0,
+        "calorie": 168,
+        "totalEnergy": 9312.92,
+        "trainingCount": 1,
+        "courseMode": 1,
+        "uuid": "7cb16220-6b20-11ef-b233-0dd34caa8a1c",
+        "watchType": 0,
+        "showHeartGraph": 0,
+        "existBoatingSkiDataGraph": false,
+        "code": "63aa66aee4b0377050aaacdf",
+        "deviceType": 1,
+        "username": "Klas",
+        "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+        "weightConfig": 1,
+        "medalList": [
+          {
+            "id": 1,
+            "img": "https://d1rwzqjevxdih5.cloudfront.net/1721276953255.png",
+            "grayImg": "https://d1rwzqjevxdih5.cloudfront.net/1721276955241.png",
+            "sort": 1,
+            "targetVal": 1.0,
+            "groupId": 7,
+            "dataType": 7,
+            "groupType": 1
+          }
+        ],
+        "dataVersion": 2,
+        "goalType": 1,
+        "trainingDataShareVO": {
+          "trainingPartInfoList": [
+            {
+              "trainingPartId2": 11,
+              "partCapacity": 1670.0
+            }
+          ]
+        }
+      },
+      "timestamp": 1772515328,
+      "traceId": "025747e53799a0f8"
+    }
+  }
+}

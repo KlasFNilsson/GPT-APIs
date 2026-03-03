@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T05:20:28.841410+00:00",
+    "training_id": "423017",
+    "record_id": "2845923",
+    "record_type": 5,
+    "kind": "session_info"
+  },
+  "data": {
+    "id": 423017,
+    "type": 2,
+    "startTimestamp": 1728338886,
+    "endTimestamp": 1728341287,
+    "name": "Unstoppable Upper Body Strength: Front ",
+    "courseId": 1822,
+    "permission": 0,
+    "completionRate": 36.0,
+    "trainingTime": 2401,
+    "totalCapacity": 4333.2,
+    "calorie": 395,
+    "totalEnergy": 18832.88,
+    "trainingCount": 2,
+    "courseMode": 2,
+    "uuid": "92ca6bf0-84f8-11ef-bc75-5b3c1bfcdaba",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": false,
+    "code": "66271866e4b056a606e4fb09",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 1,
+    "trainingDataShareVO": {
+      "trainingPartInfoList": [
+        {
+          "trainingPartId2": 11,
+          "partCapacity": 4333.2
+        }
+      ]
+    }
+  }
+}

@@ -7,9 +7,11 @@
 #
 # Output columns:
 #   WORKOUT NAME, DATE,
-#   EXERCISE NAME, SETS, TOTAL REPS,
+#   EXERCISE NAME, SETS, TOTAL REPS, SECONDS,
+#   PER SIDE (Yes/No),
 #   AVG WEIGHT/REP, MAX WEIGHT/REP, TOTAL WEIGHT,
-#   1RM (estimated + best-effort found)
+#   1RM (best-effort found),
+#   training_id, record_id, error
 #
 # Required env (GitHub Actions secrets):
 #   SPEEDIANCE_REGION
@@ -74,12 +76,6 @@ def _parse_date_isoish(s: Optional[str]) -> Optional[str]:
     return txt
 
 
-def epley_1rm(weight: float, reps: int) -> float:
-    if reps <= 0 or weight <= 0:
-        return 0.0
-    return float(weight) * (1.0 + (float(reps) / 30.0))
-
-
 def find_possible_1rm_value(obj: Any) -> Optional[float]:
     """
     Best-effort: look for numeric fields in the raw payload that look like 1RM/one-rep-max.
@@ -88,7 +84,7 @@ def find_possible_1rm_value(obj: Any) -> Optional[float]:
     if isinstance(obj, dict):
         for k, v in obj.items():
             k2 = str(k).lower()
-            if any(tok in k2 for tok in ("1rm", "one_rm", "onerepmax", "one_rep_max", "oneRepMax".lower(), "rm1")):
+            if any(tok in k2 for tok in ("1rm", "one_rm", "onerepmax", "one_rep_max", "onerepmax", "rm1")):
                 fv = _safe_float(v, 0.0)
                 if fv > 0:
                     return fv
@@ -104,24 +100,66 @@ def find_possible_1rm_value(obj: Any) -> Optional[float]:
     return None
 
 
-def aggregate_exercise(ex: Dict[str, Any]) -> Dict[str, Any]:
+_PER_SIDE_NAME_PATTERNS = (
+    "per side",
+    "each side",
+    "each leg",
+    "each arm",
+    "per arm",
+    "/side",
+    "single arm",
+    "single-arm",
+    "single leg",
+    "single-leg",
+    "one arm",
+    "one-arm",
+    "one leg",
+    "one-leg",
+    "unilateral",
+)
+
+
+def is_per_side_exercise(ex: Dict[str, Any]) -> bool:
+    """Heuristic: flag unilateral movements based on naming/notes."""
+    name = str(ex.get("name") or "").lower()
+    if any(pat in name for pat in _PER_SIDE_NAME_PATTERNS):
+        return True
+
+    # Optional: sometimes notes exist on the exercise or inside sets
+    note = str(ex.get("note") or ex.get("comment") or "").lower()
+    if note and any(pat in note for pat in ("per side", "per arm", "each side", "each arm", "each leg")):
+        return True
+
+    sets_list = ex.get("sets") if isinstance(ex.get("sets"), list) else []
+    for s in sets_list:
+        if not isinstance(s, dict):
+            continue
+        s_note = str(s.get("note") or s.get("comment") or s.get("remark") or "").lower()
+        if s_note and any(pat in s_note for pat in ("per side", "per arm", "each side", "each arm", "each leg")):
+            return True
+
+    return False
+
+
+def aggregate_exercise(ex: Dict[str, Any], per_side: bool) -> Dict[str, Any]:
     sets_list = ex.get("sets") if isinstance(ex.get("sets"), list) else []
 
-    sets_count = 0
+    sets_count_raw = 0
     total_reps = 0
+    total_seconds = 0
     total_weight = 0.0
     max_weight_per_rep = 0.0
-
-    best_1rm_est = 0.0
-    best_1rm_set_weight = 0.0
-    best_1rm_set_reps = 0
 
     for s in sets_list:
         if not isinstance(s, dict):
             continue
-        sets_count += 1
+        sets_count_raw += 1
+
         reps = _safe_int(s.get("reps"), 0)
         total_reps += reps
+
+        secs = _safe_int(s.get("time"), 0)
+        total_seconds += secs
 
         reps_detail = s.get("reps_detail")
         if isinstance(reps_detail, list) and reps_detail:
@@ -136,24 +174,23 @@ def aggregate_exercise(ex: Dict[str, Any]) -> Dict[str, Any]:
             if w_set > max_weight_per_rep:
                 max_weight_per_rep = w_set
 
-        w_for_1rm = _safe_float(s.get("weight"), 0.0)
-        est = epley_1rm(w_for_1rm, reps)
-        if est > best_1rm_est:
-            best_1rm_est = est
-            best_1rm_set_weight = w_for_1rm
-            best_1rm_set_reps = reps
+    # For unilateral exercises, Speediance often logs both sides as separate sets.
+    # We halve set count, but do NOT change weight/reps aggregation (so avg weight stays correct).
+    sets_count_out: Any = sets_count_raw
+    if per_side and sets_count_raw > 0:
+        sets_count_out = sets_count_raw / 2.0
+        if float(sets_count_out).is_integer():
+            sets_count_out = int(sets_count_out)
 
     avg_weight_per_rep = (total_weight / total_reps) if total_reps > 0 else 0.0
 
     return {
-        "sets": sets_count,
+        "sets": sets_count_out,
         "total_reps": total_reps,
+        "seconds": total_seconds,
         "avg_weight_per_rep": round(avg_weight_per_rep, 3),
         "max_weight_per_rep": round(max_weight_per_rep, 3),
         "total_weight": round(total_weight, 3),
-        "one_rm_estimated": round(best_1rm_est, 3),
-        "one_rm_estimated_from_set_weight": round(best_1rm_set_weight, 3),
-        "one_rm_estimated_from_set_reps": int(best_1rm_set_reps),
     }
 
 
@@ -237,13 +274,14 @@ def run() -> None:
                     "training_id": tid,
                     "record_id": rid,
                     "exercise_name": None,
+                    "per_side": None,
                     "sets": None,
                     "total_reps": None,
+                    "seconds": None,
                     "avg_weight_per_rep": None,
                     "max_weight_per_rep": None,
                     "total_weight": None,
                     "one_rm_found": None,
-                    "one_rm_estimated": None,
                     "error": last_err,
                 }
             )
@@ -252,13 +290,15 @@ def run() -> None:
         # normalize exercises from payload
         exercises, _normalized_as = ss.normalize_best(payload, id_to_name, name_to_id, c)
 
-        # best-effort 1RM from raw payload (rare; optional)
-        one_rm_found = find_possible_1rm_value(payload)
-
         for ex in exercises:
             if not isinstance(ex, dict):
                 continue
-            agg = aggregate_exercise(ex)
+
+            per_side = is_per_side_exercise(ex)
+            agg = aggregate_exercise(ex, per_side=per_side)
+
+            # best-effort 1RM from exercise-level raw object (NOT from whole workout payload)
+            one_rm_found = find_possible_1rm_value(ex)
 
             rows.append(
                 {
@@ -268,16 +308,15 @@ def run() -> None:
                     "record_id": rid,
 
                     "exercise_name": ex.get("name"),
+                    "per_side": "Yes" if per_side else "No",
                     "sets": agg["sets"],
                     "total_reps": agg["total_reps"],
+                    "seconds": agg["seconds"],
                     "avg_weight_per_rep": agg["avg_weight_per_rep"],
                     "max_weight_per_rep": agg["max_weight_per_rep"],
                     "total_weight": agg["total_weight"],
 
                     "one_rm_found": round(float(one_rm_found), 3) if one_rm_found else None,
-                    "one_rm_estimated": agg["one_rm_estimated"],
-                    "one_rm_estimated_from_set_weight": agg["one_rm_estimated_from_set_weight"],
-                    "one_rm_estimated_from_set_reps": agg["one_rm_estimated_from_set_reps"],
 
                     "error": None,
                 }
@@ -293,15 +332,14 @@ def run() -> None:
         "workout_name",
         "date",
         "exercise_name",
+        "per_side",
         "sets",
         "total_reps",
+        "seconds",
         "avg_weight_per_rep",
         "max_weight_per_rep",
         "total_weight",
         "one_rm_found",
-        "one_rm_estimated",
-        "one_rm_estimated_from_set_weight",
-        "one_rm_estimated_from_set_reps",
         "training_id",
         "record_id",
         "error",
@@ -317,7 +355,7 @@ def run() -> None:
 
     # write JSON (Action-friendly)
     out_json = os.path.join("data", "training_flat.json")
-    payload = {
+    payload_out = {
         "meta": {
             "generated_at": datetime.now(timezone.utc).isoformat(),
             "training_days": days,
@@ -329,9 +367,8 @@ def run() -> None:
         "rows": rows,
     }
     with open(out_json, "w", encoding="utf-8") as f:
-        json.dump(payload, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(payload_out, f, ensure_ascii=False, separators=(",", ":"))
     print(f"Wrote JSON -> {out_json}")
-
 
 
 if __name__ == "__main__":

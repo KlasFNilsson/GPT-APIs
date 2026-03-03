@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:15.077449+00:00",
+    "group_id": 451195734982657
+  },
+  "data": {
+    "code": 0,
+    "message": "Success",
+    "page": 1,
+    "pageNum": 12,
+    "total": 4,
+    "data": [
+      {
+        "dayStr": "2025-11-21",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451195734982657
+      },
+      {
+        "dayStr": "2025-11-14",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451195734982657
+      },
+      {
+        "dayStr": "2025-11-07",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451195734982657
+      },
+      {
+        "dayStr": "2025-10-30",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451195734982657
+      }
+    ],
+    "timestamp": 1772518334,
+    "traceId": "8f39cc20905dfcba"
+  }
+}

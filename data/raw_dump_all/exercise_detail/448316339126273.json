@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:12.927663+00:00",
+    "exercise_id": 448316339126273
+  },
+  "data": {
+    "id": 448316339126273,
+    "recommendedWeight": 0,
+    "accessories": "",
+    "isBarbell": 0,
+    "trainingPartId2": 12,
+    "difficultyId": 2,
+    "enableVoice": 0,
+    "countType": 2,
+    "tabId": 8,
+    "deviceType": 1,
+    "isCustom": 1,
+    "jointType": 1,
+    "isUseDevice": 0,
+    "completionMethod": 0,
+    "plate": "0",
+    "dataStatType": 5,
+    "isLeftRight": 0,
+    "isVbt": 0,
+    "img": "https://eu-image.speediance.com/17600746879550.jpg",
+    "appUserId": 437440282165249,
+    "metValue": 4.0,
+    "foldingStoolAngle": "",
+    "title": "Push press",
+    "isMyFavorites": 0,
+    "tabName": "Customized",
+    "auxiliaryMuscleGroupList": [],
+    "actionLibraryList": [
+      {
+        "id": 448316339126274,
+        "img": "https://eu-image.speediance.com/17600746879550.jpg",
+        "status": 0,
+        "isDisplay": 1,
+        "isCustom": 1,
+        "demonstrationImages": "https://eu-image.speediance.com/17600746879550.jpg",
+        "appUserId": 437440282165249,
+        "isViolation": 0,
+        "originDemonstrationImages": "https://eu-image.speediance.com/17600746879550.jpg",
+        "violationReason": "",
+        "deviceType": 1,
+        "isShotEnd": 0,
+        "groupId": 448316339126273
+      }
+    ],
+    "mainMuscleGroupList": [],
+    "mainMuscleGroupId": 66,
+    "mainMuscleGroupName": "Front Delts",
+    "mainMuscleGroupConfigId": "3",
+    "isSingleJoint": 0
+  }
+}

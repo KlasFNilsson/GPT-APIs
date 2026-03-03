@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:16.814131+00:00",
+    "group_id": 445778730942465
+  },
+  "data": {
+    "code": 0,
+    "message": "Success",
+    "page": 1,
+    "pageNum": 12,
+    "total": 3,
+    "data": [
+      {
+        "dayStr": "2026-02-09",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 445778730942465
+      },
+      {
+        "dayStr": "2026-02-03",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 445778730942465
+      },
+      {
+        "dayStr": "2025-10-04",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 445778730942465
+      }
+    ],
+    "timestamp": 1772518336,
+    "traceId": "a5dd97260e90dd81"
+  }
+}

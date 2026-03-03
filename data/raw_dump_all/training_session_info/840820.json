@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:50.942277+00:00",
+    "training_id": "840820"
+  },
+  "data": {
+    "id": 840820,
+    "type": 2,
+    "startTimestamp": 1772192604,
+    "endTimestamp": 1772194449,
+    "name": "30 Minutes HIIT Rowing Workout",
+    "courseId": 1916,
+    "permission": 0,
+    "completionRate": 99.0,
+    "trainingTime": 1799,
+    "calorie": 334,
+    "totalEnergy": 252232.1,
+    "totalDistance": 4574.25,
+    "trainingCount": 2,
+    "courseMode": 3,
+    "uuid": "86597be0-13d1-11f1-a199-6719e98bad4d",
+    "watchType": 1,
+    "showHeartGraph": 1,
+    "existBoatingSkiDataGraph": true,
+    "code": "66f6085ee4b0f2bded5edf46",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "rpe": 8,
+    "dataVersion": 3,
+    "goalType": 2,
+    "trainingDataShareVO": {}
+  }
+}

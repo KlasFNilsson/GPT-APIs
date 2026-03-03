@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:08.137078+00:00",
+    "group_id": 451199291883521
+  },
+  "data": {
+    "code": 0,
+    "message": "Success",
+    "page": 1,
+    "pageNum": 12,
+    "total": 2,
+    "data": [
+      {
+        "dayStr": "2025-11-09",
+        "totalCapacity": 566.0,
+        "maxWeight": 36.0,
+        "minWeight": 35.0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451199291883521
+      },
+      {
+        "dayStr": "2025-11-01",
+        "totalCapacity": 560.0,
+        "maxWeight": 35.0,
+        "minWeight": 35.0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451199291883521
+      }
+    ],
+    "timestamp": 1772518328,
+    "traceId": "3baccab45a60cde2"
+  }
+}

@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:55.084527+00:00",
+    "plan_id": 254
+  },
+  "data": {
+    "id": 254,
+    "name": "Sculpt & Sweat: 4 Weeks to a Fitter You ",
+    "description": "Train 4 times a week. Stick with it for 4 weeks.\n This is your shot to level up—inside and out.\n Push yourself. Surprise yourself. Become your best self.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754558479706.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 734,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3151,
+            "day": 1,
+            "exclusivePlanWeekId": 734,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2147,
+                "code": "6811ec45e4b04a3828628edd",
+                "difficultyId": 2,
+                "courseTitle": "Sculpt Upper Chest Delts Triceps",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500314348.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 54,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3152,
+            "day": 2,
+            "exclusivePlanWeekId": 734,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2588,
+                "code": "6811ee7ae4b04a3828628ede",
+                "difficultyId": 2,
+                "courseTitle": "Back Attack Rear Delts Biceps Hamstrings",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500274332.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 56,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 734
+          },
+          {
+            "id": 3153,
+            "day": 4,
+            "exclusivePlanWeekId": 734,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2170,
+                "code": "6811e743e4b04a3828628edc",
+                "difficultyId": 2,
+                "courseTitle": "Lower Burn Quads Glutes",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500339743.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3154,
+            "day": 5,
+            "exclusivePlanWeekId": 734,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2592,
+                "code": "68109ed2e4b04a3828628ed9",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746502870581.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 734
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 734
+          }
+        ]
+      },
+      {
+        "id": 735,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3155,
+            "day": 1,
+            "exclusivePlanWeekId": 735,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2147,
+                "code": "6811ec45e4b04a3828628edd",
+                "difficultyId": 2,
+                "courseTitle": "Sculpt Upper Chest Delts Triceps",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500314348.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 54,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3156,
+            "day": 2,
+            "exclusivePlanWeekId": 735,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2588,
+                "code": "6811ee7ae4b04a3828628ede",
+                "difficultyId": 2,
+                "courseTitle": "Back Attack Rear Delts Biceps Hamstrings",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500274332.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 56,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 735
+          },
+          {
+            "id": 3157,
+            "day": 4,
+            "exclusivePlanWeekId": 735,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2170,
+                "code": "6811e743e4b04a3828628edc",
+                "difficultyId": 2,
+                "courseTitle": "Lower Burn Quads Glutes",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500339743.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3158,
+            "day": 5,
+            "exclusivePlanWeekId": 735,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2592,
+                "code": "68109ed2e4b04a3828628ed9",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746502870581.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 735
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 735
+          }
+        ]
+      },
+      {
+        "id": 736,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3159,
+            "day": 1,
+            "exclusivePlanWeekId": 736,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2149,
+                "code": "6811f0f0e4b04a3828628edf",
+                "difficultyId": 3,
+                "courseTitle": "Power Upper Chest Delts Triceps Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500234573.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 54,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3160,
+            "day": 2,
+            "exclusivePlanWeekId": 736,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2144,
+                "code": "6811da73e4b04a3828628eda",
+                "difficultyId": 3,
+                "courseTitle": "Backside Boost Rear Delts Biceps Hamstrings Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500393351.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 736
+          },
+          {
+            "id": 3161,
+            "day": 4,
+            "exclusivePlanWeekId": 736,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2145,
+                "code": "6811de5ee4b04a3828628edb",
+                "difficultyId": 3,
+                "courseTitle": "Glute Force Quads Glutes Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500361977.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 51,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3162,
+            "day": 5,
+            "exclusivePlanWeekId": 736,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2592,
+                "code": "68109ed2e4b04a3828628ed9",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746502870581.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 736
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 736
+          }
+        ]
+      },
+      {
+        "id": 737,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3163,
+            "day": 1,
+            "exclusivePlanWeekId": 737,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2149,
+                "code": "6811f0f0e4b04a3828628edf",
+                "difficultyId": 3,
+                "courseTitle": "Power Upper Chest Delts Triceps Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500234573.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 54,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3164,
+            "day": 2,
+            "exclusivePlanWeekId": 737,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2144,
+                "code": "6811da73e4b04a3828628eda",
+                "difficultyId": 3,
+                "courseTitle": "Backside Boost Rear Delts Biceps Hamstrings Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500393351.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 737
+          },
+          {
+            "id": 3165,
+            "day": 4,
+            "exclusivePlanWeekId": 737,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2145,
+                "code": "6811de5ee4b04a3828628edb",
+                "difficultyId": 3,
+                "courseTitle": "Glute Force Quads Glutes Advanced",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746500361977.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 51,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3166,
+            "day": 5,
+            "exclusivePlanWeekId": 737,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2592,
+                "code": "68109ed2e4b04a3828628ed9",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1746502870581.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 737
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 737
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 4,
+    "weekCount": 4,
+    "mainId": 254,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 1,
+    "isUseDevice": 1
+  }
+}

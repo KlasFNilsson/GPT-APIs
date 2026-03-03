@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:13.329878+00:00",
+    "group_id": 451204989845505
+  },
+  "data": {
+    "code": 0,
+    "message": "Success",
+    "page": 1,
+    "pageNum": 12,
+    "total": 7,
+    "data": [
+      {
+        "dayStr": "2025-12-13",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-12-06",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-11-25",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-11-18",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-11-10",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-11-04",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      },
+      {
+        "dayStr": "2025-10-29",
+        "totalCapacity": 0,
+        "score": 0,
+        "isLeftRight": 0,
+        "actionLibraryGroupId": 451204989845505
+      }
+    ],
+    "timestamp": 1772518333,
+    "traceId": "56cbd2af51f2827f"
+  }
+}

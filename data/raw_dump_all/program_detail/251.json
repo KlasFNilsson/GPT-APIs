@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:13:00.402288+00:00",
+    "plan_id": 251
+  },
+  "data": {
+    "id": 251,
+    "name": "Sam's Quick Fit : 30 Min strength and pump",
+    "description": "Looking for a quick pump? This program is short but challenging with high intensity. Don't have time for hr long work out but want to challenge yourself, this will give you strength and pump in less then 30 mins.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754558772124.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 722,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3103,
+            "day": 1,
+            "exclusivePlanWeekId": 722,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2787,
+                "code": "67f493a2e4b0c9a337f7ed7a",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Chest Circuit",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625810922.png",
+                "actionLibraryCount": 24,
+                "durationMinute": 23,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3104,
+            "day": 2,
+            "exclusivePlanWeekId": 722,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2788,
+                "code": "67f49d52e4b0c9a337f7ed7c",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Back Circuit",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625829343.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 18,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3105,
+            "day": 3,
+            "exclusivePlanWeekId": 722,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2789,
+                "code": "67f4bc7ce4b0c9a337f7ed7d",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Arm Circuit",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625843847.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 32,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3106,
+            "day": 4,
+            "exclusivePlanWeekId": 722,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2790,
+                "code": "67f4d069e4b0c9a337f7ed7e",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Shoulder/Legs Circuit",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625859951.png",
+                "actionLibraryCount": 24,
+                "durationMinute": 33,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "exclusivePlanWeekId": 722
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 722
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 722
+          }
+        ]
+      },
+      {
+        "id": 723,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3107,
+            "day": 1,
+            "exclusivePlanWeekId": 723,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2791,
+                "code": "67f4d312e4b0c9a337f7ed7f",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Chest-Shoulders 30x3",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625879779.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 15,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3108,
+            "day": 2,
+            "exclusivePlanWeekId": 723,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2792,
+                "code": "67f4d607e4b0c9a337f7ed80",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Biceps-Triceps 30x3",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625902451.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 15,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3109,
+            "day": 3,
+            "exclusivePlanWeekId": 723,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2803,
+                "code": "67f4d83fe4b0c9a337f7ed81",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Back-Legs/Hips 30x3",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625929837.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 20,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3110,
+            "day": 4,
+            "exclusivePlanWeekId": 723,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2794,
+                "code": "67f4e120e4b0c9a337f7ed82",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Full Body 30x3",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625946639.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 18,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "exclusivePlanWeekId": 723
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 723
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 723
+          }
+        ]
+      },
+      {
+        "id": 724,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3111,
+            "day": 1,
+            "exclusivePlanWeekId": 724,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2795,
+                "code": "67f4e853e4b0c9a337f7ed83",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Chest Super-set",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625961294.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 19,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3112,
+            "day": 2,
+            "exclusivePlanWeekId": 724,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2796,
+                "code": "67f4ea5de4b0c9a337f7ed84",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Arms Super-set",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625975348.png",
+                "actionLibraryCount": 24,
+                "durationMinute": 30,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3113,
+            "day": 3,
+            "exclusivePlanWeekId": 724,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2797,
+                "code": "67f4f423e4b0c9a337f7ed85",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Back Super-set",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744625990017.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 21,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3114,
+            "day": 4,
+            "exclusivePlanWeekId": 724,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2798,
+                "code": "67f5d2c3e4b0c9a337f7ed86",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Full Body Super-set",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744626004373.png",
+                "actionLibraryCount": 24,
+                "durationMinute": 24,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "exclusivePlanWeekId": 724
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 724
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 724
+          }
+        ]
+      },
+      {
+        "id": 725,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3115,
+            "day": 1,
+            "exclusivePlanWeekId": 725,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2799,
+                "code": "67f5d678e4b0c9a337f7ed87",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Upper Body 21",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744626017195.png",
+                "actionLibraryCount": 21,
+                "durationMinute": 20,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3116,
+            "day": 2,
+            "exclusivePlanWeekId": 725,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2800,
+                "code": "67f5d901e4b0c9a337f7ed88",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Arms 21",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744626034812.png",
+                "actionLibraryCount": 21,
+                "durationMinute": 20,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3117,
+            "day": 3,
+            "exclusivePlanWeekId": 725,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2801,
+                "code": "67f5defde4b0c9a337f7ed89",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Lower body 21",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744626057995.png",
+                "actionLibraryCount": 21,
+                "durationMinute": 20,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3118,
+            "day": 4,
+            "exclusivePlanWeekId": 725,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2802,
+                "code": "67f5e0bbe4b0c9a337f7ed8a",
+                "difficultyId": 2,
+                "courseTitle": "Sam's Quick Fit: Full Body 21",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744626081142.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 21,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 5,
+            "exclusivePlanWeekId": 725
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 725
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 725
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 4,
+    "weekCount": 4,
+    "mainId": 251,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 0,
+    "isUseDevice": 1
+  }
+}

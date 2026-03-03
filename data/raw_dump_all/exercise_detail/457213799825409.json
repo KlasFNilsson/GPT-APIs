@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:18.319865+00:00",
+    "exercise_id": 457213799825409
+  },
+  "data": {
+    "id": 457213799825409,
+    "recommendedWeight": 0,
+    "accessories": "",
+    "isBarbell": 0,
+    "trainingPartId2": 15,
+    "difficultyId": 1,
+    "enableVoice": 0,
+    "countType": 2,
+    "tabId": 8,
+    "deviceType": 1,
+    "isCustom": 1,
+    "jointType": 1,
+    "isUseDevice": 0,
+    "completionMethod": 0,
+    "plate": "0",
+    "dataStatType": 5,
+    "isLeftRight": 0,
+    "isVbt": 0,
+    "img": "https://eu-image.speediance.com/17643173290030.jpg",
+    "appUserId": 437440282165249,
+    "metValue": 4.0,
+    "foldingStoolAngle": "",
+    "title": "Wall sit",
+    "isMyFavorites": 0,
+    "tabName": "Customized",
+    "auxiliaryMuscleGroupList": [],
+    "actionLibraryList": [
+      {
+        "id": 457213799825410,
+        "img": "https://eu-image.speediance.com/17643173290030.jpg",
+        "status": 0,
+        "isDisplay": 1,
+        "isCustom": 1,
+        "demonstrationImages": "https://eu-image.speediance.com/17643173290030.jpg",
+        "appUserId": 437440282165249,
+        "isViolation": 0,
+        "originDemonstrationImages": "https://eu-image.speediance.com/17643173290030.jpg",
+        "violationReason": "",
+        "deviceType": 1,
+        "isShotEnd": 0,
+        "groupId": 457213799825409
+      }
+    ],
+    "mainMuscleGroupList": [],
+    "mainMuscleGroupId": 59,
+    "mainMuscleGroupName": "Quadriceps",
+    "mainMuscleGroupConfigId": "8",
+    "isSingleJoint": 0
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:56.813418+00:00",
+    "training_id": "432183"
+  },
+  "data": {
+    "id": 432183,
+    "type": 2,
+    "startTimestamp": 1728910022,
+    "endTimestamp": 1728910094,
+    "name": "23 Minute Fat-Burning Rowing Intervals",
+    "courseId": 1549,
+    "permission": 0,
+    "completionRate": 5.0,
+    "trainingTime": 72,
+    "calorie": 12,
+    "totalEnergy": 0.0,
+    "totalDistance": 0.0,
+    "trainingCount": 1,
+    "courseMode": 3,
+    "uuid": "5073ca80-8a2a-11ef-93d0-0fed7c18b0d1",
+    "watchType": 0,
+    "showHeartGraph": 0,
+    "existBoatingSkiDataGraph": true,
+    "code": "66b191b0e4b085b6aaba84f9",
+    "deviceType": 1,
+    "username": "Klas",
+    "avatar": "https://eu-image.speediance.com/image_cropper_0C0E5B68-EF8A-41E9-BA22-26CB3353A82D-12315-00000587909C5DD6.jpg",
+    "weightConfig": 1,
+    "dataVersion": 2,
+    "goalType": 2,
+    "trainingDataShareVO": {}
+  }
+}

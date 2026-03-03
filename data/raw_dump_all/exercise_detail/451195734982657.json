@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:23.742147+00:00",
+    "exercise_id": 451195734982657
+  },
+  "data": {
+    "id": 451195734982657,
+    "recommendedWeight": 0,
+    "accessories": "",
+    "isBarbell": 0,
+    "trainingPartId2": 15,
+    "difficultyId": 1,
+    "enableVoice": 0,
+    "countType": 2,
+    "tabId": 8,
+    "deviceType": 1,
+    "isCustom": 1,
+    "jointType": 1,
+    "isUseDevice": 0,
+    "completionMethod": 0,
+    "plate": "0",
+    "dataStatType": 5,
+    "isLeftRight": 0,
+    "isVbt": 0,
+    "img": "https://eu-image.speediance.com/17614476914310.jpg",
+    "appUserId": 437440282165249,
+    "metValue": 4.0,
+    "foldingStoolAngle": "",
+    "title": "DB Goblet squat",
+    "isMyFavorites": 0,
+    "tabName": "Customized",
+    "auxiliaryMuscleGroupList": [
+      {
+        "id": 64,
+        "configId": "10",
+        "muscleGroupName": "Gluteus",
+        "categoryName": "Gluteus",
+        "status": 0,
+        "trainingPartId2": 14,
+        "minLowIntensity": 0,
+        "maxLowIntensity": 30,
+        "minMediumIntensity": 30,
+        "maxMediumIntensity": 60,
+        "minHighIntensity": 60,
+        "maxHighIntensity": 2147483647
+      }
+    ],
+    "actionLibraryList": [
+      {
+        "id": 451195734982658,
+        "img": "https://eu-image.speediance.com/17614476914310.jpg",
+        "status": 0,
+        "isDisplay": 1,
+        "isCustom": 1,
+        "demonstrationImages": "https://eu-image.speediance.com/17614476914310.jpg",
+        "appUserId": 437440282165249,
+        "isViolation": 0,
+        "originDemonstrationImages": "https://eu-image.speediance.com/17614476914310.jpg",
+        "violationReason": "",
+        "deviceType": 1,
+        "isShotEnd": 0,
+        "groupId": 451195734982657
+      }
+    ],
+    "mainMuscleGroupList": [],
+    "mainMuscleGroupId": 59,
+    "mainMuscleGroupName": "Quadriceps",
+    "mainMuscleGroupConfigId": "8",
+    "isSingleJoint": 0
+  }
+}

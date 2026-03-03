@@ -1,0 +1,409 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:56.857454+00:00",
+    "plan_id": 253
+  },
+  "data": {
+    "id": 253,
+    "name": "Bye Fat, Hi Fit: 4 Weeks to a Stronger You",
+    "description": "The right workouts get you results faster.\n But it all starts with action.\n You’ve got to take that first step—show up, commit, and do the work.\n Progress doesn’t come from wishing. It comes from moving.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754558402518.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 730,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3139,
+            "day": 1,
+            "exclusivePlanWeekId": 730,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2137,
+                "code": "680899b1e4b0cd8d3eb35ae2",
+                "difficultyId": 2,
+                "courseTitle": "Upper Body Fat Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403140547.png",
+                "actionLibraryCount": 13,
+                "durationMinute": 55,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 730
+          },
+          {
+            "id": 3140,
+            "day": 3,
+            "exclusivePlanWeekId": 730,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2597,
+                "code": "6808b607e4b0cd8d3eb35dd2",
+                "difficultyId": 2,
+                "courseTitle": "Lower Body Fat Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745402809540.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 730
+          },
+          {
+            "id": 3141,
+            "day": 5,
+            "exclusivePlanWeekId": 730,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2598,
+                "code": "6808a50ee4b0cd8d3eb35c0d",
+                "difficultyId": 2,
+                "courseTitle": "Full Body Fat Torch Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403007428.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 730
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 730
+          }
+        ]
+      },
+      {
+        "id": 731,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3142,
+            "day": 1,
+            "exclusivePlanWeekId": 731,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2137,
+                "code": "680899b1e4b0cd8d3eb35ae2",
+                "difficultyId": 2,
+                "courseTitle": "Upper Body Fat Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403140547.png",
+                "actionLibraryCount": 13,
+                "durationMinute": 55,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 731
+          },
+          {
+            "id": 3143,
+            "day": 3,
+            "exclusivePlanWeekId": 731,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2597,
+                "code": "6808b607e4b0cd8d3eb35dd2",
+                "difficultyId": 2,
+                "courseTitle": "Lower Body Fat Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745402809540.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 731
+          },
+          {
+            "id": 3144,
+            "day": 5,
+            "exclusivePlanWeekId": 731,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2598,
+                "code": "6808a50ee4b0cd8d3eb35c0d",
+                "difficultyId": 2,
+                "courseTitle": "Full Body Fat Torch Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403007428.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 731
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 731
+          }
+        ]
+      },
+      {
+        "id": 732,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3145,
+            "day": 1,
+            "exclusivePlanWeekId": 732,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2136,
+                "code": "680890a0e4b0cd8d3eb35ade",
+                "difficultyId": 3,
+                "courseTitle": "Upper Body Fat Burner: Level Up Your Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403222067.png",
+                "actionLibraryCount": 28,
+                "durationMinute": 43,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 732
+          },
+          {
+            "id": 3146,
+            "day": 3,
+            "exclusivePlanWeekId": 732,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2599,
+                "code": "68089c21e4b0cd8d3eb35b51",
+                "difficultyId": 3,
+                "courseTitle": "Next-Level Lower Body Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403060106.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 42,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 732
+          },
+          {
+            "id": 3147,
+            "day": 5,
+            "exclusivePlanWeekId": 732,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2598,
+                "code": "6808a50ee4b0cd8d3eb35c0d",
+                "difficultyId": 2,
+                "courseTitle": "Full Body Fat Torch Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403007428.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 732
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 732
+          }
+        ]
+      },
+      {
+        "id": 733,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3148,
+            "day": 1,
+            "exclusivePlanWeekId": 733,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2136,
+                "code": "680890a0e4b0cd8d3eb35ade",
+                "difficultyId": 3,
+                "courseTitle": "Upper Body Fat Burner: Level Up Your Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403222067.png",
+                "actionLibraryCount": 28,
+                "durationMinute": 43,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 733
+          },
+          {
+            "id": 3149,
+            "day": 3,
+            "exclusivePlanWeekId": 733,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2599,
+                "code": "68089c21e4b0cd8d3eb35b51",
+                "difficultyId": 3,
+                "courseTitle": "Next-Level Lower Body Burn",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403060106.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 42,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 733
+          },
+          {
+            "id": 3150,
+            "day": 5,
+            "exclusivePlanWeekId": 733,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2598,
+                "code": "6808a50ee4b0cd8d3eb35c0d",
+                "difficultyId": 2,
+                "courseTitle": "Full Body Fat Torch Workout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1745403007428.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 733
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 733
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 3,
+    "weekCount": 4,
+    "mainId": 253,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 1,
+    "isUseDevice": 1
+  }
+}

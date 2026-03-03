@@ -1,0 +1,545 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:13:04.112077+00:00",
+    "plan_id": 248
+  },
+  "data": {
+    "id": 248,
+    "name": "Fearless Femme Fitness",
+    "description": "If your workout seems to be hitting a plateau, eccentric workout is here to help you overcome it. Studies show that the maximum strength during eccentric contractions in the same muscle group is 1.4-2 times greater than during concentric contractions. This means that muscles can handle more significant loads during eccentric contractions, effectively breaking through stagnation encountered in resistance training.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754559267666.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 718,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3083,
+            "day": 1,
+            "exclusivePlanWeekId": 718,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1959,
+                "code": "65eed5ece4b075f7315abf40",
+                "difficultyId": 2,
+                "courseTitle": "Dominator Back",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710238505968.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3084,
+            "day": 2,
+            "exclusivePlanWeekId": 718,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1434,
+                "code": "66139749e4b056a606ca18ca",
+                "difficultyId": 2,
+                "courseTitle": "Apex Chest Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566359692.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 38,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 3085,
+            "day": 3,
+            "exclusivePlanWeekId": 718,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1403,
+                "code": "65f2781ce4b075f7315fe211",
+                "difficultyId": 2,
+                "courseTitle": "Quads Crusher",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404985522.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 34,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3086,
+            "day": 4,
+            "exclusivePlanWeekId": 718,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1401,
+                "code": "65f25d97e4b075f7315fc678",
+                "difficultyId": 2,
+                "courseTitle": "Peak Shoulder Surge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383398034.png",
+                "actionLibraryCount": 6,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3087,
+            "day": 5,
+            "exclusivePlanWeekId": 718,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1960,
+                "code": "65f179c2e4b075f7315ec8ad",
+                "difficultyId": 2,
+                "courseTitle": "Arms Shredder",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383352278.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 718
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 718
+          }
+        ]
+      },
+      {
+        "id": 719,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3088,
+            "day": 1,
+            "exclusivePlanWeekId": 719,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1959,
+                "code": "65eed5ece4b075f7315abf40",
+                "difficultyId": 2,
+                "courseTitle": "Dominator Back",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710238505968.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3089,
+            "day": 2,
+            "exclusivePlanWeekId": 719,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1434,
+                "code": "66139749e4b056a606ca18ca",
+                "difficultyId": 2,
+                "courseTitle": "Apex Chest Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566359692.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 38,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 3090,
+            "day": 3,
+            "exclusivePlanWeekId": 719,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1403,
+                "code": "65f2781ce4b075f7315fe211",
+                "difficultyId": 2,
+                "courseTitle": "Quads Crusher",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404985522.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 34,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3091,
+            "day": 4,
+            "exclusivePlanWeekId": 719,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1401,
+                "code": "65f25d97e4b075f7315fc678",
+                "difficultyId": 2,
+                "courseTitle": "Peak Shoulder Surge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383398034.png",
+                "actionLibraryCount": 6,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3092,
+            "day": 5,
+            "exclusivePlanWeekId": 719,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1960,
+                "code": "65f179c2e4b075f7315ec8ad",
+                "difficultyId": 2,
+                "courseTitle": "Arms Shredder",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383352278.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 719
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 719
+          }
+        ]
+      },
+      {
+        "id": 720,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3093,
+            "day": 1,
+            "exclusivePlanWeekId": 720,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1959,
+                "code": "65eed5ece4b075f7315abf40",
+                "difficultyId": 2,
+                "courseTitle": "Dominator Back",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710238505968.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3094,
+            "day": 2,
+            "exclusivePlanWeekId": 720,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1434,
+                "code": "66139749e4b056a606ca18ca",
+                "difficultyId": 2,
+                "courseTitle": "Apex Chest Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566359692.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 38,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 3095,
+            "day": 3,
+            "exclusivePlanWeekId": 720,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1403,
+                "code": "65f2781ce4b075f7315fe211",
+                "difficultyId": 2,
+                "courseTitle": "Quads Crusher",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404985522.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 34,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3096,
+            "day": 4,
+            "exclusivePlanWeekId": 720,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1401,
+                "code": "65f25d97e4b075f7315fc678",
+                "difficultyId": 2,
+                "courseTitle": "Peak Shoulder Surge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383398034.png",
+                "actionLibraryCount": 6,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3097,
+            "day": 5,
+            "exclusivePlanWeekId": 720,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1960,
+                "code": "65f179c2e4b075f7315ec8ad",
+                "difficultyId": 2,
+                "courseTitle": "Arms Shredder",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383352278.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 720
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 720
+          }
+        ]
+      },
+      {
+        "id": 721,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3098,
+            "day": 1,
+            "exclusivePlanWeekId": 721,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1959,
+                "code": "65eed5ece4b075f7315abf40",
+                "difficultyId": 2,
+                "courseTitle": "Dominator Back",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710238505968.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3099,
+            "day": 2,
+            "exclusivePlanWeekId": 721,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1434,
+                "code": "66139749e4b056a606ca18ca",
+                "difficultyId": 2,
+                "courseTitle": "Apex Chest Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566359692.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 38,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 3100,
+            "day": 3,
+            "exclusivePlanWeekId": 721,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1403,
+                "code": "65f2781ce4b075f7315fe211",
+                "difficultyId": 2,
+                "courseTitle": "Quads Crusher",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404985522.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 34,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3101,
+            "day": 4,
+            "exclusivePlanWeekId": 721,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1401,
+                "code": "65f25d97e4b075f7315fc678",
+                "difficultyId": 2,
+                "courseTitle": "Peak Shoulder Surge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383398034.png",
+                "actionLibraryCount": 6,
+                "durationMinute": 36,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3102,
+            "day": 5,
+            "exclusivePlanWeekId": 721,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 1960,
+                "code": "65f179c2e4b075f7315ec8ad",
+                "difficultyId": 2,
+                "courseTitle": "Arms Shredder",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710383352278.png",
+                "actionLibraryCount": 7,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 721
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 721
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 5,
+    "weekCount": 4,
+    "mainId": 248,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 1,
+    "isUseDevice": 1
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:11:29.164482+00:00",
+    "exercise_id": 438204256485377
+  },
+  "data": {
+    "id": 438204256485377,
+    "recommendedWeight": 0,
+    "accessories": "1",
+    "isBarbell": 0,
+    "trainingPartId2": 17,
+    "difficultyId": 2,
+    "enableVoice": 0,
+    "countType": 1,
+    "tabId": 8,
+    "deviceType": 1,
+    "isCustom": 1,
+    "jointType": 1,
+    "isUseDevice": 1,
+    "completionMethod": 1,
+    "plate": "1",
+    "dataStatType": 1,
+    "isLeftRight": 0,
+    "isVbt": 0,
+    "img": "https://eu-image.speediance.com/17552528612740.jpghttps://eu-image.speediance.com/17552528612740.jpg",
+    "appUserId": 437440282165249,
+    "metValue": 4.0,
+    "foldingStoolAngle": "",
+    "title": "Copenhagen Plank",
+    "isMyFavorites": 0,
+    "tabName": "Customized",
+    "auxiliaryMuscleGroupList": [],
+    "actionLibraryList": [
+      {
+        "id": 438204256485378,
+        "img": "https://eu-image.speediance.com/17552528612740.jpghttps://eu-image.speediance.com/17552528612740.jpg",
+        "status": 0,
+        "isDisplay": 1,
+        "isCustom": 1,
+        "demonstrationImages": "https://eu-image.speediance.com/17552528612740.jpghttps://eu-image.speediance.com/17552528612740.jpg",
+        "appUserId": 437440282165249,
+        "isViolation": 0,
+        "originDemonstrationImages": "https://eu-image.speediance.com/17552528612740.jpghttps://eu-image.speediance.com/17552528612740.jpg",
+        "violationReason": "",
+        "deviceType": 1,
+        "isShotEnd": 0,
+        "groupId": 438204256485377
+      }
+    ],
+    "mainMuscleGroupList": [],
+    "mainMuscleGroupId": 67,
+    "mainMuscleGroupName": "Abs",
+    "mainMuscleGroupConfigId": "11",
+    "isSingleJoint": 0
+  }
+}

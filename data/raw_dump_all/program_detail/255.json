@@ -1,0 +1,473 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:53.343605+00:00",
+    "plan_id": 255
+  },
+  "data": {
+    "id": 255,
+    "name": "Speed Shred: The Ultimate Fat Loss Accelerator ",
+    "description": "This is a high-efficiency fat-burning program designed to help you slim down—fast.\nThrough short, powerful sessions of High-Intensity Interval Training (HIIT), this program is built to maximize calorie burn and fire up your metabolism in less time.\nWith a balanced mix of cardio and strength training, you'll challenge your body in new ways every session.\nPerfect for anyone looking for fast, visible results, this plan is your go-to solution for burning fat, building lean muscle, and unlocking a stronger, fitter you.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754559019993.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 738,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3167,
+            "day": 1,
+            "exclusivePlanWeekId": 738,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2175,
+                "code": "682d3495e4b0bb39dd03587d",
+                "difficultyId": 2,
+                "courseTitle": "Total Body Transformation Plan",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818605858.jpg",
+                "actionLibraryCount": 29,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3168,
+            "day": 2,
+            "exclusivePlanWeekId": 738,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2176,
+                "code": "682d3875e4b0bb39dd03587e",
+                "difficultyId": 2,
+                "courseTitle": "Elite Fat-Burning Program",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818561350.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 738
+          },
+          {
+            "id": 3169,
+            "day": 4,
+            "exclusivePlanWeekId": 738,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2832,
+                "code": "682d4051e4b0bb39dd03587f",
+                "difficultyId": 2,
+                "courseTitle": "Fat-Burn Accelerator Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818538598.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 40,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3170,
+            "day": 5,
+            "exclusivePlanWeekId": 738,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2469,
+                "code": "682d44a5e4b0bb39dd035880",
+                "difficultyId": 2,
+                "courseTitle": "Rapid Results Slimdown",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818482374.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 738
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 738
+          }
+        ]
+      },
+      {
+        "id": 739,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3171,
+            "day": 1,
+            "exclusivePlanWeekId": 739,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2175,
+                "code": "682d3495e4b0bb39dd03587d",
+                "difficultyId": 2,
+                "courseTitle": "Total Body Transformation Plan",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818605858.jpg",
+                "actionLibraryCount": 29,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3172,
+            "day": 2,
+            "exclusivePlanWeekId": 739,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2176,
+                "code": "682d3875e4b0bb39dd03587e",
+                "difficultyId": 2,
+                "courseTitle": "Elite Fat-Burning Program",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818561350.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 739
+          },
+          {
+            "id": 3173,
+            "day": 4,
+            "exclusivePlanWeekId": 739,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2832,
+                "code": "682d4051e4b0bb39dd03587f",
+                "difficultyId": 2,
+                "courseTitle": "Fat-Burn Accelerator Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818538598.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 40,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3174,
+            "day": 5,
+            "exclusivePlanWeekId": 739,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2469,
+                "code": "682d44a5e4b0bb39dd035880",
+                "difficultyId": 2,
+                "courseTitle": "Rapid Results Slimdown",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818482374.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 739
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 739
+          }
+        ]
+      },
+      {
+        "id": 740,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3175,
+            "day": 1,
+            "exclusivePlanWeekId": 740,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2175,
+                "code": "682d3495e4b0bb39dd03587d",
+                "difficultyId": 2,
+                "courseTitle": "Total Body Transformation Plan",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818605858.jpg",
+                "actionLibraryCount": 29,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3176,
+            "day": 2,
+            "exclusivePlanWeekId": 740,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2176,
+                "code": "682d3875e4b0bb39dd03587e",
+                "difficultyId": 2,
+                "courseTitle": "Elite Fat-Burning Program",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818561350.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 740
+          },
+          {
+            "id": 3177,
+            "day": 4,
+            "exclusivePlanWeekId": 740,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2832,
+                "code": "682d4051e4b0bb39dd03587f",
+                "difficultyId": 2,
+                "courseTitle": "Fat-Burn Accelerator Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818538598.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 40,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3178,
+            "day": 5,
+            "exclusivePlanWeekId": 740,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2469,
+                "code": "682d44a5e4b0bb39dd035880",
+                "difficultyId": 2,
+                "courseTitle": "Rapid Results Slimdown",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818482374.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 740
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 740
+          }
+        ]
+      },
+      {
+        "id": 741,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3179,
+            "day": 1,
+            "exclusivePlanWeekId": 741,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2175,
+                "code": "682d3495e4b0bb39dd03587d",
+                "difficultyId": 2,
+                "courseTitle": "Total Body Transformation Plan",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818605858.jpg",
+                "actionLibraryCount": 29,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3180,
+            "day": 2,
+            "exclusivePlanWeekId": 741,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2176,
+                "code": "682d3875e4b0bb39dd03587e",
+                "difficultyId": 2,
+                "courseTitle": "Elite Fat-Burning Program",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818561350.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 3,
+            "exclusivePlanWeekId": 741
+          },
+          {
+            "id": 3181,
+            "day": 4,
+            "exclusivePlanWeekId": 741,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2832,
+                "code": "682d4051e4b0bb39dd03587f",
+                "difficultyId": 2,
+                "courseTitle": "Fat-Burn Accelerator Challenge",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818538598.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 40,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3182,
+            "day": 5,
+            "exclusivePlanWeekId": 741,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2469,
+                "code": "682d44a5e4b0bb39dd035880",
+                "difficultyId": 2,
+                "courseTitle": "Rapid Results Slimdown",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1747818482374.jpg",
+                "actionLibraryCount": 26,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Shaping ",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 741
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 741
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 4,
+    "weekCount": 4,
+    "mainId": 255,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 0,
+    "isUseDevice": 1
+  }
+}

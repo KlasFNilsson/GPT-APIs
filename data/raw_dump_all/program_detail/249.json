@@ -1,0 +1,1449 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:13:02.336162+00:00",
+    "plan_id": 249
+  },
+  "data": {
+    "id": 249,
+    "name": "Back to 30 with Robby: 12-Week Fitness Journey",
+    "description": "This 5-day-a-week program is designed to help you gain muscle, improve endurance, and build a healthier body. Whether you're getting back into fitness or looking for a sustainable routine, this plan will help you move better, feel better, and regain confidence.\nWho's ready to get Back to 30? ",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754559410108.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 19,
+        "createUserId": 9,
+        "createTime": "2024-07-24 08:09:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:49",
+        "delFlag": 0,
+        "name": "12 Weeks",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1721808555189.png",
+        "orderNo": 7
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 706,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3023,
+            "day": 1,
+            "exclusivePlanWeekId": 706,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3024,
+            "day": 2,
+            "exclusivePlanWeekId": 706,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3025,
+            "day": 3,
+            "exclusivePlanWeekId": 706,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3026,
+            "day": 4,
+            "exclusivePlanWeekId": 706,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3027,
+            "day": 5,
+            "exclusivePlanWeekId": 706,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 706
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 706
+          }
+        ]
+      },
+      {
+        "id": 707,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3028,
+            "day": 1,
+            "exclusivePlanWeekId": 707,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3029,
+            "day": 2,
+            "exclusivePlanWeekId": 707,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3030,
+            "day": 3,
+            "exclusivePlanWeekId": 707,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3031,
+            "day": 4,
+            "exclusivePlanWeekId": 707,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3032,
+            "day": 5,
+            "exclusivePlanWeekId": 707,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 707
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 707
+          }
+        ]
+      },
+      {
+        "id": 708,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3033,
+            "day": 1,
+            "exclusivePlanWeekId": 708,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3034,
+            "day": 2,
+            "exclusivePlanWeekId": 708,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3035,
+            "day": 3,
+            "exclusivePlanWeekId": 708,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3036,
+            "day": 4,
+            "exclusivePlanWeekId": 708,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3037,
+            "day": 5,
+            "exclusivePlanWeekId": 708,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 708
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 708
+          }
+        ]
+      },
+      {
+        "id": 709,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3038,
+            "day": 1,
+            "exclusivePlanWeekId": 709,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3039,
+            "day": 2,
+            "exclusivePlanWeekId": 709,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3040,
+            "day": 3,
+            "exclusivePlanWeekId": 709,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3041,
+            "day": 4,
+            "exclusivePlanWeekId": 709,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3042,
+            "day": 5,
+            "exclusivePlanWeekId": 709,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 709
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 709
+          }
+        ]
+      },
+      {
+        "id": 710,
+        "week": 5,
+        "exclusivePlanDayList": [
+          {
+            "id": 3043,
+            "day": 1,
+            "exclusivePlanWeekId": 710,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3044,
+            "day": 2,
+            "exclusivePlanWeekId": 710,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3045,
+            "day": 3,
+            "exclusivePlanWeekId": 710,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3046,
+            "day": 4,
+            "exclusivePlanWeekId": 710,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3047,
+            "day": 5,
+            "exclusivePlanWeekId": 710,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 710
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 710
+          }
+        ]
+      },
+      {
+        "id": 711,
+        "week": 6,
+        "exclusivePlanDayList": [
+          {
+            "id": 3048,
+            "day": 1,
+            "exclusivePlanWeekId": 711,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3049,
+            "day": 2,
+            "exclusivePlanWeekId": 711,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3050,
+            "day": 3,
+            "exclusivePlanWeekId": 711,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3051,
+            "day": 4,
+            "exclusivePlanWeekId": 711,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3052,
+            "day": 5,
+            "exclusivePlanWeekId": 711,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 711
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 711
+          }
+        ]
+      },
+      {
+        "id": 712,
+        "week": 7,
+        "exclusivePlanDayList": [
+          {
+            "id": 3053,
+            "day": 1,
+            "exclusivePlanWeekId": 712,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3054,
+            "day": 2,
+            "exclusivePlanWeekId": 712,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3055,
+            "day": 3,
+            "exclusivePlanWeekId": 712,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3056,
+            "day": 4,
+            "exclusivePlanWeekId": 712,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3057,
+            "day": 5,
+            "exclusivePlanWeekId": 712,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 712
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 712
+          }
+        ]
+      },
+      {
+        "id": 713,
+        "week": 8,
+        "exclusivePlanDayList": [
+          {
+            "id": 3058,
+            "day": 1,
+            "exclusivePlanWeekId": 713,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3059,
+            "day": 2,
+            "exclusivePlanWeekId": 713,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3060,
+            "day": 3,
+            "exclusivePlanWeekId": 713,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3061,
+            "day": 4,
+            "exclusivePlanWeekId": 713,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3062,
+            "day": 5,
+            "exclusivePlanWeekId": 713,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 713
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 713
+          }
+        ]
+      },
+      {
+        "id": 714,
+        "week": 9,
+        "exclusivePlanDayList": [
+          {
+            "id": 3063,
+            "day": 1,
+            "exclusivePlanWeekId": 714,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3064,
+            "day": 2,
+            "exclusivePlanWeekId": 714,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3065,
+            "day": 3,
+            "exclusivePlanWeekId": 714,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3066,
+            "day": 4,
+            "exclusivePlanWeekId": 714,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3067,
+            "day": 5,
+            "exclusivePlanWeekId": 714,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 714
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 714
+          }
+        ]
+      },
+      {
+        "id": 715,
+        "week": 10,
+        "exclusivePlanDayList": [
+          {
+            "id": 3068,
+            "day": 1,
+            "exclusivePlanWeekId": 715,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3069,
+            "day": 2,
+            "exclusivePlanWeekId": 715,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3070,
+            "day": 3,
+            "exclusivePlanWeekId": 715,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3071,
+            "day": 4,
+            "exclusivePlanWeekId": 715,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3072,
+            "day": 5,
+            "exclusivePlanWeekId": 715,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 715
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 715
+          }
+        ]
+      },
+      {
+        "id": 716,
+        "week": 11,
+        "exclusivePlanDayList": [
+          {
+            "id": 3073,
+            "day": 1,
+            "exclusivePlanWeekId": 716,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3074,
+            "day": 2,
+            "exclusivePlanWeekId": 716,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3075,
+            "day": 3,
+            "exclusivePlanWeekId": 716,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3076,
+            "day": 4,
+            "exclusivePlanWeekId": 716,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3077,
+            "day": 5,
+            "exclusivePlanWeekId": 716,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 716
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 716
+          }
+        ]
+      },
+      {
+        "id": 717,
+        "week": 12,
+        "exclusivePlanDayList": [
+          {
+            "id": 3078,
+            "day": 1,
+            "exclusivePlanWeekId": 717,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2782,
+                "code": "67ce821be4b0378586056c83",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Chest/Tricep Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530528181.png",
+                "actionLibraryCount": 11,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3079,
+            "day": 2,
+            "exclusivePlanWeekId": 717,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2783,
+                "code": "67ce87d4e4b0378586056c84",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Back/Biceps Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530553271.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3080,
+            "day": 3,
+            "exclusivePlanWeekId": 717,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2784,
+                "code": "67d0f46ae4b0378586056e00",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Shouder Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530567013.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3081,
+            "day": 4,
+            "exclusivePlanWeekId": 717,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2785,
+                "code": "67d0f777e4b0378586056e01",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30:Core Shred",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530578149.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 31,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 3082,
+            "day": 5,
+            "exclusivePlanWeekId": 717,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2786,
+                "code": "67d0f9a1e4b0378586056e02",
+                "difficultyId": 3,
+                "courseTitle": "Back to 30: Leg Mass",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1742530589843.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 717
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 717
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 3,
+    "weekTrainingFrequency": 5,
+    "weekCount": 12,
+    "mainId": 249,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 0,
+    "isUseDevice": 1
+  }
+}

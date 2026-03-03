@@ -1,0 +1,537 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:58.625196+00:00",
+    "plan_id": 252
+  },
+  "data": {
+    "id": 252,
+    "name": "The Sculpt Master Plan ",
+    "description": "Every strong, sculpted body has a quiet beginning.\n It starts in silence — the grind, the grit, the lonely reps, the days no one sees.\n No complaints. No excuses. Just effort.\n One day, you’ll look back on this chapter and feel proud. Maybe even moved.\nStart your 5-day-a-week sculpting journey. Become your strongest self.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754559227332.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 10,
+        "createUserId": 1,
+        "createTime": "2022-04-26 08:08:24",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:27",
+        "delFlag": 0,
+        "name": "4 Weeks ",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+        "orderNo": 4
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 726,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3119,
+            "day": 1,
+            "exclusivePlanWeekId": 726,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2829,
+                "code": "67fcc8eae4b026a57c1d66a1",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Back & Core Sculpt",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684340964.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3120,
+            "day": 2,
+            "exclusivePlanWeekId": 726,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2127,
+                "code": "67fccf1ee4b026a57c1d66b3",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Guide",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684440974.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 24,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3121,
+            "day": 3,
+            "exclusivePlanWeekId": 726,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2128,
+                "code": "67fcd39de4b026a57c1d66b4",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Shoulders, Back & Chest Sculpt",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684457684.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3122,
+            "day": 4,
+            "exclusivePlanWeekId": 726,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2130,
+                "code": "67fdba81e4b026a57c1d66b6",
+                "difficultyId": 2,
+                "courseTitle": "Core Focus: Ab Dimension Training",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684490185.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3123,
+            "day": 5,
+            "exclusivePlanWeekId": 726,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2131,
+                "code": "67fdbe57e4b026a57c1d66b7",
+                "difficultyId": 2,
+                "courseTitle": "Double Rope Sculpt: Legs, Back, Shoulders & Arms",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684503091.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 45,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 726
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 726
+          }
+        ]
+      },
+      {
+        "id": 727,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3124,
+            "day": 1,
+            "exclusivePlanWeekId": 727,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2829,
+                "code": "67fcc8eae4b026a57c1d66a1",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Back & Core Sculpt",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684340964.png",
+                "actionLibraryCount": 9,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3125,
+            "day": 2,
+            "exclusivePlanWeekId": 727,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2127,
+                "code": "67fccf1ee4b026a57c1d66b3",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Guide",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684440974.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 24,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3126,
+            "day": 3,
+            "exclusivePlanWeekId": 727,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2128,
+                "code": "67fcd39de4b026a57c1d66b4",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Shoulders, Back & Chest Sculpt",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684457684.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 47,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3127,
+            "day": 4,
+            "exclusivePlanWeekId": 727,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2130,
+                "code": "67fdba81e4b026a57c1d66b6",
+                "difficultyId": 2,
+                "courseTitle": "Core Focus: Ab Dimension Training",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684490185.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3128,
+            "day": 5,
+            "exclusivePlanWeekId": 727,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2131,
+                "code": "67fdbe57e4b026a57c1d66b7",
+                "difficultyId": 2,
+                "courseTitle": "Double Rope Sculpt: Legs, Back, Shoulders & Arms",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684503091.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 45,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 727
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 727
+          }
+        ]
+      },
+      {
+        "id": 728,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3129,
+            "day": 1,
+            "exclusivePlanWeekId": 728,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2126,
+                "code": "67fccd8de4b026a57c1d66b2",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Shoulders, Back & Arms Tone",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684365459.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 41,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3130,
+            "day": 2,
+            "exclusivePlanWeekId": 728,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2127,
+                "code": "67fccf1ee4b026a57c1d66b3",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Guide",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684440974.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 24,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3131,
+            "day": 3,
+            "exclusivePlanWeekId": 728,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2129,
+                "code": "67fdb893e4b026a57c1d66b5",
+                "difficultyId": 3,
+                "courseTitle": "Legs, Back, Chest & Arms Tone",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684475892.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3132,
+            "day": 4,
+            "exclusivePlanWeekId": 728,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2130,
+                "code": "67fdba81e4b026a57c1d66b6",
+                "difficultyId": 2,
+                "courseTitle": "Core Focus: Ab Dimension Training",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684490185.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3133,
+            "day": 5,
+            "exclusivePlanWeekId": 728,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2132,
+                "code": "67fdbfb5e4b026a57c1d66ea",
+                "difficultyId": 3,
+                "courseTitle": "Barbell Sculpt: Back, Chest, Arms & Legs",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684518017.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 45,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 728
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 728
+          }
+        ]
+      },
+      {
+        "id": 729,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3134,
+            "day": 1,
+            "exclusivePlanWeekId": 729,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2126,
+                "code": "67fccd8de4b026a57c1d66b2",
+                "difficultyId": 2,
+                "courseTitle": "Legs, Shoulders, Back & Arms Tone",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684365459.png",
+                "actionLibraryCount": 10,
+                "durationMinute": 41,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3135,
+            "day": 2,
+            "exclusivePlanWeekId": 729,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2127,
+                "code": "67fccf1ee4b026a57c1d66b3",
+                "difficultyId": 2,
+                "courseTitle": "Ab Sculpting Guide",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684440974.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 24,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3136,
+            "day": 3,
+            "exclusivePlanWeekId": 729,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2129,
+                "code": "67fdb893e4b026a57c1d66b5",
+                "difficultyId": 3,
+                "courseTitle": "Legs, Back, Chest & Arms Tone",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684475892.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 39,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3137,
+            "day": 4,
+            "exclusivePlanWeekId": 729,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2130,
+                "code": "67fdba81e4b026a57c1d66b6",
+                "difficultyId": 2,
+                "courseTitle": "Core Focus: Ab Dimension Training",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684490185.png",
+                "actionLibraryCount": 8,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "id": 3138,
+            "day": 5,
+            "exclusivePlanWeekId": 729,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2132,
+                "code": "67fdbfb5e4b026a57c1d66ea",
+                "difficultyId": 3,
+                "courseTitle": "Barbell Sculpt: Back, Chest, Arms & Legs",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1744684518017.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 45,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 2
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 729
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 729
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 5,
+    "weekCount": 4,
+    "mainId": 252,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 1,
+    "isUseDevice": 1
+  }
+}

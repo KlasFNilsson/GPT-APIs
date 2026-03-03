@@ -1,0 +1,573 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:13:05.874708+00:00",
+    "plan_id": 247
+  },
+  "data": {
+    "id": 247,
+    "name": "Sam's Maximum Mass Push Pull Legs Split",
+    "description": "Sam's Maximum Muscle Plan is a 5-week training program that consists of 4 workouts per week, following a push-pull-legs-full body cyclical arrangement. The program is designed to enhance strength and promote muscle growth through a systematic approach.\nIt incorporates various intensity training techniques, such as drop sets, pyramid sets and failure sets, to maximize results and help you break through your current training limits, leading to significant gains in both strength and muscle mass.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754558806969.jpg",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 9,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:57:05",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 06:22:33",
+        "delFlag": 0,
+        "name": "5 Weeks",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1710929822870.png",
+        "orderNo": 5
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 693,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 2959,
+            "day": 1,
+            "exclusivePlanWeekId": 693,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2764,
+                "code": "677e1c69e4b0f74bdbb7858a",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Push Day: Rest-Pause to 20",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740568192390.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 53,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2960,
+            "day": 2,
+            "exclusivePlanWeekId": 693,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2777,
+                "code": "67bfc611e4b0e385ae98bf3d",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Pull Day: Rest-Pause to 20",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740652130974.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2961,
+            "day": 3,
+            "exclusivePlanWeekId": 693,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2765,
+                "code": "677e27aee4b0f74bdbb78637",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Leg Day: Rest-Pause to 20",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740566519373.png",
+                "actionLibraryCount": 19,
+                "durationMinute": 57,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 693
+          },
+          {
+            "id": 2962,
+            "day": 5,
+            "exclusivePlanWeekId": 693,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2766,
+                "code": "677e3780e4b0f74bdbb786ba",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Full Body Day: Super-Set/Circuit",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740568387203.png",
+                "actionLibraryCount": 49,
+                "durationMinute": 60,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 693
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 693
+          }
+        ]
+      },
+      {
+        "id": 694,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 2963,
+            "day": 1,
+            "exclusivePlanWeekId": 694,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2767,
+                "code": "677f2c00e4b0f74bdbb786e4",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Push Day: Burnout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567902274.png",
+                "actionLibraryCount": 24,
+                "durationMinute": 60,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2964,
+            "day": 2,
+            "exclusivePlanWeekId": 694,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2768,
+                "code": "677f37ece4b0f74bdbb786e5",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Pull Day: Burnout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567874246.png",
+                "actionLibraryCount": 21,
+                "durationMinute": 56,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2965,
+            "day": 3,
+            "exclusivePlanWeekId": 694,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2769,
+                "code": "677f3de2e4b0f74bdbb786e6",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Leg Day: Burnout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567825184.png",
+                "actionLibraryCount": 13,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 694
+          },
+          {
+            "id": 2966,
+            "day": 5,
+            "exclusivePlanWeekId": 694,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2770,
+                "code": "677f4965e4b0f74bdbb786e7",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Full Body Day: Burnout",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740566146093.png",
+                "actionLibraryCount": 17,
+                "durationMinute": 45,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 694
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 694
+          }
+        ]
+      },
+      {
+        "id": 695,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 2967,
+            "day": 1,
+            "exclusivePlanWeekId": 695,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2771,
+                "code": "677f6fdce4b0f74bdbb78715",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Push Day: Pyramid",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567477458.png",
+                "actionLibraryCount": 16,
+                "durationMinute": 61,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2968,
+            "day": 2,
+            "exclusivePlanWeekId": 695,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2772,
+                "code": "677f7c1fe4b0f74bdbb7876b",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Pull Day: Pyramid",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567644471.png",
+                "actionLibraryCount": 13,
+                "durationMinute": 64,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 2969,
+            "day": 3,
+            "exclusivePlanWeekId": 695,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2773,
+                "code": "677f802ce4b0f74bdbb7876c",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Leg Day: Pyramid",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740566228949.png",
+                "actionLibraryCount": 22,
+                "durationMinute": 63,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 695
+          },
+          {
+            "id": 2970,
+            "day": 5,
+            "exclusivePlanWeekId": 695,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2774,
+                "code": "677f891ee4b0f74bdbb7876d",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Full Body Day: Pyramid",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567609980.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 46,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 695
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 695
+          }
+        ]
+      },
+      {
+        "id": 696,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 2971,
+            "day": 1,
+            "exclusivePlanWeekId": 696,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2775,
+                "code": "677f9ca4e4b0f74bdbb7876e",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Push Day: Dropsets",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740566046524.png",
+                "actionLibraryCount": 19,
+                "durationMinute": 57,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2972,
+            "day": 2,
+            "exclusivePlanWeekId": 696,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2005,
+                "code": "67807f36e4b0f74bdbb7876f",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Pull Day: Dropset",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740567798009.png",
+                "actionLibraryCount": 16,
+                "durationMinute": 58,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2973,
+            "day": 3,
+            "exclusivePlanWeekId": 696,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2776,
+                "code": "6780849de4b0fd092b4593ea",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Leg Day: Dropsets",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740565659595.png",
+                "actionLibraryCount": 20,
+                "durationMinute": 53,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 696
+          },
+          {
+            "id": 2974,
+            "day": 5,
+            "exclusivePlanWeekId": 696,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2007,
+                "code": "6780889ee4b0fd092b4593eb",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Full Body Day: Dropsets",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740565769040.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 57,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 696
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 696
+          }
+        ]
+      },
+      {
+        "id": 697,
+        "week": 5,
+        "exclusivePlanDayList": [
+          {
+            "id": 2975,
+            "day": 1,
+            "exclusivePlanWeekId": 697,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2778,
+                "code": "67bfd47ce4b0e385ae98bf69",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Push Day",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740651663493.png",
+                "actionLibraryCount": 14,
+                "durationMinute": 50,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1,
+                "bgImg": ""
+              }
+            ]
+          },
+          {
+            "id": 2976,
+            "day": 2,
+            "exclusivePlanWeekId": 697,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2779,
+                "code": "67bfd8ede4b0e385ae98bf6a",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Pull Day",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740651225181.png",
+                "actionLibraryCount": 12,
+                "durationMinute": 42,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "id": 2977,
+            "day": 3,
+            "exclusivePlanWeekId": 697,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2780,
+                "code": "67bfe137e4b0e385ae98c067",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Leg Day",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740651029129.png",
+                "actionLibraryCount": 13,
+                "durationMinute": 55,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 697
+          },
+          {
+            "id": 2978,
+            "day": 5,
+            "exclusivePlanWeekId": 697,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2781,
+                "code": "67bfe178e4b0e385ae98c068",
+                "difficultyId": 3,
+                "courseTitle": "Sam's Full Body Day",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1740650743190.png",
+                "actionLibraryCount": 15,
+                "durationMinute": 52,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 697
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 697
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 3,
+    "weekTrainingFrequency": 4,
+    "weekCount": 5,
+    "mainId": 244,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 0,
+    "isUseDevice": 1
+  }
+}

@@ -1,0 +1,651 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:12:51.581309+00:00",
+    "plan_id": 258
+  },
+  "data": {
+    "id": 258,
+    "name": "HYROX TRAINING CLUB",
+    "description": "As an officially authorized HYROX partner, we bring you a world-class program built on HYROX’s global training system—powered by sports science and smart periodization. By training just three times a week, you’ll not only improve performance in your workouts, but also build a healthier body, stronger everyday functionality, and the confidence that comes with being in your best shape.\n- Base & Engine – Build endurance and stamina\n- Power – Develop strength, speed, and explosive performance.\n- Hybrid Challenge – Test your limits with HYROX-style workouts that blend endurance and strength.",
+    "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1758252304394.png",
+    "permission": 0,
+    "price": 0.0,
+    "categoryList": [
+      {
+        "id": 20,
+        "createUserId": 20021,
+        "createTime": "2025-08-20 06:19:15",
+        "updateUserId": 20021,
+        "updateTime": "2025-08-20 07:14:15",
+        "delFlag": 0,
+        "name": "6 Weeks",
+        "status": 0,
+        "deviceType": 1,
+        "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1755674047613.png",
+        "orderNo": 6
+      }
+    ],
+    "tagList": [
+      {
+        "id": 15,
+        "createUserId": 1,
+        "createTime": "2022-03-25 13:56:58",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:23",
+        "delFlag": 0,
+        "name": "Strength",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+      },
+      {
+        "id": 16,
+        "createUserId": 1,
+        "createTime": "2022-05-25 06:23:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:13",
+        "delFlag": 0,
+        "name": "Shaping",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+      },
+      {
+        "id": 17,
+        "createUserId": 10,
+        "createTime": "2022-06-29 08:29:12",
+        "updateUserId": 63,
+        "updateTime": "2024-12-19 09:43:01",
+        "delFlag": 0,
+        "name": "Get Fit",
+        "status": 0,
+        "deviceType": 1,
+        "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+      }
+    ],
+    "exclusivePlanWeekList": [
+      {
+        "id": 752,
+        "week": 1,
+        "exclusivePlanDayList": [
+          {
+            "id": 3219,
+            "day": 1,
+            "exclusivePlanWeekId": 752,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2816,
+                "code": "689effe2e4b03b8de09e0dd3",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586325335.png",
+                "actionLibraryCount": 20,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 752
+          },
+          {
+            "id": 3220,
+            "day": 3,
+            "exclusivePlanWeekId": 752,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2827,
+                "code": "689f09fae4b03b8de09e0f79",
+                "difficultyId": 2,
+                "courseTitle": "Power #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586336873.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 30,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 752
+          },
+          {
+            "id": 3221,
+            "day": 5,
+            "exclusivePlanWeekId": 752,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2821,
+                "code": "689f1156e4b03b8de09e0f7b",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586372992.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2822,
+                "code": "689f1c11e4b03b8de09e0f7c",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586349657.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 752
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 752
+          }
+        ]
+      },
+      {
+        "id": 753,
+        "week": 2,
+        "exclusivePlanDayList": [
+          {
+            "id": 3222,
+            "day": 1,
+            "exclusivePlanWeekId": 753,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2816,
+                "code": "689effe2e4b03b8de09e0dd3",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586325335.png",
+                "actionLibraryCount": 20,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 753
+          },
+          {
+            "id": 3223,
+            "day": 3,
+            "exclusivePlanWeekId": 753,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2827,
+                "code": "689f09fae4b03b8de09e0f79",
+                "difficultyId": 2,
+                "courseTitle": "Power #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586336873.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 30,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 753
+          },
+          {
+            "id": 3224,
+            "day": 5,
+            "exclusivePlanWeekId": 753,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2821,
+                "code": "689f1156e4b03b8de09e0f7b",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586372992.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2822,
+                "code": "689f1c11e4b03b8de09e0f7c",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586349657.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 753
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 753
+          }
+        ]
+      },
+      {
+        "id": 754,
+        "week": 3,
+        "exclusivePlanDayList": [
+          {
+            "id": 3225,
+            "day": 1,
+            "exclusivePlanWeekId": 754,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2816,
+                "code": "689effe2e4b03b8de09e0dd3",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586325335.png",
+                "actionLibraryCount": 20,
+                "durationMinute": 37,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 754
+          },
+          {
+            "id": 3226,
+            "day": 3,
+            "exclusivePlanWeekId": 754,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2827,
+                "code": "689f09fae4b03b8de09e0f79",
+                "difficultyId": 2,
+                "courseTitle": "Power #1",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586336873.png",
+                "actionLibraryCount": 29,
+                "durationMinute": 30,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 754
+          },
+          {
+            "id": 3227,
+            "day": 5,
+            "exclusivePlanWeekId": 754,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2821,
+                "code": "689f1156e4b03b8de09e0f7b",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586372992.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2822,
+                "code": "689f1c11e4b03b8de09e0f7c",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #1（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1755586349657.png",
+                "actionLibraryCount": 30,
+                "durationMinute": 48,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 754
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 754
+          }
+        ]
+      },
+      {
+        "id": 755,
+        "week": 4,
+        "exclusivePlanDayList": [
+          {
+            "id": 3228,
+            "day": 1,
+            "exclusivePlanWeekId": 755,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2823,
+                "code": "68ad2c3fe4b0832dcbc10331",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188611756.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2815,
+                "code": "68ad30b1e4b0832dcbc10332",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188644260.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 755
+          },
+          {
+            "id": 3229,
+            "day": 3,
+            "exclusivePlanWeekId": 755,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2828,
+                "code": "68ad33d9e4b0832dcbc10333",
+                "difficultyId": 2,
+                "courseTitle": "Power #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188706430.png",
+                "actionLibraryCount": 22,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 755
+          },
+          {
+            "id": 3230,
+            "day": 5,
+            "exclusivePlanWeekId": 755,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2826,
+                "code": "68ad3423e4b0832dcbc10334",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188677244.png",
+                "actionLibraryCount": 33,
+                "durationMinute": 65,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 755
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 755
+          }
+        ]
+      },
+      {
+        "id": 756,
+        "week": 5,
+        "exclusivePlanDayList": [
+          {
+            "id": 3231,
+            "day": 1,
+            "exclusivePlanWeekId": 756,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2823,
+                "code": "68ad2c3fe4b0832dcbc10331",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188611756.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2815,
+                "code": "68ad30b1e4b0832dcbc10332",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188644260.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 756
+          },
+          {
+            "id": 3232,
+            "day": 3,
+            "exclusivePlanWeekId": 756,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2828,
+                "code": "68ad33d9e4b0832dcbc10333",
+                "difficultyId": 2,
+                "courseTitle": "Power #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188706430.png",
+                "actionLibraryCount": 22,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 756
+          },
+          {
+            "id": 3233,
+            "day": 5,
+            "exclusivePlanWeekId": 756,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2826,
+                "code": "68ad3423e4b0832dcbc10334",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188677244.png",
+                "actionLibraryCount": 33,
+                "durationMinute": 65,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 756
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 756
+          }
+        ]
+      },
+      {
+        "id": 757,
+        "week": 6,
+        "exclusivePlanDayList": [
+          {
+            "id": 3234,
+            "day": 1,
+            "exclusivePlanWeekId": 757,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2823,
+                "code": "68ad2c3fe4b0832dcbc10331",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（rowing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188611756.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              },
+              {
+                "permission": 0,
+                "id": 2815,
+                "code": "68ad30b1e4b0832dcbc10332",
+                "difficultyId": 1,
+                "courseTitle": "Base & Engine #2（skiing ver.）",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188644260.png",
+                "actionLibraryCount": 18,
+                "durationMinute": 44,
+                "sort": 1,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 2,
+            "exclusivePlanWeekId": 757
+          },
+          {
+            "id": 3235,
+            "day": 3,
+            "exclusivePlanWeekId": 757,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2828,
+                "code": "68ad33d9e4b0832dcbc10333",
+                "difficultyId": 2,
+                "courseTitle": "Power #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188706430.png",
+                "actionLibraryCount": 22,
+                "durationMinute": 44,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 4,
+            "exclusivePlanWeekId": 757
+          },
+          {
+            "id": 3236,
+            "day": 5,
+            "exclusivePlanWeekId": 757,
+            "courseList": [
+              {
+                "permission": 0,
+                "id": 2826,
+                "code": "68ad3423e4b0832dcbc10334",
+                "difficultyId": 3,
+                "courseTitle": "Hybrid Challenge #2",
+                "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1758188677244.png",
+                "actionLibraryCount": 33,
+                "durationMinute": 65,
+                "sort": 0,
+                "categoryName": "Strength",
+                "courseMode": 1
+              }
+            ]
+          },
+          {
+            "day": 6,
+            "exclusivePlanWeekId": 757
+          },
+          {
+            "day": 7,
+            "exclusivePlanWeekId": 757
+          }
+        ]
+      }
+    ],
+    "isPermission": true,
+    "status": 0,
+    "delFlag": 0,
+    "isMyFavorites": 0,
+    "difficultyId": 2,
+    "weekTrainingFrequency": 3,
+    "weekCount": 6,
+    "mainId": 258,
+    "isDelay": 0,
+    "deviceType": 1,
+    "isRecommend": 1,
+    "isUseDevice": 1
+  }
+}

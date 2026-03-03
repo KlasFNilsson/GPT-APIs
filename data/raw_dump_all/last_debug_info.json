@@ -1,0 +1,626 @@
+{
+  "meta": {
+    "generated_at": "2026-03-03T06:13:08.825261+00:00"
+  },
+  "data": {
+    "timestamp": "2026-03-03 06:13:07",
+    "method": "GET",
+    "url": "https://euapi.speediance.com/api/app/exclusivePlan/246",
+    "status": 200,
+    "request_headers": {
+      "User-Agent": "Dart/3.9 (dart:io)",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept": "*/*",
+      "Connection": "keep-alive",
+      "Host": "euapi.speediance.com",
+      "App_user_id": "437440282165249",
+      "Token": "15e985432a0478e2eb0a131eef762bdd",
+      "Timestamp": "1772518387076",
+      "Versioncode": "40304",
+      "Mobiledevices": "{\"brand\":\"google\",\"device\":\"emulator64_x86_64_arm64\",\"deviceType\":\"sdk_gphone64_x86_64\",\"os\":\"\",\"os_version\":\"31\",\"manufacturer\":\"Google\"}",
+      "Content-Type": "application/json"
+    },
+    "request_body": null,
+    "response_body": {
+      "code": 0,
+      "message": "Success",
+      "data": {
+        "id": 246,
+        "name": "Maximum Muscle ",
+        "description": "Whether you're chasing weight loss, sculpting, boosting health, or building strength, muscle growth is your powerhouse key! It might not be the final stop, but it's a vital milestone in reaching your goals. So, buckle up and dive into the plan—let's crush six dynamic workouts a week and unleash your unstoppable potential.",
+        "coverImg": "https://d1rwzqjevxdih5.cloudfront.net/1754559401136.jpg",
+        "permission": 0,
+        "price": 0.0,
+        "categoryList": [
+          {
+            "id": 10,
+            "createUserId": 1,
+            "createTime": "2022-04-26 08:08:24",
+            "updateUserId": 20021,
+            "updateTime": "2025-08-20 06:22:27",
+            "delFlag": 0,
+            "name": "4 Weeks ",
+            "status": 0,
+            "deviceType": 1,
+            "guestModeCoverImg": "https://d1rwzqjevxdih5.cloudfront.net/1711340443512.png",
+            "orderNo": 4
+          }
+        ],
+        "tagList": [
+          {
+            "id": 15,
+            "createUserId": 1,
+            "createTime": "2022-03-25 13:56:58",
+            "updateUserId": 63,
+            "updateTime": "2024-12-19 09:43:23",
+            "delFlag": 0,
+            "name": "Strength",
+            "status": 0,
+            "deviceType": 1,
+            "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601399839.png"
+          },
+          {
+            "id": 16,
+            "createUserId": 1,
+            "createTime": "2022-05-25 06:23:12",
+            "updateUserId": 63,
+            "updateTime": "2024-12-19 09:43:13",
+            "delFlag": 0,
+            "name": "Shaping",
+            "status": 0,
+            "deviceType": 1,
+            "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601389526.png"
+          },
+          {
+            "id": 17,
+            "createUserId": 10,
+            "createTime": "2022-06-29 08:29:12",
+            "updateUserId": 63,
+            "updateTime": "2024-12-19 09:43:01",
+            "delFlag": 0,
+            "name": "Get Fit",
+            "status": 0,
+            "deviceType": 1,
+            "tagImg": "https://d1rwzqjevxdih5.cloudfront.net/1734601375613.png"
+          }
+        ],
+        "exclusivePlanWeekList": [
+          {
+            "id": 702,
+            "week": 1,
+            "exclusivePlanDayList": [
+              {
+                "id": 2999,
+                "day": 1,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1400,
+                    "code": "65f1732be4b075f7315ec1de",
+                    "difficultyId": 2,
+                    "courseTitle": "Mighty Back ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710324066838.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 31,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3000,
+                "day": 2,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2492,
+                    "code": "65f02c8ce4b075f7315cc410",
+                    "difficultyId": 2,
+                    "courseTitle": "Chest Thrive Challenge",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710239297390.png",
+                    "actionLibraryCount": 6,
+                    "durationMinute": 29,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3001,
+                "day": 3,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2555,
+                    "code": "66014941e4b06a6860c50d6e",
+                    "difficultyId": 2,
+                    "courseTitle": "Shoulders Level Up",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505902041.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 35,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3002,
+                "day": 4,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2556,
+                    "code": "66011d1ce4b06a6860c4d270",
+                    "difficultyId": 2,
+                    "courseTitle": "Warrior Arms Workshop",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505763236.png",
+                    "actionLibraryCount": 7,
+                    "durationMinute": 32,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3003,
+                "day": 5,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1402,
+                    "code": "65f270e8e4b075f7315fdab4",
+                    "difficultyId": 2,
+                    "courseTitle": "Legendary Legs ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404936353.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 38,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3004,
+                "day": 6,
+                "exclusivePlanWeekId": 702,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2554,
+                    "code": "6613928be4b056a606ca1378",
+                    "difficultyId": 2,
+                    "courseTitle": "Glute Galore",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566303606.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 34,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "day": 7,
+                "exclusivePlanWeekId": 702
+              }
+            ]
+          },
+          {
+            "id": 703,
+            "week": 2,
+            "exclusivePlanDayList": [
+              {
+                "id": 3005,
+                "day": 1,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1400,
+                    "code": "65f1732be4b075f7315ec1de",
+                    "difficultyId": 2,
+                    "courseTitle": "Mighty Back ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710324066838.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 31,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3006,
+                "day": 2,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2492,
+                    "code": "65f02c8ce4b075f7315cc410",
+                    "difficultyId": 2,
+                    "courseTitle": "Chest Thrive Challenge",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710239297390.png",
+                    "actionLibraryCount": 6,
+                    "durationMinute": 29,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3007,
+                "day": 3,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2555,
+                    "code": "66014941e4b06a6860c50d6e",
+                    "difficultyId": 2,
+                    "courseTitle": "Shoulders Level Up",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505902041.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 35,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3008,
+                "day": 4,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2556,
+                    "code": "66011d1ce4b06a6860c4d270",
+                    "difficultyId": 2,
+                    "courseTitle": "Warrior Arms Workshop",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505763236.png",
+                    "actionLibraryCount": 7,
+                    "durationMinute": 32,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3009,
+                "day": 5,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1402,
+                    "code": "65f270e8e4b075f7315fdab4",
+                    "difficultyId": 2,
+                    "courseTitle": "Legendary Legs ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404936353.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 38,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3010,
+                "day": 6,
+                "exclusivePlanWeekId": 703,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2554,
+                    "code": "6613928be4b056a606ca1378",
+                    "difficultyId": 2,
+                    "courseTitle": "Glute Galore",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566303606.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 34,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "day": 7,
+                "exclusivePlanWeekId": 703
+              }
+            ]
+          },
+          {
+            "id": 704,
+            "week": 3,
+            "exclusivePlanDayList": [
+              {
+                "id": 3011,
+                "day": 1,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1400,
+                    "code": "65f1732be4b075f7315ec1de",
+                    "difficultyId": 2,
+                    "courseTitle": "Mighty Back ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710324066838.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 31,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3012,
+                "day": 2,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2492,
+                    "code": "65f02c8ce4b075f7315cc410",
+                    "difficultyId": 2,
+                    "courseTitle": "Chest Thrive Challenge",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710239297390.png",
+                    "actionLibraryCount": 6,
+                    "durationMinute": 29,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3013,
+                "day": 3,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2555,
+                    "code": "66014941e4b06a6860c50d6e",
+                    "difficultyId": 2,
+                    "courseTitle": "Shoulders Level Up",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505902041.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 35,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3014,
+                "day": 4,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2556,
+                    "code": "66011d1ce4b06a6860c4d270",
+                    "difficultyId": 2,
+                    "courseTitle": "Warrior Arms Workshop",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505763236.png",
+                    "actionLibraryCount": 7,
+                    "durationMinute": 32,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3015,
+                "day": 5,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1402,
+                    "code": "65f270e8e4b075f7315fdab4",
+                    "difficultyId": 2,
+                    "courseTitle": "Legendary Legs ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404936353.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 38,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3016,
+                "day": 6,
+                "exclusivePlanWeekId": 704,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2554,
+                    "code": "6613928be4b056a606ca1378",
+                    "difficultyId": 2,
+                    "courseTitle": "Glute Galore",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566303606.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 34,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "day": 7,
+                "exclusivePlanWeekId": 704
+              }
+            ]
+          },
+          {
+            "id": 705,
+            "week": 4,
+            "exclusivePlanDayList": [
+              {
+                "id": 3017,
+                "day": 1,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1400,
+                    "code": "65f1732be4b075f7315ec1de",
+                    "difficultyId": 2,
+                    "courseTitle": "Mighty Back ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710324066838.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 31,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3018,
+                "day": 2,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2492,
+                    "code": "65f02c8ce4b075f7315cc410",
+                    "difficultyId": 2,
+                    "courseTitle": "Chest Thrive Challenge",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710239297390.png",
+                    "actionLibraryCount": 6,
+                    "durationMinute": 29,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3019,
+                "day": 3,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2555,
+                    "code": "66014941e4b06a6860c50d6e",
+                    "difficultyId": 2,
+                    "courseTitle": "Shoulders Level Up",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505902041.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 35,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3020,
+                "day": 4,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2556,
+                    "code": "66011d1ce4b06a6860c4d270",
+                    "difficultyId": 2,
+                    "courseTitle": "Warrior Arms Workshop",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1711505763236.png",
+                    "actionLibraryCount": 7,
+                    "durationMinute": 32,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3021,
+                "day": 5,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 1402,
+                    "code": "65f270e8e4b075f7315fdab4",
+                    "difficultyId": 2,
+                    "courseTitle": "Legendary Legs ",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1710404936353.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 38,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "id": 3022,
+                "day": 6,
+                "exclusivePlanWeekId": 705,
+                "courseList": [
+                  {
+                    "permission": 0,
+                    "id": 2554,
+                    "code": "6613928be4b056a606ca1378",
+                    "difficultyId": 2,
+                    "courseTitle": "Glute Galore",
+                    "courseImg": "https://d1rwzqjevxdih5.cloudfront.net/1712566303606.png",
+                    "actionLibraryCount": 8,
+                    "durationMinute": 34,
+                    "sort": 0,
+                    "categoryName": "Strength",
+                    "courseMode": 2
+                  }
+                ]
+              },
+              {
+                "day": 7,
+                "exclusivePlanWeekId": 705
+              }
+            ]
+          }
+        ],
+        "isPermission": true,
+        "status": 0,
+        "delFlag": 0,
+        "isMyFavorites": 0,
+        "difficultyId": 2,
+        "weekTrainingFrequency": 6,
+        "weekCount": 4,
+        "mainId": 246,
+        "isDelay": 0,
+        "deviceType": 1,
+        "isRecommend": 0,
+        "isUseDevice": 1
+      },
+      "timestamp": 1772518387,
+      "traceId": "41a975b4576ed1da"
+    }
+  }
+}

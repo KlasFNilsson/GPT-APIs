@@ -1,0 +1,41 @@
+name: Manual Speediance Raw Dump
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  raw_dump:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run raw dump
+        env:
+          SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
+          SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
+          SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
+          SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
+          SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
+        run: |
+          python dump_speediance_raw.py --days 60 --max-details 100
+
+      - name: Commit raw files
+        run: |
+          git config user.name "speediance-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/raw_dump || true
+          git diff --cached --quiet || git commit -m "manual raw dump"
+          git push

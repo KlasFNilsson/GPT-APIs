@@ -1,4 +1,4 @@
-# sync_speediance_flat_only.py
+# sync_speediance_flat_only_v3.py
 #
 # Purpose:
 #   Fetch ALL performed workouts (within TRAINING_DAYS) from Speediance,
@@ -6,39 +6,25 @@
 #     data/training_flat.csv
 #
 # Output columns:
-#   WORKOUT NAME, DATE,
-#   EXERCISE NAME, SETS, TOTAL REPS, SECONDS,
-#   PER SIDE (Yes/No),
-#   AVG WEIGHT/REP, MAX WEIGHT/REP, TOTAL WEIGHT,
-#   1RM (best-effort found),
-#   training_id, record_id, error
+#   workout_name, date,
+#   exercise_name,
+#   per_side (Yes/No),
+#   sets, total_reps, seconds,
+#   avg_weight_per_rep, max_weight_per_rep, total_weight,
+#   error
 #
-# Required env (GitHub Actions secrets):
-#   SPEEDIANCE_REGION
-#   SPEEDIANCE_DEVICE_TYPE
-#   SPEEDIANCE_ALLOW_MONSTER_MOVES
-#   SPEEDIANCE_UNIT
-#   SPEEDIANCE_TOKEN
-#   SPEEDIANCE_USER_ID
-#
-# Optional env:
-#   TRAINING_DAYS (default 365)
-#   DETAIL_THROTTLE_SECONDS (default 1.2)
-#   DETAIL_RETRIES (default 3)
-#   MAX_TRAINING_DETAILS (default 999999)  # safety cap if you want
-#
-# Notes:
-# - This script depends on your existing repo modules:
-#     api_client.py (SpeedianceClient)
-#     sync_speediance.py (normalization helpers)
-# - It does NOT write training_records.json, training_compact/, etc.
+# Notes on correctness tweaks (per user report):
+# - seconds are sourced from raw trainingdetails: finishedReps[].time (fallback to normalized set.time)
+# - unilateral (per_side) is sourced from finishedReps[].leftRight (0=both sides together; 1/2=single side)
+# - for per_side=Yes, sets are halved (weight/reps aggregation is NOT altered)
+# - one_rm_found, training_id, record_id are intentionally omitted
 
 import csv
 import json
 import os
 import time
 from datetime import datetime, timedelta, timezone
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional
 
 from api_client import SpeedianceClient
 import sync_speediance as ss
@@ -68,36 +54,11 @@ def _parse_date_isoish(s: Optional[str]) -> Optional[str]:
     txt = str(s).strip()
     if not txt:
         return None
-    # most are ISO strings already; normalize to YYYY-MM-DD when possible
     if len(txt) >= 10:
         head = txt[:10]
         if ss.re.match(r"^\d{4}-\d{2}-\d{2}$", head):
             return head
     return txt
-
-
-def find_possible_1rm_value(obj: Any) -> Optional[float]:
-    """
-    Best-effort: look for numeric fields in the raw payload that look like 1RM/one-rep-max.
-    Keep conservative; return the first plausible value.
-    """
-    if isinstance(obj, dict):
-        for k, v in obj.items():
-            k2 = str(k).lower()
-            if any(tok in k2 for tok in ("1rm", "one_rm", "onerepmax", "one_rep_max", "onerepmax", "rm1")):
-                fv = _safe_float(v, 0.0)
-                if fv > 0:
-                    return fv
-        for v in obj.values():
-            got = find_possible_1rm_value(v)
-            if got is not None:
-                return got
-    elif isinstance(obj, list):
-        for it in obj:
-            got = find_possible_1rm_value(it)
-            if got is not None:
-                return got
-    return None
 
 
 _PER_SIDE_NAME_PATTERNS = (
@@ -119,13 +80,31 @@ _PER_SIDE_NAME_PATTERNS = (
 )
 
 
+def _finished_reps_list(ex: Dict[str, Any]) -> List[Dict[str, Any]]:
+    # Speediance raw often uses finishedReps
+    fr = ex.get("finishedReps")
+    if isinstance(fr, list):
+        return [x for x in fr if isinstance(x, dict)]
+    # fallback: occasionally snake_case
+    fr2 = ex.get("finished_reps")
+    if isinstance(fr2, list):
+        return [x for x in fr2 if isinstance(x, dict)]
+    return []
+
+
 def is_per_side_exercise(ex: Dict[str, Any]) -> bool:
-    """Heuristic: flag unilateral movements based on naming/notes."""
+    """Primary: finishedReps[].leftRight; fallback: name heuristics."""
+    fr_list = _finished_reps_list(ex)
+    # leftRight: 0 means both sides together; 1/2 indicates unilateral sides
+    for fr in fr_list:
+        lr = _safe_int(fr.get("leftRight"), 0)
+        if lr in (1, 2):
+            return True
+
     name = str(ex.get("name") or "").lower()
     if any(pat in name for pat in _PER_SIDE_NAME_PATTERNS):
         return True
 
-    # Optional: sometimes notes exist on the exercise or inside sets
     note = str(ex.get("note") or ex.get("comment") or "").lower()
     if note and any(pat in note for pat in ("per side", "per arm", "each side", "each arm", "each leg")):
         return True
@@ -141,25 +120,48 @@ def is_per_side_exercise(ex: Dict[str, Any]) -> bool:
     return False
 
 
-def aggregate_exercise(ex: Dict[str, Any], per_side: bool) -> Dict[str, Any]:
+def _count_sets_raw(ex: Dict[str, Any]) -> int:
+    """Prefer finishedReps count; fallback to normalized sets count."""
+    fr_list = _finished_reps_list(ex)
+    if fr_list:
+        return len(fr_list)
     sets_list = ex.get("sets") if isinstance(ex.get("sets"), list) else []
+    return sum(1 for s in sets_list if isinstance(s, dict))
 
-    sets_count_raw = 0
+
+def aggregate_exercise(ex: Dict[str, Any], per_side: bool) -> Dict[str, Any]:
+    sets_count_raw = _count_sets_raw(ex)
+
+    # reps + seconds: source from finishedReps when present
     total_reps = 0
     total_seconds = 0
+
+    fr_list = _finished_reps_list(ex)
+    if fr_list:
+        for fr in fr_list:
+            # finishedCount is the performed rep count when reps-based
+            fc = _safe_int(fr.get("finishedCount"), 0)
+            total_reps += fc
+            total_seconds += _safe_int(fr.get("time"), 0)
+    else:
+        # fallback to normalized sets
+        sets_list = ex.get("sets") if isinstance(ex.get("sets"), list) else []
+        for s in sets_list:
+            if not isinstance(s, dict):
+                continue
+            total_reps += _safe_int(s.get("reps"), 0)
+            total_seconds += _safe_int(s.get("time"), 0)
+
+    # weights: keep your previous normalized logic (best-effort)
     total_weight = 0.0
     max_weight_per_rep = 0.0
 
+    sets_list = ex.get("sets") if isinstance(ex.get("sets"), list) else []
     for s in sets_list:
         if not isinstance(s, dict):
             continue
-        sets_count_raw += 1
 
         reps = _safe_int(s.get("reps"), 0)
-        total_reps += reps
-
-        secs = _safe_int(s.get("time"), 0)
-        total_seconds += secs
 
         reps_detail = s.get("reps_detail")
         if isinstance(reps_detail, list) and reps_detail:
@@ -174,20 +176,19 @@ def aggregate_exercise(ex: Dict[str, Any], per_side: bool) -> Dict[str, Any]:
             if w_set > max_weight_per_rep:
                 max_weight_per_rep = w_set
 
-    # For unilateral exercises, Speediance often logs both sides as separate sets.
-    # We halve set count, but do NOT change weight/reps aggregation (so avg weight stays correct).
-    sets_count_out: Any = sets_count_raw
+    # output sets: halve if per_side=Yes, but do NOT affect reps/weight totals
+    sets_out: Any = sets_count_raw
     if per_side and sets_count_raw > 0:
-        sets_count_out = sets_count_raw / 2.0
-        if float(sets_count_out).is_integer():
-            sets_count_out = int(sets_count_out)
+        sets_out = sets_count_raw / 2.0
+        if float(sets_out).is_integer():
+            sets_out = int(sets_out)
 
     avg_weight_per_rep = (total_weight / total_reps) if total_reps > 0 else 0.0
 
     return {
-        "sets": sets_count_out,
-        "total_reps": total_reps,
-        "seconds": total_seconds,
+        "sets": sets_out,
+        "total_reps": int(total_reps),
+        "seconds": int(total_seconds),
         "avg_weight_per_rep": round(avg_weight_per_rep, 3),
         "max_weight_per_rep": round(max_weight_per_rep, 3),
         "total_weight": round(total_weight, 3),
@@ -195,7 +196,6 @@ def aggregate_exercise(ex: Dict[str, Any], per_side: bool) -> Dict[str, Any]:
 
 
 def run() -> None:
-    # env
     days = ss._env_int("TRAINING_DAYS", 365)
     max_details = ss._env_int("MAX_TRAINING_DETAILS", 999999)
     throttle_s = ss._env_float("DETAIL_THROTTLE_SECONDS", 1.2)
@@ -206,12 +206,10 @@ def run() -> None:
     start_date = start.strftime("%Y-%m-%d")
     end_date = end.strftime("%Y-%m-%d")
 
-    # client
     c = SpeedianceClient()
     ss.configure_client(c)
     ss.ensure_auth_token_only(c)
 
-    # records
     records_obj = c.get_training_records(start_date, end_date)
     records_list = ss.extract_records_list(records_obj)
 
@@ -233,23 +231,18 @@ def run() -> None:
                 "date": ss.get_record_date(rec),
                 "title": rec.get("title"),
                 "type": rtype_i,
-                "startTime": rec.get("startTime"),
-                "endTime": rec.get("endTime"),
             }
         )
 
     normalized_sorted = sorted(normalized_records, key=lambda x: (x.get("date") or ""), reverse=True)
     normalized_sorted = normalized_sorted[:max_details]
 
-    # normalization helpers (library maps used for fallback naming)
     id_to_name, name_to_id = ss.load_or_refresh_library_maps(c)
 
-    # aggregate rows
     rows: List[Dict[str, Any]] = []
 
     for item in normalized_sorted:
         tid = item["training_id"]
-        rid = item["record_id"]
         rtype = item.get("type")
 
         payload: Optional[Any] = None
@@ -266,13 +259,10 @@ def run() -> None:
             time.sleep(throttle_s * attempt)
 
         if payload is None:
-            # skip, but keep a sentinel row if you want later debugging
             rows.append(
                 {
                     "workout_name": item.get("title"),
                     "date": _parse_date_isoish(item.get("date")),
-                    "training_id": tid,
-                    "record_id": rid,
                     "exercise_name": None,
                     "per_side": None,
                     "sets": None,
@@ -281,13 +271,11 @@ def run() -> None:
                     "avg_weight_per_rep": None,
                     "max_weight_per_rep": None,
                     "total_weight": None,
-                    "one_rm_found": None,
                     "error": last_err,
                 }
             )
             continue
 
-        # normalize exercises from payload
         exercises, _normalized_as = ss.normalize_best(payload, id_to_name, name_to_id, c)
 
         for ex in exercises:
@@ -297,16 +285,10 @@ def run() -> None:
             per_side = is_per_side_exercise(ex)
             agg = aggregate_exercise(ex, per_side=per_side)
 
-            # best-effort 1RM from exercise-level raw object (NOT from whole workout payload)
-            one_rm_found = find_possible_1rm_value(ex)
-
             rows.append(
                 {
                     "workout_name": item.get("title"),
                     "date": _parse_date_isoish(item.get("date")),
-                    "training_id": tid,
-                    "record_id": rid,
-
                     "exercise_name": ex.get("name"),
                     "per_side": "Yes" if per_side else "No",
                     "sets": agg["sets"],
@@ -315,19 +297,15 @@ def run() -> None:
                     "avg_weight_per_rep": agg["avg_weight_per_rep"],
                     "max_weight_per_rep": agg["max_weight_per_rep"],
                     "total_weight": agg["total_weight"],
-
-                    "one_rm_found": round(float(one_rm_found), 3) if one_rm_found else None,
-
                     "error": None,
                 }
             )
 
         time.sleep(throttle_s)
 
-    # write ONE file
     os.makedirs("data", exist_ok=True)
-    out_csv = os.path.join("data", "training_flat.csv")
 
+    out_csv = os.path.join("data", "training_flat.csv")
     fieldnames = [
         "workout_name",
         "date",
@@ -339,9 +317,6 @@ def run() -> None:
         "avg_weight_per_rep",
         "max_weight_per_rep",
         "total_weight",
-        "one_rm_found",
-        "training_id",
-        "record_id",
         "error",
     ]
 
@@ -353,7 +328,6 @@ def run() -> None:
 
     print(f"Wrote {len(rows)} rows -> {out_csv}")
 
-    # write JSON (Action-friendly)
     out_json = os.path.join("data", "training_flat.json")
     payload_out = {
         "meta": {

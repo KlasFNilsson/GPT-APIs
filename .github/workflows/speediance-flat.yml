@@ -29,7 +29,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install requests
 
-      - name: Run flat sync
+      - name: Run flat sync (fetch training_flat.json/.csv)
         env:
           SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
           SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
@@ -41,11 +41,27 @@ jobs:
         run: |
           python sync_speediance_flat_only.py
 
+      - name: Convert JSON -> pretty JSON + TSV (tab-separated)
+        run: |
+          # Input produced by sync step
+          python export_training_flat.py \
+            --in data/training_flat.json \
+            --out-json data/training_flat_pretty.json \
+            --out-tsv data/training_flat.tsv \
+            --sort
+
       - name: Commit generated data
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add data/training_flat.json data/training_flat.csv
+
+          # Add whatever files you want to track
+          git add \
+            data/training_flat.json \
+            data/training_flat_pretty.json \
+            data/training_flat.tsv \
+            data/training_flat.csv
+
           git commit -m "Update training flat export" || echo "No changes"
           git push
 

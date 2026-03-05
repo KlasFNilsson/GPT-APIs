@@ -41,15 +41,6 @@ jobs:
         run: |
           python sync_speediance_flat_only.py
 
-      - name: Convert JSON -> pretty JSON + TSV (tab-separated)
-        run: |
-          # Input produced by sync step
-          python export_training_flat.py \
-            --in data/training_flat.json \
-            --out-json data/training_flat_pretty.json \
-            --out-tsv data/training_flat.tsv \
-            --sort
-
       - name: Commit generated data
         run: |
           git config user.name github-actions

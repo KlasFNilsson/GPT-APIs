@@ -341,7 +341,7 @@ def run() -> None:
         "rows": rows,
     }
     with open(out_json, "w", encoding="utf-8") as f:
-        json.dump(payload_out, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(payload_out, f, ensure_ascii=False, separators=(";", ":"))
     print(f"Wrote JSON -> {out_json}")
 
 

@@ -7,6 +7,10 @@ on:
   schedule:
     - cron: "15 2 * * *"
 
+concurrency:
+  group: speediance-flat-export-main
+  cancel-in-progress: false
+
 permissions:
   contents: write
   pages: write
@@ -15,9 +19,12 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -41,18 +48,23 @@ jobs:
         run: |
           python sync_speediance_flat_only.py
 
-      - name: Commit generated data
+      - name: Commit and push generated data
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Add whatever files you want to track
-          git add \
-            data/training_flat.json \
-            data/training_flat.csv
+          git add data/training_flat.json data/training_flat.csv
 
-          git commit -m "Update training flat export" || echo "No changes"
-          git push
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
+          git commit -m "Update training flat export"
+
+          # Bring local main up to date before pushing
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -67,6 +79,11 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
+
+    permissions:
+      pages: write
+      id-token: write
+
     steps:
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4

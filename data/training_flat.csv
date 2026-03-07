@@ -1,4 +1,12 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260213 Run strenght A,2026-03-07,Dynamic Hamstring Stretch,No,1,0,0,0.0,0.0,0.0,
+260213 Run strenght A,2026-03-07,Seated 90/90 Stretch,No,1,0,0,0.0,0.0,0.0,
+260213 Run strenght A,2026-03-07,Barbell Romanian Deadlift,No,4,32,0,89.312,93.0,2858.0,
+260213 Run strenght A,2026-03-07,Barbell Bulgarian Split Squat,No,6,49,0,26.143,28.0,1281.0,
+260213 Run strenght A,2026-03-07,​Bodyweight Reverse Plank March,No,3,0,0,0.0,0.0,0.0,
+260213 Run strenght A,2026-03-07,Half Kneeling Single-Arm Row,Yes,3,72,0,24.0,24.0,1728.0,
+260213 Run strenght A,2026-03-07,Assisted Bent Knee Calf Raise,No,3,0,0,0.0,0.0,0.0,
+260213 Run strenght A,2026-03-07,Leg Curl Cross-Flatbench,No,4,40,0,11.225,12.0,449.0,
 260213 Run strength B,2026-03-04,The World's Greatest Stretch​,No,2,0,0,0.0,0.0,0.0,
 260213 Run strength B,2026-03-04,In-place Inchworm,No,1,0,0,0.0,0.0,0.0,
 260213 Run strength B,2026-03-04,Barbell Squat,No,4,32,0,70.0,70.0,2240.0,

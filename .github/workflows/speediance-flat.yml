@@ -49,8 +49,6 @@ jobs:
           # Add whatever files you want to track
           git add \
             data/training_flat.json \
-            data/training_flat_pretty.json \
-            data/training_flat.tsv \
             data/training_flat.csv
 
           git commit -m "Update training flat export" || echo "No changes"

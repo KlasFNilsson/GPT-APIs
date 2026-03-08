@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-08T14:36:40.129339+00:00",
+    "generated_at": "2026-03-08T15:35:09.227967+00:00",
     "start_date": "2025-03-08",
     "end_date": "2026-03-08",
-    "count": 85
+    "count": 86
   },
   "records": [
+    {
+      "record_id": "2954515",
+      "training_id": "854180",
+      "date": "2026-03-08 16:02:09",
+      "title": "Shoulder & Back Sculpt Challenge",
+      "type": 2,
+      "startTime": "2026-03-08 15:22:15",
+      "endTime": "2026-03-08 16:02:09",
+      "trainingTime_sec": 2336,
+      "calorie": 274,
+      "totalCapacity": 8047.0,
+      "totalEnergy": 37269.64
+    },
     {
       "record_id": "2946992",
       "training_id": "441271",

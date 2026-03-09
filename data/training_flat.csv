@@ -1,4 +1,11 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+Shoulder & Back Sculpt Challenge,2026-03-08,Standing Y Raise,No,1,0,0,0.0,0.0,0.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Barbell Bent Over Row,No,4,46,0,39.304,42.0,1808.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Barbell Romanian Deadlift,No,3,36,0,78.0,78.0,2808.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Bent-Over Dual-Handle Reverse Fly,No,4,48,0,7.625,8.0,366.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Seated Dual-Handle Lat Pulldown,No,3,37,0,17.054,19.0,631.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Seated Alternating Lat Pulldown,No,3,37,0,19.378,21.0,717.0,
+Shoulder & Back Sculpt Challenge,2026-03-08,Lat Stretch,No,2,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-07,Dynamic Hamstring Stretch,No,1,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-07,Seated 90/90 Stretch,No,1,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-07,Barbell Romanian Deadlift,No,4,32,0,89.312,93.0,2858.0,

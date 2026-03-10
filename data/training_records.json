@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-10T04:52:17.902658+00:00",
+    "generated_at": "2026-03-10T05:56:25.212266+00:00",
     "start_date": "2025-03-10",
     "end_date": "2026-03-10",
-    "count": 86
+    "count": 87
   },
   "records": [
+    {
+      "record_id": "2963549",
+      "training_id": "444249",
+      "date": "2026-03-10 06:55:19",
+      "title": "260213 Run strenght A",
+      "type": 5,
+      "startTime": "2026-03-10 06:13:52",
+      "endTime": "2026-03-10 06:55:19",
+      "trainingTime_sec": 2434,
+      "calorie": 214,
+      "totalCapacity": 6416.0,
+      "totalEnergy": 27494.06
+    },
     {
       "record_id": "2954515",
       "training_id": "854180",

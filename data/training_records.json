@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-11T04:54:25.389771+00:00",
+    "generated_at": "2026-03-11T05:59:07.554601+00:00",
     "start_date": "2025-03-11",
     "end_date": "2026-03-11",
-    "count": 87
+    "count": 88
   },
   "records": [
+    {
+      "record_id": "2969658",
+      "training_id": "445426",
+      "date": "2026-03-11 06:46:59",
+      "title": "260206 Strength C - Complimentary",
+      "type": 5,
+      "startTime": "2026-03-11 06:10:49",
+      "endTime": "2026-03-11 06:46:59",
+      "trainingTime_sec": 2106,
+      "calorie": 191,
+      "totalCapacity": 4573.5,
+      "totalEnergy": 18828.49
+    },
     {
       "record_id": "2963549",
       "training_id": "444249",

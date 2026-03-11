@@ -1,0 +1,1231 @@
+{
+  "meta": {
+    "generated_at": "2026-03-11T05:59:12.753903+00:00",
+    "record_id": "2969658",
+    "training_id": "445426",
+    "title": "260206 Strength C - Complimentary",
+    "type": 5,
+    "date": "2026-03-11 06:46:59",
+    "startTime": "2026-03-11 06:10:49",
+    "endTime": "2026-03-11 06:46:59",
+    "trainingTime_sec": 2106,
+    "calorie": 191,
+    "totalCapacity": 4573.5,
+    "totalEnergy": 18828.49,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Dynamic Shoulder Circles",
+      "actionLibraryId": "2267",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Half-Kneeling Modified Rainbow",
+      "actionLibraryId": "430219062476801",
+      "unilateral": true,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "Standing Dual-Handle Chest Press",
+      "actionLibraryId": "304",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 18.0,
+          "volume": 216.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 18.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 18.5,
+          "volume": 222.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 18.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 18.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 19.0,
+          "volume": 228.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 19.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 19.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 666.0,
+      "max_weight": 19.0
+    },
+    {
+      "name": "Kneeling Bent-Over Overhead Curl",
+      "actionLibraryId": "423465909878785",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 9.5,
+          "volume": 114.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 9,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 11,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 12,
+              "weight": 9.5
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 10.5,
+          "volume": 126.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 10.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 10.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 9,
+              "weight": 10.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 11,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 12,
+              "weight": 10.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 10.0,
+          "volume": 120.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 10.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 10.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 10.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 9.5
+            },
+            {
+              "rep_index": 12,
+              "weight": 10.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 360.0,
+      "max_weight": 10.5
+    },
+    {
+      "name": "Seated Barbell Good Morning",
+      "actionLibraryId": "424957897801729",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 60.0,
+          "volume": 480.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 60.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 60.0,
+          "volume": 480.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 60.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 60.0,
+          "volume": 480.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 60.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 60.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1440.0,
+      "max_weight": 60.0
+    },
+    {
+      "name": "Bent-Over Dual-Handle underhand Triceps kickback",
+      "actionLibraryId": "418251841011713",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 7.5,
+          "volume": 75.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 9,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 7.5
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 7.5,
+          "volume": 75.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 9,
+              "weight": 7.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 7.5
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 8.5,
+          "volume": 85.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 9,
+              "weight": 8.5
+            },
+            {
+              "rep_index": 10,
+              "weight": 8.5
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 235.0,
+      "max_weight": 8.5
+    },
+    {
+      "name": "​Half-Kneeling Single-Arm Preacher Curl​",
+      "actionLibraryId": "427468675350529",
+      "unilateral": true,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.5
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 13.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.5
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.5
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 14.0,
+          "volume": 112.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 13.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 13.5
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 5,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 7,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 14.5
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 14.5,
+          "volume": 116.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 2,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 3,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 4,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 6,
+              "weight": 14.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 14.5
+            },
+            {
+              "rep_index": 8,
+              "weight": 14.5
+            }
+          ]
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 692.0,
+      "max_weight": 15.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 3
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 8,
+            "weight": 14.0,
+            "volume": 112.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 3,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 5,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 13.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 13.5
+              }
+            ]
+          },
+          "B": {
+            "reps": 8,
+            "weight": 14.0,
+            "volume": 112.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 13.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 5,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 13.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 13.5
+              }
+            ]
+          }
+        },
+        {
+          "pair_index": 2,
+          "A": {
+            "reps": 8,
+            "weight": 15.0,
+            "volume": 120.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 15.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 4,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 7,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 13.5
+              }
+            ]
+          },
+          "B": {
+            "reps": 8,
+            "weight": 14.0,
+            "volume": 112.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 5,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 7,
+                "weight": 13.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 13.5
+              }
+            ]
+          }
+        },
+        {
+          "pair_index": 3,
+          "A": {
+            "reps": 8,
+            "weight": 15.0,
+            "volume": 120.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 3,
+                "weight": 15.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 5,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 7,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 14.5
+              }
+            ]
+          },
+          "B": {
+            "reps": 8,
+            "weight": 14.5,
+            "volume": 116.0,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 2,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 3,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 4,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 6,
+                "weight": 14.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 14.5
+              },
+              {
+                "rep_index": 8,
+                "weight": 14.5
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Diamond Push-Up",
+      "actionLibraryId": "421485183762433",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 8
+}

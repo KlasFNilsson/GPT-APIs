@@ -1,4 +1,12 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260206 Strength C - Complimentary,2026-03-11,Dynamic Shoulder Circles,No,1,0,0,0.0,0.0,0.0,
+260206 Strength C - Complimentary,2026-03-11,Half-Kneeling Modified Rainbow,No,2,0,0,0.0,0.0,0.0,
+260206 Strength C - Complimentary,2026-03-11,Standing Dual-Handle Chest Press,No,3,36,0,18.181,19.0,654.5,
+260206 Strength C - Complimentary,2026-03-11,Kneeling Bent-Over Overhead Curl,No,3,36,0,9.625,10.5,346.5,
+260206 Strength C - Complimentary,2026-03-11,Seated Barbell Good Morning,No,3,24,0,60.0,60.0,1440.0,
+260206 Strength C - Complimentary,2026-03-11,Bent-Over Dual-Handle underhand Triceps kickback,No,3,30,0,7.833,8.5,235.0,
+260206 Strength C - Complimentary,2026-03-11,​Half-Kneeling Single-Arm Preacher Curl​,Yes,3,48,0,13.854,15.0,665.0,
+260206 Strength C - Complimentary,2026-03-11,Diamond Push-Up,No,3,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-10,Dynamic Hamstring Stretch,No,1,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-10,Seated 90/90 Stretch,No,1,0,0,0.0,0.0,0.0,
 260213 Run strenght A,2026-03-10,Barbell Romanian Deadlift,No,4,32,0,93.0,93.0,2976.0,

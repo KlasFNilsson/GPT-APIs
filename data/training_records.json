@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T05:59:44.375915+00:00",
+    "generated_at": "2026-03-13T07:08:53.401346+00:00",
     "start_date": "2025-03-13",
     "end_date": "2026-03-13",
-    "count": 88
+    "count": 89
   },
   "records": [
+    {
+      "record_id": "2981658",
+      "training_id": "447621",
+      "date": "2026-03-13 08:03:39",
+      "title": "260213 Run strength B",
+      "type": 5,
+      "startTime": "2026-03-13 07:25:34",
+      "endTime": "2026-03-13 08:03:39",
+      "trainingTime_sec": 2232,
+      "calorie": 239,
+      "totalCapacity": 7088.0,
+      "totalEnergy": 33720.83
+    },
     {
       "record_id": "2969658",
       "training_id": "445426",

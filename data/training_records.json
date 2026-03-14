@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-14T07:02:11.961117+00:00",
+    "generated_at": "2026-03-14T07:45:37.968657+00:00",
     "start_date": "2025-03-14",
     "end_date": "2026-03-14",
-    "count": 89
+    "count": 90
   },
   "records": [
+    {
+      "record_id": "2987088",
+      "training_id": "862482",
+      "date": "2026-03-14 08:39:53",
+      "title": "Core Focus: Ab Dimension Training",
+      "type": 2,
+      "startTime": "2026-03-14 07:52:15",
+      "endTime": "2026-03-14 08:39:53",
+      "trainingTime_sec": 2830,
+      "calorie": 250,
+      "totalCapacity": 2287.5,
+      "totalEnergy": 13573.26
+    },
     {
       "record_id": "2981658",
       "training_id": "447621",

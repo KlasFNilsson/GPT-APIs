@@ -1,4 +1,12 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260213 Run strength B,2026-03-13,The World's Greatest Stretch​,No,2,0,0,0.0,0.0,0.0,
+260213 Run strength B,2026-03-13,In-place Inchworm,No,1,0,0,0.0,0.0,0.0,
+260213 Run strength B,2026-03-13,Barbell Squat,No,4,32,0,70.0,70.0,2240.0,
+260213 Run strength B,2026-03-13,Handle Lateral Split Squat,No,6,72,0,47.0,47.0,3384.0,
+260213 Run strength B,2026-03-13,Standing Dual-Handle Reverse-Grip Lateral Raise,No,3,24,0,9.0,9.0,216.0,
+260213 Run strength B,2026-03-13,V-ups,No,3,0,0,0.0,0.0,0.0,
+260213 Run strength B,2026-03-13,Bent-Over Dual-Handle Reverse Fly,No,3,36,0,7.667,8.0,276.0,
+260213 Run strength B,2026-03-13,Barbell Single-Leg Hip Thrust,Yes,2,60,0,8.0,8.0,480.0,
 260206 Strength C - Complimentary,2026-03-11,Dynamic Shoulder Circles,No,1,0,0,0.0,0.0,0.0,
 260206 Strength C - Complimentary,2026-03-11,Half-Kneeling Modified Rainbow,No,2,0,0,0.0,0.0,0.0,
 260206 Strength C - Complimentary,2026-03-11,Standing Dual-Handle Chest Press,No,3,36,0,18.181,19.0,654.5,

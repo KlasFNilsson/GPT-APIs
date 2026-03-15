@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-15T11:36:15.071196+00:00",
+    "generated_at": "2026-03-15T13:14:24.902159+00:00",
     "start_date": "2025-03-15",
     "end_date": "2026-03-15",
-    "count": 90
+    "count": 91
   },
   "records": [
+    {
+      "record_id": "2994267",
+      "training_id": "864542",
+      "date": "2026-03-15 12:44:28",
+      "title": "Rowing Ladder ",
+      "type": 2,
+      "startTime": "2026-03-15 12:11:48",
+      "endTime": "2026-03-15 12:44:28",
+      "trainingTime_sec": 1944,
+      "calorie": 233,
+      "totalCapacity": 0,
+      "totalEnergy": 214072.63
+    },
     {
       "record_id": "2987088",
       "training_id": "862482",

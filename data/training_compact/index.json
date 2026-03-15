@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-15T11:36:15.075745+00:00",
+    "generated_at": "2026-03-15T13:14:24.905908+00:00",
     "start_date": "2025-03-15",
     "end_date": "2026-03-15",
     "max_details": 200,
@@ -9,7 +9,7 @@
     "only_fetch_missing": true,
     "count_written": 0,
     "count_skipped_existing": 77,
-    "count_failed": 13,
+    "count_failed": 14,
     "count_empty_exercises": 0
   },
   "items": [
@@ -862,6 +862,11 @@
     }
   ],
   "errors": {
+    "864542": {
+      "record_id": "2994267",
+      "type": 2,
+      "error": "Empty detail for training_id=864542 (attempt 2)"
+    },
     "840820": {
       "record_id": "2904289",
       "type": 2,

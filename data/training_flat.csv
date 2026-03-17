@@ -1,4 +1,12 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260309 A,2026-03-17,Popup to a Lateral Lunge Landing Hold,No,2,0,0,0.0,0.0,0.0,
+260309 A,2026-03-17,Barbell Deadlift,No,6,32,0,75.75,94.0,2424.0,
+260309 A,2026-03-17,Single-Arm Curtsy Lunge,Yes,3,72,0,26.667,28.0,1920.0,
+260309 A,2026-03-17,Dual-Handle Kelso Shrugs,No,3,24,0,20.0,27.0,480.0,
+260309 A,2026-03-17,Kneeling Barbell Lat Pulldown,No,3,36,0,41.333,45.0,1488.0,
+260309 A,2026-03-17,Standing Barbell Chest Press,No,3,24,0,36.333,37.0,872.0,
+260309 A,2026-03-17,Half-Kneeling Face Pull,No,3,45,0,23.322,25.0,1049.5,
+260309 A,2026-03-17,Tibialis raise,No,3,0,0,0.0,0.0,0.0,
 Rowing Ladder ,2026-03-15,,,,,,,,,Empty detail for training_id=864542 (attempt 3)
 Core Focus: Ab Dimension Training,2026-03-14,Bird Dog,No,1,0,0,0.0,0.0,0.0,
 Core Focus: Ab Dimension Training,2026-03-14,Dead Bug,No,1,0,0,0.0,0.0,0.0,

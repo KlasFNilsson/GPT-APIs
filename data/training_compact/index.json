@@ -1,14 +1,14 @@
 {
   "meta": {
-    "generated_at": "2026-03-17T06:09:33.911149+00:00",
+    "generated_at": "2026-03-17T08:00:09.273680+00:00",
     "start_date": "2025-03-17",
     "end_date": "2026-03-17",
     "max_details": 200,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
     "only_fetch_missing": true,
-    "count_written": 1,
-    "count_skipped_existing": 77,
+    "count_written": 0,
+    "count_skipped_existing": 78,
     "count_failed": 14,
     "count_empty_exercises": 0
   },
@@ -20,9 +20,9 @@
       "type": 5,
       "date": "2026-03-17 06:49:13",
       "path": "/data/training_compact/451779.json",
-      "source_hint": "ctt",
-      "normalized_as": "course(list)",
-      "exercise_count": 8
+      "source_hint": "skipped_existing",
+      "normalized_as": "skipped_existing",
+      "exercise_count": null
     },
     {
       "training_id": "862482",

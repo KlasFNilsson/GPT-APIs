@@ -1,4 +1,13 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260309 C,2026-03-18,Half-Kneeling Modified Rainbow,No,2,0,0,0.0,0.0,0.0,
+260309 C,2026-03-18,Aerobic Skiing (bent arms),No,1,0,0,0.0,0.0,0.0,
+260309 C,2026-03-18,Barbell Bench Press,No,4,26,0,38.731,41.0,1007.0,
+260309 C,2026-03-18,Standing Barbell Biceps Curl,No,3,24,0,26.0,26.0,624.0,
+260309 C,2026-03-18,Bodyweight Glute Bridge March,No,3,0,0,0.0,0.0,0.0,
+260309 C,2026-03-18,Single-Arm Push Press,Yes,3,48,0,15.833,23.0,760.0,
+260309 C,2026-03-18,Bent-Over Dual-Handle Triceps Extension（Floor）,No,3,36,0,7.5,7.5,270.0,
+260309 C,2026-03-18,Seated Barbell Row,No,3,22,0,42.773,53.0,941.0,
+260309 C,2026-03-18,Side Hover Crunch,No,6,0,0,0.0,0.0,0.0,
 260309 A,2026-03-17,Popup to a Lateral Lunge Landing Hold,No,2,0,0,0.0,0.0,0.0,
 260309 A,2026-03-17,Barbell Deadlift,No,6,32,0,75.75,94.0,2424.0,
 260309 A,2026-03-17,Single-Arm Curtsy Lunge,Yes,3,72,0,26.667,28.0,1920.0,

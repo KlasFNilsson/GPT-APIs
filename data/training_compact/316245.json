@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "generated_at": "2026-03-02T16:03:09.454211+00:00",
+    "record_id": "2220367",
+    "training_id": "316245",
+    "title": "Hyrox A",
+    "type": 5,
+    "date": "2025-09-29 18:41:32",
+    "startTime": "2025-09-29 17:57:40",
+    "endTime": "2025-09-29 18:41:32",
+    "trainingTime_sec": 2525,
+    "calorie": 216,
+    "totalCapacity": 5326.0,
+    "totalEnergy": 42041.28,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Aerobic Skiing (bent arms)",
+      "actionLibraryId": "71",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 1,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Rolling Shrugs",
+      "actionLibraryId": "422234059571201",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Shoulder Stretch",
+      "actionLibraryId": "808006709968896",
+      "unilateral": true,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 1
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          },
+          "B": {
+            "reps": 0,
+            "weight": 0.0,
+            "volume": 0.0,
+            "reps_detail": []
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pulse Squat to Alternating Hip Abduction",
+      "actionLibraryId": "428544691929089",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Squat",
+      "actionLibraryId": "57",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 9,
+          "weight": 49.0,
+          "volume": 441.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 49.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 49.0
+            }
+          ]
+        },
+        {
+          "reps": 7,
+          "weight": 56.0,
+          "volume": 392.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 56.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 56.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 69.0,
+          "volume": 414.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 69.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 69.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 69.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 69.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 69.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 69.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 74.0,
+          "volume": 444.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 74.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 74.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 74.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 74.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 74.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 74.0
+            }
+          ]
+        }
+      ],
+      "set_count": 4,
+      "total_volume": 1691.0,
+      "max_weight": 74.0
+    },
+    {
+      "name": "Barbell Romanian Deadlift",
+      "actionLibraryId": "385",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 87.0,
+          "volume": 696.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 87.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 87.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 90.0,
+          "volume": 720.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 90.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 90.0,
+          "volume": 720.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 90.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 90.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 2136.0,
+      "max_weight": 90.0
+    },
+    {
+      "name": "Kneeling Barbell Lat Pulldown",
+      "actionLibraryId": "420081210097665",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 10,
+          "weight": 32.0,
+          "volume": 320.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 22.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 32.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 32.0
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 37.0,
+          "volume": 370.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 37.0
+            }
+          ]
+        },
+        {
+          "reps": 10,
+          "weight": 40.0,
+          "volume": 400.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 40.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1090.0,
+      "max_weight": 40.0
+    },
+    {
+      "name": "Standing Barbell Shoulder Press",
+      "actionLibraryId": "310",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 15.0,
+          "volume": 120.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 15.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 15.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 18.0,
+          "volume": 144.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 18.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 18.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 20.0,
+          "volume": 160.0,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 20.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 424.0,
+      "max_weight": 20.0
+    },
+    {
+      "name": "Plank with Hip Drop",
+      "actionLibraryId": "423833345589249",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 9
+}

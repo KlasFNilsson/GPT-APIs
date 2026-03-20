@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-19T05:07:35.511407+00:00",
+    "generated_at": "2026-03-20T09:13:41.333859+00:00",
     "record_id": "2772205",
     "training_id": "805052",
     "title": "Superset Arms Day",
@@ -25,12 +25,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -49,12 +51,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -69,6 +73,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -85,6 +90,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -101,6 +107,7 @@
           "reps": 12,
           "weight": 13.0,
           "volume": 156.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -156,6 +163,7 @@
           "reps": 10,
           "weight": 13.0,
           "volume": 130.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -203,6 +211,7 @@
           "reps": 8,
           "weight": 15.0,
           "volume": 120.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -252,6 +261,7 @@
           "reps": 12,
           "weight": 11.0,
           "volume": 132.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -307,6 +317,7 @@
           "reps": 10,
           "weight": 12.0,
           "volume": 120.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -354,6 +365,7 @@
           "reps": 8,
           "weight": 13.0,
           "volume": 104.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -403,6 +415,7 @@
           "reps": 12,
           "weight": 13.0,
           "volume": 156.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -458,6 +471,7 @@
           "reps": 10,
           "weight": 14.0,
           "volume": 140.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -505,6 +519,7 @@
           "reps": 8,
           "weight": 16.0,
           "volume": 128.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -554,6 +569,7 @@
           "reps": 12,
           "weight": 27.0,
           "volume": 324.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -609,6 +625,7 @@
           "reps": 10,
           "weight": 27.0,
           "volume": 270.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -656,6 +673,7 @@
           "reps": 8,
           "weight": 32.0,
           "volume": 256.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -705,6 +723,7 @@
           "reps": 12,
           "weight": 22.0,
           "volume": 264.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -760,6 +779,7 @@
           "reps": 10,
           "weight": 19.0,
           "volume": 190.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -807,6 +827,7 @@
           "reps": 8,
           "weight": 20.0,
           "volume": 160.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -856,6 +877,7 @@
           "reps": 12,
           "weight": 16.0,
           "volume": 192.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -911,6 +933,7 @@
           "reps": 10,
           "weight": 17.0,
           "volume": 170.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -958,6 +981,7 @@
           "reps": 8,
           "weight": 19.0,
           "volume": 152.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1007,12 +1031,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -1029,12 +1055,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -1053,12 +1081,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 25,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 25,
             "reps_detail": []
           }
         }

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-08T04:57:49.409876+00:00",
+    "generated_at": "2026-03-20T09:15:18.625089+00:00",
     "record_id": "2565579",
     "training_id": "374805",
     "title": "Run strength B 251222",
@@ -25,12 +25,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -49,12 +51,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 25,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 25,
             "reps_detail": []
           }
         }
@@ -69,6 +73,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -85,6 +90,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 300,
           "reps_detail": []
         }
       ],
@@ -101,6 +107,7 @@
           "reps": 6,
           "weight": 64.0,
           "volume": 384.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -132,6 +139,7 @@
           "reps": 6,
           "weight": 39.0,
           "volume": 234.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -163,6 +171,7 @@
           "reps": 6,
           "weight": 45.0,
           "volume": 270.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -194,6 +203,7 @@
           "reps": 6,
           "weight": 50.0,
           "volume": 300.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -235,6 +245,7 @@
           "reps": 6,
           "weight": 34.0,
           "volume": 204.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -266,6 +277,7 @@
           "reps": 6,
           "weight": 34.0,
           "volume": 204.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -297,6 +309,7 @@
           "reps": 6,
           "weight": 40.0,
           "volume": 240.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -328,41 +341,7 @@
           "reps": 7,
           "weight": 41.0,
           "volume": 287.0,
-          "reps_detail": [
-            {
-              "rep_index": 1,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 2,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 3,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 4,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 5,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 6,
-              "weight": 41.0
-            },
-            {
-              "rep_index": 7,
-              "weight": 41.0
-            }
-          ]
-        },
-        {
-          "reps": 7,
-          "weight": 41.0,
-          "volume": 287.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -398,6 +377,43 @@
           "reps": 7,
           "weight": 41.0,
           "volume": 287.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 41.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 41.0
+            }
+          ]
+        },
+        {
+          "reps": 7,
+          "weight": 41.0,
+          "volume": 287.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -445,6 +461,7 @@
             "reps": 6,
             "weight": 34.0,
             "volume": 204.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -476,6 +493,7 @@
             "reps": 6,
             "weight": 34.0,
             "volume": 204.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -510,6 +528,7 @@
             "reps": 6,
             "weight": 40.0,
             "volume": 240.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -541,6 +560,7 @@
             "reps": 7,
             "weight": 41.0,
             "volume": 287.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -579,6 +599,7 @@
             "reps": 7,
             "weight": 41.0,
             "volume": 287.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -614,6 +635,7 @@
             "reps": 7,
             "weight": 41.0,
             "volume": 287.0,
+            "time": 6,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -657,6 +679,7 @@
           "reps": 8,
           "weight": 3.5,
           "volume": 28.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -696,6 +719,7 @@
           "reps": 8,
           "weight": 6.5,
           "volume": 52.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -735,6 +759,7 @@
           "reps": 8,
           "weight": 5.5,
           "volume": 44.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -784,6 +809,7 @@
           "reps": 6,
           "weight": 22.0,
           "volume": 132.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -815,6 +841,7 @@
           "reps": 6,
           "weight": 22.0,
           "volume": 132.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -846,6 +873,7 @@
           "reps": 6,
           "weight": 22.0,
           "volume": 132.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -887,6 +915,7 @@
           "reps": 12,
           "weight": 77.0,
           "volume": 924.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -942,6 +971,7 @@
           "reps": 12,
           "weight": 77.0,
           "volume": 924.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -997,6 +1027,7 @@
           "reps": 12,
           "weight": 77.0,
           "volume": 924.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1062,18 +1093,21 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 45,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 45,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 45,
           "reps_detail": []
         }
       ],

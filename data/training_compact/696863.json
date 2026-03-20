@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T15:58:43.754471+00:00",
+    "generated_at": "2026-03-20T09:17:02.969859+00:00",
     "record_id": "2387878",
     "training_id": "696863",
     "title": "Upper Back: The Power Triangle",
@@ -25,12 +25,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 15,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 15,
           "reps_detail": []
         }
       ],
@@ -49,12 +51,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 15,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 15,
             "reps_detail": []
           }
         }
@@ -69,6 +73,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 35,
           "reps_detail": []
         }
       ],
@@ -85,6 +90,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 35,
           "reps_detail": []
         }
       ],
@@ -101,6 +107,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 45,
           "reps_detail": []
         }
       ],
@@ -117,6 +124,7 @@
           "reps": 15,
           "weight": 20.0,
           "volume": 300.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -184,6 +192,7 @@
           "reps": 12,
           "weight": 22.0,
           "volume": 264.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -239,6 +248,7 @@
           "reps": 12,
           "weight": 22.0,
           "volume": 264.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -304,6 +314,7 @@
           "reps": 15,
           "weight": 44.0,
           "volume": 660.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -371,6 +382,7 @@
           "reps": 15,
           "weight": 37.0,
           "volume": 555.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -438,6 +450,7 @@
           "reps": 12,
           "weight": 41.0,
           "volume": 492.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -493,6 +506,7 @@
           "reps": 10,
           "weight": 42.0,
           "volume": 420.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -550,6 +564,7 @@
           "reps": 12,
           "weight": 41.0,
           "volume": 492.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -605,6 +620,7 @@
           "reps": 12,
           "weight": 41.0,
           "volume": 492.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -660,6 +676,7 @@
           "reps": 10,
           "weight": 42.0,
           "volume": 420.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -707,6 +724,7 @@
           "reps": 10,
           "weight": 42.0,
           "volume": 420.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -764,6 +782,7 @@
           "reps": 12,
           "weight": 76.0,
           "volume": 912.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -819,6 +838,7 @@
           "reps": 12,
           "weight": 81.0,
           "volume": 972.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -874,6 +894,7 @@
           "reps": 10,
           "weight": 83.0,
           "volume": 830.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -921,6 +942,7 @@
           "reps": 10,
           "weight": 87.0,
           "volume": 870.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -978,6 +1000,7 @@
           "reps": 15,
           "weight": 23.0,
           "volume": 345.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1045,6 +1068,7 @@
           "reps": 12,
           "weight": 30.0,
           "volume": 360.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1100,6 +1124,7 @@
           "reps": 10,
           "weight": 37.0,
           "volume": 370.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1157,6 +1182,7 @@
           "reps": 15,
           "weight": 12.0,
           "volume": 180.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1224,6 +1250,7 @@
           "reps": 15,
           "weight": 17.0,
           "volume": 255.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1291,6 +1318,7 @@
           "reps": 15,
           "weight": 21.0,
           "volume": 315.0,
+          "time": 15,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1368,12 +1396,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -1392,12 +1422,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -1412,12 +1444,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -1436,12 +1470,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }

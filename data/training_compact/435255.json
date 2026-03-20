@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-19T05:05:50.752768+00:00",
+    "generated_at": "2026-03-20T09:11:50.483728+00:00",
     "record_id": "2913880",
     "training_id": "435255",
     "title": "260213 Run strenght A",
@@ -25,6 +25,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -41,6 +42,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 25,
           "reps_detail": []
         }
       ],
@@ -57,6 +59,7 @@
           "reps": 8,
           "weight": 71.0,
           "volume": 568.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -96,6 +99,7 @@
           "reps": 8,
           "weight": 80.0,
           "volume": 640.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -135,6 +139,7 @@
           "reps": 8,
           "weight": 87.0,
           "volume": 696.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -174,6 +179,7 @@
           "reps": 8,
           "weight": 90.0,
           "volume": 720.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -223,6 +229,7 @@
           "reps": 8,
           "weight": 27.0,
           "volume": 216.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -262,6 +269,7 @@
           "reps": 8,
           "weight": 27.0,
           "volume": 216.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -301,6 +309,7 @@
           "reps": 8,
           "weight": 29.0,
           "volume": 232.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -340,6 +349,7 @@
           "reps": 8,
           "weight": 29.0,
           "volume": 232.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -379,6 +389,7 @@
           "reps": 8,
           "weight": 29.0,
           "volume": 232.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -418,6 +429,7 @@
           "reps": 8,
           "weight": 30.0,
           "volume": 240.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -469,6 +481,7 @@
             "reps": 8,
             "weight": 27.0,
             "volume": 216.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -508,6 +521,7 @@
             "reps": 8,
             "weight": 27.0,
             "volume": 216.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -550,6 +564,7 @@
             "reps": 8,
             "weight": 29.0,
             "volume": 232.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -589,6 +604,7 @@
             "reps": 8,
             "weight": 29.0,
             "volume": 232.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -631,6 +647,7 @@
             "reps": 8,
             "weight": 29.0,
             "volume": 232.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -670,6 +687,7 @@
             "reps": 8,
             "weight": 30.0,
             "volume": 240.0,
+            "time": 8,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -717,18 +735,21 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         }
       ],
@@ -745,6 +766,7 @@
           "reps": 12,
           "weight": 20.0,
           "volume": 240.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -800,6 +822,7 @@
           "reps": 12,
           "weight": 20.0,
           "volume": 240.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -855,6 +878,7 @@
           "reps": 12,
           "weight": 24.0,
           "volume": 288.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -910,6 +934,7 @@
           "reps": 12,
           "weight": 24.0,
           "volume": 288.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -965,6 +990,7 @@
           "reps": 12,
           "weight": 24.0,
           "volume": 288.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1020,6 +1046,7 @@
           "reps": 12,
           "weight": 24.0,
           "volume": 288.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1087,6 +1114,7 @@
             "reps": 12,
             "weight": 20.0,
             "volume": 240.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1142,6 +1170,7 @@
             "reps": 12,
             "weight": 20.0,
             "volume": 240.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1200,6 +1229,7 @@
             "reps": 12,
             "weight": 24.0,
             "volume": 288.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1255,6 +1285,7 @@
             "reps": 12,
             "weight": 24.0,
             "volume": 288.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1313,6 +1344,7 @@
             "reps": 12,
             "weight": 24.0,
             "volume": 288.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1368,6 +1400,7 @@
             "reps": 12,
             "weight": 24.0,
             "volume": 288.0,
+            "time": 12,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1431,18 +1464,21 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 60,
           "reps_detail": []
         }
       ],
@@ -1459,6 +1495,7 @@
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1506,6 +1543,7 @@
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1553,6 +1591,7 @@
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1600,6 +1639,7 @@
           "reps": 10,
           "weight": 11.0,
           "volume": 110.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1659,6 +1699,7 @@
             "reps": 10,
             "weight": 11.0,
             "volume": 110.0,
+            "time": 10,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1706,6 +1747,7 @@
             "reps": 10,
             "weight": 11.0,
             "volume": 110.0,
+            "time": 10,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1756,6 +1798,7 @@
             "reps": 10,
             "weight": 11.0,
             "volume": 110.0,
+            "time": 10,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -1803,6 +1846,7 @@
             "reps": 10,
             "weight": 11.0,
             "volume": 110.0,
+            "time": 10,
             "reps_detail": [
               {
                 "rep_index": 1,

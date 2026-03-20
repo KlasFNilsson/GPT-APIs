@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T16:03:15.830749+00:00",
+    "generated_at": "2026-03-20T09:21:09.167255+00:00",
     "record_id": "2211104",
     "training_id": "244793",
     "title": "Power #1",
@@ -25,6 +25,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         }
       ],
@@ -41,6 +42,7 @@
           "reps": 10,
           "weight": 8.0,
           "volume": 80.0,
+          "time": 25,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -88,6 +90,7 @@
           "reps": 10,
           "weight": 8.0,
           "volume": 80.0,
+          "time": 24,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -145,6 +148,7 @@
           "reps": 10,
           "weight": 4.0,
           "volume": 40.0,
+          "time": 34,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -192,6 +196,7 @@
           "reps": 10,
           "weight": 4.0,
           "volume": 40.0,
+          "time": 32,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -249,6 +254,7 @@
           "reps": 10,
           "weight": 5.0,
           "volume": 50.0,
+          "time": 34,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -296,6 +302,7 @@
           "reps": 10,
           "weight": 5.0,
           "volume": 50.0,
+          "time": 35,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -353,6 +360,7 @@
           "reps": 10,
           "weight": 3.5,
           "volume": 35.0,
+          "time": 28,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -400,6 +408,7 @@
           "reps": 10,
           "weight": 3.5,
           "volume": 35.0,
+          "time": 30,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -457,6 +466,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         }
       ],
@@ -473,6 +483,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 33,
           "reps_detail": []
         }
       ],

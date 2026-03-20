@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-04T04:55:24.968215+00:00",
+    "generated_at": "2026-03-20T09:15:36.302585+00:00",
     "record_id": "2515398",
     "training_id": "731913",
     "title": "Base & Engine #2（skiing ver.）",
@@ -25,36 +25,42 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 120,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 300,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 300,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 300,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         }
       ],
@@ -71,6 +77,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -87,6 +94,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         }
       ],
@@ -103,12 +111,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -127,12 +137,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -147,6 +159,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -163,6 +176,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         }
       ],
@@ -179,6 +193,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         }
       ],
@@ -195,6 +210,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         }
       ],
@@ -211,12 +227,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         }
       ],
@@ -235,12 +253,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 0,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 0,
             "reps_detail": []
           }
         }
@@ -255,12 +275,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 0,
           "reps_detail": []
         }
       ],
@@ -279,12 +301,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 0,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 0,
             "reps_detail": []
           }
         }
@@ -299,6 +323,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -315,12 +340,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -339,12 +366,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -359,12 +388,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -383,12 +414,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }

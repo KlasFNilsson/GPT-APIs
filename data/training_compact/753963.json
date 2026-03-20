@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-13T04:59:34.723159+00:00",
+    "generated_at": "2026-03-20T09:14:53.477290+00:00",
     "record_id": "2592198",
     "training_id": "753963",
     "title": "Power Upper Chest Delts Triceps Advanced",
@@ -25,6 +25,7 @@
           "reps": 15,
           "weight": 3.5,
           "volume": 52.5,
+          "time": 22,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -92,6 +93,7 @@
           "reps": 15,
           "weight": 3.5,
           "volume": 52.5,
+          "time": 14,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -171,6 +173,7 @@
             "reps": 15,
             "weight": 3.5,
             "volume": 52.5,
+            "time": 22,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -238,6 +241,7 @@
             "reps": 15,
             "weight": 3.5,
             "volume": 52.5,
+            "time": 14,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -313,6 +317,7 @@
           "reps": 15,
           "weight": 4.5,
           "volume": 67.5,
+          "time": 17,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -380,6 +385,7 @@
           "reps": 15,
           "weight": 4.5,
           "volume": 67.5,
+          "time": 14,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -459,6 +465,7 @@
             "reps": 15,
             "weight": 4.5,
             "volume": 67.5,
+            "time": 17,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -526,6 +533,7 @@
             "reps": 15,
             "weight": 4.5,
             "volume": 67.5,
+            "time": 14,
             "reps_detail": [
               {
                 "rep_index": 1,
@@ -601,6 +609,7 @@
           "reps": 10,
           "weight": 31.0,
           "volume": 310.0,
+          "time": 9,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -648,6 +657,7 @@
           "reps": 15,
           "weight": 28.0,
           "volume": 420.0,
+          "time": 19,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -715,6 +725,7 @@
           "reps": 15,
           "weight": 24.0,
           "volume": 360.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -782,6 +793,7 @@
           "reps": 15,
           "weight": 20.0,
           "volume": 300.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -859,6 +871,7 @@
           "reps": 15,
           "weight": 16.0,
           "volume": 240.0,
+          "time": 19,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -926,6 +939,7 @@
           "reps": 15,
           "weight": 13.0,
           "volume": 195.0,
+          "time": 14,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -993,6 +1007,7 @@
           "reps": 15,
           "weight": 12.0,
           "volume": 180.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1070,6 +1085,7 @@
           "reps": 15,
           "weight": 10.0,
           "volume": 150.0,
+          "time": 19,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1137,6 +1153,7 @@
           "reps": 15,
           "weight": 11.0,
           "volume": 165.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1204,6 +1221,7 @@
           "reps": 15,
           "weight": 12.0,
           "volume": 180.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1281,6 +1299,7 @@
           "reps": 8,
           "weight": 15.0,
           "volume": 120.0,
+          "time": 16,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1320,6 +1339,7 @@
           "reps": 8,
           "weight": 13.0,
           "volume": 104.0,
+          "time": 17,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1359,6 +1379,7 @@
           "reps": 8,
           "weight": 15.0,
           "volume": 120.0,
+          "time": 12,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1408,6 +1429,7 @@
           "reps": 15,
           "weight": 4.0,
           "volume": 60.0,
+          "time": 14,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1475,6 +1497,7 @@
           "reps": 15,
           "weight": 4.5,
           "volume": 67.5,
+          "time": 19,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1542,6 +1565,7 @@
           "reps": 15,
           "weight": 4.5,
           "volume": 67.5,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1619,6 +1643,7 @@
           "reps": 15,
           "weight": 8.0,
           "volume": 120.0,
+          "time": 24,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1686,6 +1711,7 @@
           "reps": 15,
           "weight": 6.0,
           "volume": 90.0,
+          "time": 18,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1753,6 +1779,7 @@
           "reps": 15,
           "weight": 6.0,
           "volume": 90.0,
+          "time": 14,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -1830,12 +1857,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -1854,12 +1883,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -1874,12 +1905,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -1898,12 +1931,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }

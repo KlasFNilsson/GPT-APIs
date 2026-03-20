@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-03-02T16:03:09.454211+00:00",
+    "generated_at": "2026-03-20T09:21:03.260060+00:00",
     "record_id": "2220367",
     "training_id": "316245",
     "title": "Hyrox A",
@@ -25,6 +25,7 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 180,
           "reps_detail": []
         }
       ],
@@ -41,12 +42,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -63,12 +66,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -87,12 +92,14 @@
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           },
           "B": {
             "reps": 0,
             "weight": 0.0,
             "volume": 0.0,
+            "time": 30,
             "reps_detail": []
           }
         }
@@ -107,12 +114,14 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 30,
           "reps_detail": []
         }
       ],
@@ -129,6 +138,7 @@
           "reps": 9,
           "weight": 49.0,
           "volume": 441.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -172,6 +182,7 @@
           "reps": 7,
           "weight": 56.0,
           "volume": 392.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -207,6 +218,7 @@
           "reps": 6,
           "weight": 69.0,
           "volume": 414.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -238,6 +250,7 @@
           "reps": 6,
           "weight": 74.0,
           "volume": 444.0,
+          "time": 6,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -279,6 +292,7 @@
           "reps": 8,
           "weight": 87.0,
           "volume": 696.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -318,6 +332,7 @@
           "reps": 8,
           "weight": 90.0,
           "volume": 720.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -357,6 +372,7 @@
           "reps": 8,
           "weight": 90.0,
           "volume": 720.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -406,6 +422,7 @@
           "reps": 10,
           "weight": 32.0,
           "volume": 320.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -453,6 +470,7 @@
           "reps": 10,
           "weight": 37.0,
           "volume": 370.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -500,6 +518,7 @@
           "reps": 10,
           "weight": 40.0,
           "volume": 400.0,
+          "time": 10,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -557,6 +576,7 @@
           "reps": 8,
           "weight": 15.0,
           "volume": 120.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -596,6 +616,7 @@
           "reps": 8,
           "weight": 18.0,
           "volume": 144.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -635,6 +656,7 @@
           "reps": 8,
           "weight": 20.0,
           "volume": 160.0,
+          "time": 8,
           "reps_detail": [
             {
               "rep_index": 1,
@@ -684,18 +706,21 @@
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         },
         {
           "reps": 0,
           "weight": 0.0,
           "volume": 0.0,
+          "time": 40,
           "reps_detail": []
         }
       ],

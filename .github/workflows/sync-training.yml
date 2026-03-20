@@ -8,7 +8,7 @@ on:
       max_training_details:
         description: "How many recent workouts to check"
         required: false
-        default: "50"
+        default: "1"
 permissions:
   contents: write
 

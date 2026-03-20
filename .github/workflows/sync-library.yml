@@ -1,0 +1,50 @@
+name: Speediance Sync (Library Nightly)
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: speediance-sync-library
+  cancel-in-progress: false
+
+jobs:
+  sync_library:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run library sync
+        env:
+          SPEEDIANCE_REGION: ${{ secrets.SPEEDIANCE_REGION }}
+          SPEEDIANCE_DEVICE_TYPE: ${{ secrets.SPEEDIANCE_DEVICE_TYPE }}
+          SPEEDIANCE_ALLOW_MONSTER_MOVES: ${{ secrets.SPEEDIANCE_ALLOW_MONSTER_MOVES }}
+          SPEEDIANCE_UNIT: ${{ secrets.SPEEDIANCE_UNIT }}
+          SPEEDIANCE_TOKEN: ${{ secrets.SPEEDIANCE_TOKEN }}
+          SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
+        run: |
+          python scripts/sync_speediance.py --library-only
+
+      - name: Commit library lookup
+        run: |
+          git config user.name "speediance-mirror-bot"
+          git config user.email "actions@users.noreply.github.com"
+          test -f data/library_lookup.json && git add data/library_lookup.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "nightly-sync: library lookup"
+            git push
+          fi

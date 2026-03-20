@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generated_at": "2026-03-20T09:10:04.884150+00:00",
+    "generated_at": "2026-03-20T10:08:44.685785+00:00",
     "start_date": "2025-03-20",
     "end_date": "2026-03-20",
     "max_details": 200,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
     "only_fetch_missing": false,
-    "count_written": 80,
+    "count_written": 0,
     "count_skipped_existing": 0,
-    "count_unchanged": 0,
+    "count_unchanged": 80,
     "count_failed": 14,
     "count_empty_exercises": 0,
     "training_flat_rows": 766
@@ -25,7 +25,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "452941",
@@ -37,7 +37,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "451779",
@@ -49,7 +49,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "862482",
@@ -61,7 +61,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "447621",
@@ -73,7 +73,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "445426",
@@ -85,7 +85,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "444249",
@@ -97,7 +97,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "854180",
@@ -109,7 +109,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "441271",
@@ -121,7 +121,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "438263",
@@ -133,7 +133,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "437668",
@@ -145,7 +145,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "843518",
@@ -157,7 +157,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "435255",
@@ -169,7 +169,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "432183",
@@ -181,7 +181,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "838278",
@@ -193,7 +193,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 6,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "430008",
@@ -205,7 +205,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "428202",
@@ -217,7 +217,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "427071",
@@ -229,7 +229,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "423017",
@@ -241,7 +241,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "822606",
@@ -253,7 +253,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "419235",
@@ -265,7 +265,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "416004",
@@ -277,7 +277,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "415038",
@@ -289,7 +289,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "412033",
@@ -301,7 +301,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "805052",
@@ -313,7 +313,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "408798",
@@ -325,7 +325,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "405016",
@@ -337,7 +337,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "791630",
@@ -349,7 +349,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "401434",
@@ -361,7 +361,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "397307",
@@ -373,7 +373,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "764222",
@@ -385,7 +385,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "383699",
@@ -397,7 +397,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "753963",
@@ -409,7 +409,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "378515",
@@ -421,7 +421,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "374805",
@@ -433,7 +433,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "373773",
@@ -445,7 +445,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "731913",
@@ -457,7 +457,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 13,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "364350",
@@ -469,7 +469,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "361347",
@@ -481,7 +481,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 13,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "359598",
@@ -493,7 +493,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 11,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "712777",
@@ -505,7 +505,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "354002",
@@ -517,7 +517,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 13,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "351785",
@@ -529,7 +529,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "349532",
@@ -541,7 +541,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 15,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "346976",
@@ -553,7 +553,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "696863",
@@ -565,7 +565,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "696028",
@@ -577,7 +577,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "344278",
@@ -589,7 +589,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 15,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "341395",
@@ -601,7 +601,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "340895",
@@ -613,7 +613,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "339618",
@@ -625,7 +625,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 15,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "337579",
@@ -637,7 +637,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "335713",
@@ -649,7 +649,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "334694",
@@ -661,7 +661,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 15,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "333882",
@@ -673,7 +673,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "330847",
@@ -685,7 +685,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "328875",
@@ -697,7 +697,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "670328",
@@ -709,7 +709,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 6,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "327922",
@@ -721,7 +721,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "327162",
@@ -733,7 +733,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "667680",
@@ -745,7 +745,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 6,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "326099",
@@ -757,7 +757,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "324823",
@@ -769,7 +769,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "661807",
@@ -781,7 +781,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "323014",
@@ -793,7 +793,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "321288",
@@ -805,7 +805,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "319945",
@@ -817,7 +817,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "318881",
@@ -829,7 +829,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 10,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "318599",
@@ -841,7 +841,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 12,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "316245",
@@ -853,7 +853,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 9,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "244793",
@@ -865,7 +865,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "244583",
@@ -877,7 +877,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 15,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "312100",
@@ -889,7 +889,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "626394",
@@ -901,7 +901,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "296437",
@@ -913,7 +913,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 6,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "294781",
@@ -925,7 +925,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "293360",
@@ -937,7 +937,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "291954",
@@ -949,7 +949,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 8,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "610875",
@@ -961,7 +961,7 @@
       "source_hint": "course",
       "normalized_as": "course(list)",
       "exercise_count": 1,
-      "status": "written"
+      "status": "unchanged"
     },
     {
       "training_id": "290588",
@@ -973,7 +973,7 @@
       "source_hint": "ctt",
       "normalized_as": "course(list)",
       "exercise_count": 7,
-      "status": "written"
+      "status": "unchanged"
     }
   ],
   "errors": {

@@ -1,10 +1,14 @@
 name: Speediance Sync (Training Frequent)
 
 on:
-  workflow_dispatch:
   schedule:
     - cron: "*/15 * * * *"
-
+  workflow_dispatch:
+    inputs:
+      max_training_details:
+        description: "How many recent workouts to check"
+        required: false
+        default: "50"
 permissions:
   contents: write
 
@@ -36,7 +40,7 @@ jobs:
           SPEEDIANCE_USER_ID: ${{ secrets.SPEEDIANCE_USER_ID }}
           DETAIL_THROTTLE_SECONDS: "2"
           DETAIL_RETRIES: "2"
-          MAX_TRAINING_DETAILS: "200"
+          MAX_TRAINING_DETAILS: ${{ github.event.inputs.max_training_details || '3' }}
           TRAINING_DAYS: "365"
         run: |
           python scripts/sync_speediance.py --training-only --skip-library

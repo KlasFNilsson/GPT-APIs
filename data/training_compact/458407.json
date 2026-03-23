@@ -1,0 +1,1564 @@
+{
+  "meta": {
+    "generated_at": "2026-03-23T17:48:23.936102+00:00",
+    "record_id": "3041296",
+    "training_id": "458407",
+    "title": "260309 A",
+    "type": 5,
+    "date": "2026-03-23 18:41:52",
+    "startTime": "2026-03-23 18:02:29",
+    "endTime": "2026-03-23 18:41:52",
+    "trainingTime_sec": 2287,
+    "calorie": 195,
+    "totalCapacity": 9239.0,
+    "totalEnergy": 39785.57,
+    "source_hint": "ctt",
+    "normalized_as": "course(list)"
+  },
+  "exercises": [
+    {
+      "name": "Popup to a Lateral Lunge Landing Hold",
+      "actionLibraryId": "427278222491649",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "time": 30,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "time": 30,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 2,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    },
+    {
+      "name": "Barbell Deadlift",
+      "actionLibraryId": "455",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 4,
+          "weight": 20.0,
+          "volume": 80.0,
+          "time": 4,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 20.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 20.0
+            }
+          ]
+        },
+        {
+          "reps": 4,
+          "weight": 40.0,
+          "volume": 160.0,
+          "time": 4,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 40.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 40.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 94.0,
+          "volume": 564.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 94.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 94.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 94.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 94.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 94.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 94.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 96.0,
+          "volume": 576.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 96.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 96.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 96.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 96.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 96.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 96.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 98.0,
+          "volume": 588.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 98.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 98.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 98.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 98.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 98.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 98.0
+            }
+          ]
+        },
+        {
+          "reps": 6,
+          "weight": 100.0,
+          "volume": 600.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 100.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 100.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 100.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 100.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 100.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 100.0
+            }
+          ]
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 2568.0,
+      "max_weight": 100.0
+    },
+    {
+      "name": "Single-Arm Curtsy Lunge",
+      "actionLibraryId": "427507407650817",
+      "unilateral": true,
+      "sets": [
+        {
+          "reps": 12,
+          "weight": 27.0,
+          "volume": 324.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 27.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 27.0,
+          "volume": 324.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 27.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 29.0,
+          "volume": 348.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 29.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 29.0,
+          "volume": 348.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 29.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 29.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 30.0,
+          "volume": 360.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 30.0
+            }
+          ]
+        },
+        {
+          "reps": 12,
+          "weight": 30.0,
+          "volume": 360.0,
+          "time": 12,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 30.0
+            }
+          ]
+        }
+      ],
+      "set_count": 6,
+      "total_volume": 2064.0,
+      "max_weight": 30.0,
+      "pairing": {
+        "method": "consecutive_pairs",
+        "note": "A/B pairs; no reliable left/right markers in source data",
+        "set_count_per_side": 3
+      },
+      "paired_sets": [
+        {
+          "pair_index": 1,
+          "A": {
+            "reps": 12,
+            "weight": 27.0,
+            "volume": 324.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 27.0
+              }
+            ]
+          },
+          "B": {
+            "reps": 12,
+            "weight": 27.0,
+            "volume": 324.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 27.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 27.0
+              }
+            ]
+          }
+        },
+        {
+          "pair_index": 2,
+          "A": {
+            "reps": 12,
+            "weight": 29.0,
+            "volume": 348.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 29.0
+              }
+            ]
+          },
+          "B": {
+            "reps": 12,
+            "weight": 29.0,
+            "volume": 348.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 29.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 29.0
+              }
+            ]
+          }
+        },
+        {
+          "pair_index": 3,
+          "A": {
+            "reps": 12,
+            "weight": 30.0,
+            "volume": 360.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 30.0
+              }
+            ]
+          },
+          "B": {
+            "reps": 12,
+            "weight": 30.0,
+            "volume": 360.0,
+            "time": 12,
+            "reps_detail": [
+              {
+                "rep_index": 1,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 2,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 3,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 4,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 5,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 6,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 7,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 8,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 9,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 10,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 11,
+                "weight": 30.0
+              },
+              {
+                "rep_index": 12,
+                "weight": 30.0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Dual-Handle Kelso Shrugs",
+      "actionLibraryId": "437968720756737",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 27.0,
+          "volume": 216.0,
+          "time": 6,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 27.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 27.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 28.0,
+          "volume": 224.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 28.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 28.0,
+          "volume": 224.0,
+          "time": 7,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 28.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 664.0,
+      "max_weight": 28.0
+    },
+    {
+      "name": "Kneeling Barbell Lat Pulldown",
+      "actionLibraryId": "420081210097665",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 53.0,
+          "volume": 424.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 53.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 46.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 46.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 42.0,
+          "volume": 336.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 42.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 42.0,
+          "volume": 336.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 42.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 42.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1096.0,
+      "max_weight": 53.0
+    },
+    {
+      "name": "Standing Barbell Chest Press",
+      "actionLibraryId": "424195974561793",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 8,
+          "weight": 37.0,
+          "volume": 296.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 37.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 37.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 44.0,
+          "volume": 352.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 44.0
+            }
+          ]
+        },
+        {
+          "reps": 8,
+          "weight": 44.0,
+          "volume": 352.0,
+          "time": 8,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 44.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 44.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1000.0,
+      "max_weight": 44.0
+    },
+    {
+      "name": "Half-Kneeling Face Pull",
+      "actionLibraryId": "437971652575233",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 15,
+          "weight": 26.0,
+          "volume": 390.0,
+          "time": 15,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 13,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 14,
+              "weight": 26.0
+            },
+            {
+              "rep_index": 15,
+              "weight": 26.0
+            }
+          ]
+        },
+        {
+          "reps": 15,
+          "weight": 30.0,
+          "volume": 450.0,
+          "time": 15,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 30.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 13,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 14,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 15,
+              "weight": 28.0
+            }
+          ]
+        },
+        {
+          "reps": 15,
+          "weight": 28.0,
+          "volume": 420.0,
+          "time": 15,
+          "reps_detail": [
+            {
+              "rep_index": 1,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 2,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 3,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 4,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 5,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 6,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 7,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 8,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 9,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 10,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 11,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 12,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 13,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 14,
+              "weight": 28.0
+            },
+            {
+              "rep_index": 15,
+              "weight": 28.0
+            }
+          ]
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 1260.0,
+      "max_weight": 30.0
+    },
+    {
+      "name": "Tibialis raise",
+      "actionLibraryId": "818975470223360",
+      "unilateral": false,
+      "sets": [
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "time": 40,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "time": 40,
+          "reps_detail": []
+        },
+        {
+          "reps": 0,
+          "weight": 0.0,
+          "volume": 0.0,
+          "time": 40,
+          "reps_detail": []
+        }
+      ],
+      "set_count": 3,
+      "total_volume": 0.0,
+      "max_weight": 0.0
+    }
+  ],
+  "exercise_count": 8
+}

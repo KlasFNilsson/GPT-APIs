@@ -1,4 +1,12 @@
 workout_name,date,exercise_name,per_side,sets,total_reps,seconds,avg_weight_per_rep,max_weight_per_rep,total_weight,error
+260309 A,2026-03-23,Tibialis raise,No,3,0,120,0.0,0.0,0.0,
+260309 A,2026-03-23,Standing Barbell Chest Press,No,3,24,24,41.667,44.0,1000.0,
+260309 A,2026-03-23,Single-Arm Curtsy Lunge,Yes,3,72,72,28.667,30.0,2064.0,
+260309 A,2026-03-23,Popup to a Lateral Lunge Landing Hold,No,2,0,60,0.0,0.0,0.0,
+260309 A,2026-03-23,Kneeling Barbell Lat Pulldown,No,3,24,24,43.625,53.0,1047.0,
+260309 A,2026-03-23,Half-Kneeling Face Pull,No,3,45,45,27.378,30.0,1232.0,
+260309 A,2026-03-23,Dual-Handle Kelso Shrugs,No,3,24,21,27.667,28.0,664.0,
+260309 A,2026-03-23,Barbell Deadlift,No,6,32,32,80.25,100.0,2568.0,
 260306 B,2026-03-20,Vita Lunge,No,2,32,60,3.5,3.5,112.0,
 260306 B,2026-03-20,The World's Greatest Stretch​,Yes,1,0,50,0.0,0.0,0.0,
 260306 B,2026-03-20,Reverse Nordic Curl (Cable-Assisted),No,3,36,36,7.5,20.0,270.0,

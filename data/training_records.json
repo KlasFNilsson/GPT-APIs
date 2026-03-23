@@ -1,11 +1,24 @@
 {
   "meta": {
-    "generated_at": "2026-03-23T17:11:50.883647+00:00",
+    "generated_at": "2026-03-23T17:48:18.757521+00:00",
     "start_date": "2025-03-23",
     "end_date": "2026-03-23",
-    "count": 94
+    "count": 95
   },
   "records": [
+    {
+      "record_id": "3041296",
+      "training_id": "458407",
+      "date": "2026-03-23 18:41:52",
+      "title": "260309 A",
+      "type": 5,
+      "startTime": "2026-03-23 18:02:29",
+      "endTime": "2026-03-23 18:41:52",
+      "trainingTime_sec": 2287,
+      "calorie": 195,
+      "totalCapacity": 9239.0,
+      "totalEnergy": 39785.57
+    },
     {
       "record_id": "3022469",
       "training_id": "455028",

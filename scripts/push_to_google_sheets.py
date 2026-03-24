@@ -169,21 +169,25 @@ def read_training_records_summary_rows(path: Path) -> list[list[Any]]:
 
     records = data.get("records", [])
     rows: list[list[Any]] = [
-        ["Date", "Title", "Start time", "Training time", "Calories", "Volume", "Output"]
+        ["Date", "Title", "Start time", "Training minutes", "Calories", "Volume", "Output"]
     ]
 
     for record in records:
         start_date, start_clock = split_datetime(str(record.get("startTime", "") or ""))
+
         if not start_date:
             fallback_date, _ = split_datetime(str(record.get("date", "") or ""))
             start_date = fallback_date
+
+        seconds = record.get("trainingTime_sec", 0) or 0
+        minutes = round(seconds / 60, 1)
 
         rows.append(
             [
                 start_date,
                 record.get("title", "") or "",
                 start_clock,
-                record.get("trainingTime_sec", "") or "",
+                minutes,
                 record.get("calorie", "") or "",
                 record.get("totalCapacity", "") or "",
                 record.get("totalEnergy", "") or "",

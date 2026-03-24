@@ -671,58 +671,101 @@ def _parse_date_isoish(s: Optional[str]) -> Optional[str]:
     return txt
 
 
-def build_training_flat_csv_from_local() -> int:
-    rows: List[Dict[str, Any]] = []
-    records_payload = read_json(TRAINING_RECORDS_PATH)
-    records = records_payload.get("records") if isinstance(records_payload, dict) else None
-    if not isinstance(records, list):
-        raise RuntimeError("training_records.json missing records list")
-    for item in records:
-        if not isinstance(item, dict):
+def build_training_flat_csv_from_local(records_path: Path, compact_dir: Path, out_csv: Path):
+    import json
+    import csv
+
+    if not records_path.exists():
+        print("No training_records.json found, skipping flat CSV build")
+        return
+
+    with records_path.open("r", encoding="utf-8") as f:
+        data = json.load(f)
+
+    records = data.get("records", [])
+    rows = []
+
+    for rec in records:
+        training_id = rec.get("training_id")
+        compact_path = compact_dir / f"{training_id}.json"
+
+        if not compact_path.exists():
             continue
-        tid = str(item.get("training_id") or "").strip()
-        if not tid:
-            continue
-        compact_path = os.path.join(COMPACT_DIR, f"{tid}.json")
-        if not os.path.exists(compact_path):
-            continue
-        try:
-            compact = read_json(compact_path)
-        except Exception:
-            continue
-        exercises = compact.get("exercises") if isinstance(compact, dict) else None
-        if not isinstance(exercises, list):
-            continue
-        for ex in exercises:
-            if not isinstance(ex, dict):
-                continue
-            agg = aggregate_compact_exercise(ex)
+
+        with compact_path.open("r", encoding="utf-8") as f:
+            detail = json.load(f)
+
+        exercises = detail.get("exercises", [])
+
+        for exercise_index, ex in enumerate(exercises):
+            sets = ex.get("sets", [])
+            total_reps = 0
+            total_seconds = 0
+            total_weight = 0.0
+            max_weight = 0.0
+
+            for s in sets:
+                reps = s.get("reps") or 0
+                weight = s.get("weight") or 0
+                seconds = s.get("time") or 0
+
+                total_reps += reps
+                total_seconds += seconds
+                total_weight += reps * weight
+                max_weight = max(max_weight, weight)
+
+            avg_weight = (total_weight / total_reps) if total_reps > 0 else 0.0
+
             rows.append({
-                "workout_name": item.get("title") or compact.get("meta", {}).get("title") or "",
-                "date": _parse_date_isoish(item.get("date") or compact.get("meta", {}).get("date")) or "",
+                "date": rec.get("startTime") or rec.get("date") or "",
+                "workout_name": rec.get("title") or "",
                 "exercise_name": ex.get("name") or "",
-                "per_side": agg["per_side"],
-                "sets": agg["sets"],
-                "total_reps": agg["total_reps"],
-                "seconds": agg["seconds"],
-                "avg_weight_per_rep": agg["avg_weight_per_rep"],
-                "max_weight_per_rep": agg["max_weight_per_rep"],
-                "total_weight": agg["total_weight"],
-                "error": "",
+                "per_side": ex.get("per_side") or "No",
+                "sets": len(sets),
+                "total_reps": total_reps,
+                "seconds": total_seconds,
+                "avg_weight_per_rep": round(avg_weight, 3),
+                "max_weight_per_rep": max_weight,
+                "total_weight": total_weight,
+                "exercise_index": exercise_index,  # <-- viktig
             })
-    rows.sort(key=lambda r: ((r.get("date") or ""), (r.get("workout_name") or ""), (r.get("exercise_name") or "")), reverse=True)
-    fieldnames = [
-        "workout_name", "date", "exercise_name", "per_side", "sets", "total_reps",
-        "seconds", "avg_weight_per_rep", "max_weight_per_rep", "total_weight", "error",
+
+    # Sortering:
+    # 1. nyaste pass först
+    # 2. rätt ordning inom passet
+    rows.sort(
+        key=lambda r: (
+            r.get("date") or "",
+            r.get("workout_name") or "",
+            -int(r.get("exercise_index") or 0),
+        ),
+        reverse=True,
+    )
+
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+
+    headers = [
+        "date",
+        "workout_name",
+        "exercise_name",
+        "per_side",
+        "sets",
+        "total_reps",
+        "seconds",
+        "avg_weight_per_rep",
+        "max_weight_per_rep",
+        "total_weight",
     ]
-    ensure_dir(os.path.dirname(TRAINING_FLAT_CSV_PATH))
-    from io import StringIO
-    buf = StringIO()
-    writer = csv.DictWriter(buf, fieldnames=fieldnames, lineterminator="\n")
-    writer.writeheader()
-    writer.writerows(rows)
-    write_text_if_changed(TRAINING_FLAT_CSV_PATH, buf.getvalue())
-    return len(rows)
+
+    with out_csv.open("w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=headers)
+        writer.writeheader()
+
+        for r in rows:
+            r.pop("exercise_index", None)
+            writer.writerow(r)
+
+    print(f"Wrote training_flat.csv with {len(rows)} rows")
 
 
 def run_library_sync(c: SpeedianceClient, *, force_refresh: bool = True) -> None:

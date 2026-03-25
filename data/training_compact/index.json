@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-03-25T07:53:37.252993+00:00",
+    "generated_at": "2026-03-25T08:32:45.647365+00:00",
     "start_date": "2025-03-25",
     "end_date": "2026-03-25",
-    "max_details": 1,
+    "max_details": 3,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
     "only_fetch_missing": false,

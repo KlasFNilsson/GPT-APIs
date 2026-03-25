@@ -752,6 +752,51 @@ def build_training_flat_csv_from_local() -> int:
 def run_library_sync(c: SpeedianceClient, *, force_refresh: bool = True) -> None:
     load_or_refresh_library_maps(c, force_refresh=force_refresh)
 
+def _debug_preview(value, max_len: int = 1200) -> str:
+    try:
+        text = json.dumps(value, ensure_ascii=False, default=str)
+    except Exception:
+        text = repr(value)
+    if len(text) > max_len:
+        return text[:max_len] + "...<truncated>"
+    return text
+
+
+def _safe_write_debug_json(path: str, payload: Any) -> None:
+    try:
+        ensure_dir(os.path.dirname(path))
+        write_json(path, payload)
+    except Exception as e:
+        print(f"DEBUG: failed to write {path}: {e}")
+
+
+def _describe_records_payload(obj: Any) -> Dict[str, Any]:
+    info: Dict[str, Any] = {
+        "raw_type": type(obj).__name__,
+    }
+
+    if isinstance(obj, dict):
+        info["top_level_keys"] = list(obj.keys())[:50]
+
+        data_val = obj.get("data")
+        if isinstance(data_val, dict):
+            info["data_type"] = "dict"
+            info["data_keys"] = list(data_val.keys())[:50]
+        elif isinstance(data_val, list):
+            info["data_type"] = "list"
+            info["data_len"] = len(data_val)
+        elif data_val is not None:
+            info["data_type"] = type(data_val).__name__
+
+        for key in ("records", "list", "items", "rows"):
+            val = obj.get(key)
+            if isinstance(val, list):
+                info[f"{key}_len"] = len(val)
+
+    elif isinstance(obj, list):
+        info["raw_len"] = len(obj)
+
+    return info
 
 def run_training_sync(c: SpeedianceClient, *, skip_library: bool = True) -> None:
     days = _env_int("TRAINING_DAYS", 365)

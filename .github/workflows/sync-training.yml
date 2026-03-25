@@ -53,6 +53,8 @@ jobs:
           test -f data/training_records.json && git add data/training_records.json || true
           test -f data/training_flat.csv && git add data/training_flat.csv || true
           test -f data/training_compact/index.json && git add data/training_compact/index.json || true
+          test -f data/debug_training_records_raw.json && git add data/debug_training_records_raw.json || true
+          test -f data/debug_training_records_normalized.json && git add data/debug_training_records_normalized.json || true
           find data/training_compact -maxdepth 1 -type f -name '*.json' ! -name 'index.json' -print0 2>/dev/null | xargs -0 -r git add
 
           if git diff --cached --quiet; then

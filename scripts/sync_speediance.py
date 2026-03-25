@@ -822,12 +822,40 @@ def run_training_sync(c: SpeedianceClient, *, skip_library: bool = True) -> None
         except Exception:
             pass
     records_obj = c.get_training_records(start_date, end_date)
+
+    debug_info = _describe_records_payload(records_obj)
+    print(f"DEBUG training_records payload summary: {debug_info}")
+    print(f"DEBUG training_records payload preview: {_debug_preview(records_obj)}")
+
+    _safe_write_debug_json(
+        os.path.join(DATA_DIR, "debug_training_records_raw.json"),
+        redact(records_obj),
+    )
+
     records_list = extract_records_list(records_obj)
+    print(f"DEBUG extract_records_list count: {len(records_list)}")
+    if records_list:
+        print(f"DEBUG first extracted record preview: {_debug_preview(records_list[0])}")
+    else:
+        print("DEBUG extract_records_list returned 0 records")
+
     normalized_records: List[dict] = []
-    for rec in records_list:
+    skipped_missing_ids = 0
+    for idx, rec in enumerate(records_list):
+        if not isinstance(rec, dict):
+            print(f"DEBUG record #{idx}: not a dict, got {type(rec).__name__}")
+            continue
+
         rid, tid = pick_ids(rec)
         if not rid or not tid:
+            skipped_missing_ids += 1
+            print(
+                f"DEBUG record #{idx}: missing ids "
+                f"(record_id={rid!r}, training_id={tid!r}) "
+                f"keys={list(rec.keys())[:30]} preview={_debug_preview(rec, 600)}"
+            )
             continue
+
         rtype = rec.get("type")
         try:
             rtype_i = int(rtype) if rtype is not None else None
@@ -846,6 +874,19 @@ def run_training_sync(c: SpeedianceClient, *, skip_library: bool = True) -> None
             "totalCapacity": rec.get("totalCapacity"),
             "totalEnergy": rec.get("totalEnergy"),
         })
+
+    print(f"DEBUG normalized_records count: {len(normalized_records)}")
+    print(f"DEBUG skipped_missing_ids count: {skipped_missing_ids}")
+    _safe_write_debug_json(
+        os.path.join(DATA_DIR, "debug_training_records_normalized.json"),
+        {
+            "debug_info": debug_info,
+            "extracted_count": len(records_list),
+            "normalized_count": len(normalized_records),
+            "skipped_missing_ids": skipped_missing_ids,
+            "normalized_preview": normalized_records[:5],
+        },
+    )
     normalized_sorted = sorted(normalized_records, key=lambda x: (x.get("date") or ""), reverse=True)
     write_json(TRAINING_RECORDS_PATH, {
         "meta": {"generated_at": now_iso(), "start_date": start_date, "end_date": end_date, "count": len(normalized_sorted)},

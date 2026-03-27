@@ -693,7 +693,7 @@ def build_training_flat_csv_from_local() -> int:
         exercises = compact.get("exercises") if isinstance(compact, dict) else None
         if not isinstance(exercises, list):
             continue
-        for exercise_index, ex in enumerate(exercises):
+        for ex in exercises:
             if not isinstance(ex, dict):
                 continue
             agg = aggregate_compact_exercise(ex)
@@ -709,16 +709,8 @@ def build_training_flat_csv_from_local() -> int:
                 "max_weight_per_rep": agg["max_weight_per_rep"],
                 "total_weight": agg["total_weight"],
                 "error": "",
-                "_exercise_index": exercise_index,
             })
-    rows.sort(
-        key=lambda r: (
-            (r.get("date") or ""),
-            (r.get("workout_name") or ""),
-            -(int(r.get("_exercise_index") or 0)),
-        ),
-        reverse=True,
-    )
+    rows.sort(key=lambda r: ((r.get("date") or ""), (r.get("workout_name") or ""), (r.get("exercise_name") or "")), reverse=True)
     fieldnames = [
         "workout_name", "date", "exercise_name", "per_side", "sets", "total_reps",
         "seconds", "avg_weight_per_rep", "max_weight_per_rep", "total_weight", "error",
@@ -728,12 +720,10 @@ def build_training_flat_csv_from_local() -> int:
     buf = StringIO()
     writer = csv.DictWriter(buf, fieldnames=fieldnames, lineterminator="\n")
     writer.writeheader()
-    for row in rows:
-        clean = dict(row)
-        clean.pop("_exercise_index", None)
-        writer.writerow(clean)
+    writer.writerows(rows)
     write_text_if_changed(TRAINING_FLAT_CSV_PATH, buf.getvalue())
     return len(rows)
+
 
 def run_library_sync(c: SpeedianceClient, *, force_refresh: bool = True) -> None:
     load_or_refresh_library_maps(c, force_refresh=force_refresh)

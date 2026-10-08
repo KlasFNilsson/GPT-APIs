@@ -1,8 +1,8 @@
 {
   "meta": {
-    "generated_at": "2026-10-07T21:53:08.791183+00:00",
-    "start_date": "2025-10-07",
-    "end_date": "2026-10-07",
+    "generated_at": "2026-10-08T01:43:03.930333+00:00",
+    "start_date": "2025-10-08",
+    "end_date": "2026-10-08",
     "max_details": 3,
     "detail_throttle_seconds": 2.0,
     "detail_retries": 2,
